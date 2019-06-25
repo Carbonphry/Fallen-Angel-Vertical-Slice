@@ -3423,6 +3423,14 @@
             }
         },
         {
+            "Key": "5c8305f4-bfe7-4d8a-9b95-f03def3695db",
+            "Value": {
+                "id": "4d3d32a3-d625-4edb-81ec-78006899a3a2",
+                "resourcePath": "sprites\\s_press_x\\s_press_x.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cc3f293-9836-438f-b924-ff9a4785529b",
             "Value": {
                 "id": "255262af-93b4-4adc-93be-b0d31defb69b",
@@ -4339,6 +4347,14 @@
             "Value": {
                 "id": "42ac1e1f-fef2-4659-b372-9fcb3d7ea572",
                 "resourcePath": "sprites\\s_player_power_jump_land_up\\s_player_power_jump_land_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "76099e78-94e8-4b77-9abd-b1a73e9940f4",
+            "Value": {
+                "id": "ab47e263-b8c8-4233-b521-6e5e5ab3d9b2",
+                "resourcePath": "sprites\\s_player_execute\\s_player_execute.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -6327,6 +6343,14 @@
             }
         },
         {
+            "Key": "b56d3d7e-1628-4ccf-ba27-b19c7a945730",
+            "Value": {
+                "id": "9e449056-2a95-4dc5-9ba3-fbcf749e3e54",
+                "resourcePath": "sprites\\s_player_power_execute\\s_player_power_execute.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b583e97e-a7e5-43c1-92a0-c0a2680703f1",
             "Value": {
                 "id": "b4090e6d-e766-4e82-9271-ada3cf94cf32",
@@ -7883,6 +7907,14 @@
             "Value": {
                 "id": "fab70e05-c93f-4956-818e-f900e0544778",
                 "resourcePath": "sprites\\s_blood_burst_3\\s_blood_burst_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e27b9795-caf3-4054-8dea-9c6a411f9d25",
+            "Value": {
+                "id": "56dcbb89-b1ea-4471-85a1-5c006eec7f87",
+                "resourcePath": "sprites\\s_red_sparks_effect\\s_red_sparks_effect.yy",
                 "resourceType": "GMSprite"
             }
         },

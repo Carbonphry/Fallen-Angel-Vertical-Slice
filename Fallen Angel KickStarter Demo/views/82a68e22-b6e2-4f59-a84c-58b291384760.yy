@@ -50,7 +50,8 @@
         "4ca6d85e-9c39-4d1f-b74f-d7b7e3860e84",
         "210c2be0-a50e-427c-9243-1ed290a7eaac",
         "1a906ab1-9a8a-4c4d-9b45-62f8255866c4",
-        "f7218087-215a-446b-9ebe-fb576a33ea12"
+        "f7218087-215a-446b-9ebe-fb576a33ea12",
+        "b56d3d7e-1628-4ccf-ba27-b19c7a945730"
     ],
     "filterType": "GMSprite",
     "folderName": "Power Stance",
