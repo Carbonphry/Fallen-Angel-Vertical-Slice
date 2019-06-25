@@ -1,0 +1,1 @@
+instance_create_depth(x, y+96/*-96*/, -y-500, o_level_tut_portal_garden);
