@@ -3255,6 +3255,14 @@
             }
         },
         {
+            "Key": "57bf1677-5195-425a-a786-74936d72f88e",
+            "Value": {
+                "id": "790f707c-da51-455d-8426-54adac9dca78",
+                "resourcePath": "sprites\\s_hud_pride\\s_hud_pride.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58351a74-7ddd-4a7f-84fc-a378aaef188b",
             "Value": {
                 "id": "f9c61aba-498c-4b96-b3ab-6a49f97a3dca",
