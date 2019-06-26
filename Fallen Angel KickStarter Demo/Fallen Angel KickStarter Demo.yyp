@@ -6570,7 +6570,7 @@
             "Key": "ba16268f-ee3e-4f2d-b5cf-9c4abcd90dfd",
             "Value": {
                 "id": "b0d1e060-e11d-4d9a-baa6-ea99cc8baa11",
-                "resourcePath": "sprites\\s_hud_pride1\\s_hud_pride1.yy",
+                "resourcePath": "sprites\\s_hud_pride_max\\s_hud_pride_max.yy",
                 "resourceType": "GMSprite"
             }
         },
