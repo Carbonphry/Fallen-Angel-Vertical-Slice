@@ -1,3 +1,0 @@
-gml_pragma("forceinline");
-
-

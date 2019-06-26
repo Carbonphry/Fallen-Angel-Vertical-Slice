@@ -4239,14 +4239,6 @@
             }
         },
         {
-            "Key": "730261ea-627e-4a85-b609-b36b9c4dde91",
-            "Value": {
-                "id": "7aa96918-006f-4ff5-a7ce-be92b013fcaa",
-                "resourcePath": "scripts\\main_player\\main_player.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7302889a-7f3f-4494-8724-6186bf9f3303",
             "Value": {
                 "id": "69fd7c22-31ce-44d3-bdb3-955b8101d5a0",
@@ -9035,7 +9027,6 @@
         "e55b985e-8356-4c2a-8e6a-2ab1e5dfdedb",
         "1b49ea81-6b66-4bff-9d37-c63b88845803",
         "c6c83907-2a43-49a8-ba4d-6b18d5d59832",
-        "730261ea-627e-4a85-b609-b36b9c4dde91",
         "fbf7f2b7-dc43-455c-84d6-8c81d818bf16",
         "e3936a3a-935e-4d86-b8df-caee1d3fa04b",
         "86b63629-424f-4041-82e6-b0c9cf36a536",
@@ -9065,6 +9056,7 @@
         "63eaa19b-64e1-4ed7-9b6f-b3ebc0ae8f50",
         "9c5745b0-509d-4f63-8d26-ac52f10aa48b",
         "35a2f481-5273-4d23-95ad-91d90e584e07",
+        "74f828a1-bf48-4c17-89d0-f8c660d69926",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",
@@ -9084,8 +9076,7 @@
         "3253a2eb-3d94-48c0-af54-8608080c5323",
         "e4e0a6e7-c851-453f-9c43-cc88f667248d",
         "3e45b6cc-b808-4af2-992a-d46f6ee94fdf",
-        "4af71d72-bbe3-414e-aeea-0b3d5b5a01bd",
-        "74f828a1-bf48-4c17-89d0-f8c660d69926"
+        "4af71d72-bbe3-414e-aeea-0b3d5b5a01bd"
     ],
     "tutorial": ""
 }
