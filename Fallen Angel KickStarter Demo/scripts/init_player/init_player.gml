@@ -86,10 +86,10 @@ sprite_[player.hit_knockback, dir.up] = s_player_damaged_knockback;
 sprite_[player.hit_knockback, dir.left] = s_player_damaged_knockback;
 sprite_[player.hit_knockback, dir.down] = s_player_damaged_knockback;
 
-sprite_[player.throw, dir.right] = s_player_parry_right;
-sprite_[player.throw, dir.up] = s_player_parry_up;
-sprite_[player.throw, dir.left] = s_player_parry_right;
-sprite_[player.throw, dir.down] = s_player_parry_down;
+sprite_[player.parry, dir.right] = s_player_parry_right;
+sprite_[player.parry, dir.up] = s_player_parry_up;
+sprite_[player.parry, dir.left] = s_player_parry_right;
+sprite_[player.parry, dir.down] = s_player_parry_down;
 
 sprite_[player.dead, dir.right] = s_player_dead;
 sprite_[player.dead, dir.up] = s_player_dead;
@@ -255,3 +255,7 @@ mouseDir = noone;
 ramState = noone;
 
 can_glide = false;
+
+rStick = noone;
+
+right_stick = false;

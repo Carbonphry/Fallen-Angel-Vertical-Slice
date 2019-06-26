@@ -1,3 +1,5 @@
+gml_pragma("forceinline");
+
 if ramState == noone then ramState = 0;
 
 switch ramState {

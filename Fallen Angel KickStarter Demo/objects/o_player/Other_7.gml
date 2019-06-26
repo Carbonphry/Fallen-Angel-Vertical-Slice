@@ -66,8 +66,9 @@ if sprite_index == s_player_power_smash_startspin {
 
 if state_ == player.land then state_ = player.idle;
 
-if state_ == player.throw {
+if state_ == player.parry {
 	state_ = starting_state_;
+	rStick = noone;
 }
 
 if state_ == player.intro {

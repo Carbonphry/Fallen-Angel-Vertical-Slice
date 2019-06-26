@@ -21,7 +21,7 @@ enum player
 	dead = 12,
 	not_playable = 13,
 	smash = 14,
-	throw = 15,
+	parry = 15,
 	run_start = 16,
 	run_stop = 17, 
 	fall = 18,

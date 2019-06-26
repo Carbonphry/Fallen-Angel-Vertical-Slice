@@ -2554,7 +2554,7 @@
             "Key": "439981b6-9841-4739-87a2-365e58b69b3b",
             "Value": {
                 "id": "0417ab4e-08de-427a-8c78-a23676650b65",
-                "resourcePath": "scripts\\state_throw\\state_throw.yy",
+                "resourcePath": "scripts\\state_parry\\state_parry.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3820,6 +3820,14 @@
                 "id": "825f0799-d490-4949-a191-4003158962f7",
                 "resourcePath": "sprites\\s_level_protodung_puzzle_2\\s_level_protodung_puzzle_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "674d42f7-d5d5-46b8-b874-7bf800d8ab42",
+            "Value": {
+                "id": "e786a312-504c-4828-ac89-0227be38e3ea",
+                "resourcePath": "scripts\\main_inputs\\main_inputs.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -9033,6 +9041,7 @@
         "86b63629-424f-4041-82e6-b0c9cf36a536",
         "3857a236-85b4-466d-aff8-504908a9819a",
         "36e6cdde-d872-4019-bc11-e1418e81db6c",
+        "674d42f7-d5d5-46b8-b874-7bf800d8ab42",
         "6b76cf5d-57da-45da-8327-7bbfc446cb06",
         "d197d95f-f657-4410-a997-cd985f71fdbc",
         "866cbe9f-5d41-4699-a191-95f40369c6bd",

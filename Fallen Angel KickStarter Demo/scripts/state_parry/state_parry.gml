@@ -1,4 +1,4 @@
-/// @description Throw Attack
+/// @description parry Attack
 // You can write your code in this editor
 if image_index <= 1 {
 	image_speed = 1.1;
@@ -14,9 +14,15 @@ if animation_hit_frame(0) {
 		break;
 		
 		case true:
-		var xaxis_ = gamepad_axis_value(global.pad[0], gp_axislh);
-		var yaxis_ = gamepad_axis_value(global.pad[0], gp_axislv);
-		direction_facing_ = round(o_reticle.direction/90);
+		if rStick != noone {
+			var xaxis_ = gamepad_axis_value(global.pad[0], gp_axisrh);
+			var yaxis_ = gamepad_axis_value(global.pad[0], gp_axisrv);
+			direction_facing_ = round(rStick/90);
+		} else {
+			var xaxis_ = gamepad_axis_value(global.pad[0], gp_axislh);
+			var yaxis_ = gamepad_axis_value(global.pad[0], gp_axislv);
+			direction_facing_ = round(o_reticle.direction/90);
+		}
 		break;
 			
 	}
@@ -44,9 +50,15 @@ if animation_hit_frame(0) {
 		break;
 		
 		case true:
-		var xaxis_ = gamepad_axis_value(global.pad[0], gp_axislh);
-		var yaxis_ = gamepad_axis_value(global.pad[0], gp_axislv);
-		var _angle = o_reticle.direction;//point_direction(0, 0, xaxis_, yaxis_);
+		if rStick != noone {
+			var xaxis_ = gamepad_axis_value(global.pad[0], gp_axisrh);
+			var yaxis_ = gamepad_axis_value(global.pad[0], gp_axisrv);
+			var _angle = rStick;//point_direction(0, 0, xaxis_, yaxis_);
+		} else {
+			var xaxis_ = gamepad_axis_value(global.pad[0], gp_axislh);
+			var yaxis_ = gamepad_axis_value(global.pad[0], gp_axislv);
+			var _angle = o_reticle.direction;//point_direction(0, 0, xaxis_, yaxis_);
+		}
 		break;
 			
 	}

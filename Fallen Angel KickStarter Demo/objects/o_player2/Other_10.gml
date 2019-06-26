@@ -34,7 +34,7 @@ var _y_input = o_input2.down_ - o_input2.up_;
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
 var _attack_input = o_input2.action_one_pressed_;
 var _evade_input = o_input2.action_two_pressed_;
-var _throw_input = o_input2.action_three_pressed_;
+var _parry_input = o_input2.action_three_pressed_;
 var _jump_input  = o_input2.action_four_pressed_;
 var _heal_input = o_input2.item_down_;
 var	_xaxis = gamepad_axis_value(0, gp_axislh);
@@ -181,12 +181,12 @@ if _heal_input and o_hud.core_count > 0 and z == z_ground and global.player_heal
 	audio_play(a_player_small_heal);
 }
 
-/*if _throw_input
+/*if _parry_input
 {
 	if sigil_equipped_ == true and global.player_stamina >= o_sigil_item.cost_
 	{
 		image_index = 0;
-		state_ = player.throw;
+		state_ = player.parry;
 		global.player_stamina -= o_sigil_item.cost_;
 		global.player_stamina = max(0, global.player_stamina);
 		audio_play_sound(a_throw, 8, false);

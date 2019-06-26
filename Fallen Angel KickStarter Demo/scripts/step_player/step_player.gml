@@ -353,8 +353,8 @@ switch state_ {
 	state_smash();
 	break;
 	
-	case player.throw:
-	state_throw();
+	case player.parry:
+	state_parry();
 	break;
 	
 	case player.transition:
@@ -371,11 +371,6 @@ switch state_ {
 	
 	case player.stanceSwitch:
 	state_stanceSwitch();
-	break;
-	
-	
-	case player.trigger:
-	state_trigger();
 	break;
 	
 	case player.ram:

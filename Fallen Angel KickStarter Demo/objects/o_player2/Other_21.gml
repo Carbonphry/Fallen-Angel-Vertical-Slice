@@ -5,7 +5,7 @@ image_speed = .9;
 image_speed = 1.5;
 move_movement_entity(true);
 apply_friction_to_movement_entity();
-var _throw_input = o_input2.action_three_pressed_;
+var _parry_input = o_input2.action_three_pressed_;
 
 
 if throwing_ == false
@@ -42,7 +42,7 @@ if marked_ == false
 	
 	if instance_exists(o_tp_projectile) and o_tp_projectile.can_tp_== true
 	{
-		if _throw_input == true 
+		if _parry_input == true 
 		{
 			audio_play(a_teleport);
 			create_animation_effect(s_tp_poof, x, y, 1.4, true);
@@ -62,7 +62,7 @@ if marked_ == false
 if instance_exists(o_tp_mark) and marked_ = false
 {
 	marked_ = true;
-	if _throw_input == true and marked_ = true
+	if _parry_input == true and marked_ = true
 	{
 		var _angle = 0;
 		var _life = 3;

@@ -1,4 +1,4 @@
-var _throw_input = o_input.action_three_pressed_;
+var _parry_input = o_input.action_three_pressed_;
 
 if destroy_ == true
 {
@@ -18,7 +18,7 @@ if place_meeting(x-10, y-10, o_solid_air) || place_meeting(x+10, y+10, o_solid_a
 	
 	can_tp_ = false;
 		sprite_index = s_tp_projectile;
-	if _throw_input == true
+	if _parry_input == true
 	{
 		destroy_ = true;
 	}
@@ -26,7 +26,7 @@ if place_meeting(x-10, y-10, o_solid_air) || place_meeting(x+10, y+10, o_solid_a
 {
 	can_tp_ = true;
 		sprite_index = s_tp_projectile_tp;
-	if _throw_input == true
+	if _parry_input == true
 	{
 		mask_index = s_player_idle;
 		if place_meeting(x-10, y-10, o_solid_air) || place_meeting(x+10, y+10, o_solid_air) {

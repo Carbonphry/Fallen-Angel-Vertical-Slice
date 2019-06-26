@@ -13,6 +13,7 @@ action_one_pressed_ = mouse_check_button_pressed(mb_left);
 action_two_pressed_ = keyboard_check_pressed(vk_space); 
 action_two_ = keyboard_check(vk_space);
 action_two_released_ = keyboard_check_released(vk_space);
+action_three_ = mouse_check_button(mb_right);
 action_three_pressed_ = mouse_check_button_pressed(mb_right);
 action_three_released_ = mouse_check_button_released(mb_right);
 action_four_ = keyboard_check(vk_shift);

@@ -38,12 +38,12 @@ show_volume = false;
 #macro LAYER3 500
 #macro LAYER4 400
 #macro LAYER5 300
-
+//Balance
 #macro CHEST_LUCIFER s_player_idle
 #macro CHEST_ABDIEL s_abdiel_intro
 #macro COST_DASH 1
 #macro COST_TRIGGER 0
-#macro COST_PARRY 0.5
+#macro COST_PARRY 1
 #macro COST_SMASH 1
 #macro COST_RAM 1
 #macro DMG_SWING 1
