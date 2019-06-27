@@ -397,8 +397,8 @@ if argument0.action_five_pressed and global.player_stamina >= stance_stamina_cos
 	power_stance = true;
 	image_index = 0;
 	state_ = player.stanceSwitch;
-	if instance_exists(o_stance_icon) {
-		o_stance_icon.anim = 0;
+	if instance_exists(o_pride_meter) {
+		o_pride_meter.anim = 0;
 	}
 } else if power_stance and argument0.action_five_pressed { 
 	power_stance = false;

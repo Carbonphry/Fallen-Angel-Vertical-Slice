@@ -58,8 +58,9 @@ enum dir_dodge {
 	right_down
 }
 
-if !instance_exists(o_stance_icon) {
-	instance_create_layer(-8, -6, "UI", o_stance_icon);
+if !instance_exists(o_pride_meter) {
+	//instance_create_layer(-8, -6, "UI", o_pride_meter);
+	instance_create_layer(120, 50, "UI", o_pride_meter);
 }
 
 if !instance_exists(o_hud) {

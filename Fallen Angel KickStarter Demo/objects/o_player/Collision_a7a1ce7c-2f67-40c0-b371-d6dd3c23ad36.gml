@@ -33,5 +33,6 @@ if hurtbox_entity_can_be_hit_by(other)
 		set_vibration(.7, .7 ,.2);
 	}
 	audio_play_sound(a_hurt, 6, false);
+	o_pride_meter.ego_pts += PTS_HIT;
 }
 

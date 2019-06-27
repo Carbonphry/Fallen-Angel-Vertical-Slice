@@ -54,6 +54,7 @@ if hurtbox_entity_can_be_hit_by(other)
 		
 			case tankangel.attack:
 			if image_index >= 6 and image_index <= 10 {
+				o_pride_meter.ego_pts += PTS_PARRY;
 				state_ = tankangel.stun;
 				if !audio_is_playing(a_player_parried) {
 					audio_play(a_player_parried);
@@ -63,6 +64,7 @@ if hurtbox_entity_can_be_hit_by(other)
 		
 			case tankangel.jump:
 			if image_index >= 2 and image_index <= 5 {
+				o_pride_meter.ego_pts += PTS_PARRY;
 				state_ = tankangel.stun;
 				if !audio_is_playing(a_player_parried) {
 					audio_play(a_player_parried);

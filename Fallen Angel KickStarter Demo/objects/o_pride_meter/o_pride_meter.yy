@@ -2,7 +2,7 @@
     "id": "fc0b5a7b-3c2c-4912-a016-b89d1510cc8c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_stance_icon",
+    "name": "o_pride_meter",
     "eventList": [
         {
             "id": "2fcc9bca-7704-4b3a-9846-d71f467abe4a",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "dec04598-4faf-440e-8168-7b10ed564bfb",
+    "spriteId": "57bf1677-5195-425a-a786-74936d72f88e",
     "visible": true
 }

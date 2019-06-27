@@ -43,6 +43,13 @@ if z == z_ground {
 			var _hitbox = create_hitbox(s_smash_hitbox, x, y, 0, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);	
 			_hitbox.lift = false;
 			dmgX = 0;
+			with _hitbox {
+				if place_meeting(x,y,o_enemy) {
+					o_pride_meter.ego_pts += PTS_ATTACK_SMASH;	
+				}
+			
+			}
+			
 		}
 	} else {
 		state_ = player.falling;

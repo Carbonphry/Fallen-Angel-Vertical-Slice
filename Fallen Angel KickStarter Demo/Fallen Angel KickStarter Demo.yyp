@@ -8850,7 +8850,7 @@
             "Key": "fc0b5a7b-3c2c-4912-a016-b89d1510cc8c",
             "Value": {
                 "id": "818c4e55-db69-4e84-a825-aa2735c2d0a9",
-                "resourcePath": "objects\\o_stance_icon\\o_stance_icon.yy",
+                "resourcePath": "objects\\o_pride_meter\\o_pride_meter.yy",
                 "resourceType": "GMObject"
             }
         },

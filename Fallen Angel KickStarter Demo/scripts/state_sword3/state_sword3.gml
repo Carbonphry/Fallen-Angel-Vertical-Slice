@@ -105,7 +105,9 @@ if animation_hit_frame(1)
 				}
 			}
 			
-		}
+		} else if place_meeting(x,y,o_enemy) {
+				o_pride_meter.ego_pts += PTS_ATTACK_3;	
+			}
 	}
 	
 	var _attack_sound = a_player_attack_projectile;

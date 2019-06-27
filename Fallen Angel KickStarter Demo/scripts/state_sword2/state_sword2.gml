@@ -89,7 +89,9 @@ if animation_hit_frame(1)
 				}
 			}
 			
-		}
+		} else if place_meeting(x,y,o_enemy) {
+				o_pride_meter.ego_pts += PTS_ATTACK_2;	
+			}
 	}
 	if state_ != player.failHit {
 	audio_play(_attack_sound);

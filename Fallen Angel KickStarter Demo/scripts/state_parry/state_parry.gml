@@ -62,7 +62,7 @@ if animation_hit_frame(0) {
 		break;
 			
 	}
-	var _life = 100;
+	var _life = 50;
 	var _damage = 1;
 	var _knockback = 0;
 	switch direction_facing_ {
@@ -91,4 +91,10 @@ if animation_hit_frame(0) {
 	_hitbox.stun = true;
 	_hitbox.depth = depth-1;
 	_hitbox.image_index = 0;
+	
+	with _hitbox {
+		if place_meeting(x,y,o_enemy) {
+				o_pride_meter.ego_pts += PTS_PARRY;	
+		}
+	}
 } 
