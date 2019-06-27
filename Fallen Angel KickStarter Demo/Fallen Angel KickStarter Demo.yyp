@@ -8071,6 +8071,14 @@
             }
         },
         {
+            "Key": "e6c8aa63-f8d8-46d8-8a27-40da63252b9c",
+            "Value": {
+                "id": "5867d3c6-8bd5-4cda-bf00-8c0baf57167e",
+                "resourcePath": "sprites\\s_whip_parried\\s_whip_parried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e714a0b3-425e-4caf-ae0c-7e720cf7aa75",
             "Value": {
                 "id": "cd0582ce-ed95-4869-9675-64fe0f083cde",
