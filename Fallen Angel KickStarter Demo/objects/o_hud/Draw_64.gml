@@ -82,12 +82,12 @@ if show_stamina {
 		audio_play(a_player_lowstamina);
 	}
 }
-draw_sprite(s_hud_heal_box, 0, x_bar_, y_bar_+186);
-draw_sprite(s_hud_heal_box_counter, core_count, x_bar_, y_bar_+186);
+draw_sprite(s_hud_heal_box, 0, x_bar_ - 40, y_bar_+186);
+draw_sprite(s_hud_heal_box_counter, core_count, x_bar_ - 40, y_bar_+186);
 
 
 	if core_count > 0 {
-		draw_sprite(s_small_heal_item, core_anim,x_bar_ + 16 , y_bar_ + 209);
+		draw_sprite(s_small_heal_item, core_anim,x_bar_ - 24 , y_bar_ + 209);
 		 core_anim += .15;
 		if  core_anim > 7 then core_anim = 0;
 		/*if core_count > 1 {

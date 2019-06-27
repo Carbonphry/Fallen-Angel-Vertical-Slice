@@ -60,7 +60,7 @@ enum dir_dodge {
 
 if !instance_exists(o_pride_meter) {
 	//instance_create_layer(-8, -6, "UI", o_pride_meter);
-	instance_create_layer(120, 50, "UI", o_pride_meter);
+	instance_create_layer(4, 4, "UI", o_pride_meter);
 }
 
 if !instance_exists(o_hud) {

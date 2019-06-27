@@ -3,12 +3,7 @@
 anim = 6;
 ego_pts = 0;
 state = 1;
-#macro PTS_ATTACK_1 3
-#macro PTS_ATTACK_2 4
-#macro PTS_ATTACK_3 5
-#macro PTS_ATTACK_SMASH 6 
-#macro PTS_PARRY 5 
-#macro PTS_HIT 3 
+
 
 
 /*Ego Balance
