@@ -12,8 +12,8 @@ paused_sprite_scale = .25;//display_get_gui_width()/view_wport[0];
 gui_height_ = display_get_gui_height();
 gui_width_ = display_get_gui_width();
 
-x_bar_ = gui_width_- 420;
-y_bar_ = gui_height_- 240;
+x_bar_ = gui_width_- 426;
+y_bar_ = gui_height_- 242;
 
 x_bar_b = gui_width_ -350;
 y_bar_b = gui_height_ -30;
