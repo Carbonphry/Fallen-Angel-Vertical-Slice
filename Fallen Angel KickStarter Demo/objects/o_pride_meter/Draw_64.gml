@@ -2,12 +2,26 @@
 // You can write your code in this editor
 if !instance_exists(o_player) then exit;
 
+
+image_index = round(ego_pts);
+if ego_pts <=0 or image_index <= 0 {
+	image_index = 0;
+	ego_pts = 0;
+} else if ego_pts <= 40 and ego_pts >0 {
+	ego_pts -=0.03;
+}
+
+if ego_pts > 40 {
+	ego_pts =40;
+}
+
 draw_self();
-image_speed = .6;
+
+draw_text(x,y,string(ego_pts))
 
 
 
-if o_player.power_stance {
+/*if o_player.power_stance {
 		sprite_index = s_hud_pride_max;
 	} else {
 		sprite_index = s_hud_pride;
@@ -23,7 +37,7 @@ if o_player.power_stance {
 } else {
 	sprite_index = s_hud_stance_flying;
 }*/
-switch state {
+/*switch state {
 
 	case 1:
 	if ego_pts >= 10 {
@@ -49,7 +63,7 @@ switch state {
 	
 	case 4:
 	if ego_pts >= 40 {
-		state = 4;
+		state = o_player.power_stance = true;
 	} else if ego_pts < 30 {
 		state = 3;
 	}
@@ -58,13 +72,6 @@ switch state {
 }
 
 
-image_index = ego_pts;
-if ego_pts <=0 {
-	image_index = 0;
-	image_speed = 0;
-} else {
-	image_speed = -.5;
-}
 
 
 /*if anim != 6 {

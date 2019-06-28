@@ -93,8 +93,6 @@ if animation_hit_frame(0) {
 	_hitbox.image_index = 0;
 	
 	with _hitbox {
-		if place_meeting(x,y,o_enemy) {
-				o_pride_meter.ego_pts += PTS_PARRY;	
-		}
+		
 	}
 } 

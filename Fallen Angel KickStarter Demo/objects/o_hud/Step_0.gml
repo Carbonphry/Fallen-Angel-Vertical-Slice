@@ -94,8 +94,8 @@ if o_input.pause_pressed_ {
 	
 	if instance_exists(o_player) {
 	
-	if o_player.state_ != player.not_playable and !paused_
-	{
+		if (o_player.state_ != player.not_playable or o_player.state_ != player.dead)  and !paused_
+		{
 		paused_ = true;
 		paused_sprite_ = sprite_create_from_surface(application_surface, 0 , 0, view_wport[0], view_hport[0], false, false, 0, 0);
 		instance_deactivate_all(true)
@@ -106,7 +106,7 @@ if o_input.pause_pressed_ {
 		instance_activate_object(o_game);
 		instance_activate_object(o_input);
 		audio_play(a_pause)
-	}
+		}
 	}
 }
 
