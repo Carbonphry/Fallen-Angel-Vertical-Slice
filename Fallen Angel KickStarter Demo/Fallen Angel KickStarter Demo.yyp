@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "0a2cdd1d-6003-4075-8b8a-21af8f313b7d",
+            "Value": {
+                "id": "92c51a76-6930-4a43-9f03-9096eebf2c48",
+                "resourcePath": "sprites\\s_guardcube_activated\\s_guardcube_activated.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a561c97-d834-43ee-b8a0-d9a8318f6d91",
             "Value": {
                 "id": "88ca23ce-2091-44ae-9e1f-910780b981fd",
@@ -2047,6 +2055,14 @@
             }
         },
         {
+            "Key": "34a68e9b-a3b3-4502-b7e7-297147962d62",
+            "Value": {
+                "id": "9257e748-ea3d-4ef1-bb44-5d65d7ca0766",
+                "resourcePath": "sprites\\s_guardcube_startactivate\\s_guardcube_startactivate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34c3b0d7-a2f2-4749-a9f4-7aff8fa129cc",
             "Value": {
                 "id": "ce91c07e-581f-4ee5-9ea6-3ca16b187a0c",
@@ -2602,7 +2618,7 @@
             "Key": "44dc7d06-9616-49fc-b36b-af485b65a9c9",
             "Value": {
                 "id": "9a824035-a9bd-4ab2-98ba-befc87cc8392",
-                "resourcePath": "sprites\\s_cube\\s_cube.yy",
+                "resourcePath": "sprites\\s_guardcube_deactivated\\s_guardcube_deactivated.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5730,7 +5746,7 @@
             "Key": "a3a70784-e9fb-4deb-9a49-951bd83d1473",
             "Value": {
                 "id": "3549d92f-d553-45df-978d-17e0144999bc",
-                "resourcePath": "objects\\o_block_cube\\o_block_cube.yy",
+                "resourcePath": "objects\\o_guardcube\\o_guardcube.yy",
                 "resourceType": "GMObject"
             }
         },
