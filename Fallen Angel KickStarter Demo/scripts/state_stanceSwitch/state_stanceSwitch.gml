@@ -1,4 +1,5 @@
 gml_pragma("forceinline");
+iframe = true;
 switch power_stance {
 	
 	case true:

@@ -29,3 +29,6 @@ alarm_set(9,global.one_second*2);
 thr = 0;
 
 pulse_tim = noone;
+
+last_x = x;
+last_y = y;

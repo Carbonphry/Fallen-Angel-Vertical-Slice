@@ -298,15 +298,15 @@ switch state_ {
 	break;
 	
 	case player.sword:
-	state_sword();
+	state_swing();
 	break;
 	
 	case player.sword2:
-	state_sword2();
+	state_swing();
 	break;
 	
 	case player.sword3:
-	state_sword3();
+	state_swing();
 	break;
 	
 	case player.evade:
@@ -393,19 +393,18 @@ if state_ != player.move and state_ != player.ledge and state_ != player.stanceS
 
 //Stance
 var stance_stamina_cost_ = 0.00;
-if argument0.action_five_pressed and global.player_stamina >= stance_stamina_cost_ and alarm_get(9)<=0 and !power_stance {
-	power_stance = true;
-	image_index = 0;
-	state_ = player.stanceSwitch;
-	if instance_exists(o_pride_meter) {
-		o_pride_meter.anim = 0;
+if instance_exists(o_pride_meter) and state_ != player.stanceSwitch {
+	if o_pride_meter.ego_pts >=30 and alarm_get(9)<=0 and !power_stance  {
+		power_stance = true;
+		image_index = 0;
+		state_ = player.stanceSwitch;
+	
+	} else if power_stance and o_pride_meter.ego_pts <30 { 
+		power_stance = false;
+		image_index = 0;
+		state_ = player.stanceSwitch;
 	}
-} else if power_stance and argument0.action_five_pressed { 
-	power_stance = false;
-	image_index = 0;
-	state_ = player.stanceSwitch;
 }
-
 
 if power_stance {
 	

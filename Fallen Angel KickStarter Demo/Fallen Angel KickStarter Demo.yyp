@@ -5743,6 +5743,14 @@
             }
         },
         {
+            "Key": "a36bdcee-6cde-4d04-96d5-f8a0144184f4",
+            "Value": {
+                "id": "a9863c4f-11b5-4907-9807-8be4e3d3cb03",
+                "resourcePath": "views\\a36bdcee-6cde-4d04-96d5-f8a0144184f4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a3a70784-e9fb-4deb-9a49-951bd83d1473",
             "Value": {
                 "id": "3549d92f-d553-45df-978d-17e0144999bc",
@@ -6244,6 +6252,14 @@
                 "id": "a054e270-fbbb-44fe-b0ea-64190c48175b",
                 "resourcePath": "objects\\o_level_tut_portal_garden\\o_level_tut_portal_garden.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b2225eb3-3cad-4f75-95a9-0e1d8cc5b966",
+            "Value": {
+                "id": "f45b4e87-1531-4400-9337-c942a96cc4a7",
+                "resourcePath": "scripts\\state_swing\\state_swing.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -9073,6 +9089,7 @@
         "3857a236-85b4-466d-aff8-504908a9819a",
         "36e6cdde-d872-4019-bc11-e1418e81db6c",
         "674d42f7-d5d5-46b8-b874-7bf800d8ab42",
+        "b2225eb3-3cad-4f75-95a9-0e1d8cc5b966",
         "6b76cf5d-57da-45da-8327-7bbfc446cb06",
         "d197d95f-f657-4410-a997-cd985f71fdbc",
         "866cbe9f-5d41-4699-a191-95f40369c6bd",

@@ -19,9 +19,11 @@ if hurtbox_entity_can_be_hit_by(other)
 	
 	if pulseanim > 0 {
 		health_ -= other.damage_*2;
-	} else if other.sprite_index != s_sword_hitbox  {
+	} else if other.sprite_index != s_sword_hitbox and !other.stun {
 		health_ -= other.damage_;
 	} else if other.sprite_index == s_sword_hitbox and state_ == lancer.stun {
+		health_ -= other.damage_;
+	} else if other.stun {
 		health_ -= other.damage_;
 	}
 	alarm_set(8,global.one_second*1);
@@ -83,9 +85,9 @@ if hurtbox_entity_can_be_hit_by(other)
 	add_screenshake(3,12);
 	if bleed_ == true
 	{
-	if (other.sprite_index != s_sword_hitbox) or (other.sprite_index == s_sword_hitbox and state_ == lancer.stun){
+	if (other.sprite_index != s_sword_hitbox) or (other.sprite_index == s_sword_hitbox and other.stun) or (other.sprite_index == s_sword_hitbox and state_ == lancer.stun) {
 		instance_create_layer(x-irandom_range(10, -10), y-z-irandom_range(25, 0), "Effects", o_blood_burst);
-	} else {
+	} else if !other.stun {
 		audio_play(a_player_parried);
 		create_animation_effect(s_sparks_effect, x, y-14, 1, true);
 		state_ = lancer.block;

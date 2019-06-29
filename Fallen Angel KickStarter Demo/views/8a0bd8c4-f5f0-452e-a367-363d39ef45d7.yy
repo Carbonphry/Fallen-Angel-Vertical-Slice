@@ -7,7 +7,8 @@
         "0b349050-488b-4986-9b4d-f5e8aee5fb13",
         "8fb918be-af54-43ae-ae6d-f67492c2bd39",
         "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
-        "1ae04d3e-2bff-4684-b90c-bd3235f0675b"
+        "1ae04d3e-2bff-4684-b90c-bd3235f0675b",
+        "cef4e9b4-98bf-447b-b7ea-670340c503a5"
     ],
     "filterType": "GMObject",
     "folderName": "UltimateLightSystem",

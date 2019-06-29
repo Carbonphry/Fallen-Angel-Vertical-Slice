@@ -4,7 +4,10 @@ move_movement_entity(true);
 apply_friction_to_movement_entity();
 var _attack_input = o_input.action_one_pressed_;
 var _evade_input = o_input.action_two_pressed_;
-
+var _parry_input = o_input.action_three_pressed_;
+var	r_xaxis = gamepad_axis_value(0, gp_axisrh);
+var	r_yaxis = gamepad_axis_value(0, gp_axisrv);
+var	r_stick_direction = point_direction(0,0,r_xaxis,r_yaxis);
 
 if attacking_ == false {
 	attacking_ = true;
@@ -163,9 +166,14 @@ repeat(abs(walk_speed * (right - left)))
             }
     }
 	
+	with o_enemy
+	{
+		if place_meeting(x - (other.right - other.left)*dcos(_angle), y, other)
+            {
+                other.can_move = false;
+            }
+    }
 	
-	
-    
     if can_move == true
         x += (right - left)*dcos(_angle);
 	//spd*-dsin(_angle);
@@ -220,6 +228,16 @@ repeat(abs(walk_speed * (down - up)))
 	
 	}
 	
+	with o_enemy
+	{
+		if place_meeting(x , y- (other.down - other.up)*-dsin(_angle), other)
+           {
+                other.can_move = false;
+                break;
+           }
+	
+	}
+	
     if can_move == true
         y += (down - up)*-dsin(_angle);
 }
@@ -252,7 +270,6 @@ if !place_meeting(x, y, obj_cube_parent)
 		case dir.up: _hitbox.y -= 6; break;
 		default: _hitbox.y -= 6; break;
 	}
-		
 }
 
 if animation_hit_frame(2)
@@ -261,14 +278,9 @@ if animation_hit_frame(2)
 	anim_cancel = true;
 }
 
-if _evade_input >= .7 and global.player_stamina >= evade_stamina_cost_ and anim_cancel
-{
-	image_index = 0;
-	state_ = player.evade;
-	global.player_stamina -= evade_stamina_cost_;
-	global.player_stamina = max(0, global.player_stamina);
-	var _evade_sound = choose(a_player_dash_1, a_player_dash_2, a_player_dash_3);
-	audio_play(_evade_sound);
+if _jump_input and !combo_ and (alarm_get(7) > global.one_second*.3 or ( alarm_get(7) ==-1 and z== 0)) {
+	state_ = starting_state_;
+	jump_slash = true;
 }
 
 if animation_hit_frame(3)
@@ -277,7 +289,59 @@ if animation_hit_frame(3)
 	combo_ = true;	
 }
 
-if (_attack_input >= .6 and combo_ = true)	
+if _evade_input >= .7 and global.player_stamina >= evade_stamina_cost_ and anim_cancel {
+	image_index = 0;
+	state_ = player.evade;
+	global.player_stamina -= evade_stamina_cost_;
+	global.player_stamina = max(0, global.player_stamina);
+	var _evade_sound = choose(a_player_dash_1, a_player_dash_2, a_player_dash_3);
+	audio_play(_evade_sound);
+}
+
+if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground and anim_cancel {
+	image_index = 0;
+	switch power_stance {
+		case false:
+		global.player_stamina -= COST_PARRY;
+		audio_play(a_player_parrythrow);
+		state_ = player.parry;
+		break;
+		
+		case true:
+		if o_input.alarm[2] <= 0 {
+			global.player_stamina -= COST_TRIGGER;
+			state_ = player.trigger;
+		}
+		break;
+	}
+}
+//Right Stick
+if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER and z == z_ground and anim_cancel {
+	switch power_stance {
+	
+		case false:
+		global.player_stamina -= COST_PARRY;
+		audio_play(a_player_parrythrow);
+		rStick = r_stick_direction; 
+		state_ = player.parry;
+		break;
+		
+		case true:
+		if o_input.alarm[2] <= 0 {
+			rStick = r_stick_direction;
+			right_stick = true;
+			global.player_stamina -= COST_TRIGGER;
+			state_ = player.trigger;
+		}
+		break;
+	
+	}
+}
+
+
+
+
+if (_attack_input >= .6 and combo_)	
 {
 image_index = 0;
 switch global.gamepad_active {

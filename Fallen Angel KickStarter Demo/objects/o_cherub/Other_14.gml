@@ -3,7 +3,18 @@
 //move_movement_entity(true);
 apply_friction_to_movement_entity();
 
+if image_index < 5 {
+	
+	if !instance_exists(class_player) then exit;
+	var tar = instance_nearest(x,y,class_player);
+	
+	if x<tar.x {
+		image_xscale = 1;
+	} else {
+		image_xscale = -1;
+	}
 
+}
 
 if animation_hit_frame(5)
 {

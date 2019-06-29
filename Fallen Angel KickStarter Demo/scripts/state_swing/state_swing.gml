@@ -1,5 +1,4 @@
-/// @description Sword3 State
-image_speed = 1.22;
+image_speed = 1.12;
 move_movement_entity(true);
 apply_friction_to_movement_entity();
 var _attack_input = o_input.action_one_pressed_;
@@ -9,19 +8,30 @@ var	r_xaxis = gamepad_axis_value(0, gp_axisrh);
 var	r_yaxis = gamepad_axis_value(0, gp_axisrv);
 var	r_stick_direction = point_direction(0,0,r_xaxis,r_yaxis);
 
-if _evade_input >= .7 and global.player_stamina >= evade_stamina_cost_
-{
-	image_index = 0;
-	state_ = player.evade;
-	global.player_stamina -= evade_stamina_cost_;
-	global.player_stamina = max(0, global.player_stamina);
-	var _evade_sound = choose(a_player_dash_1, a_player_dash_2, a_player_dash_3);
-	audio_play(_evade_sound);
+
+if o_input.action_two_ {
+	if o_input.alarm[8] <=0 {
+			o_input.alarm[8] = global.one_second*.15;
+	}
+} else {
+		o_input.alarm[8] = global.one_second*.15;
+}
+	
+if o_input.alarm[8] == 1 { 
+	o_input.alarm[8] = -1;
+	var _jump_input = o_input.action_two_;
+} else { 
+	if z<=z_ground then var _jump_input = false;
+}
+	
+
+if z>z_ground  {
+	var _jump_input = o_input.action_two_;
 }
 
 if attacking_ == false {
 	attacking_ = true;
-	
+	//direction_facing_ = round(o_reticle.direction/90);
 	switch global.gamepad_active {
 		
 		case false:
@@ -31,10 +41,12 @@ if attacking_ == false {
 		case true:
 		direction_facing_ = round(o_reticle.direction/90);
 		break;
+			
 	}
 }
 
-if direction_facing_ > 3 {
+if direction_facing_ > 3
+{
 	direction_facing_ = 0;
 }
 
@@ -42,17 +54,16 @@ if direction_facing_ == 0
 {
 	image_xscale = 1;
 }
-
 if direction_facing_ == 2 
 {
 	image_xscale = -1;
 }
 
-
+var _attack_sound = choose(a_player_attack_1, a_player_attack_2, a_player_attack_3);
 
 if animation_hit_frame(1)
 {
-	//Heavy Swing SKill
+	
 	switch global.gamepad_active {
 		
 		case false:
@@ -66,30 +77,45 @@ if animation_hit_frame(1)
 		break;
 			
 	}
-	var _life = 2;
-	var _damage = DMG_THIRD_SWING;
-	var _knockback = 6;
+	
+	var _life = 3;
+	if state_ != player.sword3 {
+		var _damage = DMG_SWING;
+		var _knockback = 4;
+	} else {
+		var _damage = DMG_THIRD_SWING;
+		var _knockback = 6;
+	}
+	
 	if z > z_ground {
 		var _hitbox = create_hitbox(s_sword_hitbox_air, x, y-4, _angle, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
 		with _hitbox {
-			/*if !place_meeting(x,y,o_enemy)  {
+			if !place_meeting(x,y,o_enemy)  {
 				with other {
-					x += lengthdir_x(AIR_SWING_KNOCKFORWARD,o_reticle.image_angle);
-					y += lengthdir_y(AIR_SWING_KNOCKFORWARD,o_reticle.image_angle);
+					var lenx = lengthdir_x(AIR_SWING_KNOCKFORWARD,o_reticle.image_angle);
+					var leny = lengthdir_y(AIR_SWING_KNOCKFORWARD,o_reticle.image_angle);
+					/*if !place_meeting(x+lenx,y-z,o_solid) and !place_meeting(x+lenx,y-z,o_enemy) {
+						x += lenx;
+					}
+					/*if !place_meeting(x,y+leny-z,o_solid) and !place_meeting(x,y+leny-z,o_enemy) {
+						y += leny;
+					}*/
 				}
-			}*/
+			}
 		}
 	} else {
-		
 		var _hitbox = create_hitbox(s_sword_hitbox, x, y-4, _angle, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
-		_hitbox.stun = true;
+		if state_ == player.sword3 {
+			_hitbox.stun = true;
+		}
 	}
+	
 	with _hitbox {
 		if (place_meeting(x,y,o_solid) or place_meeting(x,y,o_lancer)) and !place_meeting(x,y,o_cherub) and !place_meeting(x,y,o_flameangel) and !place_meeting(x,y,o_missile_angel) and !place_meeting(x,y,o_tankangel) and !place_meeting(x,y,o_abdiel) and other.z == other.z_ground     
 		{
 			if place_meeting(x,y,o_lancer) {
 				var lan = instance_nearest(x,y,o_lancer);
-				if lan.state_ != lancer.stun  {
+				if lan.state_ != lancer.stun and !stun {
 					with other {
 						image_index = 0;
 						state_ = player.failHit;
@@ -105,26 +131,68 @@ if animation_hit_frame(1)
 			}
 			
 		} else if place_meeting(x,y,o_enemy) {
-				o_pride_meter.ego_pts += PTS_ATTACK_3;	
+				with other { 
+					switch state_ {
+				
+						case player.sword:
+						o_pride_meter.ego_pts += PTS_ATTACK_1;	
+						break;
+					
+						case player.sword2:
+						o_pride_meter.ego_pts += PTS_ATTACK_2;	
+						break;
+					
+						case player.sword3:
+						o_pride_meter.ego_pts += PTS_ATTACK_3;	
+						break;
+				
+					}
+				}
 			}
-	}
+		}
 	
-	var _attack_sound = a_player_attack_projectile;
-	if !global.coop {
-		set_vibration(.35, .35 ,.12);
-	}
+	if state_ != player.failHit {
 	audio_play(_attack_sound);
+	} else {
+		audio_play(a_player_attack_projectile);
+		
+	}
+		
 	//set_movement(_angle, 2);
-	if z == z_ground {
-		#region Set Mov
 	
+	/*spd*dcos(_angle);
+	spd*-dsin(_angle);*/
+	if state_ == player.sword2 {
+		combo_ = false;
+	}
+	
+	if z == z_ground {
+	#region Set Mov
 
-var jump     = o_input.action_four_pressed_;
+//scr_jump_input();
+if o_input.action_two_ {
+	if o_input.alarm[8] <=0 {
+			o_input.alarm[8] = global.one_second*.15;
+	}
+} else {
+		o_input.alarm[8] = global.one_second*.15;
+}
+	
+if o_input.alarm[8] == 1 { 
+	o_input.alarm[8] = -1;
+	var jump = o_input.action_two_;
+} else { 
+	if z<=z_ground then var jump = false;
+}
+	
+if z>z_ground  {
+	var jump = o_input.action_two_;
+}
 var walk_speed, jump_speed;
 walk_speed = 8;
 jump_speed = 3;
-//left = 1;
-//up = 1;
+left = 0;
+up = 0;
 down = 1;
 right = 1;
 
@@ -177,7 +245,7 @@ repeat(abs(walk_speed * (right - left)))
             }
     }
 	
-	with o_enemy 
+	with o_enemy
 	{
 		if place_meeting(x - (other.right - other.left)*dcos(_angle), y, other)
             {
@@ -239,7 +307,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	}
 	
-	with o_enemy
+	with o_enemy 
 	{
 		if place_meeting(x , y- (other.down - other.up)*-dsin(_angle), other)
            {
@@ -276,22 +344,49 @@ if !place_meeting(x, y, obj_cube_parent)
 #endregion
 	
 	}
+	
 	switch direction_facing_
 	{
 		case dir.up: _hitbox.y -= 6; break;
 		default: _hitbox.y -= 6; break;
 	}
-		
+	
+	
+}
+
+
+if animation_hit_frame(2)
+{
+	alarm[4] = 10;
+	anim_cancel = true;
+}
+
+if _jump_input and !combo_ and (alarm_get(7) > global.one_second*.3 or ( alarm_get(7) ==-1 and z== 0)) {
+	attacking_ = false;
+	state_ = starting_state_;
+	jump_slash = true;
 }
 
 if animation_hit_frame(3)
 {
 	alarm[1] = 10;
 	combo_ = true;	
+	
+}
+
+
+if _evade_input >= .7 and global.player_stamina >= evade_stamina_cost_ and anim_cancel {
+	attacking_ = false;
+	image_index = 0;
+	state_ = player.evade;
+	global.player_stamina -= evade_stamina_cost_;
+	global.player_stamina = max(0, global.player_stamina);
+	var _evade_sound = choose(a_player_dash_1, a_player_dash_2, a_player_dash_3);
+	audio_play(_evade_sound);
 }
 
 if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground and anim_cancel {
-	
+	attacking_ = false;
 	image_index = 0;
 	switch power_stance {
 		case false:
@@ -310,6 +405,7 @@ if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground and 
 }
 //Right Stick
 if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER and z == z_ground and anim_cancel {
+	attacking_ = false;
 	switch power_stance {
 	
 		case false:
@@ -331,42 +427,41 @@ if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER a
 	}
 }
 
-if (_attack_input >= .6 and combo_ and z !=0)	
-{
-image_index = 0;
-switch global.gamepad_active {
-		
-		case false:
-		var _angle = point_direction(x, y, o_input.xdir_, o_input.ydir_);
-		break;
-		
-		case true:
-		var xaxis_ = gamepad_axis_value(global.pad[0], gp_axislh);
-		var yaxis_ = gamepad_axis_value(global.pad[0], gp_axislv);
-		var _angle = o_reticle.direction;//point_direction(0, 0, xaxis_, yaxis_);
-		break;
-			
-}
-get_direction_facing(_angle);
-/*direction_facing_ = round(point_direction(x, y, o_input.xdir_, o_input.ydir_)/90);
-	if direction_facing_ > 3
+if state_ != player.sword3 {
+
+	if (_attack_input >= .6 and combo_)	
 	{
-	direction_facing_ = 0;
-	}*/
+		attacking_ = false;
+		image_index = 0;
 
-		var costSmash = 0;
-	
-		if global.player_stamina >= costSmash {
-			step = 0;
-			global.player_stamina -= costSmash;
-			state_ = player.smash;
-			audio_play(a_player_attack_smash);
+		switch global.gamepad_active {
+		
+			case false:
+			var _angle = point_direction(x, y, o_input.xdir_, o_input.ydir_);
+			break;
+		
+			case true:
+			var xaxis_ = gamepad_axis_value(global.pad[0], gp_axislh);
+			var yaxis_ = gamepad_axis_value(global.pad[0], gp_axislv);
+			var _angle = o_reticle.direction;//point_direction(0, 0, xaxis_, yaxis_);
+			break;
+			
 		}
-	add_screenshake(4,10);
-	combo_ = false;
+		
+		get_direction_facing(_angle);
+		switch state_ {
+		
+			case player.sword:
+			state_ = player.sword2;
+			break;
+			
+			case player.sword2:
+			state_ = player.sword3;
+			break;
+		}
+		
+	}
 }
-
-
 
 if animation_hit_frame(image_number - 1)
 {
@@ -376,4 +471,3 @@ if animation_hit_frame(image_number - 1)
 			alarm_set(11,global.one_second*.5);
 		}
 }
-//

@@ -8,7 +8,7 @@ if ego_pts <=0 or image_index <= 0 {
 	image_index = 0;
 	ego_pts = 0;
 } else if ego_pts <= 40 and ego_pts >0 {
-	ego_pts -=0.03;
+	ego_pts -=0.13;
 }
 
 if ego_pts > 40 {
@@ -17,7 +17,7 @@ if ego_pts > 40 {
 
 draw_self();
 
-draw_text(x,y,string(ego_pts))
+draw_text(x,y,string(ego_pts));
 
 
 
