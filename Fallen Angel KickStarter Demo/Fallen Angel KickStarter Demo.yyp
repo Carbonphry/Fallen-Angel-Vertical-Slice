@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "0431991c-c96c-4611-9a8f-872d31e4ed85",
+            "Value": {
+                "id": "8ba886f5-baab-498c-bf11-168b17fd008f",
+                "resourcePath": "sprites\\s_player_chargeattack_start\\s_player_chargeattack_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0466efe6-116f-4c8b-825f-16985e301e5e",
             "Value": {
                 "id": "8ec4d4b4-ec9a-45e7-8493-87c5fa1329df",
@@ -2439,6 +2447,14 @@
             }
         },
         {
+            "Key": "3f2a05e7-238d-41e1-8170-45bc3f025f4c",
+            "Value": {
+                "id": "59c81a00-f28c-4400-8485-135a1d51b5c1",
+                "resourcePath": "views\\3f2a05e7-238d-41e1-8170-45bc3f025f4c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3f8d7436-b3d9-4b8b-8afa-97de60159c25",
             "Value": {
                 "id": "8153aeb2-3cb8-4a70-bdbf-6775116b5636",
@@ -2676,6 +2692,14 @@
                 "id": "b7b164e3-a7a2-40f4-aaf1-e24cbb72f2ab",
                 "resourcePath": "objects\\object103\\object103.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "470a60f1-fed5-4089-896b-b06a0a349810",
+            "Value": {
+                "id": "83394e7b-ef05-44de-b133-1192b3b510f6",
+                "resourcePath": "sprites\\s_player_chargeattack_attack\\s_player_chargeattack_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6967,6 +6991,14 @@
             }
         },
         {
+            "Key": "c5e821f3-3b8d-40c5-b7e9-7c784bc42b6d",
+            "Value": {
+                "id": "cb4db11a-733f-4820-96f8-1ea66eef0daa",
+                "resourcePath": "sprites\\s_player_chargeattack_move\\s_player_chargeattack_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c63320c1-19cb-4760-a57c-2d2357c6667e",
             "Value": {
                 "id": "51acd328-c3ea-423a-9506-f0d90226a724",
@@ -7380,6 +7412,14 @@
                 "id": "9ef6dadd-7099-4c97-ab3e-57089613639b",
                 "resourcePath": "scripts\\inventory_create\\inventory_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d29b3258-9846-458d-b71c-c8620dd61eba",
+            "Value": {
+                "id": "2883c406-e84e-48d7-989f-fb68788fe162",
+                "resourcePath": "sprites\\s_player_chargeattack_idle\\s_player_chargeattack_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
