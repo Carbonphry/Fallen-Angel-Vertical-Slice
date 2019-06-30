@@ -1,10 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-anim = 6;
 ego_pts = 0;
 state = 1;
 
-
+ego_add = 0;
 
 /*Ego Balance
 Attack 1 = +3 pride

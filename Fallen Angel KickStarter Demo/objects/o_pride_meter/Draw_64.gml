@@ -7,8 +7,12 @@ image_index = round(ego_pts);
 if ego_pts <=0 or image_index <= 0 {
 	image_index = 0;
 	ego_pts = 0;
-} else if ego_pts <= 40 and ego_pts >0 {
-	ego_pts -=0.13;
+} else if ego_pts > 0 and ego_add = 0 {
+	ego_pts -=0.05;
+}
+if ego_add > 0 {
+	ego_add-=.25;
+	ego_pts += .25;
 }
 
 if ego_pts > 40 {
