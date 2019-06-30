@@ -3450,7 +3450,7 @@
             "Key": "5c8305f4-bfe7-4d8a-9b95-f03def3695db",
             "Value": {
                 "id": "4d3d32a3-d625-4edb-81ec-78006899a3a2",
-                "resourcePath": "sprites\\s_press_x\\s_press_x.yy",
+                "resourcePath": "sprites\\s_hold_x\\s_hold_x.yy",
                 "resourceType": "GMSprite"
             }
         },
