@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "13fe8171-a622-4326-a5c8-ece841a534b0",
+            "Value": {
+                "id": "14a36d5a-0a3d-4720-ac70-581ebbabe441",
+                "resourcePath": "views\\13fe8171-a622-4326-a5c8-ece841a534b0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1431927b-1ada-4613-9dd0-6c2904d28f8f",
             "Value": {
                 "id": "9f4a3a8a-60ed-490b-b457-8a113690fda2",
@@ -2207,6 +2215,14 @@
             }
         },
         {
+            "Key": "37f875d8-7d67-49c3-8da2-6926a776e416",
+            "Value": {
+                "id": "e8da6cf3-6520-41c9-bfd6-0507f948ef80",
+                "resourcePath": "sprites\\s_player_power_attack_1\\s_player_power_attack_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3857a236-85b4-466d-aff8-504908a9819a",
             "Value": {
                 "id": "91b1ae5a-075f-4437-bdfc-77aa4efc8fa7",
@@ -2452,6 +2468,14 @@
                 "id": "59c81a00-f28c-4400-8485-135a1d51b5c1",
                 "resourcePath": "views\\3f2a05e7-238d-41e1-8170-45bc3f025f4c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f6465d1-ef1f-40f3-8805-39e3d62fc7ee",
+            "Value": {
+                "id": "ae6ba6f0-690d-4d69-a238-1824a10e681d",
+                "resourcePath": "sprites\\s_player_power_chargeattack_start\\s_player_power_chargeattack_start.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4055,6 +4079,14 @@
             }
         },
         {
+            "Key": "6d89f606-469b-4223-b987-475fd93529c1",
+            "Value": {
+                "id": "33020378-67c7-4d47-a3e8-6707e55ab266",
+                "resourcePath": "sprites\\s_player_power_chargeattack_attack\\s_player_power_chargeattack_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6df6210c-37a4-4aa3-867a-38d3581efe82",
             "Value": {
                 "id": "df5868f1-4c64-4a6e-a77c-61f889b94830",
@@ -4476,6 +4508,22 @@
                 "id": "c10b4f62-19fc-4bf7-aab8-dafa93f500b0",
                 "resourcePath": "objects\\o_level_tut_5\\o_level_tut_5.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "79a9ae01-6ebf-4344-b42e-cf2c99ac18bc",
+            "Value": {
+                "id": "484f735a-677b-4179-9137-90da861fc812",
+                "resourcePath": "sprites\\s_player_power_chargeattack_idle\\s_player_power_chargeattack_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a5f5fcf-3e8b-436b-b120-3cc9064749d0",
+            "Value": {
+                "id": "9cf72ddb-78ac-4b7c-9b15-df3235ac651e",
+                "resourcePath": "sprites\\s_player_power_attack_2\\s_player_power_attack_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5067,6 +5115,14 @@
             "Value": {
                 "id": "2e515522-3f44-4bac-af06-32877e2f984a",
                 "resourcePath": "sprites\\s_tutorial_heal_gpad\\s_tutorial_heal_gpad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e0634f9-936f-4e3c-aaae-578ee0411d46",
+            "Value": {
+                "id": "ae0252b4-0c09-4545-955a-a69f9ff1d44f",
+                "resourcePath": "sprites\\s_player_power_chargeattack_move\\s_player_power_chargeattack_move.yy",
                 "resourceType": "GMSprite"
             }
         },
