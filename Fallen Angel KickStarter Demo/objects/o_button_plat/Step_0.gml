@@ -25,4 +25,4 @@ if image_index == 2 {
 	image_index = 0;
 }
 
-y= o_room6_plat.y;
+y= o_room6_plat.y+9;
