@@ -5,14 +5,14 @@
 switch  o_button_plat.state {
 
 	case 1:
-	if  y >= 616 {
+	if  y >= 550 {
 		y -=1;
 		o_player.y -=1;
 		o_player.state_ = player.not_playable;
 		instance_deactivate_object(elevator_solid);
 		instance_deactivate_object(elevator_solid_2);
 		
-	} else if y < 616 and o_player.state_ == player.not_playable {
+	} else if y < 550 and o_player.state_ == player.not_playable {
 		o_player.state_ = player.idle;
 		instance_activate_object(elevator_solid);
 		instance_activate_object(elevator_solid_2);

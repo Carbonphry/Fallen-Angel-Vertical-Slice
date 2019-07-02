@@ -9,9 +9,9 @@ if image_index < 5 {
 	var tar = instance_nearest(x,y,class_player);
 	
 	if x<tar.x {
-		image_xscale = 1;
-	} else {
 		image_xscale = -1;
+	} else {
+		image_xscale = 1;
 	}
 
 }
@@ -45,11 +45,11 @@ if animation_hit_frame(5)
 
 	if _attack_direction == 0 
 	{
-		image_xscale = 1;
+		image_xscale = -1;
 	}
 	if _attack_direction == 2 
 	{
-		image_xscale = -1;
+		image_xscale = 1;
 	}
 
 	audio_play_sound(a_cherub_attack, 5, false);

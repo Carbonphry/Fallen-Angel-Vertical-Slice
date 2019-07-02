@@ -38,6 +38,7 @@ enum player
 	trigger = 29,
 	failHit = 30, 
 	ram = 31,
+	charge_attack = 32,
 }
 
 enum dir {

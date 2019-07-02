@@ -17,7 +17,22 @@ if z == z_ground {
 		instance_destroy(o_black_wings,true);
 	}
 	//Ledge
-	direction_facing_before_jump = direction_facing_;  
+	direction_facing_before_jump = direction_facing_;
+	
+	//Charge Attack
+	if state_ == player.move or state_ == player.idle {
+		if o_input.action_one_ {
+			if o_input.alarm[3] == -1 {
+				o_input.alarm[3] = global.one_second*.5;
+			
+			}
+			if o_input.alarm[3] == 1 {
+				o_player.state_ = player.charge_attack;
+			}
+		} else {
+			o_input.alarm[3] = -1;
+		}
+	}
 } 
 
 if z > z_ground and !gliding {
@@ -379,6 +394,10 @@ switch state_ {
 
 	case player.failHit:
 	state_failHit();
+	break;
+	
+	case player.charge_attack:
+	state_charge_attack();
 	break;
 }
 

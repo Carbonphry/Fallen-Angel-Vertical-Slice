@@ -142,3 +142,19 @@ if ramState == 2  {
 	state_ = starting_state_;
 	ramState = noone;
 }
+
+if sprite_index == s_player_chargeattack_attack {
+	state_ = starting_state_;
+	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_start;
+	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start;
+	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_start;
+	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_start;
+}
+
+if sprite_index == s_player_chargeattack_start {
+	image_index = 0;
+	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_idle;
+	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle;
+	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_idle;
+	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_idle;
+}

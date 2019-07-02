@@ -7111,6 +7111,14 @@
             }
         },
         {
+            "Key": "ca34e607-d2bf-43f0-8557-edfe633208c1",
+            "Value": {
+                "id": "cc39a049-43dc-4b29-90bd-ac270ae16eec",
+                "resourcePath": "sprites\\s_charge_hitbox\\s_charge_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca436ab0-0721-4d0b-9be5-e1d7232a2edc",
             "Value": {
                 "id": "b2400cd5-9a92-4e3c-b1dd-c737d7e7ae12",
@@ -8479,6 +8487,14 @@
             }
         },
         {
+            "Key": "ef9e4f7a-3837-4695-9fdf-51377727b523",
+            "Value": {
+                "id": "0869b45f-780c-4103-8837-3c9e7858756a",
+                "resourcePath": "scripts\\state_charge_attack\\state_charge_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "efa58540-90b9-402b-9ef3-21e378f76ccd",
             "Value": {
                 "id": "d2a7a425-39aa-4b9a-bc3c-2411ce2e7d9f",
@@ -9210,6 +9226,7 @@
         "9c5745b0-509d-4f63-8d26-ac52f10aa48b",
         "35a2f481-5273-4d23-95ad-91d90e584e07",
         "74f828a1-bf48-4c17-89d0-f8c660d69926",
+        "ef9e4f7a-3837-4695-9fdf-51377727b523",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",
