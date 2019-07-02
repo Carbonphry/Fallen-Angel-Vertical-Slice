@@ -457,12 +457,12 @@ if state_ != player.move and state_ != player.ledge and state_ != player.stanceS
 //Stance
 var stance_stamina_cost_ = 0.00;
 if instance_exists(o_pride_meter) and state_ != player.stanceSwitch {
-	if o_pride_meter.ego_pts >=30 and alarm_get(9)<=0 and !power_stance  {
+	if o_pride_meter.state == 1 and alarm_get(9)<=0 and !power_stance  {
 		power_stance = true;
 		image_index = 0;
 		state_ = player.stanceSwitch;
 	
-	} else if power_stance and o_pride_meter.ego_pts <30 { 
+	} else if power_stance and o_pride_meter.state == 0 { 
 		power_stance = false;
 		image_index = 0;
 		state_ = player.stanceSwitch;

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-ego_pts = 40;
-state = 1;
+ego_pts = 35;
+state = 0;
 
 ego_add = 0;
 
