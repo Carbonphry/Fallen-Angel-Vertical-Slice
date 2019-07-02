@@ -28,6 +28,9 @@ if z == z_ground {
 			}
 			if o_input.alarm[3] == 1 {
 				o_player.state_ = player.charge_attack;
+				if !audio_is_playing(a_player_chargeattack_start) {
+				audio_play(a_player_chargeattack_start);
+				}
 			}
 		} else {
 			o_input.alarm[3] = -1;

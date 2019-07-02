@@ -14,11 +14,13 @@ if left!=0 or right!=0 or up!=0 or down!=0 {
 	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_move;
 	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_move;
 	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_move;
+	image_speed = 0.6;
 } else {
 	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_idle;
 	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle;
 	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_idle;
 	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_idle;
+	image_speed = 0.2;
 }
 
 if state_ == player.land {
@@ -305,7 +307,10 @@ if !place_meeting(x, y, obj_cube_parent)
 
 
 if sprite_index == s_player_chargeattack_attack {
-
+	
+	if !audio_is_playing(a_player_chargeattack_attack) {
+			audio_play(a_player_chargeattack_attack);
+	}
 	if animation_hit_frame(4) {
 		create_hitbox(s_charge_hitbox, x, y, 0, 3, [o_enemy, o_grass, o_bush, o_shrine], 3, 0);
 	}
