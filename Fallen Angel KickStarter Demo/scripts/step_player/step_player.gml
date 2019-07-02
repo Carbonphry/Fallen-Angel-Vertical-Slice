@@ -29,8 +29,22 @@ if z == z_ground {
 			if o_input.alarm[3] == 1 {
 				o_player.state_ = player.charge_attack;
 				if !audio_is_playing(a_player_chargeattack_start) {
-				audio_play(a_player_chargeattack_start);
+					audio_play(a_player_chargeattack_start);
 				}
+				charge_state = 0;
+				if power_stance {
+					sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_start;
+					sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_start;
+					sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_start;
+					sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_start;
+				} else {
+					sprite_[player.charge_attack, dir.right] = s_player_chargeattack_start;
+					sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start;
+					sprite_[player.charge_attack, dir.left] = s_player_chargeattack_start;
+					sprite_[player.charge_attack, dir.down] = s_player_chargeattack_start;
+				}
+				
+				
 			}
 		} else {
 			o_input.alarm[3] = -1;
@@ -167,6 +181,18 @@ sprite_[player.sword3, dir.down] = s_player_attack_down_3;
 
 if power_stance {
 
+	sprite_[player.sword, dir.right] = s_player_power_attack_1;
+	sprite_[player.sword, dir.up] = s_player_power_attack_1;
+	sprite_[player.sword, dir.left] = s_player_power_attack_1;
+	sprite_[player.sword, dir.down] = s_player_power_attack_1;
+
+	sprite_[player.sword2, dir.right] = s_player_power_attack_2;
+	sprite_[player.sword2, dir.up] = s_player_power_attack_2;
+	sprite_[player.sword2, dir.left] = s_player_power_attack_2;
+	sprite_[player.sword2, dir.down] = s_player_power_attack_2;
+	
+	
+
 	sprite_[player.idle, dir.right] = s_player_power_idle;
 	sprite_[player.idle, dir.up] = s_player_power_idle_up;
 	sprite_[player.idle, dir.left] = s_player_power_idle;
@@ -228,6 +254,21 @@ if power_stance {
 	sprite_[player.heal, dir.down] = s_player_power_heal;
 	
 } else {
+	sprite_[player.sword, dir.right] = s_player_attack_right_1;
+	sprite_[player.sword, dir.up] = s_player_attack_up_1;
+	sprite_[player.sword, dir.left] = s_player_attack_right_1;
+	sprite_[player.sword, dir.down] = s_player_attack_down_1;
+
+	sprite_[player.sword2, dir.right] = s_player_attack_right_2;
+	sprite_[player.sword2, dir.up] = s_player_attack_up_2;
+	sprite_[player.sword2, dir.left] = s_player_attack_right_2;
+	sprite_[player.sword2, dir.down] = s_player_attack_down_2;
+
+	sprite_[player.sword3, dir.right] = s_player_attack_right_3;
+	sprite_[player.sword3, dir.up] = s_player_attack_up_3;
+	sprite_[player.sword3, dir.left] = s_player_attack_right_3;
+	sprite_[player.sword3, dir.down] = s_player_attack_down_3;
+	
 	sprite_[player.idle, dir.right] = s_player_idle;
 	sprite_[player.idle, dir.up] = s_player_idle_up;
 	sprite_[player.idle, dir.left] = s_player_idle;

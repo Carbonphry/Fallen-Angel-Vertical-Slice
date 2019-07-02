@@ -25,7 +25,8 @@ if _attack_input >= .7 and alarm_get(11) <=0 {
 		
 		case true:	
 		if z == z_ground {
-			var costHeavy = 0;
+			state_ = player.sword;
+			/*var costHeavy = 0;
 			if global.player_stamina >= costHeavy {
 				global.player_stamina -= costHeavy
 				state_ = player.heavy_attack;
@@ -33,7 +34,7 @@ if _attack_input >= .7 and alarm_get(11) <=0 {
 			} else {
 				o_hud.alarm[3] = global.one_second*.5;
 				o_hud.show_stamina = true;
-			}
+			}*/
 		} else {
 			state_ = player.sword;
 		}

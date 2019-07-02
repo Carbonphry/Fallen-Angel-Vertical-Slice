@@ -122,7 +122,7 @@ if animation_hit_frame(1)
 						audio_play(a_player_failedhit);
 					}
 				}
-			} else {
+			} else if !other.power_stance {
 				with other {
 				image_index = 0;
 				state_ = player.failHit;
@@ -456,7 +456,11 @@ if state_ != player.sword3 {
 			break;
 			
 			case player.sword2:
-			state_ = player.sword3;
+			if power_stance {
+				state_ = player.heavy_attack;
+			} else {
+				state_ = player.sword3;
+			}
 			break;
 		}
 		

@@ -1,8 +1,10 @@
-image_speed = 1;
+switch charge_state {
 
-if sprite_index != s_player_chargeattack_start and sprite_index != s_player_chargeattack_attack {
-	
-	
+	case 0:
+	image_speed = 1.2;
+	break;
+
+	case 1:
 	#region
 left     = o_input.left_;
 right    = o_input.right_;
@@ -10,16 +12,31 @@ up       = o_input.up_;
 down     = o_input.down_;
 
 if left!=0 or right!=0 or up!=0 or down!=0 {
-	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_move;
-	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_move;
-	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_move;
-	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_move;
 	image_speed = 0.6;
-} else {
-	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_idle;
-	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle;
-	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_idle;
-	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_idle;
+	if power_stance {
+		sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_move;
+		sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_move;
+		sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_move;
+		sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_move;
+	} else {
+		sprite_[player.charge_attack, dir.right] = s_player_chargeattack_move;
+		sprite_[player.charge_attack, dir.up] = s_player_chargeattack_move;
+		sprite_[player.charge_attack, dir.left] = s_player_chargeattack_move;
+		sprite_[player.charge_attack, dir.down] = s_player_chargeattack_move;
+		
+	}
+} else if sprite_index != s_player_chargeattack_start {
+	if power_stance { 
+		sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_idle;
+		sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_idle;
+		sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_idle;
+		sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_idle;
+	} else {
+		sprite_[player.charge_attack, dir.right] = s_player_chargeattack_idle;
+		sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle;
+		sprite_[player.charge_attack, dir.left] = s_player_chargeattack_idle;
+		sprite_[player.charge_attack, dir.down] = s_player_chargeattack_idle;
+	}
 	image_speed = 0.2;
 }
 
@@ -298,21 +315,32 @@ if !place_meeting(x, y, obj_cube_parent)
 #endregion
 	
 	if !o_input.action_one_ {
-		sprite_[player.charge_attack, dir.right] = s_player_chargeattack_attack;
-		sprite_[player.charge_attack, dir.up] = s_player_chargeattack_attack;
-		sprite_[player.charge_attack, dir.left] = s_player_chargeattack_attack;
-		sprite_[player.charge_attack, dir.down] = s_player_chargeattack_attack;
+		charge_state = 2;
+		if power_stance {
+			sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_attack;
+			sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_attack;
+			sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_attack;
+			sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_attack;
+		} else {
+			sprite_[player.charge_attack, dir.right] = s_player_chargeattack_attack;
+			sprite_[player.charge_attack, dir.up] = s_player_chargeattack_attack;
+			sprite_[player.charge_attack, dir.left] = s_player_chargeattack_attack;
+			sprite_[player.charge_attack, dir.down] = s_player_chargeattack_attack;
+		}
 	}
-}
-
-
-if sprite_index == s_player_chargeattack_attack {
+	break;
 	
+	case 2:
+	image_speed = 1.4;
 	if !audio_is_playing(a_player_chargeattack_attack) {
 			audio_play(a_player_chargeattack_attack);
 	}
 	if animation_hit_frame(4) {
 		create_hitbox(s_charge_hitbox, x, y, 0, 3, [o_enemy, o_grass, o_bush, o_shrine], 3, 0);
 	}
-
+	break;
 }
+
+
+
+
