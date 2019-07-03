@@ -45,7 +45,7 @@ if z == z_ground {
 			dmgX = 0;
 			with _hitbox {
 				if place_meeting(x,y,o_enemy) {
-					o_pride_meter.ego_pts += PTS_ATTACK_SMASH;	
+					o_pride_meter.ego_add += PTS_ATTACK_SMASH;	
 				}
 			
 			}

@@ -105,7 +105,7 @@ if animation_hit_frame(1)
 			}
 			
 		} else if place_meeting(x,y,o_enemy) {
-				o_pride_meter.ego_pts += PTS_ATTACK_3;	
+				o_pride_meter.ego_add += PTS_ATTACK_3;	
 			}
 	}
 	

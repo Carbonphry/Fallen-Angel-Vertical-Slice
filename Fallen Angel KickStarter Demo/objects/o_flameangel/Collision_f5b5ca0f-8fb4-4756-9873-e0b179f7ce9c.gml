@@ -46,7 +46,7 @@ if hurtbox_entity_can_be_hit_by(other)
 		
 			case flameangel.explosion:
 			if image_index >= 2 and image_index <= 9 {
-				o_pride_meter.ego_pts += PTS_PARRY;
+				o_pride_meter.ego_add += PTS_PARRY;
 				state_ = flameangel.stun;
 				if !audio_is_playing(a_player_parried) {
 					audio_play(a_player_parried);
@@ -56,7 +56,7 @@ if hurtbox_entity_can_be_hit_by(other)
 		
 			case flameangel.attack:
 			if image_index >= 0 and image_index <= 6 {
-				o_pride_meter.ego_pts += PTS_PARRY;
+				o_pride_meter.ego_add += PTS_PARRY;
 				state_ = flameangel.stun;
 				if !audio_is_playing(a_player_parried) {
 					audio_play(a_player_parried);

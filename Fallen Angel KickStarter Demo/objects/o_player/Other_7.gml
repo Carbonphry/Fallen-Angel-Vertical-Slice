@@ -79,7 +79,7 @@ if state_ == player.intro {
 if state_ == player.stanceSwitch {
 	state_ = player.idle;
 	iframe = false;
-	if power_stance then o_pride_meter.ego_pts = 40;
+	if power_stance then o_pride_meter.ego_add = 40;
 }
 
 

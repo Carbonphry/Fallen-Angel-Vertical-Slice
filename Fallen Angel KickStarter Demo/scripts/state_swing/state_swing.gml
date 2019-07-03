@@ -135,15 +135,15 @@ if animation_hit_frame(1)
 					switch state_ {
 				
 						case player.sword:
-						o_pride_meter.ego_pts += PTS_ATTACK_1;	
+						o_pride_meter.ego_add += PTS_ATTACK_1;	
 						break;
 					
 						case player.sword2:
-						o_pride_meter.ego_pts += PTS_ATTACK_2;	
+						o_pride_meter.ego_add += PTS_ATTACK_2;	
 						break;
 					
 						case player.sword3:
-						o_pride_meter.ego_pts += PTS_ATTACK_3;	
+						o_pride_meter.ego_add += PTS_ATTACK_3;	
 						break;
 				
 					}

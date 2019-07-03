@@ -13,8 +13,8 @@ switch state {
 		ego_pts -=0.05;
 	}
 	if ego_add > 0 {
-		ego_add-=.25;
-		ego_pts += .25;
+		ego_add-=1;
+		ego_pts += 1;
 	}
 
 	if ego_pts > 40 {

@@ -55,7 +55,7 @@ if hurtbox_entity_can_be_hit_by(other)
 		
 			case lancer.attack:
 			if image_index >= 4 and image_index <= 8 {
-				o_pride_meter.ego_pts += PTS_PARRY;
+				o_pride_meter.ego_add += PTS_PARRY;
 				state_ = lancer.stun;
 				if !audio_is_playing(a_player_parried) {
 					audio_play(a_player_parried);
@@ -67,7 +67,7 @@ if hurtbox_entity_can_be_hit_by(other)
 		
 			case lancer.attack2:
 			if image_index >= 4 and image_index <= 8 {
-				o_pride_meter.ego_pts += PTS_PARRY;
+				o_pride_meter.ego_add += PTS_PARRY;
 				state_ = lancer.stun;
 				if !audio_is_playing(a_player_parried) {
 					audio_play(a_player_parried);
