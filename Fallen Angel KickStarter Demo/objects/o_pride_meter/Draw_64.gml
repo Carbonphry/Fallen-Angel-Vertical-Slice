@@ -5,16 +5,16 @@ if !instance_exists(o_player) then exit;
 switch state {
 
 	case 0:
-	image_index = round(ego_pts);
+	image_index = ego_pts;
 	if ego_pts <=0 or image_index <= 0 {
 		image_index = 0;
 		ego_pts = 0;
-	} else if ego_pts > 0 and ego_add = 0 {
+	} else if ego_pts > 0 and ego_add <= 0 {
 		ego_pts -=0.05;
 	}
 	if ego_add > 0 {
-		ego_add-=1;
-		ego_pts += 1;
+		ego_add-=.5;
+		ego_pts += .5;
 	}
 
 	if ego_pts > 40 {

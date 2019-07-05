@@ -181,6 +181,11 @@ sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start;
 sprite_[player.charge_attack, dir.left] = s_player_chargeattack_start;
 sprite_[player.charge_attack, dir.down] = s_player_chargeattack_start;
 
+sprite_[player.execute, dir.right] = s_player_execute;
+sprite_[player.execute, dir.up] = s_player_execute;
+sprite_[player.execute, dir.left] = s_player_execute;
+sprite_[player.execute, dir.down] = s_player_execute;
+
 last_sprite = sprite_index;
 
 anim_run_start = true;

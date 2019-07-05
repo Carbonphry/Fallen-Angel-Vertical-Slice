@@ -443,6 +443,10 @@ switch state_ {
 	case player.charge_attack:
 	state_charge_attack();
 	break;
+	
+	case player.execute:
+	state_execute();
+	break;
 }
 
 if state_ != player.move and state_ != player.ledge and state_ != player.stanceSwitch /* or state_ != player.idle*/ { 
@@ -513,7 +517,7 @@ if (last_sprite != sprite_index) {
 }
 
 //Smash Check
-if z != z_ground and z-z_ground >= 14 and state_ != player.smash and power_stance{
+if z != z_ground and z-z_ground >= 13 and state_ != player.smash {
 
 	if argument0.action_one_ {
 		step +=1;

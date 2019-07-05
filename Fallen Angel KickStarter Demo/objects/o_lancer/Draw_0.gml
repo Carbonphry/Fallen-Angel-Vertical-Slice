@@ -1,5 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//Execution
+if state_ == lancer.stun { 
+	
+	if o_input.action_one_ {
+		stp+=0.25;
+	}
+	
+	if stp > 12 {
+		o_player.state_ = player.execute;
+	}
+	
+	draw_sprite(s_hold_x,stp,x,y+20);
+} else {
+	stp = 0;
+}
+
+
+
 draw_sprite(s_medium_shadow, 0, x, y+6);
 //draw_self();
 draw_sprite_ext(sprite_index,image_index,x,y-z,image_xscale,image_yscale,image_angle,image_blend,image_alpha);

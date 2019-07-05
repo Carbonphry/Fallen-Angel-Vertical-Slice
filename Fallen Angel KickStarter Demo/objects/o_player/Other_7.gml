@@ -178,3 +178,7 @@ if sprite_index == s_player_power_chargeattack_start {
 	sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_idle;
 	sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_idle;
 }
+
+if state_ == player.execute {
+	state_ = starting_state_;
+}

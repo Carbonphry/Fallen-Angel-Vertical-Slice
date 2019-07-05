@@ -99,4 +99,3 @@ var ht = max(y-height_/2,0);
 camera_set_view_pos(view_camera[0], min(wh,room_width-480), min(ht, room_height-270));
 
 
-
