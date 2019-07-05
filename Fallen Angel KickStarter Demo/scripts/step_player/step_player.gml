@@ -181,16 +181,17 @@ sprite_[player.sword3, dir.down] = s_player_attack_down_3;
 
 if power_stance {
 
-	sprite_[player.sword, dir.right] = s_player_power_attack_1;
-	sprite_[player.sword, dir.up] = s_player_power_attack_1;
-	sprite_[player.sword, dir.left] = s_player_power_attack_1;
-	sprite_[player.sword, dir.down] = s_player_power_attack_1;
+	if z == z_ground {
+		sprite_[player.sword, dir.right] = s_player_power_attack_1;
+		sprite_[player.sword, dir.up] = s_player_power_attack_1;
+		sprite_[player.sword, dir.left] = s_player_power_attack_1;
+		sprite_[player.sword, dir.down] = s_player_power_attack_1;
 
-	sprite_[player.sword2, dir.right] = s_player_power_attack_2;
-	sprite_[player.sword2, dir.up] = s_player_power_attack_2;
-	sprite_[player.sword2, dir.left] = s_player_power_attack_2;
-	sprite_[player.sword2, dir.down] = s_player_power_attack_2;
-	
+		sprite_[player.sword2, dir.right] = s_player_power_attack_2;
+		sprite_[player.sword2, dir.up] = s_player_power_attack_2;
+		sprite_[player.sword2, dir.left] = s_player_power_attack_2;
+		sprite_[player.sword2, dir.down] = s_player_power_attack_2;
+	}
 	
 
 	sprite_[player.idle, dir.right] = s_player_power_idle;
@@ -254,20 +255,23 @@ if power_stance {
 	sprite_[player.heal, dir.down] = s_player_power_heal;
 	
 } else {
-	sprite_[player.sword, dir.right] = s_player_attack_right_1;
-	sprite_[player.sword, dir.up] = s_player_attack_up_1;
-	sprite_[player.sword, dir.left] = s_player_attack_right_1;
-	sprite_[player.sword, dir.down] = s_player_attack_down_1;
+	
+	if z == z_ground {
+		sprite_[player.sword, dir.right] = s_player_attack_right_1;
+		sprite_[player.sword, dir.up] = s_player_attack_up_1;
+		sprite_[player.sword, dir.left] = s_player_attack_right_1;
+		sprite_[player.sword, dir.down] = s_player_attack_down_1;
 
-	sprite_[player.sword2, dir.right] = s_player_attack_right_2;
-	sprite_[player.sword2, dir.up] = s_player_attack_up_2;
-	sprite_[player.sword2, dir.left] = s_player_attack_right_2;
-	sprite_[player.sword2, dir.down] = s_player_attack_down_2;
+		sprite_[player.sword2, dir.right] = s_player_attack_right_2;
+		sprite_[player.sword2, dir.up] = s_player_attack_up_2;
+		sprite_[player.sword2, dir.left] = s_player_attack_right_2;
+		sprite_[player.sword2, dir.down] = s_player_attack_down_2;
 
-	sprite_[player.sword3, dir.right] = s_player_attack_right_3;
-	sprite_[player.sword3, dir.up] = s_player_attack_up_3;
-	sprite_[player.sword3, dir.left] = s_player_attack_right_3;
-	sprite_[player.sword3, dir.down] = s_player_attack_down_3;
+		sprite_[player.sword3, dir.right] = s_player_attack_right_3;
+		sprite_[player.sword3, dir.up] = s_player_attack_up_3;
+		sprite_[player.sword3, dir.left] = s_player_attack_right_3;
+		sprite_[player.sword3, dir.down] = s_player_attack_down_3;
+	}
 	
 	sprite_[player.idle, dir.right] = s_player_idle;
 	sprite_[player.idle, dir.up] = s_player_idle_up;
@@ -473,7 +477,7 @@ if instance_exists(o_pride_meter) and state_ != player.stanceSwitch {
 	}
 }
 
-if power_stance {
+/*if power_stance {
 	
 	if global.player_stamina > 0 {
 		var stance_stamina_cost_ = 0.02;
@@ -490,8 +494,8 @@ if power_stance {
 	//part_system_depth(part_system_stance, o_player.depth);
 	/*part_emitter_region(part_system_stance, part_emitter_, id.x-10, id.x+10, id.y-id.z-30, id.y-id.z+6,ps_shape_diamond, ps_distr_linear);
 	part_emitter_burst(part_system_stance, part_emitter_, part_type_, 4);*/
-
-}
+/*
+}*/
 
 
 ///Health Stack System
