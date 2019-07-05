@@ -7130,7 +7130,7 @@
             "Key": "ca34e607-d2bf-43f0-8557-edfe633208c1",
             "Value": {
                 "id": "cc39a049-43dc-4b29-90bd-ac270ae16eec",
-                "resourcePath": "sprites\\s_charge_hitbox\\s_charge_hitbox.yy",
+                "resourcePath": "sprites\\s_chargeattack_hitbox\\s_chargeattack_hitbox.yy",
                 "resourceType": "GMSprite"
             }
         },
