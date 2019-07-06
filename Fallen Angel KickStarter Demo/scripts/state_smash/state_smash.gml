@@ -32,11 +32,11 @@ if z == z_ground {
 	
 		if animation_hit_frame(1.5) {
 			if dmgX <= 15 {
-				var _damage = 1;
-			} else if dmgX <= 30 {
 				var _damage = 2;
+			} else if dmgX <= 30 {
+				var _damage = 3;
 			} else {
-				var _damage = 3;	
+				var _damage = 4;	
 			}
 			var _life = 1;
 			var _knockback = 8;

@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "134c212f-920e-42ff-9244-8389c60a9e2d",
+            "Value": {
+                "id": "3bd11739-48b9-4190-8320-4867f6394b7a",
+                "resourcePath": "sprites\\s_enemy_bar_life1\\s_enemy_bar_life1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "134d2bb8-cf44-42f9-8f44-ba46e9024932",
             "Value": {
                 "id": "349aa5ba-5b21-443c-a712-472313499d22",
