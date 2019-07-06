@@ -147,7 +147,7 @@ if sprite_index == s_player_chargeattack_attack {
 	charge_state = 0;
 	state_ = starting_state_;
 	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_start;
-	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start;
+	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start_up;
 	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_start;
 	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_start;
 }
@@ -156,7 +156,7 @@ if sprite_index == s_player_chargeattack_start {
 	image_index = 0;
 	charge_state = 1;
 	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_idle;
-	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle;
+	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle_up;
 	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_idle;
 	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_idle;
 }
@@ -165,7 +165,7 @@ if sprite_index == s_player_power_chargeattack_attack {
 	charge_state = 0;
 	state_ = starting_state_;
 	sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_start;
-	sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_start;
+	sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_start_up;
 	sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_start;
 	sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_start;
 }
@@ -174,7 +174,43 @@ if sprite_index == s_player_power_chargeattack_start {
 	image_index = 0;
 	charge_state = 1;
 	sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_idle;
-	sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_idle;
+	sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_idle_up;
+	sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_idle;
+	sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_idle;
+}
+
+if sprite_index == s_player_chargeattack_attack_up {
+	charge_state = 0;
+	state_ = starting_state_;
+	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_start;
+	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start_up;
+	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_start;
+	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_start;
+}
+
+if sprite_index == s_player_chargeattack_start_up {
+	image_index = 0;
+	charge_state = 1;
+	sprite_[player.charge_attack, dir.right] = s_player_chargeattack_idle;
+	sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle_up;
+	sprite_[player.charge_attack, dir.left] = s_player_chargeattack_idle;
+	sprite_[player.charge_attack, dir.down] = s_player_chargeattack_idle;
+}
+
+if sprite_index == s_player_power_chargeattack_attack_up {
+	charge_state = 0;
+	state_ = starting_state_;
+	sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_start;
+	sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_start_up;
+	sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_start;
+	sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_start;
+}
+
+if sprite_index == s_player_power_chargeattack_start_up {
+	image_index = 0;
+	charge_state = 1;
+	sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_idle;
+	sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_idle_up;
 	sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_idle;
 	sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_idle;
 }

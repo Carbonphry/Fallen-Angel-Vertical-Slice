@@ -177,7 +177,7 @@ sprite_[player.ram, dir.left] =  s_player_power_ram_charge_right;
 sprite_[player.ram, dir.down] = s_player_power_ram_charge_down;
 
 sprite_[player.charge_attack, dir.right] = s_player_chargeattack_start;
-sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start;
+sprite_[player.charge_attack, dir.up] = s_player_chargeattack_start_up;
 sprite_[player.charge_attack, dir.left] = s_player_chargeattack_start;
 sprite_[player.charge_attack, dir.down] = s_player_chargeattack_start;
 

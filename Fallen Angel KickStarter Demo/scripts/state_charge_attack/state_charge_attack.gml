@@ -15,12 +15,12 @@ if left!=0 or right!=0 or up!=0 or down!=0 {
 	image_speed = 0.6;
 	if power_stance {
 		sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_move;
-		sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_move;
+		sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_move_up;
 		sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_move;
 		sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_move;
 	} else {
 		sprite_[player.charge_attack, dir.right] = s_player_chargeattack_move;
-		sprite_[player.charge_attack, dir.up] = s_player_chargeattack_move;
+		sprite_[player.charge_attack, dir.up] = s_player_chargeattack_move_up;
 		sprite_[player.charge_attack, dir.left] = s_player_chargeattack_move;
 		sprite_[player.charge_attack, dir.down] = s_player_chargeattack_move;
 		
@@ -28,12 +28,12 @@ if left!=0 or right!=0 or up!=0 or down!=0 {
 } else if sprite_index != s_player_chargeattack_start {
 	if power_stance { 
 		sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_idle;
-		sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_idle;
+		sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_idle_up;
 		sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_idle;
 		sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_idle;
 	} else {
 		sprite_[player.charge_attack, dir.right] = s_player_chargeattack_idle;
-		sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle;
+		sprite_[player.charge_attack, dir.up] = s_player_chargeattack_idle_up;
 		sprite_[player.charge_attack, dir.left] = s_player_chargeattack_idle;
 		sprite_[player.charge_attack, dir.down] = s_player_chargeattack_idle;
 	}
@@ -318,12 +318,12 @@ if !place_meeting(x, y, obj_cube_parent)
 		charge_state = 2;
 		if power_stance {
 			sprite_[player.charge_attack, dir.right] = s_player_power_chargeattack_attack;
-			sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_attack;
+			sprite_[player.charge_attack, dir.up] = s_player_power_chargeattack_attack_up;
 			sprite_[player.charge_attack, dir.left] = s_player_power_chargeattack_attack;
 			sprite_[player.charge_attack, dir.down] = s_player_power_chargeattack_attack;
 		} else {
 			sprite_[player.charge_attack, dir.right] = s_player_chargeattack_attack;
-			sprite_[player.charge_attack, dir.up] = s_player_chargeattack_attack;
+			sprite_[player.charge_attack, dir.up] = s_player_chargeattack_attack_up;
 			sprite_[player.charge_attack, dir.left] = s_player_chargeattack_attack;
 			sprite_[player.charge_attack, dir.down] = s_player_chargeattack_attack;
 		}

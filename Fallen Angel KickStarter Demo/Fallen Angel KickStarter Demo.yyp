@@ -3071,6 +3071,14 @@
             }
         },
         {
+            "Key": "50f858ee-3221-46e3-bcd2-b8a98afb3f8f",
+            "Value": {
+                "id": "8788dfc2-98a2-4c36-9909-4fdf5efff1a2",
+                "resourcePath": "sprites\\s_player_power_chargeattack_move_up\\s_player_power_chargeattack_move_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5121cde5-c447-44b4-a17a-b371f6be0ac3",
             "Value": {
                 "id": "f399edfd-3569-4091-8ea7-71b66a9d4248",
@@ -4015,6 +4023,14 @@
             }
         },
         {
+            "Key": "6a2abb26-7938-48dc-a746-e643c355689a",
+            "Value": {
+                "id": "cd304677-03b0-42b4-8c35-7cd612a4cda3",
+                "resourcePath": "sprites\\s_player_power_chargeattack_start_up\\s_player_power_chargeattack_start_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a370e84-7c55-4873-bf9a-0cc3e05c6dce",
             "Value": {
                 "id": "245599ba-7cb4-4e0f-a1de-103d42906574",
@@ -4215,6 +4231,14 @@
             }
         },
         {
+            "Key": "70c82be7-4dc1-4a13-bc71-b2b1ae3f0048",
+            "Value": {
+                "id": "19ee2113-3583-444d-b80e-b0d0e7708c7b",
+                "resourcePath": "sprites\\s_player_chargeattack_move_up\\s_player_chargeattack_move_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71336060-daf3-41ae-91d7-790983e892b3",
             "Value": {
                 "id": "790338a4-05c2-48f1-a29c-741cd5fab1e3",
@@ -4292,6 +4316,14 @@
                 "id": "72ea626b-afd9-4349-a3fe-149d1e824554",
                 "resourcePath": "objects\\o_level_garden_tree_3\\o_level_garden_tree_3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "72215764-8314-4fce-a663-7b0859f372dc",
+            "Value": {
+                "id": "088818be-9451-4adf-a9fd-f9ba9ed6be9d",
+                "resourcePath": "sprites\\s_player_chargeattack_idle_up\\s_player_chargeattack_idle_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4492,6 +4524,14 @@
                 "id": "5fa494d6-1fda-4e3e-aa54-63ce6ba8c4f9",
                 "resourcePath": "objects\\o_player_intro\\o_player_intro.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "78c7fe09-d616-487d-8f8e-7751f1b27d0b",
+            "Value": {
+                "id": "52d03070-75da-4972-bb7c-f38ffe56f3ce",
+                "resourcePath": "sprites\\s_player_power_chargeattack_attack_up\\s_player_power_chargeattack_attack_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5295,6 +5335,14 @@
             }
         },
         {
+            "Key": "92466784-3b85-4415-8c1a-1d4c37a98b5d",
+            "Value": {
+                "id": "6d593c3a-3c59-4708-a58c-9d7ceb96ed7c",
+                "resourcePath": "sprites\\s_player_power_chargeattack_idle_up\\s_player_power_chargeattack_idle_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92953a01-6a5f-4277-9f1e-d2fb83fed716",
             "Value": {
                 "id": "50919c07-b8a2-4141-b8a5-0929c89c3dda",
@@ -5475,6 +5523,14 @@
             "Value": {
                 "id": "f18e6dcf-32d1-48c2-baa0-5abe81bfd790",
                 "resourcePath": "sprites\\s_small_heal_item_particle\\s_small_heal_item_particle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "99b196d8-b606-44e5-b515-038ee1ad1bdc",
+            "Value": {
+                "id": "3791518a-82fc-4852-901a-7d8816d7208d",
+                "resourcePath": "sprites\\s_player_chargeattack_start_up\\s_player_chargeattack_start_up.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5996,6 +6052,14 @@
                 "id": "542905de-aec4-4a08-a6d2-b64d8a6b4bb3",
                 "resourcePath": "objects\\o_level_garden_object_large_3\\o_level_garden_object_large_3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a76d219f-9951-4b95-8d1f-caf4fd4150c8",
+            "Value": {
+                "id": "eb5ea57e-d633-41b8-a4c9-9b497a7d1045",
+                "resourcePath": "sprites\\s_player_chargeattack_attack_up\\s_player_chargeattack_attack_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
