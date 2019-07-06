@@ -456,7 +456,7 @@ if state_ != player.sword3 {
 			break;
 			
 			case player.sword2:
-			if power_stance {
+			if power_stance and z==z_ground {
 				state_ = player.heavy_attack;
 			} else {
 				state_ = player.sword3;

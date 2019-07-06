@@ -30,6 +30,8 @@ switch state {
 		if ego_pts > 0  {
 			ego_pts -=0.05;
 		} else {
+			ego_add = 0;
+			ego_pts = 0;
 			state = 0;
 		}
 	}
