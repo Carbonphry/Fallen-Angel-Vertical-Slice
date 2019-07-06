@@ -3519,6 +3519,14 @@
             }
         },
         {
+            "Key": "5dbc3c25-4d07-4677-8428-0eaa5ad8d5c0",
+            "Value": {
+                "id": "99ee4690-e674-47d7-bf0b-9c3f04b3e70a",
+                "resourcePath": "sprites\\s_flameangel_executed\\s_flameangel_executed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e353dbd-1285-40fd-a013-aac821888ffa",
             "Value": {
                 "id": "5100ad90-fea5-450b-96da-2e426747cf06",
@@ -6367,6 +6375,14 @@
             }
         },
         {
+            "Key": "b395a03c-56cf-4848-898c-8e434b15cc86",
+            "Value": {
+                "id": "aeebb4d4-d67d-43d1-a4d9-df3ff6256c12",
+                "resourcePath": "sprites\\s_tankangel_executed\\s_tankangel_executed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b3bb3ac5-b82f-4507-b0d0-59113bae6bc5",
             "Value": {
                 "id": "9212e2b1-4cab-439a-b9eb-13b7ce3ca6ea",
@@ -7572,6 +7588,14 @@
                 "id": "32194b99-9859-4d87-a299-1cb152963ba8",
                 "resourcePath": "objects\\o_x_lock\\o_x_lock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d51010a5-f7bd-4570-aebd-e9db748dfbc9",
+            "Value": {
+                "id": "5c32a725-b71b-4230-8111-5d30b2b5bfa1",
+                "resourcePath": "sprites\\s_lancerangel_executed\\s_lancerangel_executed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
