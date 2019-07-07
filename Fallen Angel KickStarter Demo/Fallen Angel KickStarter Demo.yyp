@@ -1375,6 +1375,14 @@
             }
         },
         {
+            "Key": "209d77a9-f7e3-4d21-a954-c312a2966614",
+            "Value": {
+                "id": "ce7d995a-4d2b-46c6-8ad5-52a83c4c4fa1",
+                "resourcePath": "sprites\\s_tutorial_chargeattack_gpad\\s_tutorial_chargeattack_gpad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20b56a6c-73c9-472e-a4f6-7fa3e2a52014",
             "Value": {
                 "id": "4323c0ee-b396-4419-a90d-61ae1390a414",
@@ -3023,6 +3031,14 @@
             }
         },
         {
+            "Key": "4f0a48e7-2a41-4b96-b619-8f866c77dcc0",
+            "Value": {
+                "id": "7c45cb72-e4ce-4f1e-a4fd-ec2ea6822d92",
+                "resourcePath": "sprites\\s_tutorial_chargeattack\\s_tutorial_chargeattack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f1bec8c-6192-4ab4-9783-8bc378d3e19e",
             "Value": {
                 "id": "214c407d-1137-4fa8-b3e4-0651f6a4f067",
@@ -4388,6 +4404,14 @@
                 "id": "b0809e52-06c8-407d-b765-4b297eea8f74",
                 "resourcePath": "sprites\\s_tp_projectile_tp\\s_tp_projectile_tp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7294c45c-1934-432a-9001-91ca7e6dc1c6",
+            "Value": {
+                "id": "706a4449-73ee-4e13-bca2-f39d7fbe603d",
+                "resourcePath": "objects\\o_tuturial_chargeattack\\o_tuturial_chargeattack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
