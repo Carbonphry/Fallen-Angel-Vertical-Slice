@@ -2815,6 +2815,14 @@
             }
         },
         {
+            "Key": "4a779968-c5d4-4d6d-b8e7-a51dd286ade7",
+            "Value": {
+                "id": "08265a9b-892e-402c-a1be-e080b29b3d24",
+                "resourcePath": "sprites\\s_pride_demonmode\\s_pride_demonmode.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a874aac-1307-4c59-8dd0-b12acb1a8022",
             "Value": {
                 "id": "f7f82d81-5e41-4e9a-99b1-e73b827c38b5",
@@ -7103,6 +7111,14 @@
             }
         },
         {
+            "Key": "c0d936aa-2405-46a0-88f5-8543314ae999",
+            "Value": {
+                "id": "03d99d06-f251-456a-830e-1bd91fbd13fe",
+                "resourcePath": "views\\c0d936aa-2405-46a0-88f5-8543314ae999.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c0fe649f-582d-43ef-beb0-d3307e127ec6",
             "Value": {
                 "id": "a747cfb7-35e3-46e5-80b5-042296d4c88c",
@@ -9060,6 +9076,14 @@
                 "id": "5f84f426-fba9-4e5c-9228-851380996beb",
                 "resourcePath": "sprites\\s_level_protodung_puzzle_deactivated\\s_level_protodung_puzzle_deactivated.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f82d7b98-e7f5-4d68-ae47-4f45d3aadef9",
+            "Value": {
+                "id": "b5df4475-dc44-4cf8-8af9-1cfb30d817a8",
+                "resourcePath": "objects\\o_pride_meter_demonmode\\o_pride_meter_demonmode.yy",
+                "resourceType": "GMObject"
             }
         },
         {

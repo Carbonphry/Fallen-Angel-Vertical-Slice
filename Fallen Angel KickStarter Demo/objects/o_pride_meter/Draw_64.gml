@@ -21,6 +21,7 @@ switch state {
 		ego_pts =40;
 		state = 1;
 		sprite_index = s_hud_pride_max;
+		instance_create_layer(x +32 ,y +32,"UI", o_pride_meter_demonmode);
 	}
 	break;
 
