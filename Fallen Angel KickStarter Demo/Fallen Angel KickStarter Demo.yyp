@@ -1439,6 +1439,14 @@
             }
         },
         {
+            "Key": "2213bba1-5b85-4b57-8b28-a861c4c70f58",
+            "Value": {
+                "id": "7cab8985-de63-4420-a51d-53d0c69e6e2e",
+                "resourcePath": "sprites\\s_weapon_burst_inactive\\s_weapon_burst_inactive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "230f79f8-f3e5-42fe-95fc-8dab14d43b40",
             "Value": {
                 "id": "96fa9b86-8111-45ed-8261-d482e10e6730",
@@ -2719,6 +2727,14 @@
             }
         },
         {
+            "Key": "460c4aec-c468-461c-add7-28b2d47ba0a1",
+            "Value": {
+                "id": "fbc86284-84a7-49bd-ab95-4afedd5579f3",
+                "resourcePath": "sprites\\s_weapon_blade_active\\s_weapon_blade_active.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4705a387-6969-4ffe-b95e-267aa2cb8965",
             "Value": {
                 "id": "b7b164e3-a7a2-40f4-aaf1-e24cbb72f2ab",
@@ -2991,6 +3007,14 @@
             }
         },
         {
+            "Key": "4e75c80b-226b-4f3d-a011-11e6943dead9",
+            "Value": {
+                "id": "fe96024a-d8d3-458b-b5df-ef41b13c6c8b",
+                "resourcePath": "sprites\\s_weapon_blade_switch\\s_weapon_blade_switch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e8b16a9-8666-408e-815f-26bc835af1b5",
             "Value": {
                 "id": "ae782c81-ce76-4146-9b30-5fa39fc6ace7",
@@ -3164,6 +3188,14 @@
                 "id": "b52b0686-57fd-48dd-a377-79ea8ad6540d",
                 "resourcePath": "sprites\\s_player_ledge_down_on\\s_player_ledge_down_on.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "532fa754-e2ca-4518-b8d9-b67382a99a4f",
+            "Value": {
+                "id": "57d1032e-c1cb-4aca-8336-da4d2f0e8a06",
+                "resourcePath": "views\\532fa754-e2ca-4518-b8d9-b67382a99a4f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -5535,6 +5567,14 @@
             }
         },
         {
+            "Key": "9964025e-0122-4e59-aa79-79e12a6801c4",
+            "Value": {
+                "id": "7a105268-0880-4351-b856-d1b3cae21d42",
+                "resourcePath": "sprites\\s_weapon_burst_active\\s_weapon_burst_active.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99b196d8-b606-44e5-b515-038ee1ad1bdc",
             "Value": {
                 "id": "3791518a-82fc-4852-901a-7d8816d7208d",
@@ -6395,6 +6435,14 @@
             "Value": {
                 "id": "fdf19b14-d5f5-49f4-b5f0-7c9582c1d057",
                 "resourcePath": "sprites\\s_level_garden_object_medium_2\\s_level_garden_object_medium_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b1e03760-e9b8-4c8b-beed-fd30b0dbe103",
+            "Value": {
+                "id": "acdeaabf-38f5-46da-903e-ae59d4b22b62",
+                "resourcePath": "sprites\\s_weapon_burst_switch\\s_weapon_burst_switch.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8987,6 +9035,14 @@
             "Value": {
                 "id": "5f84f426-fba9-4e5c-9228-851380996beb",
                 "resourcePath": "sprites\\s_level_protodung_puzzle_deactivated\\s_level_protodung_puzzle_deactivated.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f841c97d-5922-4172-8303-97c11ae6c08e",
+            "Value": {
+                "id": "dcdcd544-5670-4007-91ac-f4f7207c7ee7",
+                "resourcePath": "sprites\\s_weapon_blade_inactive\\s_weapon_blade_inactive.yy",
                 "resourceType": "GMSprite"
             }
         },
