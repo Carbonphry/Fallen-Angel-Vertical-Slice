@@ -7,6 +7,7 @@
         "65e2b7a8-0414-4d86-b8b7-34a968f7f4b1",
         "c5b3afde-9749-4d1a-9e82-7871d80deef5",
         "34fde9ac-98b4-4ce0-8cd7-1630a5a76bbe",
+        "c92fad8f-b3ed-4add-8c28-aa4b964f045d",
         "1c3a563d-769c-4127-8ec0-bfee07515d25",
         "33d7853e-a533-4a66-a80e-ab9206c7585a",
         "8620fcc5-03df-45b4-a096-6d0acfc0fba5",
@@ -40,7 +41,8 @@
         "bd2de902-4417-4d12-b7a8-26591fde6abc",
         "b87e3253-8b88-4d79-a684-d3c8a05e92f8",
         "c0073d11-e790-452a-8afb-1907432fb831",
-        "bce23ac0-e8cc-4c99-9e9e-248d9c992bc7"
+        "bce23ac0-e8cc-4c99-9e9e-248d9c992bc7",
+        "dd46b3f0-b418-4351-8044-706ee7ae5fb7"
     ],
     "filterType": "GMSound",
     "folderName": "Player",
