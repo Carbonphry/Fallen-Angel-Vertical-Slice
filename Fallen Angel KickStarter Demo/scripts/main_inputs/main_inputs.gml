@@ -3,7 +3,7 @@ var _x_input = o_input.right_ - o_input.left_;
 var _y_input = o_input.down_ - o_input.up_; 
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
 var _attack_input = o_input.action_one_pressed_;
-var _evade_input = o_input.action_two_released_; //o_input.action_two_pressed_ 
+var _evade_input = o_input.action_four_; //o_input.action_two_pressed_ 
 var _glide_input = o_input.action_two_;
 var _parry_input = o_input.action_three_pressed_;
 var _jump_input  = o_input.action_four_pressed_;
@@ -146,10 +146,10 @@ if gliding {
 	z_speed_gravity = .2;
 	
 	
-	if power_stance {
+	/*if power_stance {
 		player_spd = 6;	
 	} else {
 		player_spd = 4;
-	}
+	}*/
 }	
 

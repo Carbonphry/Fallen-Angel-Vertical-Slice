@@ -6,9 +6,9 @@ down     = o_input.down_;
 if state_ == player.land {
 	var jump = false;
 } else {
-	
+	var jump = o_input.action_two_;
 	//scr_jump_input();
-	if o_input.action_two_ {
+	/*if o_input.action_two_ {
 	if o_input.alarm[8] <=0 {
 			o_input.alarm[8] = global.one_second*.15;
 	}
@@ -18,10 +18,10 @@ if state_ == player.land {
 	
 if o_input.alarm[8] == 1 { 
 	o_input.alarm[8] = -1;
-	var jump = o_input.action_two_;
+	
 } else { 
 	if z<=z_ground then var jump = false;
-}
+}*/
 	
 if z>z_ground  {
 	var jump = o_input.action_two_;
@@ -57,14 +57,18 @@ switch power_stance {
 
 	case true:
 	if z==z_ground {
-		walk_speed = player_spd*2;
+		walk_speed = player_spd*1.5;
 	} else {
-		walk_speed = player_spd;
+		walk_speed = player_spd*2;
 	}
 	break;
 	
 	case false:
-	walk_speed = player_spd;
+	if gliding {
+		walk_speed = player_spd*1.3;
+	} else {
+		walk_speed = player_spd;
+	}
 	break;
 
 }

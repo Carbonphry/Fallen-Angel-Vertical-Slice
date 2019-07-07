@@ -738,7 +738,7 @@
             "Key": "134c212f-920e-42ff-9244-8389c60a9e2d",
             "Value": {
                 "id": "3bd11739-48b9-4190-8320-4867f6394b7a",
-                "resourcePath": "sprites\\s_enemy_bar_life1\\s_enemy_bar_life1.yy",
+                "resourcePath": "sprites\\s_8_hp\\s_8_hp.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7843,6 +7843,14 @@
             "Value": {
                 "id": "2d66b795-36da-4a58-9366-ec689c11fa1c",
                 "resourcePath": "sprites\\s_button_new_game_selected\\s_button_new_game_selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d99d9e58-f7a1-413c-85a3-7d29ed40145c",
+            "Value": {
+                "id": "a84b8e3e-7a8a-4370-9799-e9cbe6eb5f8a",
+                "resourcePath": "sprites\\s_hp_bar_8\\s_hp_bar_8.yy",
                 "resourceType": "GMSprite"
             }
         },
