@@ -8151,6 +8151,14 @@
             }
         },
         {
+            "Key": "dde1d908-bdfd-4c18-a3b0-0215ea8d8ddd",
+            "Value": {
+                "id": "84e90b2e-9eee-4319-89ef-4ff52748a926",
+                "resourcePath": "sprites\\s_red_explosion_effect\\s_red_explosion_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de73f6fa-7819-47a8-9344-126146227b5a",
             "Value": {
                 "id": "814d7238-d368-46cf-94d0-69932def8800",
