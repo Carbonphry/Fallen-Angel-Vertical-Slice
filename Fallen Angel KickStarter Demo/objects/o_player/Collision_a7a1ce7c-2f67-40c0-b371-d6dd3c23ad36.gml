@@ -34,5 +34,12 @@ if hurtbox_entity_can_be_hit_by(other)
 	}
 	audio_play_sound(a_hurt, 6, false);
 	o_pride_meter.ego_add += PTS_HIT;
+	
+	if global.player_health <= 0 {
+		state_ = player.dead;
+		with (o_reticle) {
+			instance_destroy(o_reticle,false);
+		}
+	}
 }
 

@@ -10,3 +10,4 @@ if !instance_exists(o_fade_death) {
 if animation_hit_frame(11) {
 	image_speed = 0;
 }
+
