@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "12eadbab-7df7-4e9f-8c94-0770697443cd",
+            "Value": {
+                "id": "4c43561e-0ec2-4509-94c0-a21dcc0329b2",
+                "resourcePath": "objects\\o_tuturial_smash\\o_tuturial_smash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13092548-0250-45d9-940c-9dad05a6a9a7",
             "Value": {
                 "id": "1db24bd6-f92c-4a45-9fcc-0c9950e34255",
@@ -4511,6 +4519,14 @@
             }
         },
         {
+            "Key": "74d90320-dda5-4464-b0f5-2a384124fb42",
+            "Value": {
+                "id": "f75ab45c-bac7-410c-a937-ce105c91cf81",
+                "resourcePath": "sprites\\s_tutorial_smash\\s_tutorial_smash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74f42c7d-a66b-46c7-8aef-b0615657febf",
             "Value": {
                 "id": "b6d3f66d-1bcc-4e87-b606-29483f08bb7a",
@@ -5316,6 +5332,14 @@
                 "id": "48d2f43d-484b-4e59-91b4-b50e1b2f8271",
                 "resourcePath": "objects\\o_tp_projectile\\o_tp_projectile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8f5ac25a-09d5-4846-b531-e50652b7bb93",
+            "Value": {
+                "id": "d003fa3a-79ac-40a2-a67a-48f8df4f088f",
+                "resourcePath": "sprites\\s_tutorial_smash_gpad\\s_tutorial_smash_gpad.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

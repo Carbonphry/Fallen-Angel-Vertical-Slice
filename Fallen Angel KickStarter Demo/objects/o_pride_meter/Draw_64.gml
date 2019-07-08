@@ -10,7 +10,7 @@ switch state {
 		image_index = 0;
 		ego_pts = 0;
 	} else if ego_pts > 0 and ego_add <= 0 {
-		ego_pts -=0.05;
+		ego_pts -=0;
 	}
 	if ego_add > 0 {
 		ego_add-=.5;

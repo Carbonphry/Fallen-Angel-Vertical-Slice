@@ -55,10 +55,10 @@ show_volume = false;
 #macro DMG_THIRD_SWING 2
 #macro AIR_SWING_KNOCKFORWARD 0
 
-#macro PTS_ATTACK_1 3
-#macro PTS_ATTACK_2 4
-#macro PTS_ATTACK_3 5
-#macro PTS_ATTACK_SMASH 6 
-#macro PTS_PARRY 5 
-#macro PTS_HIT 3 
+#macro PTS_ATTACK_1 1
+#macro PTS_ATTACK_2 1
+#macro PTS_ATTACK_3 2
+#macro PTS_ATTACK_SMASH 3
+#macro PTS_PARRY 2 
+#macro PTS_HIT 2 
 
