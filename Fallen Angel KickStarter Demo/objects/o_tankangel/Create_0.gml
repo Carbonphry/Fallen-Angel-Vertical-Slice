@@ -16,7 +16,8 @@ enum tankangel {
 	jump_atk,
 	get_up,
 	lifted,
-	stun
+	stun,
+	executed
 }
 max_health_ = 15;
 health_ = max_health_;

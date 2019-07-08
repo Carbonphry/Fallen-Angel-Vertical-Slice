@@ -19,7 +19,7 @@ if hurtbox_entity_can_be_hit_by(other)
 	
 	if pulseanim > 0 {
 		health_ -= other.damage_*2;
-	} else if other.sprite_index != s_sword_hitbox and !other.stun {
+	} else if other.sprite_index != s_sword_hitbox and !other.stun  {
 		health_ -= other.damage_;
 	} else if other.sprite_index == s_sword_hitbox and state_ == lancer.stun {
 		health_ -= other.damage_;

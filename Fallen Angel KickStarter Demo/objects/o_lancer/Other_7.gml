@@ -15,3 +15,7 @@ if sprite_index == s_lancerangel_stun {
 if sprite_index == s_lancerangel_parry {
 	state_ = starting_state_;
 }
+
+if sprite_index == s_lancerangel_executed {
+	instance_destroy(id,true);
+}

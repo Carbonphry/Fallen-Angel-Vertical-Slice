@@ -32,3 +32,8 @@ pulse_tim = noone;
 
 last_x = x;
 last_y = y;
+
+knockback_direction = noone;
+knockback_ammount = noone;
+
+stp = 0;

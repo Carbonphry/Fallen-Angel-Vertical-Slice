@@ -16,7 +16,8 @@ enum flameangel
 	explosion,
 	get_up,
 	lifted,
-	stun
+	stun,
+	executed
 	
 }
 max_health_ = 8;

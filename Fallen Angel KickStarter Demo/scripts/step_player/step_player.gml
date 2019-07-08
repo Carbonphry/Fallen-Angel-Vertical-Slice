@@ -63,21 +63,6 @@ with instance_create_depth(x,y-z,depth+1,o_jump_mb) {
 switch power_stance {
 
 case false:
-sprite_[player.sword, dir.right] = s_player_attack_air_1;
-sprite_[player.sword, dir.up] = s_player_attack_air_1;
-sprite_[player.sword, dir.left] = s_player_attack_air_1;
-sprite_[player.sword, dir.down] = s_player_attack_air_1;
-
-sprite_[player.sword2, dir.right] = s_player_attack_air_2;
-sprite_[player.sword2, dir.up] = s_player_attack_air_2;
-sprite_[player.sword2, dir.left] = s_player_attack_air_2;
-sprite_[player.sword2, dir.down] = s_player_attack_air_2;
-
-sprite_[player.sword3, dir.right] = s_player_attack_air_3;
-sprite_[player.sword3, dir.up] = s_player_attack_air_3;
-sprite_[player.sword3, dir.left] = s_player_attack_air_3;
-sprite_[player.sword3, dir.down] = s_player_attack_air_3;
-
 sprite_[player.smash, dir.right] = s_player_startspin;
 sprite_[player.smash, dir.up] = s_player_startspin;
 sprite_[player.smash, dir.left] = s_player_startspin;
@@ -92,21 +77,6 @@ sprite_[player.land, dir.down] = s_player_jump_land_down;
 break;
 
 case true:
-sprite_[player.sword, dir.right] = s_player_power_attack_air_1;
-sprite_[player.sword, dir.up] = s_player_power_attack_air_1;
-sprite_[player.sword, dir.left] = s_player_power_attack_air_1;
-sprite_[player.sword, dir.down] = s_player_power_attack_air_1;
-
-sprite_[player.sword2, dir.right] = s_player_power_attack_air_2;
-sprite_[player.sword2, dir.up] = s_player_power_attack_air_2;
-sprite_[player.sword2, dir.left] = s_player_power_attack_air_2;
-sprite_[player.sword2, dir.down] = s_player_power_attack_air_2;
-
-sprite_[player.sword3, dir.right] = s_player_power_attack_air_3;
-sprite_[player.sword3, dir.up] = s_player_power_attack_air_3;
-sprite_[player.sword3, dir.left] = s_player_power_attack_air_3;
-sprite_[player.sword3, dir.down] = s_player_power_attack_air_3;
-
 sprite_[player.smash, dir.right] = s_player_power_smash_startspin;
 sprite_[player.smash, dir.up] = s_player_power_smash_startspin;
 sprite_[player.smash, dir.left] = s_player_power_smash_startspin;
@@ -162,37 +132,9 @@ if place_meeting(x,y-z,ledge_up) and direction_facing_before_jump == dir.up and 
 		}
 }
 
-} else {
-	sprite_[player.sword, dir.right] = s_player_attack_right_1;
-sprite_[player.sword, dir.up] = s_player_attack_up_1;
-sprite_[player.sword, dir.left] = s_player_attack_right_1;
-sprite_[player.sword, dir.down] = s_player_attack_down_1;
-
-sprite_[player.sword2, dir.right] = s_player_attack_right_2;
-sprite_[player.sword2, dir.up] = s_player_attack_up_2;
-sprite_[player.sword2, dir.left] = s_player_attack_right_2;
-sprite_[player.sword2, dir.down] = s_player_attack_down_2;
-
-sprite_[player.sword3, dir.right] = s_player_attack_right_3;
-sprite_[player.sword3, dir.up] = s_player_attack_up_3;
-sprite_[player.sword3, dir.left] = s_player_attack_right_3;
-sprite_[player.sword3, dir.down] = s_player_attack_down_3;
-}
+} 
 
 if power_stance {
-
-	if z == z_ground {
-		sprite_[player.sword, dir.right] = s_player_power_attack_1;
-		sprite_[player.sword, dir.up] = s_player_power_attack_1;
-		sprite_[player.sword, dir.left] = s_player_power_attack_1;
-		sprite_[player.sword, dir.down] = s_player_power_attack_1;
-
-		sprite_[player.sword2, dir.right] = s_player_power_attack_2;
-		sprite_[player.sword2, dir.up] = s_player_power_attack_2;
-		sprite_[player.sword2, dir.left] = s_player_power_attack_2;
-		sprite_[player.sword2, dir.down] = s_player_power_attack_2;
-	}
-	
 
 	sprite_[player.idle, dir.right] = s_player_power_idle;
 	sprite_[player.idle, dir.up] = s_player_power_idle_up;
@@ -255,23 +197,6 @@ if power_stance {
 	sprite_[player.heal, dir.down] = s_player_power_heal;
 	
 } else {
-	
-	if z == z_ground {
-		sprite_[player.sword, dir.right] = s_player_attack_right_1;
-		sprite_[player.sword, dir.up] = s_player_attack_up_1;
-		sprite_[player.sword, dir.left] = s_player_attack_right_1;
-		sprite_[player.sword, dir.down] = s_player_attack_down_1;
-
-		sprite_[player.sword2, dir.right] = s_player_attack_right_2;
-		sprite_[player.sword2, dir.up] = s_player_attack_up_2;
-		sprite_[player.sword2, dir.left] = s_player_attack_right_2;
-		sprite_[player.sword2, dir.down] = s_player_attack_down_2;
-
-		sprite_[player.sword3, dir.right] = s_player_attack_right_3;
-		sprite_[player.sword3, dir.up] = s_player_attack_up_3;
-		sprite_[player.sword3, dir.left] = s_player_attack_right_3;
-		sprite_[player.sword3, dir.down] = s_player_attack_down_3;
-	}
 	
 	sprite_[player.idle, dir.right] = s_player_idle;
 	sprite_[player.idle, dir.up] = s_player_idle_up;

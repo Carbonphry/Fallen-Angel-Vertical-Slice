@@ -33,11 +33,10 @@ if hurtbox_entity_can_be_hit_by(other)
 	} else {
 	if (!uninterruptible and !other.stun and state_ != flameangel.stun ) {
 		state_ = flameangel.hit;
-		
+		alarm[4] = global.one_second*.25;
 		if z == 0 {
-			var _knockback_direction = point_direction(other.x, other.y, x, y);
-			//set_movement(_knockback_direction, other.knockback_);
-			set_move_n(_knockback_direction, other.knockback_*2);
+			knockback_direction = point_direction(other.x, other.y, x, y);
+			knockback_ammount = other.knockback_;
 		}
 		
 	} else if other.stun {

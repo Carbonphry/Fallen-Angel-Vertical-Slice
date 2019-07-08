@@ -4,19 +4,33 @@
 //Execution
 if state_ == lancer.stun { 
 	
-	if o_input.action_one_ {
-		stp+=0.25;
-	}
+	var targ = instance_nearest(x,y,class_player);
+	if point_distance(x,y,targ.x,targ.y) < 20 {
 	
-	if stp > 12 {
-		o_player.state_ = player.execute;
-	}
+		if o_input.action_one_ {
+			stp+=0.25;
+		} else {
+			stp = 0;
+		}
 	
-	draw_sprite(s_hold_x,stp,x,y+20);
-} else {
-	stp = 0;
-}
+		if stp > 12 {
+			targ.state_ = player.execute;
+			state_ = lancer.executed;
+			if targ.x <= x {
+				targ.image_xscale = 1;
+			} else {
+				targ.image_xscale = -1;
+			}
+		}
+	
+		draw_sprite(s_hold_x,stp,x,y+20);
+	} else {
+		stp = 0;
+	}
 
+} else {
+		stp = 0;
+}
 
 
 draw_sprite(s_medium_shadow, 0, x, y+6);

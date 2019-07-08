@@ -1,6 +1,37 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited(); 
+//Execution
+if state_ == flameangel.stun { 
+	
+	var targ = instance_nearest(x,y,class_player);
+	if point_distance(x,y,targ.x,targ.y) < 20 {
+	
+		if o_input.action_one_ {
+			stp+=0.25;
+		} else {
+			stp = 0;
+		}
+	
+		if stp > 12 {
+			targ.state_ = player.execute;
+			state_ = flameangel.executed;
+			if targ.x <= x {
+				targ.image_xscale = 1;
+			} else {
+				targ.image_xscale = -1;
+			}
+		}
+	
+		draw_sprite(s_hold_x,stp,x,y+20);
+	} else {
+		stp = 0;
+	}
+
+} else {
+		stp = 0;
+}
+
 if alarm_get(8) > 0 {
 	var life_size = max(health_/max_health_,0);
 	//draw_text_color(x_bar_b+5/*x_bar_b+30*/,y_bar_b-14,"Holy Seraph Abdiel",c_white,c_yellow,c_white,c_yellow,1);

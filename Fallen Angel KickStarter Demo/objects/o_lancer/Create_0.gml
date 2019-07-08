@@ -17,7 +17,8 @@ enum lancer {
 	get_up,
 	lifted,
 	stun,
-	block
+	block,
+	executed
 }
 
 
@@ -62,4 +63,3 @@ thr = 9;
 pulse_tim = global.one_second*1.5;
 
 
-stp = 0;

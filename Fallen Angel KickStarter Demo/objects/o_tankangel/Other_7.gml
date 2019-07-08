@@ -16,3 +16,7 @@ if sprite_index == s_tankangel_getup {
 if sprite_index == s_tankangel_stun {
 	state_ = starting_state_;
 }
+
+if sprite_index == s_tankangel_executed {
+	instance_destroy(id,true);
+}

@@ -1,4 +1,97 @@
-image_speed = 1.12;
+//Attack Speed
+
+#region Animation Swaps
+
+switch power_stance  {
+
+	case false:
+	if z==z_ground {
+		sprite_[player.sword, dir.right] = s_player_attack_right_1;
+		sprite_[player.sword, dir.up] = s_player_attack_up_1;
+		sprite_[player.sword, dir.left] = s_player_attack_right_1;
+		sprite_[player.sword, dir.down] = s_player_attack_down_1;
+
+		sprite_[player.sword2, dir.right] = s_player_attack_right_2;
+		sprite_[player.sword2, dir.up] = s_player_attack_up_2;
+		sprite_[player.sword2, dir.left] = s_player_attack_right_2;
+		sprite_[player.sword2, dir.down] = s_player_attack_down_2;
+
+		sprite_[player.sword3, dir.right] = s_player_attack_right_3;
+		sprite_[player.sword3, dir.up] = s_player_attack_up_3;
+		sprite_[player.sword3, dir.left] = s_player_attack_right_3;
+		sprite_[player.sword3, dir.down] = s_player_attack_down_3;
+	} else if z>z_ground {
+		sprite_[player.sword, dir.right] = s_player_attack_air_1;
+		sprite_[player.sword, dir.up] = s_player_attack_air_1;
+		sprite_[player.sword, dir.left] = s_player_attack_air_1;
+		sprite_[player.sword, dir.down] = s_player_attack_air_1;
+
+		sprite_[player.sword2, dir.right] = s_player_attack_air_2;
+		sprite_[player.sword2, dir.up] = s_player_attack_air_2;
+		sprite_[player.sword2, dir.left] = s_player_attack_air_2;
+		sprite_[player.sword2, dir.down] = s_player_attack_air_2;
+
+		sprite_[player.sword3, dir.right] = s_player_attack_air_3;
+		sprite_[player.sword3, dir.up] = s_player_attack_air_3;
+		sprite_[player.sword3, dir.left] = s_player_attack_air_3;
+		sprite_[player.sword3, dir.down] = s_player_attack_air_3;
+	}
+	break;
+	
+	case true:
+	if z==z_ground {
+		sprite_[player.sword, dir.right] = s_player_power_attack_1;
+		sprite_[player.sword, dir.up] = s_player_power_attack_1;
+		sprite_[player.sword, dir.left] = s_player_power_attack_1;
+		sprite_[player.sword, dir.down] = s_player_power_attack_1;
+
+		sprite_[player.sword2, dir.right] = s_player_power_attack_2;
+		sprite_[player.sword2, dir.up] = s_player_power_attack_2;
+		sprite_[player.sword2, dir.left] = s_player_power_attack_2;
+		sprite_[player.sword2, dir.down] = s_player_power_attack_2;
+	} else if z>z_ground {
+		sprite_[player.sword, dir.right] = s_player_power_attack_air_1;
+		sprite_[player.sword, dir.up] = s_player_power_attack_air_1;
+		sprite_[player.sword, dir.left] = s_player_power_attack_air_1;
+		sprite_[player.sword, dir.down] = s_player_power_attack_air_1;
+
+		sprite_[player.sword2, dir.right] = s_player_power_attack_air_2;
+		sprite_[player.sword2, dir.up] = s_player_power_attack_air_2;
+		sprite_[player.sword2, dir.left] = s_player_power_attack_air_2;
+		sprite_[player.sword2, dir.down] = s_player_power_attack_air_2;
+
+		sprite_[player.sword3, dir.right] = s_player_power_attack_air_3;
+		sprite_[player.sword3, dir.up] = s_player_power_attack_air_3;
+		sprite_[player.sword3, dir.left] = s_player_power_attack_air_3;
+		sprite_[player.sword3, dir.down] = s_player_power_attack_air_3;
+	}
+	break;
+
+}
+
+
+#endregion
+
+switch state_ {
+
+	case player.sword:
+	var _attack_sound = choose(a_player_attack_1, a_player_attack_2, a_player_attack_3);
+	image_speed = 1.1;
+	break;
+	
+	case player.sword2:
+	var _attack_sound = choose(a_player_attack_1, a_player_attack_2, a_player_attack_3);
+	image_speed = 1.25;
+	break;
+	
+	case player.sword3:
+	var _attack_sound = a_player_attack_extradamage;
+	image_speed = 1.35;
+	break;
+
+}
+
+
 move_movement_entity(true);
 apply_friction_to_movement_entity();
 var _attack_input = o_input.action_one_pressed_;
@@ -59,7 +152,7 @@ if direction_facing_ == 2
 	image_xscale = -1;
 }
 
-var _attack_sound = choose(a_player_attack_1, a_player_attack_2, a_player_attack_3);
+
 
 if animation_hit_frame(1)
 {
@@ -104,7 +197,19 @@ if animation_hit_frame(1)
 			}
 		}
 	} else {
-		var _hitbox = create_hitbox(s_sword_hitbox, x, y-4, _angle, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
+		
+		switch power_stance {
+		
+			case false:
+			var _hitbox = create_hitbox(s_sword_hitbox, x, y-4, _angle, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
+			break;
+			
+			case true:
+			var _hitbox = create_hitbox(s_power_attack_hitbox, x, y-4, _angle, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
+			break;
+		
+		}
+		
 		if state_ == player.sword3 {
 			_hitbox.stun = true;
 		}
@@ -115,7 +220,7 @@ if animation_hit_frame(1)
 		{
 			if place_meeting(x,y,o_lancer) {
 				var lan = instance_nearest(x,y,o_lancer);
-				if lan.state_ != lancer.stun and !stun {
+				if lan.state_ != lancer.stun and !stun and !other.power_stance {
 					with other {
 						image_index = 0;
 						state_ = player.failHit;

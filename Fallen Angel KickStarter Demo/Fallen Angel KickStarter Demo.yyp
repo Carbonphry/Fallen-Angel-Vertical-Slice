@@ -4527,6 +4527,14 @@
             }
         },
         {
+            "Key": "7531906d-555a-4871-b02a-71f1277852e7",
+            "Value": {
+                "id": "4d22a229-a4a6-415e-89b1-7a5b09e2ea0c",
+                "resourcePath": "sprites\\s_sword_hitbox\\s_sword_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75605d60-a556-439c-bb46-202f111678a6",
             "Value": {
                 "id": "491f80f6-a796-46b4-aa51-82299b4592c5",
@@ -6562,7 +6570,7 @@
             "Key": "b3fb7d31-239c-42fd-b033-567a49f7d817",
             "Value": {
                 "id": "7ef278cb-f6bf-4656-ba8c-f0559e020fc7",
-                "resourcePath": "sprites\\s_sword_hitbox\\s_sword_hitbox.yy",
+                "resourcePath": "sprites\\s_power_attack_hitbox\\s_power_attack_hitbox.yy",
                 "resourceType": "GMSprite"
             }
         },

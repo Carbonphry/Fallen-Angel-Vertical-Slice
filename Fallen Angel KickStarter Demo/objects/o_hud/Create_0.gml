@@ -65,3 +65,6 @@ core_anim = 0;
 dmg_anim = 0;
 low_stam_anim = 0;
 show_stamina = false;
+
+
+weapon_sprite = s_weapon_blade_active;
