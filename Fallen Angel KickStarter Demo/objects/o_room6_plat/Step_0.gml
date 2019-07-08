@@ -12,11 +12,13 @@ switch  o_button_plat.state {
 		instance_deactivate_object(elevator_solid);
 		instance_deactivate_object(elevator_solid_2);
 		
+		
 	} else if y < 550 and o_player.state_ == player.not_playable {
 		o_player.state_ = player.idle;
 		instance_activate_object(elevator_solid);
 		instance_activate_object(elevator_solid_2);
 		depth = -251;
+		
 		
 	}
 	

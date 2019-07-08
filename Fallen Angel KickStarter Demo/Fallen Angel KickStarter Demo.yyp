@@ -2103,6 +2103,14 @@
             }
         },
         {
+            "Key": "345be8e3-5d7b-44cf-b168-e53a5825f080",
+            "Value": {
+                "id": "020354c4-154c-45ac-9e95-a4ec5d89fff9",
+                "resourcePath": "objects\\o_level_room6_elevatorlight\\o_level_room6_elevatorlight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34a68e9b-a3b3-4502-b7e7-297147962d62",
             "Value": {
                 "id": "9257e748-ea3d-4ef1-bb44-5d65d7ca0766",
@@ -2164,6 +2172,14 @@
                 "id": "d464e2d9-201e-4b17-a038-e772c81bcc1e",
                 "resourcePath": "scripts\\state_ram\\state_ram.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "35c08c8d-6066-48c4-8fcf-9c684de61a49",
+            "Value": {
+                "id": "e4d62a42-e8b8-4619-9755-696226ef0031",
+                "resourcePath": "sprites\\s_level_intro_room6_elevatorlight\\s_level_intro_room6_elevatorlight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
