@@ -10,7 +10,9 @@
         "ffb508e8-52a1-457a-a1d1-20a16167b88d",
         "74f42c7d-a66b-46c7-8aef-b0615657febf",
         "8fee1cdc-3ea2-4b64-a28e-cced01122472",
-        "936d6303-1c3d-41fa-944c-31b638325033"
+        "8f952e07-162a-4dc8-8926-c5d9c5d5a8fd",
+        "936d6303-1c3d-41fa-944c-31b638325033",
+        "68e39b61-bae9-4c83-90c1-5232ede36d05"
     ],
     "filterType": "GMSprite",
     "folderName": "Burst",

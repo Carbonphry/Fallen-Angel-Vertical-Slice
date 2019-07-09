@@ -4071,6 +4071,14 @@
             }
         },
         {
+            "Key": "68e39b61-bae9-4c83-90c1-5232ede36d05",
+            "Value": {
+                "id": "e4759a26-37cd-4474-b460-5e5f8b6e7afb",
+                "resourcePath": "sprites\\s_projectile_hit_critical\\s_projectile_hit_critical.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68fd3054-08b6-4d79-8837-bb71acb5c394",
             "Value": {
                 "id": "421299ae-f6ba-404b-8507-ddd0bc682845",
@@ -4927,6 +4935,14 @@
             }
         },
         {
+            "Key": "82763870-7f86-4372-857e-c531aae10dcd",
+            "Value": {
+                "id": "c310cbd0-362d-434c-a375-8ac091961cba",
+                "resourcePath": "sprites\\s_player_dash_parry\\s_player_dash_parry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "82a68e22-b6e2-4f59-a84c-58b291384760",
             "Value": {
                 "id": "1ff31757-f092-4125-bd66-0446c47af6e6",
@@ -5375,6 +5391,14 @@
             }
         },
         {
+            "Key": "8f952e07-162a-4dc8-8926-c5d9c5d5a8fd",
+            "Value": {
+                "id": "7092bc0d-93c4-4f61-90d8-f387a7822967",
+                "resourcePath": "sprites\\s_player_burst_projectile_critical\\s_player_burst_projectile_critical.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8fb918be-af54-43ae-ae6d-f67492c2bd39",
             "Value": {
                 "id": "b0955f4c-df1a-4933-85c2-7c281247b508",
@@ -5514,7 +5538,7 @@
             "Key": "936d6303-1c3d-41fa-944c-31b638325033",
             "Value": {
                 "id": "de279dc9-fb31-45e4-a6f6-db1d549ab30a",
-                "resourcePath": "sprites\\s_player_attack_projectile_hit\\s_player_attack_projectile_hit.yy",
+                "resourcePath": "sprites\\s_projectile_hit\\s_projectile_hit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7819,6 +7843,14 @@
             "Value": {
                 "id": "5c32a725-b71b-4230-8111-5d30b2b5bfa1",
                 "resourcePath": "sprites\\s_lancerangel_executed\\s_lancerangel_executed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d546652e-a83e-4f27-81b1-5e6156d868d8",
+            "Value": {
+                "id": "8446aa5f-445f-4f84-bd92-0b393fbe6b50",
+                "resourcePath": "sprites\\s_player_power_burst_projectile_critical\\s_player_power_burst_projectile_critical.yy",
                 "resourceType": "GMSprite"
             }
         },
