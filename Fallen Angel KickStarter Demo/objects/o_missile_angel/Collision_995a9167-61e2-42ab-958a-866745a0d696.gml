@@ -59,7 +59,7 @@ if hurtbox_entity_can_be_hit_by(other)
 
 /*if other.lift and state_ != missangel.die and z == 0 {
 	jump = true;
-	create_animation_effect(s_player_attack_projectile_hit, x, y-8, 1, true);
+	create_animation_effect(s_projectile_hit, x, y-8, 1, true);
 	instance_create_layer(x-irandom_range(20, -20), y-irandom_range(25, 0), "Effects", o_blood_burst);
 	instance_create_layer(x-irandom_range(20, -20), y-irandom_range(25, 0), "Effects", o_blood_burst);
 	add_screenshake(4,12);

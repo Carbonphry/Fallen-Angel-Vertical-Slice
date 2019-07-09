@@ -113,7 +113,7 @@ if other.toground {
 
 if other.lift and state_ != lancer.die and z == 0 {
 	jump = true;
-	create_animation_effect(s_player_attack_projectile_hit, x, y-8, 1, true);
+	create_animation_effect(s_projectile_hit, x, y-8, 1, true);
 	//instance_create_layer(x-irandom_range(20, -20), y-irandom_range(25, 0), "Effects", o_blood_burst);
 	//instance_create_layer(x-irandom_range(20, -20), y-irandom_range(25, 0), "Effects", o_blood_burst);
 	//bleed_ = false;

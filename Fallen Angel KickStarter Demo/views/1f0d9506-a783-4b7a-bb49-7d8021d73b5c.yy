@@ -9,7 +9,8 @@
         "2a276ea4-8311-46d1-9abc-bd08598737df",
         "17493b34-7ade-4bb3-a39a-1ac404a10a73",
         "e6c8aa63-f8d8-46d8-8a27-40da63252b9c",
-        "76099e78-94e8-4b77-9abd-b1a73e9940f4"
+        "76099e78-94e8-4b77-9abd-b1a73e9940f4",
+        "82763870-7f86-4372-857e-c531aae10dcd"
     ],
     "filterType": "GMSprite",
     "folderName": "Parry",
