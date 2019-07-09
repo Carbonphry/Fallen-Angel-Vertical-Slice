@@ -217,4 +217,5 @@ if sprite_index == s_player_power_chargeattack_start_up {
 
 if state_ == player.execute {
 	state_ = starting_state_;
+	iframe = false;
 }

@@ -174,10 +174,10 @@ if animation_hit_frame(1)
 	var _life = 3;
 	if state_ != player.sword3 {
 		var _damage = DMG_SWING;
-		var _knockback = 4;
+		var _knockback = 1;
 	} else {
 		var _damage = DMG_THIRD_SWING;
-		var _knockback = 6;
+		var _knockback = 1;
 	}
 	
 	if z > z_ground {
@@ -294,7 +294,11 @@ if z>z_ground  {
 	var jump = o_input.action_two_;
 }
 var walk_speed, jump_speed;
-walk_speed = 8;
+if power_stance {
+	walk_speed = 16;
+} else {
+	walk_speed = 8;
+}
 jump_speed = 3;
 left = 0;
 up = 0;
