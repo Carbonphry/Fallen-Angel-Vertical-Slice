@@ -114,7 +114,7 @@
             "Key": "036e6834-b0f4-4b8b-9de9-cc4081ea9e66",
             "Value": {
                 "id": "b1a85c8b-eda6-4b8b-8947-e0819f811989",
-                "resourcePath": "sprites\\s_tutorial_power_stance\\s_tutorial_power_stance.yy",
+                "resourcePath": "sprites\\s_tutorial_demonmode\\s_tutorial_demonmode.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4991,6 +4991,14 @@
             }
         },
         {
+            "Key": "84389719-a008-454f-b629-2e7ed73471f4",
+            "Value": {
+                "id": "7a9c6a43-4176-4495-8f4b-03c1ede63f2d",
+                "resourcePath": "sprites\\s_tutorial_demonmode_gpad\\s_tutorial_demonmode_gpad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "845ddaf9-76d8-44f9-bb1e-3272e8240432",
             "Value": {
                 "id": "9682dd7d-5e53-4b44-babb-bd3a2f9e6e31",
@@ -8115,6 +8123,14 @@
             "Value": {
                 "id": "76f94934-3c1a-44ff-9250-366123b78457",
                 "resourcePath": "objects\\o_inventory_item\\o_inventory_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dbbddbae-d150-42c2-b8b8-e2cb99ba33e5",
+            "Value": {
+                "id": "475ec407-dee7-4136-8b75-87dfbfaf7a31",
+                "resourcePath": "objects\\o_tutorial_demonmode\\o_tutorial_demonmode.yy",
                 "resourceType": "GMObject"
             }
         },

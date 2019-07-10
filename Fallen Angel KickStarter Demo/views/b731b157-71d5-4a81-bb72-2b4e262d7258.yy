@@ -24,7 +24,6 @@
         "8de1dd2d-c42a-4883-8630-9c4d137e8534",
         "0b5f28b8-4b54-4b7e-9c08-1eb57ad6132b",
         "f37b2f24-89ea-4190-adcb-c52c60564a8b",
-        "036e6834-b0f4-4b8b-9de9-cc4081ea9e66",
         "4b7375a4-ce77-491e-a15b-d7ad9a3a4679",
         "6cc14415-2dff-4fa7-8adf-dfaf46c7ae53",
         "b9da2690-eed1-4cff-bb46-ceafcc4e2e0c",
@@ -36,7 +35,9 @@
         "6751d382-0903-4046-abf6-bc7c6570bf20",
         "5e4f5057-987b-4a77-868d-c4371c3ce50c",
         "5627b6a0-017b-4618-bde7-5387c27dd910",
-        "5c8305f4-bfe7-4d8a-9b95-f03def3695db"
+        "5c8305f4-bfe7-4d8a-9b95-f03def3695db",
+        "84389719-a008-454f-b629-2e7ed73471f4",
+        "036e6834-b0f4-4b8b-9de9-cc4081ea9e66"
     ],
     "filterType": "GMSprite",
     "folderName": "Tutorial Sprites",
