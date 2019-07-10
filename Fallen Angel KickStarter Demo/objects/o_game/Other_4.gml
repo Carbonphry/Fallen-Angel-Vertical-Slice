@@ -62,7 +62,7 @@ switch (room) {
 	#endregion
 	//////////////////////
 	
-	case r_intro:
+	case r_intro_room1:
 	if !audio_is_playing(a_level_intro_room1_beach) {
 		audio_play_sound(a_level_intro_room1_beach,2,true); 
 	}
@@ -71,7 +71,7 @@ switch (room) {
 	audio_stop_sound(a_level_intro_room2and3_waterfall);
 	break;
 	
-	case r_room2:
+	case r_intro_room2:
 	if !audio_is_playing(a_level_intro_room2and3_waterfall) {
 		audio_play_sound(a_level_intro_room2and3_waterfall,5,true);
 	}
@@ -82,12 +82,12 @@ switch (room) {
 
 	break;
 	
-	case r_room3:
+	case r_intro_room3:
 	
 	audio_stop_sound(a_level_intro_room4_tower);
 	break;
 	
-	case r_room4:
+	case r_intro_room4:
 	
 	audio_stop_sound(a_level_intro_room5_towerinterior);
 	audio_stop_sound(a_level_intro_room2and3_waterfall);
@@ -96,7 +96,7 @@ switch (room) {
 	}
 	break;
 	
-	case r_room5:
+	case r_intro_room5:
 	global.room4block = false;
 	audio_stop_sound(a_level_intro_room4_tower);
 	audio_stop_sound(a_level_intro_room6_towerexterior);
@@ -105,7 +105,7 @@ switch (room) {
 	}
 	break;
 	
-	case r_room6:
+	case r_intro_room6:
 	global.room5block = false;
 	
 	audio_stop_sound(a_level_intro_room6_towerexterior);
@@ -114,7 +114,7 @@ switch (room) {
 	}
 	break;
 	
-	case r_room7:
+	case r_intro_room7:
 	audio_stop_sound(a_level_intro_music); 
 	audio_stop_sound(a_music_abdiel); 
 	break;

@@ -32,12 +32,12 @@ if o_input.select_
 			show_debug_message("Continue");
 			break;*/
 		case options.new_game:
-			room_goto(r_intro); //Select to start at 
+			room_goto(r_intro_room1); //Select to start at 
 			//room_goto(r_protodung);
 			break;
 		case options.continue_game:
 			/*global.coop = true;
-			room_goto(r_intro);*/
+			room_goto(r_intro_room1);*/
 			//show_debug_message("Credits");
 			break;
 		case options.quit:

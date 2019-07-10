@@ -53,7 +53,7 @@ switch room {
 	break;
 
 	
-	case r_room4:
+	case r_intro_room4:
 		
 	switch spawnR4 {
 		
@@ -84,7 +84,7 @@ switch room {
 	
 	break;
 	
-	case r_room5:
+	case r_intro_room5:
 	
 		with instance_create_layer(120,370,"Instances", o_enemy_portal) {
 			enemy_ = o_cherub;
@@ -101,7 +101,7 @@ switch room {
 		break;
 	break;
 	
-	case r_room7:
+	case r_intro_room7:
 	
 	switch spawnR7 {
 	

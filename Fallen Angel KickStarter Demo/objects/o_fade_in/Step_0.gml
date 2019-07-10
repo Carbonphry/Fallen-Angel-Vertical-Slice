@@ -22,8 +22,8 @@ if (image_alpha >= .9) {
 			start_ = fromGardenToprot;
 			break;
 			
-			case r_intro:
-			room_ = r_room2;
+			case r_intro_room1:
+			room_ = r_intro_room2;
 			start_ = room1to2;
 			break;
 		

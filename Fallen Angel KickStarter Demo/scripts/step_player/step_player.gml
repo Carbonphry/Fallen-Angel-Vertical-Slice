@@ -263,7 +263,7 @@ var offset = sprite_height-sprite_yoffset;
 if state_ == player.dead {
 	depth = -9999;
 } else {
-	/*if room == r_intro { 
+	/*if room == r_intro_room1 { 
 		depth = 950;
 	} else {
 		depth = -y - z;

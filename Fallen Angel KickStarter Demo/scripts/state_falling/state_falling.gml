@@ -5,16 +5,16 @@ global.auto_jump_ = false;
 image_speed = .8;
 switch room {
 	
-	case r_room2:
-	case r_room3:
+	case r_intro_room2:
+	case r_intro_room3:
 	depth = 1350;
 	break;
 	
-	case r_room6:
+	case r_intro_room6:
 	depth = 850;
 	break;
 	
-	case r_room7:
+	case r_intro_room7:
 	depth = 750;
 	break;
 }
