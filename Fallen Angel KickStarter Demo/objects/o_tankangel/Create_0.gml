@@ -62,3 +62,4 @@ thr = 13;
 
 pulse_tim = global.one_second*1.2;
 
+dead = false;

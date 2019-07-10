@@ -1,6 +1,12 @@
 /// @description Jump
-sprite_index = s_tankangel_jump;
-image_speed = .8;
+if dead {
+	sprite_index = s_tankangel_die;
+	image_speed = .8;
+} else {
+	sprite_index = s_tankangel_jump;
+	image_speed = .8;
+}
+
 /*
 if !onAir {
 	jumpdir = point_direction(x,y,targetX,targetY);
@@ -14,7 +20,7 @@ if !onAir {
 }
 */
 //image_xscale = sign(face);
-if animation_hit_frame(1) and animation_hit_frame(2) and animation_hit_frame(3){
+if animation_hit_frame(1) and animation_hit_frame(2) and animation_hit_frame(3) and !dead {
 	var target = instance_nearest(x,y,class_player);
 	targetX = target.x;
 	targetY = target.y;
@@ -29,7 +35,7 @@ if animation_hit_frame(1) and animation_hit_frame(2) and animation_hit_frame(3){
 	
 }
 
-if animation_hit_frame(6) {
+if animation_hit_frame(6) and !dead {
 	onAir = true;
 	distanceTotal = point_distance(x,y,targetX,targetY);
 	T_ = current_time;
@@ -79,7 +85,7 @@ if onAir {
 	//show_debug_message(string(t));
 } 
 
-if animation_hit_frame(16) {
+if animation_hit_frame(16) and !dead {
 	audio_play_sound(a_tankangel_attack, 5, false);
 	onAir = false;
 	var _damage = 2;
@@ -92,6 +98,14 @@ if animation_hit_frame(16) {
 	//y = y-z
 	speed_ = 0;
 	
+} 
+
+if animation_hit_frame(11) and dead {
+	onAir = false;
+	z = 0;
+	speed_ = 0;
+	instance_destroy(id,true);
+	exit;
 }
 
 /*if animation_hit_frame(16) {

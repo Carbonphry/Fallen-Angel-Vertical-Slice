@@ -4,10 +4,14 @@ if !instance_exists(o_enemy) and !instance_exists(o_enemy_portal) {
 	state = 1;
 	sprite_index = s_guardcube_deactivated;
 } else {
-	state = 2;
+	if state != 2 {
+		state = 2;
+		image_index = 0;
+	}
 }
 
-if state == 2 and sprite_index == s_guardcube_startactivate {
+if state == 2 and sprite_index != s_guardcube_activated  {
+	sprite_index = s_guardcube_startactivate
 	mask_index = sprite_index;
 	image_speed = .8;
 	depth = -y;

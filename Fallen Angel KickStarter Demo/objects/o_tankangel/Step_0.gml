@@ -1,4 +1,4 @@
-if health_ <= 0 && state_ != enemy.hit 
+if health_ <= 0 && state_ != enemy.hit  && state_ != tankangel.jump
 {
 	if state_ != tankangel.die {
 		state_ = tankangel.die;
@@ -47,15 +47,15 @@ if alarm_get(11) >0 {
 
 if !levitate {
 
-z += z_speed;
-z_speed -= z_speed_gravity;
+	z += z_speed;
+	z_speed -= z_speed_gravity;
 
 
-if z <= z_ground
-{
-    z = z_ground;
-    z_speed = 0;
-}
+	if z <= z_ground
+	{
+	    z = z_ground;
+	    z_speed = 0;
+	}
 }
 
 

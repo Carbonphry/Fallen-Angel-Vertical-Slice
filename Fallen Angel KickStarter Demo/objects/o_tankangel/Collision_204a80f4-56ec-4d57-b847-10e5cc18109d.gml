@@ -36,10 +36,14 @@ if hurtbox_entity_can_be_hit_by(other)
 	create_animation_effect(impact_effect_, x_, y_-14, 1, true);
 	if health_ <= 0 {
 		image_index = 0;
-		state_ = tankangel.die;	
+		if state_ != tankangel.jump and !dead {
+			state_ = tankangel.die;	
+		} else {
+			dead = true;
+		}
 		global.freeze = 1;
 	} else {
-	if (!uninterruptible and !other.lift and !other.stun) {
+	if (!uninterruptible and !other.lift and !other.stun and !dead) {
 		state_ = tankangel.hit;
 		
 		if z == 0 {
@@ -48,7 +52,7 @@ if hurtbox_entity_can_be_hit_by(other)
 			set_move_n(_knockback_direction, other.knockback_*2);
 		}
 		
-	} else if other.stun {
+	} else if other.stun and !dead {
 		
 		switch state_ {
 		
