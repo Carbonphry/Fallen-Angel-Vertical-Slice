@@ -1,7 +1,24 @@
 gml_pragma("forceinline");
 image_speed = .8;
 image_xscale = 1;
-	
+
+switch power_stance {
+
+	case false:
+	sprite_[player.trigger, dir.right] = s_player_burst_right;
+	sprite_[player.trigger, dir.up] = s_player_burst_up;
+	sprite_[player.trigger, dir.left] = s_player_burst_left;
+	sprite_[player.trigger, dir.down] = s_player_burst_down;
+	break;
+
+	case true:
+	sprite_[player.trigger, dir.right] = s_player_power_burst_right;
+	sprite_[player.trigger, dir.up] = s_player_power_burst_up;
+	sprite_[player.trigger, dir.left] = s_player_power_burst_left;
+	sprite_[player.trigger, dir.down] = s_player_power_burst_down;
+	break;
+}
+
 if triggerCount == 0 {
 		
 		switch global.gamepad_active {
@@ -33,12 +50,11 @@ if triggerCount == 0 {
 		triggerCount = 1;
 		
 	} else {
-		
-		
+			
 		switch direction_facing_ {
 	
 			case dir.right:
-			draw_sprite_ext(s_projectile_reticle,0,x-1,y-17,1,1,mouseDir,c_white,1);
+			draw_sprite_ext(s_projectile_reticle,triggerCount,x-1,y-17,1,1,mouseDir,c_white,1);
 			break;
 	
 			case dir.left:
@@ -76,31 +92,39 @@ if triggerCount == 0 {
 		direction_facing_ = 0;
 	}
 	
-	switch direction_facing_ {
+	switch power_stance {
+
+		case false:
+		var burst_arm = s_player_burst_arm;
+		break;
+
+		case true:
+		var burst_arm = s_player_power_burst_arm;
+		break;
+	}
 	
+	switch direction_facing_ {
+			
 			case dir.right:
+			draw_sprite_ext(burst_arm,image_index,x-1,y-17,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
-			draw_sprite_ext(s_player_power_burst_arm,image_index,x-1,y-17,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			break;
 	
 			case dir.left:
-			draw_sprite_ext(s_player_power_burst_arm, image_index,x-2,y-21,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, image_index,x-2,y-21,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 			break;
 	
 			case dir.up:
-			draw_sprite_ext(s_player_power_burst_arm, image_index,x+7,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, image_index,x+7,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 			break;
 	
 			case dir.down:
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
-			draw_sprite_ext(s_player_power_burst_arm, image_index,x-5,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, image_index,x-5,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			break;
 	}
-	
-	
-	
 	
 	if triggerCount == 7 {
 		shoot_trigger();

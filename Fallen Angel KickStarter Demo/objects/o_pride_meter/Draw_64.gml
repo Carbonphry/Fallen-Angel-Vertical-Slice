@@ -5,8 +5,8 @@ if !instance_exists(o_player) then exit;
 switch state {
 
 	case 0:
-	image_index = ego_pts;
-	if ego_pts <=0 or image_index <= 0 {
+	
+	if ego_pts <=0  {
 		image_index = 0;
 		ego_pts = 0;
 	} else if ego_pts > 0 and ego_add <= 0 {
@@ -17,25 +17,37 @@ switch state {
 		ego_pts += .5;
 	}
 
-	if ego_pts > 40 {
+	if ego_pts >= 40 {
 		ego_pts =40;
-		state = 1;
+		//state = 1;
 		sprite_index = s_hud_pride_max;
+		//instance_create_layer(-200 ,-100,"UI", o_pride_meter_demonmode);
+	} else {
+		image_index = ego_pts;
+		sprite_index = s_hud_pride;
+	}
+	
+	if o_input.action_six_ and ego_pts == 40 {
+		state = 1;
 		instance_create_layer(-200 ,-100,"UI", o_pride_meter_demonmode);
 	}
 	break;
 
 	case 1:
-	if sprite_index != s_hud_pride_max {
-		image_index = round(ego_pts);
+	
+		//image_index = round(ego_pts);
+		
 		if ego_pts > 0  {
 			ego_pts -=0.05;
 		} else {
 			ego_add = 0;
 			ego_pts = 0;
+			
+		}
+		if !instance_exists(o_pride_meter_demonmode) {
 			state = 0;
 		}
-	}
+	
 	break;
 
 

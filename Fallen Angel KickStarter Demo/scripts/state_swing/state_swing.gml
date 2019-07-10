@@ -76,17 +76,17 @@ switch state_ {
 
 	case player.sword:
 	var _attack_sound = choose(a_player_attack_1, a_player_attack_2, a_player_attack_3);
-	image_speed = 1.1;
+	image_speed = 1;
 	break;
 	
 	case player.sword2:
 	var _attack_sound = choose(a_player_attack_1, a_player_attack_2, a_player_attack_3);
-	image_speed = 1.25;
+	image_speed = 1.15;
 	break;
 	
 	case player.sword3:
 	var _attack_sound = a_player_attack_extradamage;
-	image_speed = 1.35;
+	image_speed = 1.30;
 	break;
 
 }
@@ -95,7 +95,7 @@ switch state_ {
 move_movement_entity(true);
 apply_friction_to_movement_entity();
 var _attack_input = o_input.action_one_pressed_;
-var _evade_input = o_input.action_three_;
+var _evade_input = o_input.action_four_;
 var _parry_input = 0//o_input.action_three_pressed_;
 var	r_xaxis = gamepad_axis_value(0, gp_axisrh);
 var	r_yaxis = gamepad_axis_value(0, gp_axisrv);
@@ -494,7 +494,7 @@ if _evade_input >= .7 and global.player_stamina >= evade_stamina_cost_ and anim_
 	audio_play(_evade_sound);
 }
 
-if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground and anim_cancel {
+/*if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground and anim_cancel {
 	attacking_ = false;
 	image_index = 0;
 	switch power_stance {
@@ -511,7 +511,7 @@ if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground and 
 		}
 		break;
 	}
-}
+}*/
 //Right Stick
 if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER and z == z_ground and anim_cancel {
 	attacking_ = false;

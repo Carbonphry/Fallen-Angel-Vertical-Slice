@@ -51,7 +51,11 @@ if _heal_input and o_hud.core_count > 0 and z == z_ground and global.player_heal
 if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground {
 	
 	image_index = 0;
-	switch power_stance {
+	if o_input.alarm[2] <= 0 {
+			global.player_stamina -= COST_TRIGGER;
+			state_ = player.trigger;
+	}
+	/*switch power_stance {
 		case false:
 		global.player_stamina -= COST_PARRY;
 		audio_play(a_player_parrythrow);
@@ -64,8 +68,9 @@ if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground {
 			state_ = player.trigger;
 		}
 		break;
-	}
+	}*/
 }
+
 //Right Stick
 if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER and z == z_ground {
 	switch power_stance {
