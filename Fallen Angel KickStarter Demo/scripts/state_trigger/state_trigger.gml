@@ -54,19 +54,19 @@ if triggerCount == 0 {
 		switch direction_facing_ {
 	
 			case dir.right:
-			draw_sprite_ext(s_projectile_reticle,triggerCount,x-1,y-17,1,1,mouseDir,c_white,1);
+			draw_sprite_ext(s_projectile_reticle,image_index,x-1,y-17,1,1,mouseDir,c_white,1);
 			break;
 	
 			case dir.left:
-			draw_sprite_ext(s_projectile_reticle,0,x-2,y-21,1,1,mouseDir,c_white,1);
+			draw_sprite_ext(s_projectile_reticle,image_index,x-2,y-21,1,1,mouseDir,c_white,1);
 			break;
 	
 			case dir.up:
-			draw_sprite_ext(s_projectile_reticle,0,x+7,y-19,1,1,mouseDir,c_white,1);
+			draw_sprite_ext(s_projectile_reticle,image_index,x+7,y-19,1,1,mouseDir,c_white,1);
 			break;
 	
 			case dir.down:
-			draw_sprite_ext(s_projectile_reticle,0,x-5,y-19,1,1,mouseDir,c_white,1);
+			draw_sprite_ext(s_projectile_reticle,image_index,x-5,y-19,1,1,mouseDir,c_white,1);
 			break;
 	}
 	
