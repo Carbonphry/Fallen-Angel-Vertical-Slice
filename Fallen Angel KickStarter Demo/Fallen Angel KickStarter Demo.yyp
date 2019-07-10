@@ -1751,6 +1751,14 @@
             }
         },
         {
+            "Key": "2be833c1-c19f-488e-adcf-d6defc2920a8",
+            "Value": {
+                "id": "fd844cb0-78f5-4124-b058-cd5c2f8d4166",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room_2structure\\o_level_gabriel_ancientcity_room_2structure.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c02a9b2-dea5-4ab4-b5e5-cd9e217c532b",
             "Value": {
                 "id": "bdedfd2c-430a-4bc9-bfbc-6f39f4db6e49",
@@ -2140,6 +2148,14 @@
                 "id": "020354c4-154c-45ac-9e95-a4ec5d89fff9",
                 "resourcePath": "objects\\o_level_room6_elevatorlight\\o_level_room6_elevatorlight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3462ba3b-42fc-4f50-bbdf-55ef4b69afa0",
+            "Value": {
+                "id": "c6d4a18e-d302-4a1f-83be-12cca5457548",
+                "resourcePath": "rooms\\r_gabriel_ancientcity_room2\\r_gabriel_ancientcity_room2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -4284,6 +4300,14 @@
                 "id": "48d850c1-fed7-4041-86be-7161b8d7687b",
                 "resourcePath": "sounds\\a_teleport_fail\\a_teleport_fail.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6d817224-a5e5-432b-aea6-732af55f6157",
+            "Value": {
+                "id": "ceaa7890-0612-42b4-b839-e172ac5a2b92",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room2_cliff\\o_level_gabriel_ancientcity_room2_cliff.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7391,6 +7415,14 @@
             }
         },
         {
+            "Key": "c0fe9bf7-a141-43f1-8bb1-8bf555c7581a",
+            "Value": {
+                "id": "64318dce-a44e-488f-899b-0f04f55c25b3",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_cliff1\\s_level_gabriel_ancientcity_room2_cliff1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c14ee1f0-5007-4cb5-ac75-e477ee57142f",
             "Value": {
                 "id": "141f9ad7-07f4-491a-a963-10f0f552b50c",
@@ -8244,6 +8276,14 @@
                 "id": "2b0f10bb-6185-4217-9fc7-57e1581c9f61",
                 "resourcePath": "fonts\\fn_10\\fn_10.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "da26bda0-3207-419f-a577-58a5b2469a50",
+            "Value": {
+                "id": "387427fe-a861-499a-9fdf-09fd9a53a3a7",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_cliff\\s_level_gabriel_ancientcity_room2_cliff.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
