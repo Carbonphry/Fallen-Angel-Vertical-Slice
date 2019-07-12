@@ -1,8 +1,8 @@
 {
-    "id": "2be833c1-c19f-488e-adcf-d6defc2920a8",
+    "id": "49705e69-055e-4f25-a1fa-23cc46e14f09",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_level_gabriel_ancientcity_room_2structure",
+    "name": "o_level_gabriel_ancientcity_room5_ground",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c0fe9bf7-a141-43f1-8bb1-8bf555c7581a",
+    "spriteId": "4375d22e-54a0-4e53-ba61-726a579816cb",
     "visible": true
 }
