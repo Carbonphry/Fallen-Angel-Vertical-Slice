@@ -28,6 +28,7 @@ if hurtbox_entity_can_be_hit_by(other)
 	create_animation_effect(impact_effect_, x_, y_-14, 1, true);
 	if health_ <= 0 {
 		state_ = flameangel.die;
+		health_ = 0;
 		image_index = 0;
 		global.freeze = 1;
 	} else {

@@ -50,7 +50,7 @@ if triggerCount == 0 {
 		triggerCount = 1;
 		
 	} else {
-			
+			/*
 		switch direction_facing_ {
 	
 			case dir.right:
@@ -68,12 +68,33 @@ if triggerCount == 0 {
 			case dir.down:
 			draw_sprite_ext(s_projectile_reticle,image_index,x-5,y-19,1,1,mouseDir,c_white,1);
 			break;
-	}
+	}*/
 	
 	}
 		
 } 	
+	if reticle_anim < 15 {
+		reticle_anim += .3;
+	} 
 	
+	switch direction_facing_ {
+	
+			case dir.right:
+			draw_sprite_ext(s_projectile_reticle,reticle_anim,x-1,y-17,-1,1,mouseDir,c_white,1);
+			break;
+	
+			case dir.left:
+			draw_sprite_ext(s_projectile_reticle,reticle_anim,x-2,y-21,-1,1,mouseDir,c_white,1);
+			break;
+	
+			case dir.up:
+			draw_sprite_ext(s_projectile_reticle,reticle_anim,x+7,y-19,-1,1,mouseDir,c_white,1);
+			break;
+	
+			case dir.down:
+			draw_sprite_ext(s_projectile_reticle,reticle_anim,x-5,y-19,-1,1,mouseDir,c_white,1);
+			break;
+	}
 
 	
 	if triggerCount == 1 {
@@ -102,27 +123,30 @@ if triggerCount == 0 {
 		var burst_arm = s_player_power_burst_arm;
 		break;
 	}
+	if burst_arm_anim < 11 {
+		burst_arm_anim +=.27;
+	}
 	
 	switch direction_facing_ {
 			
 			case dir.right:
-			draw_sprite_ext(burst_arm,image_index,x-1,y-17,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm,burst_arm_anim,x-1,y-17,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 			break;
 	
 			case dir.left:
-			draw_sprite_ext(burst_arm, image_index,x-2,y-21,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, burst_arm_anim,x-2,y-21,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 			break;
 	
 			case dir.up:
-			draw_sprite_ext(burst_arm, image_index,x+7,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, burst_arm_anim,x+7,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 			break;
 	
 			case dir.down:
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
-			draw_sprite_ext(burst_arm, image_index,x-5,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, burst_arm_anim,x-5,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			break;
 	}
 	
@@ -133,6 +157,8 @@ if triggerCount == 0 {
 	if triggerCount >= 13 {
 		shoot_trigger();
 		state_ = starting_state_;
+		reticle_anim = 0;
+		burst_arm_anim = 0;
 		triggerCount = 0;
 		rStick = noone;
 		o_input.alarm[2] = global.one_second*0.5;

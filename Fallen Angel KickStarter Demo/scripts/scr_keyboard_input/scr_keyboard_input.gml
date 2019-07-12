@@ -19,6 +19,7 @@ action_three_released_ = mouse_check_button_released(mb_right);
 action_four_ = keyboard_check(vk_shift);
 action_four_pressed_ = keyboard_check_pressed(vk_shift);
 action_four_released_ = keyboard_check_released(vk_shift);
+action_six_ = keyboard_check_released(ord("Q"));
 //action_five_ = keyboard_check(ord("Q"));
 //action_five_pressed = keyboard_check_pressed(ord("Q"));
 action_six_ = keyboard_check_pressed(ord("Q"));

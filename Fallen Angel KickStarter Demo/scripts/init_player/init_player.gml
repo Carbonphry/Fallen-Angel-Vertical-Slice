@@ -271,3 +271,7 @@ rStick = noone;
 right_stick = false;
 
 charge_state = 0;
+
+reticle_anim = 0;
+
+burst_arm_anim = 0;
