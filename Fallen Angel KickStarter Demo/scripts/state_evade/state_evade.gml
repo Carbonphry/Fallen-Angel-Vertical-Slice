@@ -236,6 +236,14 @@ if animation_hit_frame(1) and !instance_exists(trace_1) {
 	
 } 
 
+if place_meeting(x,y,o_lancer) {
+
+	with o_lancer {
+		state_ = lancer.stun;
+		other.sprite_index = s_player_dash_parry_right;
+	}
+}
+
 
 if animation_hit_frame(image_number - 1)
 {
