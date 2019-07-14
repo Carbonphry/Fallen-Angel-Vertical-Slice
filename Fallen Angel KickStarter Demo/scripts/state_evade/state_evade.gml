@@ -1,5 +1,26 @@
 /// @description Evade State
 image_speed = 2;
+
+if evade_step {
+	angX = o_reticle.image_angle;
+	direction_facing_ = round(angX/90);
+	if direction_facing_ > 3
+	{
+		direction_facing_ = 0;
+	}
+
+	if direction_facing_ == 0 
+	{
+		image_xscale = 1;
+	}
+	if direction_facing_ == 2 
+	{
+		image_xscale = -1;
+	}
+	evade_step = false;
+}
+
+
 evading_ = true;
 
 if image_index >= 3 {
@@ -10,9 +31,7 @@ if old_image_index != noone {
 	image_index = old_image_index; 
 	old_image_index = noone;
 }
-if animation_hit_frame(1) {
-	angX = o_reticle.direction;
-}
+
 
 #region New mov
 
@@ -38,7 +57,7 @@ repeat(abs(walk_speed * (right - left)))
    
     with (obj_cube_parent)
     {
-        if place_meeting(x - (other.right - other.left)*dcos(angX), y, other)
+        if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
             {
                 if other.z >= height
                 {
@@ -60,7 +79,7 @@ repeat(abs(walk_speed * (right - left)))
 
 	with o_solid 
 	{
-		if place_meeting(x - (other.right - other.left)*dcos(angX), y, other)
+		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
             {
                 other.can_move = false;
             }
@@ -68,7 +87,7 @@ repeat(abs(walk_speed * (right - left)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up)*dcos(angX), other)
+		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
            {
                 other.can_move = false;
                 break;
@@ -98,7 +117,7 @@ repeat(abs(walk_speed * (down - up)))
    
 	with (obj_cube_parent)
     {
-        if place_meeting(x, y - (other.down - other.up)*-dsin(angX), other)
+        if place_meeting(x, y - (other.down - other.up)*-dsin(other.angX), other)
             {
                 if other.z >= height
                 {
@@ -120,7 +139,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(angX), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
            {
                 other.can_move = false;
                 break;
@@ -130,7 +149,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(angX), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
            {
                 other.can_move = false;
                 break;
@@ -140,7 +159,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(angX), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
            {
                 other.can_move = false;
                 break;

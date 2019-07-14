@@ -285,4 +285,6 @@ parry = true;
 
 old_image_index = noone;
 
-angX = 4;
+angX = noone;
+
+evade_step = true;

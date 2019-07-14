@@ -1,6 +1,7 @@
 ///@param Input
 if state_ != player.evade {
 	visible = true;
+	evade_step = true;
 }
 
 if state_ != player.ram {
