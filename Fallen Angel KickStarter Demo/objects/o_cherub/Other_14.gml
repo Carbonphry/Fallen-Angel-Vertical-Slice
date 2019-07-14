@@ -1,5 +1,9 @@
 /// @description Attack State
-
+if image_index >= 2 and image_index <= 5  {
+	parriable = true;
+} else {
+	parriable = false;
+}
 //move_movement_entity(true);
 apply_friction_to_movement_entity();
 
@@ -67,7 +71,7 @@ if place_meeting(x,y,class_player) {
 	image_speed = 1.2;
 	hit = true;
 } else {
-	image_speed = 0.8;
+	image_speed = 0.6;
 }
 
 if animation_hit_frame(9)

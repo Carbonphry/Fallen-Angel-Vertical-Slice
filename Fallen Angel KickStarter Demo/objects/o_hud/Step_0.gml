@@ -121,7 +121,7 @@ if global.freeze > 0 {
 	global.freeze++;
 }
 
-if global.freeze == 6 {
+if global.freeze == 8 {
 	if sprite_exists(freeze_sprite_) {
 		sprite_delete(freeze_sprite_)
 	}

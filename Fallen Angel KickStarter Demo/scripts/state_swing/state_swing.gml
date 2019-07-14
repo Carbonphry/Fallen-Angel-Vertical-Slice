@@ -96,7 +96,7 @@ move_movement_entity(true);
 apply_friction_to_movement_entity();
 var _attack_input = o_input.action_one_pressed_;
 var _evade_input = o_input.action_four_;
-var _parry_input = 0//o_input.action_three_pressed_;
+var _parry_input = 0;//o_input.action_three_pressed_;
 var	r_xaxis = gamepad_axis_value(0, gp_axisrh);
 var	r_yaxis = gamepad_axis_value(0, gp_axisrv);
 var	r_stick_direction = point_direction(0,0,r_xaxis,r_yaxis);

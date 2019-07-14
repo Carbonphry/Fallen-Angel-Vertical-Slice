@@ -1,5 +1,9 @@
 /// @description Attack State
-
+if image_index >= 6 and image_index <= 10 {
+	parriable = true;
+} else {
+	parriable = false;
+}
 /*move_movement_entity(true);*/
 apply_friction_to_movement_entity();
 

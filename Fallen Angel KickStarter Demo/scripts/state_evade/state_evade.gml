@@ -6,6 +6,14 @@ if image_index >= 3 {
 	iframe = true;
 }
 
+if old_image_index != noone {
+	image_index = old_image_index; 
+	old_image_index = noone;
+}
+if animation_hit_frame(1) {
+	angX = o_reticle.direction;
+}
+
 #region New mov
 
 var jump     = o_input.action_four_pressed_;
@@ -13,7 +21,10 @@ var walk_speed, jump_speed;
 walk_speed = 13;
 jump_speed = 3;
 var diag = .6;
-
+left = 0;
+up = 0;
+down = 1;
+right = 1;
 
 if ( left and up ) or (left and down) or (right and up) or (right and down) {
 	diag = .41;//walk_speed *=.99999999999999999999; //99999999999999999999999
@@ -27,7 +38,7 @@ repeat(abs(walk_speed * (right - left)))
    
     with (obj_cube_parent)
     {
-        if place_meeting(x - (other.right - other.left), y, other)
+        if place_meeting(x - (other.right - other.left)*dcos(angX), y, other)
             {
                 if other.z >= height
                 {
@@ -49,7 +60,7 @@ repeat(abs(walk_speed * (right - left)))
 
 	with o_solid 
 	{
-		if place_meeting(x - (other.right - other.left), y, other)
+		if place_meeting(x - (other.right - other.left)*dcos(angX), y, other)
             {
                 other.can_move = false;
             }
@@ -57,7 +68,7 @@ repeat(abs(walk_speed * (right - left)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)*dcos(angX), other)
            {
                 other.can_move = false;
                 break;
@@ -75,7 +86,7 @@ repeat(abs(walk_speed * (right - left)))
 	*/
     
     if can_move == true
-        x += (right*diag - left*diag);
+        x += (right - left)*dcos(angX);
 }
 
 
@@ -87,7 +98,7 @@ repeat(abs(walk_speed * (down - up)))
    
 	with (obj_cube_parent)
     {
-        if place_meeting(x, y - (other.down - other.up), other)
+        if place_meeting(x, y - (other.down - other.up)*-dsin(angX), other)
             {
                 if other.z >= height
                 {
@@ -109,7 +120,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(angX), other)
            {
                 other.can_move = false;
                 break;
@@ -119,7 +130,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(angX), other)
            {
                 other.can_move = false;
                 break;
@@ -129,7 +140,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(angX), other)
            {
                 other.can_move = false;
                 break;
@@ -138,7 +149,7 @@ repeat(abs(walk_speed * (down - up)))
 	}
 	
     if can_move == true
-        y += (down*diag - up*diag);
+        y += (down - up)*-dsin(angX);
 }
 
 
@@ -236,38 +247,31 @@ if animation_hit_frame(1) and !instance_exists(trace_1) {
 	
 } 
 
-if place_meeting(x,y,o_lancer) {
 
-	with o_lancer {
-		state_ = lancer.stun;
-		other.sprite_index = s_player_dash_parry_right;
-	}
-}
-
-
-if animation_hit_frame(image_number - 1)
+if animation_hit_frame(image_number - 1) and sprite_index != sprite_[player.dash_parry, direction_facing_]
 {
 		state_ = player.move;
 		evading_ = false;
 		iframe = false;
+		parry = true;
 		//collision_object_ = o_solid_l2
 		visible = true;
 }
 
 //Attack Dash Skill
-if (global.dash_attack or power_stance) {
+/*if (global.dash_attack) {
 
-if o_input.action_one_ {
+	if o_input.action_one_ {
 	
-	if !instance_exists(o_dash_attack) {
-		audio_play(a_player_slashdash);
-		var _angle = direction_facing_*90;//point_direction(x, y, o_input.xdir_, o_input.ydir_);
-		var _life = 0;
-		var _damage = 1;
-		var _knockback = 4;
-		var _hitbox = create_hitbox_dash_attack(x, y-4, _angle, _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-		//audio_play(a_player_slashdash);
+		if !instance_exists(o_dash_attack) {
+			audio_play(a_player_slashdash);
+			var angX = direction_facing_*90;//point_direction(x, y, o_input.xdir_, o_input.ydir_);
+			var _life = 0;
+			var _damage = 1;
+			var _knockback = 4;
+			var _hitbox = create_hitbox_dash_attack(x, y-4, angX, _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+			//audio_play(a_player_slashdash);
 		
+		}
 	}
-}
 }

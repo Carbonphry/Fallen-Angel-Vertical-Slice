@@ -1,7 +1,13 @@
 /// @description Attack State
 sprite_index = s_lancerangel_attack1;
-
 image_speed = 0.7;
+
+if image_index >= 4 and image_index <= 8 {
+	parriable = true;
+} else {
+	parriable = false;
+}
+
 //move_movement_entity(true);
 apply_friction_to_movement_entity();
 var target = instance_nearest(x,y,class_player);

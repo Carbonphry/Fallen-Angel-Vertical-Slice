@@ -186,6 +186,11 @@ sprite_[player.execute, dir.up] = s_player_execute;
 sprite_[player.execute, dir.left] = s_player_execute;
 sprite_[player.execute, dir.down] = s_player_execute;
 
+sprite_[player.dash_parry, dir.right] = s_player_dash_parry_right;
+sprite_[player.dash_parry, dir.up] = s_player_dash_parry_up;
+sprite_[player.dash_parry, dir.left] = s_player_dash_parry_right;
+sprite_[player.dash_parry, dir.down] = s_player_dash_parry_down;
+
 last_sprite = sprite_index;
 
 anim_run_start = true;
@@ -275,3 +280,9 @@ charge_state = 0;
 reticle_anim = 0;
 
 burst_arm_anim = 0;
+
+parry = true;
+
+old_image_index = noone;
+
+angX = 4;

@@ -6,15 +6,9 @@ keyboard_check_pressed(vk_down), mouse_check_button_pressed(mb_left), keyboard_c
 mouse_check_button_pressed(mb_right), keyboard_check_pressed(vk_enter),
 keyboard_check_pressed(ord("I")) ) == true then global.gamepad_active = false;
 
-
-
-
-
 //argument0 = global.pad[0];
 
-
 switch (global.coop) {
-	
 	
 	case false:
 	if max ( gamepad_button_check_pressed(argument0, gp_face1), gamepad_button_check_pressed(argument0, gp_face2), gamepad_button_check_pressed(argument0, gp_face3),gamepad_button_check_pressed(argument0,gp_face4), gamepad_button_check(argument0,gp_shoulderl), gamepad_button_check(argument0,gp_shoulderlb), 

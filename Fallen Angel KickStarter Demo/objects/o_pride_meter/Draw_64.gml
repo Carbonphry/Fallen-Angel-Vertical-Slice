@@ -29,7 +29,7 @@ switch state {
 		sprite_index = s_hud_pride;
 	}
 	
-	if o_input.action_six_ and ego_pts == 40 {
+	if o_input.action_five_ and ego_pts == 40 {
 		state = 1;
 		instance_create_layer(-200 ,-100,"UI", o_pride_meter_demonmode);
 		instance_destroy(o_tutorial_demonmode);

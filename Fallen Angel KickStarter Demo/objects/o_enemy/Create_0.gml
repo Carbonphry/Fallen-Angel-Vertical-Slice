@@ -37,3 +37,4 @@ knockback_direction = noone;
 knockback_ammount = noone;
 
 stp = 0;
+parriable = false;

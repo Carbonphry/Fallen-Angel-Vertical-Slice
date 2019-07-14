@@ -7,6 +7,12 @@ if dead {
 	image_speed = .8;
 }
 
+if image_index >= 2 and image_index <= 5 and !dead  {
+	parriable = true;
+} else {
+	parriable = false;
+}
+
 /*
 if !onAir {
 	jumpdir = point_direction(x,y,targetX,targetY);
