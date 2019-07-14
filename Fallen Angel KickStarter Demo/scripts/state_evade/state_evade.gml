@@ -37,7 +37,7 @@ if old_image_index != noone {
 
 var jump     = o_input.action_four_pressed_;
 var walk_speed, jump_speed;
-walk_speed = 13;
+walk_speed = 8;
 jump_speed = 3;
 var diag = .6;
 left = 0;
