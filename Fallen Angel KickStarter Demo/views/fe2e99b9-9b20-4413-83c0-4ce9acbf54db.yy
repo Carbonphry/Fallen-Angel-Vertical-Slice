@@ -9,7 +9,8 @@
         "1af89d38-5712-4dbb-b90d-7a9ad40bb434",
         "bd6cee48-6955-45f1-a4bf-df0d0daf0828",
         "fcd43850-e710-4094-8b77-1fae9137b513",
-        "9439c390-7389-44bd-8d48-6271b1a2de85"
+        "9439c390-7389-44bd-8d48-6271b1a2de85",
+        "8bb9c44a-e3e9-4a76-aaba-d2affa80751e"
     ],
     "filterType": "GMSprite",
     "folderName": "MissileAngel",

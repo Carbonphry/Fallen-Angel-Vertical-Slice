@@ -161,13 +161,13 @@ if triggerCount == 0 {
 			break;
 	
 			case dir.up:
-			draw_sprite_ext(burst_arm, burst_arm_anim,x+7,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, burst_arm_anim,x+5,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 			break;
 	
 			case dir.down:
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
-			draw_sprite_ext(burst_arm, burst_arm_anim,x-5,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
+			draw_sprite_ext(burst_arm, burst_arm_anim,x-3,y-19,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			break;
 	}
 	

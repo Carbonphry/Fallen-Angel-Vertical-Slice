@@ -5463,6 +5463,14 @@
             }
         },
         {
+            "Key": "8bb9c44a-e3e9-4a76-aaba-d2affa80751e",
+            "Value": {
+                "id": "62ed55e2-9201-42a4-afa4-d864cf03c82a",
+                "resourcePath": "sprites\\s_missileangel_attack_effect\\s_missileangel_attack_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c635fb8-8585-4f1e-b7bc-21fd7767c758",
             "Value": {
                 "id": "13892a32-db62-4002-8983-dfe2fd264763",
@@ -7828,6 +7836,14 @@
                 "id": "c97fe300-6303-4375-9a01-ff96cf15e79b",
                 "resourcePath": "sprites\\s_pulse_effect\\s_pulse_effect.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb1d3850-0656-4ee2-83d0-9edd6e3756e3",
+            "Value": {
+                "id": "864b248d-98b2-44cc-8ba5-b1122a0f7758",
+                "resourcePath": "objects\\o_swing_fx_critical\\o_swing_fx_critical.yy",
+                "resourceType": "GMObject"
             }
         },
         {

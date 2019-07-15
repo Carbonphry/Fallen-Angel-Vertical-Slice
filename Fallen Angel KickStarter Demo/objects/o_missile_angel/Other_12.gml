@@ -7,6 +7,12 @@ if !instance_exists(class_player)
 	state_ = missangel.idle;
 	exit;
 }
+
+if animation_hit_frame(2)
+{
+	create_animation_effect(s_missileangel_attack_effect ,x,y-46,0.8,true);
+}
+
 if animation_hit_frame(8)
 {
 	audio_play(a_flameangel_attack);
