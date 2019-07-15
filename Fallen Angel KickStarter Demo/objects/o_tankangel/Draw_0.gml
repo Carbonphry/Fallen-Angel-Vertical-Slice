@@ -58,10 +58,15 @@ if alarm_get(9) < global.one_second*.42 {
 }*/
 
 if alarm_get(8) > 0 and state_ != tankangel.jump {
-	var life_size = max(health_/max_health_,0);
+	//var life_size = max(health_/max_health_,0);
 	//draw_text_color(x_bar_b+5/*x_bar_b+30*/,y_bar_b-14,"Holy Seraph Abdiel",c_white,c_yellow,c_white,c_yellow,1);
-	draw_sprite(s_enemy_bar,0,x,y-sprite_height/1.2);
-	draw_sprite_ext(s_enemy_bar_life, 0, x-10,y-sprite_height/1.2, life_size, 1, 0, c_white, 1);
+	draw_sprite(s_hp_bar_16,0,x-28,y-sprite_height/1.2+15-z);
+	if health_ > 0 {
+		draw_sprite(s_hp,health_,x-24,y-sprite_height/2-z-5);
+	} else {
+		draw_sprite(s_hp,0,x-24,y-sprite_height/2-z-5);
+	}
+	//draw_sprite_ext(s_enemy_bar_life, 0, x-10,y-sprite_height/1.2, life_size, 1, 0, c_white, 1);
 }
 //Debug State
 //draw_text(x,y,string(state_));

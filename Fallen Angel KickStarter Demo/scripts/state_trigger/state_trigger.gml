@@ -2,6 +2,15 @@ gml_pragma("forceinline");
 image_speed = .8;
 image_xscale = 1;
 
+if o_input.action_three_released_ {
+	state_ = starting_state_;
+	reticle_anim = 0;
+	burst_arm_anim = 0;
+	triggerCount = 0;
+	rStick = noone;
+	o_input.alarm[2] = global.one_second*0.5;
+}
+
 switch power_stance {
 
 	case false:
@@ -45,9 +54,18 @@ if triggerCount == 0 {
 		}
 		
 		
-		if o_input.action_three_released_ or right_stick {
-		//state_ = starting_state_;
-		triggerCount = 1;
+		if (o_input.action_one_ or right_stick) and triggerCount == 0 {
+			
+			if reticle_anim >=8 and reticle_anim <=10 { 
+				shoot_trigger();
+				//state_ = starting_state_;
+				
+			} else {
+				shoot_trigger_shotgun();
+			}
+			triggerCount = 1;
+			reticle_anim = 0;
+			burst_arm_anim = 0;
 		
 	} else {
 			/*
@@ -74,7 +92,7 @@ if triggerCount == 0 {
 		
 } 	
 	if reticle_anim < 15 {
-		reticle_anim += .3;
+		reticle_anim += .2;
 	} 
 	
 	switch direction_facing_ {
@@ -97,14 +115,17 @@ if triggerCount == 0 {
 	}
 
 	
-	if triggerCount == 1 {
+	/*if triggerCount == 1 {
 		shoot_trigger();
-	} 
+	}*/ 
     
 	if triggerCount >=1 {
 		triggerCount++;
 	} 
 	
+	if triggerCount == global.one_second*.2 {
+		triggerCount = 0;	
+	}
 	
 	
 	direction_facing_ = round(mouseDir/90);
@@ -114,7 +135,7 @@ if triggerCount == 0 {
 	}
 	
 	switch power_stance {
-
+		
 		case false:
 		var burst_arm = s_player_burst_arm;
 		break;
@@ -130,8 +151,8 @@ if triggerCount == 0 {
 	switch direction_facing_ {
 			
 			case dir.right:
-			draw_sprite_ext(burst_arm,burst_arm_anim,x-1,y-17,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			draw_sprite_ext(sprite_index, image_index, x, y - z, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+			draw_sprite_ext(burst_arm,burst_arm_anim,x-1,y-17,image_xscale,image_yscale,mouseDir,image_blend,image_alpha );
 			break;
 	
 			case dir.left:
@@ -150,7 +171,7 @@ if triggerCount == 0 {
 			break;
 	}
 	
-	if triggerCount == 7 {
+	/*if triggerCount == 7 {
 		shoot_trigger();
 	} 
 	
@@ -162,4 +183,4 @@ if triggerCount == 0 {
 		triggerCount = 0;
 		rStick = noone;
 		o_input.alarm[2] = global.one_second*0.5;
-	}	
+	}	*/

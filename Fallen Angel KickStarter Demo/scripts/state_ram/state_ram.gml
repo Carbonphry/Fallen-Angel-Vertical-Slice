@@ -5,17 +5,35 @@ if ramState == noone then ramState = 0;
 switch ramState {
 
 	case 0:
+	if !audio_is_playing(a_player_ram_charge) {
+		audio_play(a_player_ram_charge);
+	}
 	image_speed = .8;
+	angX = o_reticle.image_angle;
+	direction_facing_ = round(angX/90);
+	if direction_facing_ > 3
+	{
+		direction_facing_ = 0;
+	}
+
+	if direction_facing_ == 0 
+	{
+		image_xscale = 1;
+	}
+	if direction_facing_ == 2 
+	{
+		image_xscale = -1;
+	}
 	sprite_[player.ram, dir.right] = s_player_power_ram_charge_right;
 	sprite_[player.ram, dir.up] = s_player_power_ram_charge_up;
 	sprite_[player.ram, dir.left] =  s_player_power_ram_charge_right;
 	sprite_[player.ram, dir.down] = s_player_power_ram_charge_down;
-		if !audio_is_playing(a_player_ram_charge) {
-				audio_play(a_player_ram_charge);
-				}
+	sprite_index = sprite_[state_, direction_facing_];
+	evade_step = false;
 	break;
 	
 	case 1:
+	sprite_index = sprite_[state_, direction_facing_];
 	image_speed = .8;
 	sprite_[player.ram, dir.right] = s_player_power_ram_dash_right;
 	sprite_[player.ram, dir.up] = s_player_power_ram_dash_up;
@@ -59,7 +77,10 @@ var walk_speed, jump_speed;
 walk_speed = 14;
 jump_speed = 3;
 var diag = .6;
-
+left = 0;
+up = 0;
+down = 1;
+right = 1;
 
 if ( left and up ) or (left and down) or (right and up) or (right and down) {
 	diag = .41;//walk_speed *=.99999999999999999999; //99999999999999999999999
@@ -73,7 +94,7 @@ repeat(abs(walk_speed * (right - left)))
    
     with (obj_cube_parent)
     {
-        if place_meeting(x - (other.right - other.left), y, other)
+        if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
             {
                 if other.z >= height
                 {
@@ -95,7 +116,7 @@ repeat(abs(walk_speed * (right - left)))
 
 	with o_solid 
 	{
-		if place_meeting(x - (other.right - other.left), y, other)
+		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
             {
                 other.can_move = false;
             }
@@ -103,17 +124,7 @@ repeat(abs(walk_speed * (right - left)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
-           {
-                other.can_move = false;
-                break;
-           }
-	
-	}
-	
-	with o_enemy
-	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
            {
                 other.can_move = false;
                 break;
@@ -131,7 +142,7 @@ repeat(abs(walk_speed * (right - left)))
 	*/
     
     if can_move == true
-        x += (right*diag - left*diag);
+        x += (right - left)*dcos(angX);
 }
 
 
@@ -143,7 +154,7 @@ repeat(abs(walk_speed * (down - up)))
    
 	with (obj_cube_parent)
     {
-        if place_meeting(x, y - (other.down - other.up), other)
+        if place_meeting(x, y - (other.down - other.up)*-dsin(other.angX), other)
             {
                 if other.z >= height
                 {
@@ -165,7 +176,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
            {
                 other.can_move = false;
                 break;
@@ -175,7 +186,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
            {
                 other.can_move = false;
                 break;
@@ -185,17 +196,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
-           {
-                other.can_move = false;
-                break;
-           }
-	
-	}
-	
-	with o_enemy
-	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
            {
                 other.can_move = false;
                 break;
@@ -204,7 +205,7 @@ repeat(abs(walk_speed * (down - up)))
 	}
 	
     if can_move == true
-        y += (down*diag - up*diag);
+        y += (down - up)*-dsin(angX);
 }
 
 
@@ -233,6 +234,7 @@ if !place_meeting(x, y, obj_cube_parent)
 	break;
 	
 	case 2:
+	sprite_index = sprite_[state_, direction_facing_];
 	depth -=50;
 	image_speed = .9;
 	sprite_[player.ram, dir.right] = s_player_power_ram_attack_right;
@@ -241,7 +243,7 @@ if !place_meeting(x, y, obj_cube_parent)
 	sprite_[player.ram, dir.down] = s_player_power_ram_attack_down;
 		if !audio_is_playing(a_player_ram_attack) {
 				audio_play(a_player_ram_attack);
-				}
+			}
 	
 	if animation_hit_frame(2) {
 		var spr = s_ram_hitbox;
@@ -276,7 +278,6 @@ if !place_meeting(x, y, obj_cube_parent)
 		}
 	}
 	break;
-
 }
 
 

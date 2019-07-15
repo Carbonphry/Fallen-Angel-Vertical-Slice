@@ -130,6 +130,7 @@ if state_ == player.failHit {
 
 if ramState == 0 and !o_input.action_two_ {
 	ramState = 1;
+	reticle_anim = 0;
 } else if ramState == 0 and o_input.action_two_ {
 	image_index = 6;
 }

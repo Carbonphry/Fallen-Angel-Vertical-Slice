@@ -1175,6 +1175,14 @@
             }
         },
         {
+            "Key": "1a98fdda-bf4d-4fd3-8ba0-f81f2c6263a8",
+            "Value": {
+                "id": "508964f4-1ee6-4075-a1c1-76bf8e108c0b",
+                "resourcePath": "scripts\\create_hitbox_trigger_precise\\create_hitbox_trigger_precise.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1aa8b4dd-5c32-463d-9f17-0e277c311961",
             "Value": {
                 "id": "0c70516a-b145-4d20-a68d-9ed342c25da5",
@@ -1647,6 +1655,14 @@
             }
         },
         {
+            "Key": "278d224f-884e-4a7c-b6f4-4d529a0cee19",
+            "Value": {
+                "id": "6e777e07-6dec-40ad-a1ec-134a46f9abe3",
+                "resourcePath": "sprites\\s_hp_bar_16\\s_hp_bar_16.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27c04a25-f310-4d0b-9e84-bd947450a413",
             "Value": {
                 "id": "e7dfbc9e-fc95-433a-953c-c4180303224f",
@@ -1935,6 +1951,14 @@
             }
         },
         {
+            "Key": "2f623483-d5b7-466f-b7c6-7c58d662aa8d",
+            "Value": {
+                "id": "d6c289f0-283f-42d0-ab25-0d5dfef3bcd1",
+                "resourcePath": "scripts\\shoot_trigger_shotgun\\shoot_trigger_shotgun.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2f69ef3d-4f5a-455c-b036-c7a0327234ae",
             "Value": {
                 "id": "75de4bbb-8da8-4ee8-9501-e09d3ea8c98d",
@@ -2195,6 +2219,14 @@
             "Value": {
                 "id": "dad19e49-7d0e-4271-b8c8-539d4b4d9b26",
                 "resourcePath": "sprites\\s_level_protodung_portal_to_garden\\s_level_protodung_portal_to_garden.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "34e4d060-d918-4a35-8659-54b281483984",
+            "Value": {
+                "id": "d50d01ea-c0f9-42d8-a358-ddf9510a076f",
+                "resourcePath": "sprites\\s_hp\\s_hp.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9949,6 +9981,8 @@
         "74f828a1-bf48-4c17-89d0-f8c660d69926",
         "ef9e4f7a-3837-4695-9fdf-51377727b523",
         "dc967206-5e45-45f0-a8ce-ee5a5f86d6a7",
+        "2f623483-d5b7-466f-b7c6-7c58d662aa8d",
+        "1a98fdda-bf4d-4fd3-8ba0-f81f2c6263a8",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",
         "d1700a78-5b78-4dd4-8b48-27a77e4d1949",

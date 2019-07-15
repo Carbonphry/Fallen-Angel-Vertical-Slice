@@ -4,6 +4,13 @@ if state_ != player.evade {
 	visible = true;
 }
 
+if ramState == 0 {
+	if reticle_anim < 15 {
+		reticle_anim += .4;
+		draw_sprite_ext(s_projectile_reticle,reticle_anim,x,y-15,-1,1,o_reticle.image_angle,c_white,1);
+	} 
+}
+
 if !place_meeting(x,y,o_solid_air) and state_ != player.glide {
 	
 	switch (z) {

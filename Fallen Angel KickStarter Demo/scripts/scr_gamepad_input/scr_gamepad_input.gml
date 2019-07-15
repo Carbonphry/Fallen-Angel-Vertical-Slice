@@ -21,8 +21,8 @@ action_three_released_ = max (gamepad_button_check_released(argument0,gp_shoulde
 action_four_ = max( gamepad_button_check(argument0,gp_shoulderr), gamepad_button_check(argument0,gp_shoulderl) );
 action_four_pressed_ = max( gamepad_button_check_pressed(argument0,gp_shoulderr),gamepad_button_check_pressed(argument0,gp_shoulderl) );
 action_four_released_ = max( gamepad_button_check_released(argument0,gp_shoulderr), gamepad_button_check_released(argument0,gp_shoulderl) );
-action_five_ = gamepad_button_check(argument0, gp_face2);
-item_down_ = gamepad_button_check_pressed(argument0, gp_face4);
+action_five_ = gamepad_button_check(argument0, gp_face4);
+item_down_ = gamepad_button_check_pressed(argument0, gp_face2);
 
 start = gamepad_button_check_pressed(argument0,gp_start);
 pause_pressed_ = gamepad_button_check_pressed(argument0,gp_start);

@@ -23,7 +23,7 @@ enum abdiel {
 	wander,
 	stun 
 }
-max_health_ = 40;
+max_health_ = 30;
 health_ = max_health_;
 
 starting_state_ = abdiel.intro;

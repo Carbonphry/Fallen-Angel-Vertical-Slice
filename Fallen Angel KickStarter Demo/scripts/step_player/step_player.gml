@@ -380,7 +380,7 @@ switch state_ {
 }
 
 if state_ != player.move and state_ != player.ledge and state_ != player.stanceSwitch /* or state_ != player.idle*/ { 
-	if state_ != player.idle {
+	if state_ != player.idle and state_ != player.ram {
 		sprite_index = sprite_[state_, direction_facing_];
 		//anim_run_stop = true;
 		anim_run_stop = false;
@@ -441,7 +441,7 @@ if (global.player_health < global.player_max_health) and global.player_health > 
 	
 } 
 
-if (last_sprite != sprite_index) {
+if (last_sprite != sprite_index and state_ != player.ram){
    image_index = 0;
    last_sprite = sprite_index;
 }
