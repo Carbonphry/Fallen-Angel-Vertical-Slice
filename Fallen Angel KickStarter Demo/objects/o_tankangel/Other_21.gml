@@ -6,6 +6,7 @@ image_speed = .9;
 speed_ = 0;
 parriable = false;
 
-
+if animation_hit_frame(0) {
 var ef = create_animation_effect(s_red_sparks_effect,x,y-10,0.8,true);
 	ef.depth = depth-1;
+}
