@@ -9,8 +9,9 @@
     "option_windows_copy_exe_to_dest": false,
     "option_windows_copyright_info": "(c) 2019 Matrioshka Games",
     "option_windows_description_info": "Fallen Angel pre-alpha prototype",
+    "option_windows_disable_sandbox": false,
     "option_windows_display_cursor": true,
-    "option_windows_display_name": "Fallen Angel Early Build 092",
+    "option_windows_display_name": "Fallen Angel Early Build 099",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "Fallen Angel Early Build",
     "option_windows_icon": "${options_dir}\\windows\\icons\\icon.ico",
@@ -26,13 +27,14 @@
     "option_windows_sleep_margin": 10,
     "option_windows_splash_screen": "${base_options_dir}\\windows\\splash\\splash.png",
     "option_windows_start_fullscreen": true,
+    "option_windows_steam_use_alternative_launcher": false,
     "option_windows_texture_page": "2048x2048",
     "option_windows_use_splash": false,
     "option_windows_version": {
         "build": 9,
         "major": 0,
         "minor": 0,
-        "revision": 2
+        "revision": 9
     },
     "option_windows_vsync": false
 }

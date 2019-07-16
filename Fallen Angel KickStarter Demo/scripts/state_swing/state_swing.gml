@@ -156,7 +156,7 @@ if direction_facing_ == 2
 
 if animation_hit_frame(1)
 {
-	
+	global.player_stamina -= COST_PARRY;
 	switch global.gamepad_active {
 		
 		case false:

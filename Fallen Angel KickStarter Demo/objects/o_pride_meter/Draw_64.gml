@@ -59,7 +59,7 @@ switch state {
 
 draw_self();
 
-draw_text(x,y,string(ego_pts));
+//draw_text(x,y,string(ego_pts));
 
 
 

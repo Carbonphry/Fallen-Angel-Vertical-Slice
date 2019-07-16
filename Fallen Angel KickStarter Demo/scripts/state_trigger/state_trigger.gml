@@ -54,7 +54,7 @@ if triggerCount == 0 {
 		}
 		
 		
-		if (o_input.action_one_ or right_stick) and triggerCount == 0 {
+		if (o_input.action_one_ or right_stick) and triggerCount == 0 and global.player_stamina > 0{
 			
 			if reticle_anim >=8 and reticle_anim <=10 { 
 				shoot_trigger();
@@ -66,7 +66,7 @@ if triggerCount == 0 {
 			triggerCount = 1;
 			reticle_anim = 0;
 			burst_arm_anim = 0;
-		
+			global.player_stamina -= COST_PARRY;
 	} else {
 			/*
 		switch direction_facing_ {
@@ -123,7 +123,7 @@ if triggerCount == 0 {
 		triggerCount++;
 	} 
 	
-	if triggerCount == global.one_second*.2 {
+	if triggerCount == global.one_second*.4 {
 		triggerCount = 0;	
 	}
 	

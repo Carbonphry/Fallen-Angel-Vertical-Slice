@@ -15,7 +15,7 @@ var	r_xaxis = gamepad_axis_value(0, gp_axisrh);
 var	r_yaxis = gamepad_axis_value(0, gp_axisrv);
 var	r_stick_direction = point_direction(0,0,r_xaxis,r_yaxis);
 
-if _attack_input >= .7 and alarm_get(11) <=0 {
+if _attack_input >= .7 and alarm_get(11) <=0 and global.player_stamina > 0 {
 	image_index = 0;
 	switch ( power_stance ) {
 		
