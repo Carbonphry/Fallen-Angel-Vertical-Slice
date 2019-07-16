@@ -2,7 +2,6 @@
 
 //Execution
 if state_ == tankangel.stun { 
-	
 	var targ = instance_nearest(x,y,class_player);
 	if point_distance(x,y,targ.x,targ.y) < 20 {
 	
