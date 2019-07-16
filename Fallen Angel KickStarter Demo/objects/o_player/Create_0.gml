@@ -40,7 +40,8 @@ enum player
 	ram = 31,
 	charge_attack = 32,
 	execute  = 33,
-	dash_parry = 34
+	dash_parry = 34,
+	
 }
 
 enum dir {
@@ -71,8 +72,9 @@ if !instance_exists(o_hud) {
 }
 
 
-
-instance_create_layer(0, 0, "Effects", o_reticle);
+if !instance_exists(o_reticle) {
+	instance_create_layer(0, 0, "Effects", o_reticle);
+}
 //****************************
 
 

@@ -288,3 +288,7 @@ old_image_index = noone;
 angX = noone;
 
 evade_step = true;
+
+charge = 0;
+
+global.ammo_count = 3;

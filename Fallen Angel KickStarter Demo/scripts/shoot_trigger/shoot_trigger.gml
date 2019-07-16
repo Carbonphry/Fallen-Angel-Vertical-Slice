@@ -1,6 +1,6 @@
 gml_pragma("forceinline");
 var _life = 50;
-var _damage = DMG_TRIGGER_PROJECTILE;
+var _damage = DMG_TRIGGER_PROJECTILE*2;
 var _knockback = 0;
 switch direction_facing_ {
 		

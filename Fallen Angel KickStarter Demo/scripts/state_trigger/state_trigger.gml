@@ -2,14 +2,14 @@ gml_pragma("forceinline");
 image_speed = .8;
 image_xscale = 1;
 
-if o_input.action_three_released_ {
+/*if o_input.action_three_released_ {
 	state_ = starting_state_;
 	reticle_anim = 0;
 	burst_arm_anim = 0;
 	triggerCount = 0;
 	rStick = noone;
 	o_input.alarm[2] = global.one_second*0.5;
-}
+}*/
 
 switch power_stance {
 
@@ -54,46 +54,46 @@ if triggerCount == 0 {
 		}
 		
 		
-		if (o_input.action_one_ or right_stick) and triggerCount == 0 and global.player_stamina > 0{
+		if (o_input.action_three_released_ or right_stick) and triggerCount == 0 and global.player_stamina > 0{
 			
-			if reticle_anim >=8 and reticle_anim <=10 { 
-				shoot_trigger();
-				//state_ = starting_state_;
+			switch power_stance {
+			
+				case false:
+				if reticle_anim >=12 and reticle_anim <=16 { 
+					shoot_trigger();
+				} else {
+					shoot_trigger_shotgun();
+				}
+				break;
 				
-			} else {
-				shoot_trigger_shotgun();
+				case true:
+				if reticle_anim >=16 { 
+					shoot_trigger();
+				} else {
+					shoot_trigger_shotgun();
+				}
+				break;
+			
 			}
+			
+			
 			triggerCount = 1;
 			reticle_anim = 0;
 			burst_arm_anim = 0;
-			global.player_stamina -= COST_PARRY;
-	} else {
-			/*
-		switch direction_facing_ {
-	
-			case dir.right:
-			draw_sprite_ext(s_projectile_reticle,image_index,x-1,y-17,1,1,mouseDir,c_white,1);
-			break;
-	
-			case dir.left:
-			draw_sprite_ext(s_projectile_reticle,image_index,x-2,y-21,1,1,mouseDir,c_white,1);
-			break;
-	
-			case dir.up:
-			draw_sprite_ext(s_projectile_reticle,image_index,x+7,y-19,1,1,mouseDir,c_white,1);
-			break;
-	
-			case dir.down:
-			draw_sprite_ext(s_projectile_reticle,image_index,x-5,y-19,1,1,mouseDir,c_white,1);
-			break;
-	}*/
-	
-	}
-		
-} 	
-	if reticle_anim < 15 {
-		reticle_anim += .2;
+			global.ammo_count--;
 	} 
+	
+	if reticle_anim < 20 {
+		reticle_anim += .25;
+	} 
+	
+	
+	
+	direction_facing_ = round(mouseDir/90);
+	if direction_facing_ == 4
+	{
+		direction_facing_ = 0;
+	}
 	
 	switch direction_facing_ {
 	
@@ -113,25 +113,17 @@ if triggerCount == 0 {
 			draw_sprite_ext(s_projectile_reticle,reticle_anim,x-5,y-19,-1,1,mouseDir,c_white,1);
 			break;
 	}
-
 	
-	/*if triggerCount == 1 {
-		shoot_trigger();
-	}*/ 
-    
+} 	
+	
+	
 	if triggerCount >=1 {
 		triggerCount++;
 	} 
 	
-	if triggerCount == global.one_second*.4 {
-		triggerCount = 0;	
-	}
-	
-	
-	direction_facing_ = round(mouseDir/90);
-	if direction_facing_ == 4
-	{
-		direction_facing_ = 0;
+	if triggerCount == global.one_second*.25 {
+		triggerCount = 0;
+		state_ = starting_state_;
 	}
 	
 	switch power_stance {
@@ -171,9 +163,8 @@ if triggerCount == 0 {
 			break;
 	}
 	
-	/*if triggerCount == 7 {
-		shoot_trigger();
-	} 
+	
+	/*
 	
 	if triggerCount >= 13 {
 		shoot_trigger();

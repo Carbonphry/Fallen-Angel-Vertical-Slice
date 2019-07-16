@@ -98,7 +98,19 @@ draw_sprite(s_hud_heal_box_counter, core_count, x_bar_ - 40, y_bar_+186);
 	}
 }
 //Weapons
-//draw_sprite(weapon_sprite, 0, x_bar_ - 10, y_bar_+186);
+
+/*var index_count;
+if global.ammo_count >=3 {
+	index_count = 3;
+} else if global.ammo_count >=2 and global.ammo_count <3   {
+	index_count = 2;
+} else if global.ammo_count >=1 and global.ammo_count <2   {
+	index_count = 1;
+} else if global.ammo_count <1  {
+	index_count = 0;
+}*/
+
+draw_sprite(s_weapon_ui, global.ammo_count, x_bar_ - 10, y_bar_+186);
 
 //draw_sprite_ext(s_hud_bar_stamina, 0, x_bar_+27, y_bar_+4, _stamina_size, 1, 0, c_white, 1);
 

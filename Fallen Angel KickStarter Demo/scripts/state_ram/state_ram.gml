@@ -74,7 +74,7 @@ switch ramState {
 
 var jump     = o_input.action_four_pressed_;
 var walk_speed, jump_speed;
-walk_speed = 14;
+walk_speed = 8;
 jump_speed = 3;
 var diag = .6;
 left = 0;
@@ -94,7 +94,7 @@ repeat(abs(walk_speed * (right - left)))
    
     with (obj_cube_parent)
     {
-        if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
+        if place_meeting(x - (other.right - other.left), y, other)
             {
                 if other.z >= height
                 {
@@ -108,7 +108,7 @@ repeat(abs(walk_speed * (right - left)))
             else
             {
                 other.can_move = false;
-                break;
+               
             }
             
         }
@@ -116,22 +116,32 @@ repeat(abs(walk_speed * (right - left)))
 
 	with o_solid 
 	{
-		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
+		if place_meeting(x - (other.right - other.left), y, other)
             {
                 other.can_move = false;
+				
             }
     }
 	
 	with o_stair_slow
 	{
-		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
+		if place_meeting(x - (other.right - other.left), y, other)
            {
                 other.can_move = false;
-                break;
+                
            }
 	
 	}
 	
+	with o_enemy
+	{
+		if place_meeting(x - (other.right - other.left), y, other)
+           {
+                other.can_move = false;
+               
+           }
+	
+	}
 	/*with o_solid_air
 	{
 		if place_meeting(x - (other.right - other.left), y, other) 
@@ -148,13 +158,13 @@ repeat(abs(walk_speed * (right - left)))
 
 repeat(abs(walk_speed * (down - up)))
 {
-    can_move = true;
+    
     highest_z = 0;
     
    
 	with (obj_cube_parent)
     {
-        if place_meeting(x, y - (other.down - other.up)*-dsin(other.angX), other)
+        if place_meeting(x, y - (other.down - other.up), other)
             {
                 if other.z >= height
                 {
@@ -168,7 +178,7 @@ repeat(abs(walk_speed * (down - up)))
             else
             {
                 other.can_move = false;
-                break;
+                
             }
             
         }
@@ -176,30 +186,31 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
+		if place_meeting(x , y- (other.down - other.up), other)
            {
                 other.can_move = false;
-                break;
+               
            }
 	
 	}
 	
-	with o_solid 
-	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
-           {
-                other.can_move = false;
-                break;
-           }
-	
-	}
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
+		if place_meeting(x , y- (other.down - other.up), other)
            {
                 other.can_move = false;
-                break;
+              
+           }
+	
+	}
+	
+	with o_enemy
+	{
+		if place_meeting(x , y- (other.down - other.up), other)
+           {
+                other.can_move = false;
+                
            }
 	
 	}
@@ -230,7 +241,10 @@ if !place_meeting(x, y, obj_cube_parent)
 	
 #endregion
 	
-	if !can_move then ramState = 2;
+	if !can_move {
+		ramState = 2;
+		image_index = 0;
+	}
 	break;
 	
 	case 2:

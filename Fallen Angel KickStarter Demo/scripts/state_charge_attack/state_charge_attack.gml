@@ -336,7 +336,7 @@ if !place_meeting(x, y, obj_cube_parent)
 			audio_play(a_player_chargeattack_attack);
 	}
 	if animation_hit_frame(4) {
-		create_hitbox(s_chargeattack_hitbox, x, y-9, 0, 3, [o_enemy, o_grass, o_bush, o_shrine], 4, 18);
+		create_hitbox(s_chargeattack_hitbox, x, y-9, 0, 3, [o_enemy, o_grass, o_bush, o_shrine], 4, 2);
 	}
 	break;
 }

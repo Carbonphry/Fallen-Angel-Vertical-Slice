@@ -5,7 +5,7 @@ var _input_direction = point_direction(0, 0, _x_input, _y_input);
 var _attack_input = o_input.action_one_pressed_;
 var _evade_input = o_input.action_four_; //o_input.action_two_pressed_ 
 var _glide_input = o_input.action_two_;
-var _parry_input = o_input.action_three_pressed_;
+var _trigger_input = o_input.action_three_;
 var _jump_input  = o_input.action_four_pressed_;
 var _heal_input = o_input.item_down_;
 var	_xaxis = gamepad_axis_value(0, gp_axislh);
@@ -48,11 +48,11 @@ if _heal_input and o_hud.core_count > 0 and z == z_ground and global.player_heal
 	audio_play(a_player_small_heal);
 }
 
-if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground {
+if _trigger_input and global.ammo_count >=1 and z == z_ground {
 	
 	image_index = 0;
 	if o_input.alarm[2] <= 0 {
-			global.player_stamina -= COST_TRIGGER;
+			
 			state_ = player.trigger;
 	}
 	/*switch power_stance {
@@ -70,6 +70,7 @@ if _parry_input and global.player_stamina >= COST_TRIGGER and z == z_ground {
 		break;
 	}*/
 }
+
 
 //Right Stick
 if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER and z == z_ground {
@@ -145,6 +146,8 @@ if _glide_input and z>z_ground {
 	gliding = false;
 	
 }
+
+
 
 if gliding {
 	z_speed = -0.4;

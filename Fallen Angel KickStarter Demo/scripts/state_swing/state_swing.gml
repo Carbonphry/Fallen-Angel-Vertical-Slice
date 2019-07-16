@@ -104,10 +104,10 @@ var	r_stick_direction = point_direction(0,0,r_xaxis,r_yaxis);
 
 if o_input.action_two_ {
 	if o_input.alarm[8] <=0 {
-			o_input.alarm[8] = global.one_second*.15;
+		o_input.alarm[8] = global.one_second*.15;
 	}
 } else {
-		o_input.alarm[8] = global.one_second*.15;
+	o_input.alarm[8] = global.one_second*.15;
 }
 	
 if o_input.alarm[8] == 1 { 

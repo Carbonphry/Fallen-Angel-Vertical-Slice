@@ -100,3 +100,9 @@ if other.lift and state_ != tankangel.die and z == 0 {
 	alarm_set(11,3);
 	audio_play(a_enemy_lifted);
 }
+
+if z == 0 and other.sprite_index == s_chargeattack_hitbox {
+	knockback_direction = point_direction(other.x, other.y, x, y);
+	knockback_ammount = other.knockback_;
+	alarm_set(7,global.one_second*.25);
+}

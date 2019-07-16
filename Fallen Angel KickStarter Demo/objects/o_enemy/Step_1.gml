@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-last_x = x;
-last_y = y;
+if alarm_get(7) {
+	set_move_n(knockback_direction,knockback_ammount);
+}

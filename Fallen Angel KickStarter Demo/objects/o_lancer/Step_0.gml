@@ -16,4 +16,3 @@ if z != 0 and health_ > 0 {
 	image_speed = 1;
 }
 
-
