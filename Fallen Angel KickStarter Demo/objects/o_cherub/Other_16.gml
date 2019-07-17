@@ -1,5 +1,5 @@
 /// @description Die State
-image_speed = .8;
+image_speed = .6;
 sprite_index = s_cherub_die;
 speed_ = 0;
 if (die_sound = false)

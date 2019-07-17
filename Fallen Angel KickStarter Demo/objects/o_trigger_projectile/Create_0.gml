@@ -1,6 +1,6 @@
 event_inherited();
 damage_ = 1;
-knockback_ = 1;
+knockback_ = 3;
 targets_ = [];
 stun = false;
 impact_ = false;

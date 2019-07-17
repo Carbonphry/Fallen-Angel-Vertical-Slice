@@ -1,7 +1,7 @@
 gml_pragma("forceinline");
-var _life = 50;
+var _life = 70;
 var _damage = DMG_TRIGGER_PROJECTILE*8;
-var _knockback = 0;
+var _knockback = 1;
 switch direction_facing_ {
 		
 		case dir.up:

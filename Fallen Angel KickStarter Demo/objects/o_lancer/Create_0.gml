@@ -22,7 +22,7 @@ enum lancer {
 }
 
 
-max_health_ = 10;
+max_health_ = 8;
 health_ = max_health_;
 
 starting_state_ = lancer.idle;

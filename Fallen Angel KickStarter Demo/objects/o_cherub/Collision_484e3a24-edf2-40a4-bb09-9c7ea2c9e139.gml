@@ -39,6 +39,12 @@ if hurtbox_entity_can_be_hit_by(other)
 	add_screenshake(4,12);
 	alarm_set(11,3);
 	}
+	
+	if z == 0  {
+		knockback_direction = point_direction(other.x, other.y, x, y);
+		knockback_ammount = other.knockback_;
+		alarm_set(7,global.one_second*.25);
+	}
 
 }
 

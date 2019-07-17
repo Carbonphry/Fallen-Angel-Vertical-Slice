@@ -14,7 +14,7 @@ if alarm_get(9) < global.one_second*.42 {
 	pulseanim +=0.1;
 }*/
 
-if alarm_get(8) > 0 {
+if alarm_get(8) > 0 and health_ > 0 {
 	//var life_size = max(health_/max_health_,0);
 	//draw_text_color(x_bar_b+5/*x_bar_b+30*/,y_bar_b-14,"Holy Seraph Abdiel",c_white,c_yellow,c_white,c_yellow,1);
 	draw_sprite_ext(s_hp_bar_8, 0, x-13,y-sprite_height/2-z, 1, 1, 0, c_white, 1);

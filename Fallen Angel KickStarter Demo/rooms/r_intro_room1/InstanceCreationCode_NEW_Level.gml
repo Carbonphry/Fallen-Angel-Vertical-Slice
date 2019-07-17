@@ -1,2 +1,2 @@
-room_ = r_gabriel_ancientcity_room1
-start_ = room1_to_gabriel_ancientcity_room1
+room_ = r_gabriel_ancientcity_room1;
+start_ = GA_1_START;

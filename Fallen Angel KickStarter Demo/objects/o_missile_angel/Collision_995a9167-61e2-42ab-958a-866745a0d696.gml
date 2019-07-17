@@ -1,6 +1,6 @@
 if health_ <= 0 exit;
 var enemyHeight = 42;
-if other.sprite_index != s_player_uppercut_hitbox and other.sprite_index != s_player_power_burst_projectile {
+if other.sprite_index != s_player_uppercut_hitbox and !place_meeting(x,y-z,o_trigger_projectile)/*other.sprite_index != s_player_power_burst_projectile*/ {
 	if !( (other.z > z-enemyHeight) and (other.z >= z) and (other.z < z+enemyHeight) ) then exit;
 }
 
@@ -51,6 +51,12 @@ if hurtbox_entity_can_be_hit_by(other)
 	if global.player_stamina < global.player_max_stamina {
 		global.player_stamina += 0.4;
 	}
+	
+	
+	knockback_direction = point_direction(other.x, other.y, x, y);
+	knockback_ammount = other.knockback_;
+	alarm_set(7,global.one_second*.25);
+	
 }
 
 /*if other.toground and z !=0  { 

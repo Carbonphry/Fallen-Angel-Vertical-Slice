@@ -80,6 +80,12 @@ if hurtbox_entity_can_be_hit_by(other)
 	if global.player_stamina < global.player_max_stamina {
 		global.player_stamina += 0.4;
 	}
+	
+	if z == 0  {
+		knockback_direction = point_direction(other.x, other.y, x, y);
+		knockback_ammount = other.knockback_;
+		alarm_set(7,global.one_second*.25);
+	}
 }
 
 if other.toground {

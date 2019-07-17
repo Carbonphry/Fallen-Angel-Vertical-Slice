@@ -1,5 +1,5 @@
 /// @description Attack State
-if image_index >= 2 and image_index <= 5  {
+if image_index >= 2 and image_index <= 6  {
 	parriable = true;
 } else {
 	parriable = false;
@@ -85,7 +85,6 @@ if animation_hit_frame(9)
 }
 
 if image_index >= 10 and hit {
-	
 	image_speed = 0.8;
 	x += lengthdir_x(2,_attack_angle-180);
 	y += lengthdir_y(2,_attack_angle-180);
@@ -95,13 +94,15 @@ if animation_hit_frame(image_number-1)
 {
 	//state_ = cherub.idle; 
 	//state_ = cherub.fallback; 
-	state_ = choose (cherub.run, cherub.idle); 
+	state_ = cherub.run; 
 	stop = true;
 	_attack_angle = noone;
 	hit = false;
 	alarm[1] = 1*global.one_second;
 	alarm[2] = 1*global.one_second;
-	
-	
-	
+	if image_xscale == -1 {
+	image_xscale = 1;
+	} else {
+		image_xscale = -1;
+	}
 }

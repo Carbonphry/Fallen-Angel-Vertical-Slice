@@ -1,2 +1,2 @@
-room_ = r_intro_room3;
-start_ = room2to3;
+room_ = r_gabriel_ancientcity_room4;
+start_ = GA_4_RIGHT;

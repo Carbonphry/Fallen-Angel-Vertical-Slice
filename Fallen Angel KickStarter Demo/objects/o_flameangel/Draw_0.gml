@@ -32,7 +32,7 @@ if state_ == flameangel.stun {
 		stp = 0;
 }
 
-if alarm_get(8) > 0 {
+if alarm_get(8) > 0 and health_ > 0 {
 	//var life_size = max(health_/max_health_,0);
 	//draw_text_color(x_bar_b+5/*x_bar_b+30*/,y_bar_b-14,"Holy Seraph Abdiel",c_white,c_yellow,c_white,c_yellow,1);
 	

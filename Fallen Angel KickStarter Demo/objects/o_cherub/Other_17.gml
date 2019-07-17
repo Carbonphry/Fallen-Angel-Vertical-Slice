@@ -11,9 +11,9 @@ if alarm[1] <= 0
 	state_ = cherub.idle;
 } else 
 {
-	add_movement_maxspeed(direction_, 0.05, .5);
+	add_movement_maxspeed(direction_, 0.15, 1.2);
 }
 
 
-//move_movement_entity(true);
+move_movement_entity(true);
 //alarm[1] = random_range(2, 3)*game_get_speed(gamespeed_fps);

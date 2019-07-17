@@ -3,6 +3,14 @@
 image_speed = .8;
 sprite_index = s_flameangel_explode;
 uninterruptible = true;
+
+if image_index >= 5 and image_index <= 8 {
+	parriable = true;
+} else {
+	parriable = false;
+}
+
+
 if animation_hit_frame(3) {
 audio_play(a_flameangel_explode);
 }

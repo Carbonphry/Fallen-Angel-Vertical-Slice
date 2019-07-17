@@ -31,4 +31,7 @@ if (last_sprite != sprite_index) {
    last_sprite = sprite_index;
 }
 
+if place_meeting(x,y-z,o_trigger_projectile) {
+	event_perform(ev_collision,3);
+}
 //z_depth_system_enemy();

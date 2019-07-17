@@ -73,6 +73,50 @@ if (image_alpha >= 1.3) {
 				start_ = room6to7;
 			}
 			break;
+			
+			
+			
+			
+			case r_gabriel_ancientcity_room1:
+			room_ = r_gabriel_ancientcity_room2;
+			start_ = gabriel_ancientcity_room1_to_gabriel_ancientcity_room2;
+			break;
+			
+			case r_gabriel_ancientcity_room2:
+			if distance_to_object(ga_back2) < 50 {
+				room_ = r_gabriel_ancientcity_room3;
+				start_ =  GA_3_LEFT;
+			} else {
+				room_ = r_gabriel_ancientcity_room1;
+				start_ =  GA_1_RIGHT;
+			}
+			break;
+			
+			case r_gabriel_ancientcity_room3:
+			/*if distance_to_object(back3) < 90 {
+				room_ = r_intro_room2;
+				start_ = backtoroom2;
+			*/
+				room_ = r_gabriel_ancientcity_room2;
+				start_ = GA_2_RIGHT;
+			
+			break;
+			
+			case r_gabriel_ancientcity_room4:
+			/*if distance_to_object(back3_2) < 90 {
+				room_ = r_intro_room3;
+				start_ =  backtoroom3;
+			} else {*/
+				room_ = r_gabriel_ancientcity_room5;
+				start_ = GA_5;
+			
+			break;
+			
+			case r_gabriel_ancientcity_room5:
+			room_ = r_gabriel_ancientcity_room4;
+			start_ = GA_4_LEFT;
+			break;
+			
 		}
 		
 		image_xscale *= 2.5;
