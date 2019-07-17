@@ -48,7 +48,8 @@
         "2e73528c-b7fb-4052-882e-33a446d56755",
         "a4647e30-1123-4e52-b506-38d78d8552fd",
         "51c76df5-b92c-4c0b-aa9b-f3c8fea9a7c6",
-        "e1928460-1144-4f10-b462-2d9044f26ff5"
+        "e1928460-1144-4f10-b462-2d9044f26ff5",
+        "a69a7c63-8240-445f-b927-6692de7770d0"
     ],
     "filterType": "GMSprite",
     "folderName": "Jumping",

@@ -1535,6 +1535,14 @@
             }
         },
         {
+            "Key": "23599d21-d76f-4d58-b1c1-72a9939427fd",
+            "Value": {
+                "id": "0bccb6bf-22fb-4498-a2db-db98f08ca5ea",
+                "resourcePath": "sprites\\s_big_explosion_effect\\s_big_explosion_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "235d3a01-13c4-46a6-a61d-5ccedad7d536",
             "Value": {
                 "id": "c39b2184-eaa2-49bd-87fa-7728834c7fc1",
@@ -1660,6 +1668,14 @@
                 "id": "540a1085-8c61-430e-8ed4-6fd8b2a26c6a",
                 "resourcePath": "views\\2684e3cd-2f65-47d3-b240-eb9c8a5aa2cd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2732eba6-3c3e-4ba1-bd3d-a42b3b82f33b",
+            "Value": {
+                "id": "17d98c4a-eb01-42bd-b3b5-53c6d6b6f6c8",
+                "resourcePath": "sprites\\s_caveman_attack\\s_caveman_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3911,6 +3927,14 @@
             }
         },
         {
+            "Key": "60b391d7-25a4-43b5-b77c-a9bf85b4f97d",
+            "Value": {
+                "id": "1c711d05-17fa-4803-b1cd-07f2a55d4c64",
+                "resourcePath": "views\\60b391d7-25a4-43b5-b77c-a9bf85b4f97d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "61132202-b8f8-4f85-ab44-ed6937522cb0",
             "Value": {
                 "id": "9c7ddac9-508c-4d33-8360-657850adff04",
@@ -3948,6 +3972,14 @@
                 "id": "5c79b7de-cdd1-4eb1-8df4-0acce03a0459",
                 "resourcePath": "objects\\o_glow_burst_small\\o_glow_burst_small.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "621ca39f-9283-4646-a09c-e3776c1d2b89",
+            "Value": {
+                "id": "c14d622b-9ead-4673-bcce-51e2a4a9153d",
+                "resourcePath": "sprites\\s_caveman_idle\\s_caveman_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4284,6 +4316,14 @@
                 "id": "c0dc9f6b-730c-4d3b-a679-003ffcf34a3f",
                 "resourcePath": "scripts\\z_depth_system2\\z_depth_system2.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "69863c98-32ea-438e-989d-039d63ef0349",
+            "Value": {
+                "id": "c410ca80-fb5b-418d-90ea-dab63f5b9d11",
+                "resourcePath": "sprites\\s_caveman_move\\s_caveman_move.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5308,6 +5348,14 @@
                 "id": "b2bab1e1-aaed-4b78-a3a6-c17d8f1a0e79",
                 "resourcePath": "scripts\\set_move_n\\set_move_n.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "86d5d3e7-bce8-4ff3-bed6-72c2636f1b34",
+            "Value": {
+                "id": "a2d63387-84b0-4b1a-8a87-30de873c596d",
+                "resourcePath": "sprites\\s_caveman_retreat\\s_caveman_retreat.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6492,6 +6540,14 @@
                 "id": "adbdbc54-2da2-46fb-aa0e-a38f6c7011f1",
                 "resourcePath": "scripts\\move_movement_entity\\move_movement_entity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a69a7c63-8240-445f-b927-6692de7770d0",
+            "Value": {
+                "id": "e62a6141-63e0-4b98-b298-1997985dddcb",
+                "resourcePath": "sprites\\s_player_ledge_jump_up\\s_player_ledge_jump_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8011,6 +8067,14 @@
             "Value": {
                 "id": "6159e55b-07c4-4747-be03-349923f0d739",
                 "resourcePath": "sprites\\s_impact_effect_2\\s_impact_effect_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf74cf4f-f1d8-4f2c-9954-2087a36832f1",
+            "Value": {
+                "id": "0325ac49-5fbe-45be-bfbe-f1f3cd796943",
+                "resourcePath": "sprites\\s_caveman_die\\s_caveman_die.yy",
                 "resourceType": "GMSprite"
             }
         },
