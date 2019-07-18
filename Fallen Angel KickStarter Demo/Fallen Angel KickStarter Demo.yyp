@@ -7487,6 +7487,14 @@
             }
         },
         {
+            "Key": "bdb9347e-95e3-4357-8d0c-b93389bf3982",
+            "Value": {
+                "id": "0a7eed5e-74cb-4eb8-8bea-5bea8494fcb8",
+                "resourcePath": "sprites\\s_smoke_puff_11\\s_smoke_puff_11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bdf6f9bb-0978-4b46-ab76-88cea8154521",
             "Value": {
                 "id": "1962bbd5-c764-449d-93ad-f3390e62c467",
@@ -8812,6 +8820,14 @@
                 "id": "69c6896a-1cdf-4c5c-9f25-c602811af0cd",
                 "resourcePath": "objects\\o_puzzle_2\\o_puzzle_2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e0dc7664-4fcd-4e0f-af85-667d4dbe40bc",
+            "Value": {
+                "id": "afdfc1d0-1c20-46ff-8ab2-c8e273969824",
+                "resourcePath": "sprites\\s_smoke_puff_1\\s_smoke_puff_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
