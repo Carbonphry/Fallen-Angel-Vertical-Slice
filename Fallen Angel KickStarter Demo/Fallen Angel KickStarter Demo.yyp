@@ -1850,7 +1850,7 @@
             "Key": "2be833c1-c19f-488e-adcf-d6defc2920a8",
             "Value": {
                 "id": "fd844cb0-78f5-4124-b058-cd5c2f8d4166",
-                "resourcePath": "objects\\o_level_gabriel_ancientcity_room2_structure\\o_level_gabriel_ancientcity_room2_structure.yy",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room1_structure6\\o_level_gabriel_ancientcity_room1_structure6.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2572,6 +2572,14 @@
                 "id": "f50a59ed-9a1e-4c52-bdbb-c45a73a4b053",
                 "resourcePath": "sounds\\a_player_untransform\\a_player_untransform.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "3b95988f-30d4-4f0a-846c-81aa612dffbc",
+            "Value": {
+                "id": "a7cc6829-08f2-4dd1-b985-57922ef0db5b",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room1_structure9\\s_level_gabriel_ancientcity_room1_structure9.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3975,6 +3983,14 @@
             }
         },
         {
+            "Key": "60036551-be40-4858-b56b-2b508ca3084b",
+            "Value": {
+                "id": "5a8bff15-d15e-43b5-b5f5-0cbba9552756",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room1_structure7\\o_level_gabriel_ancientcity_room1_structure7.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60310d1b-f9ae-48a1-9c59-61f969d1584a",
             "Value": {
                 "id": "83b18ae4-9c20-4eb4-a311-cfb8216b0fdd",
@@ -4831,6 +4847,14 @@
             }
         },
         {
+            "Key": "72bd0b75-7219-4571-a860-065b3fc87dc2",
+            "Value": {
+                "id": "62262490-ed36-48bb-bd65-5e239a9e20d0",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room1_structure9\\o_level_gabriel_ancientcity_room1_structure9.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7302889a-7f3f-4494-8724-6186bf9f3303",
             "Value": {
                 "id": "69fd7c22-31ce-44d3-bdb3-955b8101d5a0",
@@ -5258,7 +5282,7 @@
             "Key": "8011e0b4-2a5f-4897-b23d-b258b9f12494",
             "Value": {
                 "id": "be62ff17-4b0c-41a0-89c6-04aafb613893",
-                "resourcePath": "objects\\o_level_gabriel_ancientcity_room3_ground\\o_level_gabriel_ancientcity_room3_ground.yy",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room1_structure8\\o_level_gabriel_ancientcity_room1_structure8.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -6087,6 +6111,14 @@
             }
         },
         {
+            "Key": "9705e652-2efc-4a2e-987f-9a1b658cc88d",
+            "Value": {
+                "id": "eb13f83b-6a91-463d-86b1-49e1410e3595",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room1_structure7\\s_level_gabriel_ancientcity_room1_structure7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97135644-bd91-490a-b298-2ed62fe127a4",
             "Value": {
                 "id": "38936bdc-0781-43b7-9f5e-000560a913b8",
@@ -6498,7 +6530,7 @@
             "Key": "a2c3a424-348b-449d-98fc-755cdd743877",
             "Value": {
                 "id": "61ebc04e-4a34-40ed-8638-9b54b2abafe1",
-                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room3_ground\\s_level_gabriel_ancientcity_room3_ground.yy",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room1_structure8\\s_level_gabriel_ancientcity_room1_structure8.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7794,7 +7826,7 @@
             "Key": "c0fe9bf7-a141-43f1-8bb1-8bf555c7581a",
             "Value": {
                 "id": "64318dce-a44e-488f-899b-0f04f55c25b3",
-                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_cliff1\\s_level_gabriel_ancientcity_room2_cliff1.yy",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room1_structure6\\s_level_gabriel_ancientcity_room1_structure6.yy",
                 "resourceType": "GMSprite"
             }
         },
