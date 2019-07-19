@@ -4935,6 +4935,14 @@
             }
         },
         {
+            "Key": "759fd17b-c5b6-4548-8ed5-447e64aba7f7",
+            "Value": {
+                "id": "81d5f750-9193-4ea6-973f-82d0c3b5c940",
+                "resourcePath": "sprites\\s_power_shard\\s_power_shard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76099e78-94e8-4b77-9abd-b1a73e9940f4",
             "Value": {
                 "id": "ab47e263-b8c8-4233-b521-6e5e5ab3d9b2",
