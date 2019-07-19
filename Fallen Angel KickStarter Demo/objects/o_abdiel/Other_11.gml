@@ -7,7 +7,7 @@ if (distance_to_object(target) < aggro_range_ and alarm[2] <= 0) {
 } else if (distance_to_object(target) > aggro_range_) and (global.player_health >0) and alarm[3] <= 0 {
 		state_ = abdiel.warp;
 } else   {
-	//alarm[1] = random_range(2, 4) *game_get_speed(gamespeed_fps);
+	//alarm[1] = random_range(2, 4) *game_get_speed(game_speed_fps);
 	
 	state_ = abdiel.wander;
 	direction_ = point_direction(o_player.x,o_player.y,x,y);

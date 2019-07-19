@@ -58,7 +58,7 @@ if animation_hit_frame(5)
 if animation_hit_frame(image_number-1)
 {
 	//state_ = cherub.idle; 
-	speed_ = 0;
+	_speed_ = 0;
 	uninterruptible = false;
 	state_ = abdiel.idle; //choose(abdiel.wander, abdiel.idle, abdiel.run, abdiel.warp); 
 	//state_ = choose (lancer.run, lancer.idle); 

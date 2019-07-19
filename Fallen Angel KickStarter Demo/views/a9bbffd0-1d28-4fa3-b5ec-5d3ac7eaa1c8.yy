@@ -28,13 +28,16 @@
         "8d21f427-e9ff-48e5-bbd0-3dc8633d8ab6",
         "0e38bf3c-95e5-408a-a91c-d488639893c4",
         "63eaa19b-64e1-4ed7-9b6f-b3ebc0ae8f50",
+        "b9d3be7f-34d6-4e9b-a8af-92cf5fee9b4d",
         "a5d4af45-e66a-402c-a490-98d3467bdef0",
         "9c5745b0-509d-4f63-8d26-ac52f10aa48b",
         "35a2f481-5273-4d23-95ad-91d90e584e07",
         "74f828a1-bf48-4c17-89d0-f8c660d69926",
         "ef9e4f7a-3837-4695-9fdf-51377727b523",
         "dc967206-5e45-45f0-a8ce-ee5a5f86d6a7",
-        "1a98fdda-bf4d-4fd3-8ba0-f81f2c6263a8"
+        "1a98fdda-bf4d-4fd3-8ba0-f81f2c6263a8",
+        "64919ec0-1672-460c-80a1-6e808758d631",
+        "3685fbfb-a7e9-4a70-b65c-dd8e1b43b603"
     ],
     "filterType": "GMScript",
     "folderName": "Player States",

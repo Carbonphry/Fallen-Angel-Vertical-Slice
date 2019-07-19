@@ -1,4 +1,4 @@
 /// @description Not Playable
 // You can write your code in this editor
 image_speed = .5;
-speed_ = 0;
+_speed_ = 0;

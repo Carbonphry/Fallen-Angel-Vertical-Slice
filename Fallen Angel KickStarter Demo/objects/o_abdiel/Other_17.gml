@@ -19,10 +19,10 @@ if alarm[1] <= 0
 	state_ = abdiel.idle;
 	bounce = false;
 } else {
-	speed_ = 2;
+	_speed_ = 2;
 	add_movement_maxspeed(direction_, 0.03, .6);
 }
 
 
 //move_movement_entity(true);
-//alarm[1] = random_range(2, 3)*game_get_speed(gamespeed_fps);
+//alarm[1] = random_range(2, 3)*game_get_speed(game_speed_fps);

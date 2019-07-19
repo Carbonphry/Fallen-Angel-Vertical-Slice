@@ -14,4 +14,4 @@ if power_stance {
 
 
 image_speed = .3;
-speed_ = 0;
+_speed_ = 0;

@@ -151,7 +151,7 @@ if _glide_input and z>z_ground {
 
 if gliding {
 	z_speed = -0.4;
-	z_speed_gravity = .2;
+	z__speed_gravity = .2;
 	
 	
 	/*if power_stance {

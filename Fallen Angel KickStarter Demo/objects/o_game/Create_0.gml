@@ -3,7 +3,7 @@ fullscreen = true;
 gui_height_ = display_get_gui_height();
 gui_width_ = display_get_gui_width();
 
-global.one_second = room_speed;  //game_get_speed(gamespeed_fps);
+global.one_second = room_speed;  //game_get_speed(game_speed_fps);
 global.destroyed = [];
 var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567890>,!':-+";
 global.font = font_add_sprite_ext(s_font, _font_string, true, 1);

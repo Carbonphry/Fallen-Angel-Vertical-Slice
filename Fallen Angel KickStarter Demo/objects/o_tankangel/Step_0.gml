@@ -36,7 +36,7 @@ if jump and z = z_ground {
 	//alarm_set(7,global.one_second*.4);
 }
 
-//speed_ = 1;
+//_speed_ = 1;
 if alarm_get(11) >0 {
 	if jump {
 		z_speed += 1;
@@ -48,7 +48,7 @@ if alarm_get(11) >0 {
 if !levitate {
 
 	z += z_speed;
-	z_speed -= z_speed_gravity;
+	z_speed -= z__speed_gravity;
 
 
 	if z <= z_ground
@@ -77,7 +77,7 @@ switch (onAir) {
 }
 
 
-if (speed_ > 0 and sprite_index == s_tankangel_idle ) {
+if (_speed_ > 0 and sprite_index == s_tankangel_idle ) {
 	sprite_index = s_tankangel_move;
 	image_speed = .8;
 }

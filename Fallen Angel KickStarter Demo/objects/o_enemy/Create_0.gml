@@ -20,7 +20,7 @@ jump = false;
 z = 0;
 z_ground        = 0; 
 z_speed         = 0; 
-z_speed_gravity = .25;
+z__speed_gravity = .25;
 
 levitate = false;
 pulseanim = 0;

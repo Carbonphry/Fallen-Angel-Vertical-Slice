@@ -120,7 +120,7 @@ repeat(abs(walk_speed * (right  - left )))
             }
     }*/
 
-	with o_solid 
+	with class_enemy_coll 
 	{
 		if place_meeting(x - (other.right - other.left), y, other)
             {
@@ -144,8 +144,11 @@ repeat(abs(walk_speed * (right  - left )))
 	
 	
     
-    if can_move == true
-        x += (right*diag - left*diag);
+    if can_move {
+       x += (right*diag - left*diag);
+	} else {
+		x += -(right*diag - left*diag)*2;
+	}
 }
 
 
@@ -189,7 +192,7 @@ repeat(abs(walk_speed * (down  - up )))
 	
 	}*/
 	
-	with o_solid 
+	with class_enemy_coll 
 	{
 		if place_meeting(x , y- (other.down - other.up), other)
            {
@@ -214,8 +217,11 @@ repeat(abs(walk_speed * (down  - up )))
 		}
 	}
 	
-    if can_move == true
+    if can_move {
         y += (down*diag - up*diag);
+	} else {
+		 y += -(down*diag - up*diag)*2;
+	}
 }
 
 
@@ -247,16 +253,16 @@ if alarm_get(7) >0 {
 }
 last_z = z;
 z += z_speed;
-z_speed -= z_speed_gravity;
+z_speed -= z__speed_gravity;
 
 if o_player.state_ == player.smash
 {
 	grav_mult = 0.05;
-	z_speed_gravity += grav_mult;
+	z__speed_gravity += grav_mult;
 } else
 {
 grav_mult = 0;
-z_speed_gravity = .25;
+z__speed_gravity = .25;
 }
 
 

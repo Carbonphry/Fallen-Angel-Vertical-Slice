@@ -1,3 +1,8 @@
+///@description Resets
+if o_input.alarm[6] {
+	set_move_n(knockback_direction,knockback_ammount);
+}
+
 if global.player_health <= 0 and !invincible_ {
 	state_ = player.dead;
 	with (o_reticle) {

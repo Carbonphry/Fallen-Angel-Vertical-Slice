@@ -14,8 +14,8 @@ initialize_hurtbox_entity();
 
 image_speed = 0;
 acceleration_ = 0.5;
-max_speed_ = 1;
-roll_speed_ = 2;
+max__speed_ = 1;
+roll__speed_ = 2;
 direction_facing_ = dir.right;
 dodge_direction_ = dir.right;
 roll_direction_ = 0;
@@ -206,7 +206,7 @@ vsp = 0;
 z               = 0; 
 z_ground        = 0; 
 z_speed         = 0; 
-z_speed_gravity = .25;
+z__speed_gravity = .25;
 last_z  = z;
 
 can_move = true;
@@ -292,3 +292,6 @@ evade_step = true;
 charge = 0;
 
 global.ammo_count = 3;
+
+knockback_direction = noone;
+knockback_ammount = noone;

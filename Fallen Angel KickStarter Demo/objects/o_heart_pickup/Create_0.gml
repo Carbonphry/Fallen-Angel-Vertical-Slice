@@ -1,5 +1,5 @@
 event_inherited();
-z_speed_ = -2;
+z__speed_ = -2;
 gravity_ = 0.2;
 image_speed = .75;
 

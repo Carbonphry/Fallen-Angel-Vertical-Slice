@@ -226,7 +226,7 @@ and z = z_ground
     
 
 z += z_speed;
-z_speed -= z_speed_gravity;
+z_speed -= z__speed_gravity;
 
 
 if z <= z_ground
@@ -295,7 +295,7 @@ if !place_meeting(x, y, obj_cube_parent)
 }
 
 
-//set_movement(roll_direction_, roll_speed_);
+//set_movement(roll_direction_, roll__speed_);
 
 //instance_create_layer(o_player.x, o_player.y-o_player.z, "Effects", o_particle_dash);
 //instance_create_depth(o_player.x, o_player.y-o_player.z, o_player.depth, o_particle_dash);

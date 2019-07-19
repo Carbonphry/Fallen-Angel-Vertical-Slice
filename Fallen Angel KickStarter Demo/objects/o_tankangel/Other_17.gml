@@ -51,7 +51,7 @@ if animation_hit_frame(6) and !dead {
 	originX = x;
 	originY = y;
 
-	speed_ = 0;
+	_speed_ = 0;
 	jumpdir = point_direction(x,y,targetX,targetY);
 	
 	if jumpdir > 90 and jumpdir <= 270 {
@@ -102,14 +102,14 @@ if animation_hit_frame(16) and !dead {
 	//instance_create_layer(x,y, "Instances", o_knockback_hitbox);
 	add_screenshake(4,15)
 	//y = y-z
-	speed_ = 0;
+	_speed_ = 0;
 	
 } 
 
 if animation_hit_frame(11) and dead {
 	onAir = false;
 	z = 0;
-	speed_ = 0;
+	_speed_ = 0;
 	instance_destroy(id,true);
 	exit;
 }
@@ -121,7 +121,7 @@ if animation_hit_frame(11) and dead {
 
 if animation_hit_frame(image_number-1) {
 	state_ = tankangel.idle;
-	speed_ = .5;
+	_speed_ = .5;
 	alarm[3] = global.one_second*2.5;
 	alarm[1] = global.one_second*.8;
 	

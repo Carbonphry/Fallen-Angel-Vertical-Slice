@@ -4,7 +4,7 @@ sprite_index = s_cherub_move;
 
 var target = instance_nearest(x,y,class_player);
 direction_ = point_direction(x, y, target.x, target.y);
-var _x_speed = lengthdir_x(speed_, direction_);
+var _x_speed = lengthdir_x(_speed_, direction_);
 if _x_speed != 0
 {
 		image_xscale = sign(_x_speed);
@@ -22,7 +22,7 @@ else
 
 //move_movement_entity(true);
 
-if speed_ == 0
+if _speed_ == 0
 {
 	alarm[1] = random_range(1, 3) * global.one_second;
 	state_ = cherub.idle;

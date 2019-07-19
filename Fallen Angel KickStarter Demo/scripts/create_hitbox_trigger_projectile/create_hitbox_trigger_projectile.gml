@@ -23,9 +23,9 @@ _hitbox.damage_ = _damage;
 _hitbox.knockback_ = _knockback;
 _hitbox.z = id.z;
 _hitbox.direction = _angle+random_range(-2,2);
-_hitbox.speed = 9;
+_hitbox.speed = random_range(5,6);
 _hitbox.depth = id.depth;
 //_hitbox.visible = true;
-_hitbox.image_speed = .4;
+_hitbox.image_speed =  random_range(1.2,1.4);
 
 return _hitbox;

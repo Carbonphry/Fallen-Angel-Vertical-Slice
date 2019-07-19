@@ -5,7 +5,7 @@ if instance_exists(class_player) {
 	target = instance_nearest(x,y,class_player);
 	direction_ = point_direction(x, y, target.x, target.y);
 }
-var _x_speed = lengthdir_x(speed_, direction_);
+var _x_speed = lengthdir_x(_speed_, direction_);
 if _x_speed != 0 and alarm[6] <= 0
 {
 		image_xscale = sign(_x_speed);
@@ -22,8 +22,8 @@ if alarm[1] <= 0
 
 move_movement_entity(true);
 
-if speed_ == 0 {
-	alarm[1] = random_range(1,1.5) * game_get_speed(gamespeed_fps);
+if _speed_ == 0 {
+	alarm[1] = random_range(1,1.5) * game_get_speed(game_speed_fps);
 	state_ = abdiel.idle;
 }
 var target = instance_nearest(x,y,class_player);

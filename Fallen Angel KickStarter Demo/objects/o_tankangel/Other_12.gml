@@ -1,7 +1,7 @@
 /// @description Wander Event
 image_speed = .8;
 sprite_index = s_tankangel_move;
-var _x_speed = lengthdir_x(speed_, direction_);
+var _x_speed = lengthdir_x(_speed_, direction_);
 if _x_speed != 0
 {
 		image_xscale = sign(_x_speed);
@@ -25,9 +25,9 @@ move_movement_entity(true);
 
 //move_movement_entity(true);
 
-if speed_ == 0
+if _speed_ == 0
 {
-	alarm[1] = random_range(1,3) * game_get_speed(gamespeed_fps);
+	alarm[1] = random_range(1,3) * game_get_speed(game_speed_fps);
 	state_ = tankangel.idle;
 }
 var target = instance_nearest(x,y,class_player);

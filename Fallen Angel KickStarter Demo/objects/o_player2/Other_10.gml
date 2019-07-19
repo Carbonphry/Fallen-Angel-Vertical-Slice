@@ -103,7 +103,7 @@ if _x_input == 0 and _y_input == 0
 	
 		get_direction_facing(_input_direction);
 		if can_move {
-			//add_movement_maxspeed(_input_direction, acceleration_, max_speed_);
+			//add_movement_maxspeed(_input_direction, acceleration_, max__speed_);
 		}
 		
 		if (abs(image_index - 0) <= 0.2 || abs(image_index - 4) <= 0.2)

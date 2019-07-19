@@ -15,4 +15,4 @@ if alarm[1] <= 0
 
 
 move_movement_entity(true);
-//alarm[1] = random_range(2, 3)*game_get_speed(gamespeed_fps);
+//alarm[1] = random_range(2, 3)*game_get_speed(game_speed_fps);

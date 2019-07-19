@@ -280,16 +280,16 @@ if alarm_get(7) >0 {
 }
 last_z = z;
 z += z_speed;
-z_speed -= z_speed_gravity;
+z_speed -= z__speed_gravity;
 
 if o_player.state_ == player.smash
 {
 	grav_mult = 0.05;
-	z_speed_gravity += grav_mult;
+	z__speed_gravity += grav_mult;
 } else
 {
 grav_mult = 0;
-z_speed_gravity = .25;
+z__speed_gravity = .25;
 }
 
 

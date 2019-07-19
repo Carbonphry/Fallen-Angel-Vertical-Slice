@@ -186,7 +186,7 @@ and z = z_ground
     
 
 z += z_speed;
-z_speed -= z_speed_gravity;
+z_speed -= z__speed_gravity;
 
 
 if z <= z_ground
@@ -350,7 +350,7 @@ and z = z_ground
     
 
 z += z_speed;
-z_speed -= z_speed_gravity;
+z_speed -= z__speed_gravity;
 
 
 if z <= z_ground
@@ -519,7 +519,7 @@ if animation_hit_frame(6)
     
 
 	z += z_speed;
-	z_speed -= z_speed_gravity;
+	z_speed -= z__speed_gravity;
 
 
 	if z <= z_ground

@@ -56,7 +56,7 @@ face = noone;
 
 heavyknockdir = noone;
 
-z_speed_gravity = .32;
+z__speed_gravity = .32;
 
 thr = 13;
 

@@ -67,8 +67,17 @@ if triggerCount == 0 {
 				break;
 				
 				case true:
-				if reticle_anim >=16 { 
-					shoot_trigger();
+				if reticle_anim >=12 and reticle_anim >=16 { 
+					shoot_trigger_power_critical();
+					o_input.alarm[6] = global.one_second*.2;
+					var rdir = o_reticle.image_angle;
+					if rdir  >= 0 and rdir  <= 180 {
+						knockback_direction = rdir  + 180;
+					} else if rdir  > 180 and rdir  <= 360 {
+						knockback_direction = rdir  -180;
+					} 
+					knockback_ammount = 1;
+					
 				} else {
 					shoot_trigger_shotgun();
 				}
@@ -76,12 +85,27 @@ if triggerCount == 0 {
 			
 			}
 			
-			
 			triggerCount = 1;
 			reticle_anim = 0;
 			burst_arm_anim = 0;
 			global.ammo_count--;
 	} 
+	
+	if power_stance and reticle_anim >=16 {
+		shoot_trigger_power_critical();
+		var rdir = o_reticle.image_angle;
+		if rdir  >= 0 and rdir  <= 180 {
+			knockback_direction = rdir  + 180;
+		} else if rdir  > 180 and rdir  <= 360 {
+			knockback_direction = rdir  -180;
+		} 
+		knockback_ammount = 1;
+		triggerCount = 1;
+		reticle_anim = 0;
+		burst_arm_anim = 0;
+		global.ammo_count--;
+		o_input.alarm[6] = global.one_second*.2;
+	}
 	
 	if reticle_anim < 20 {
 		reticle_anim += .25;

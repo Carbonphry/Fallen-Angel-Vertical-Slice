@@ -249,7 +249,7 @@ and z = z_ground
     
 
 z += z_speed;
-z_speed -= z_speed_gravity;
+z_speed -= z__speed_gravity;
 
 
 if z <= z_ground

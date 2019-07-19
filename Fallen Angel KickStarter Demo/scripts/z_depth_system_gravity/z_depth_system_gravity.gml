@@ -1,6 +1,6 @@
 #region Waa
 /*left     = o_input.left_;
-speed_    = o_input.speed__;
+_speed_    = o_input._speed__;
 up       = o_input.up_;
 down     = o_input.down_;*/
 //var jump     = o_input.action_four_;
@@ -19,7 +19,7 @@ jump_speed = 2;
 	//alarm_set(7,global.one_second*.4);
 }
 
-//speed_ = 1;
+//_speed_ = 1;
 /*if alarm_get(11) >0 {
 	if jump {
 		z_speed += 0.2;
@@ -31,7 +31,7 @@ jump_speed = 2;
 
 
 z += z_speed;
-z_speed -= z_speed_gravity;
+z_speed -= z__speed_gravity;
 
 
 if z <= z_ground

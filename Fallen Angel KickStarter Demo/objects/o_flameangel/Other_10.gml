@@ -9,6 +9,6 @@ if alarm[4] < 0 {
 	knockback_ammount = noone;
 }
 
-/*1if speed_ == 0 and z == z_ground {
+/*1if _speed_ == 0 and z == z_ground {
 	state_ = starting_state_;
 }

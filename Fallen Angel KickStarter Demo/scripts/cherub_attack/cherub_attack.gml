@@ -7,5 +7,5 @@ var di = point_direction(x,y,target.x, target.y);
 if _distance_to_player < 80 and  collision_line(x, y, x+lengthdir_x(_distance_to_player,di), y+lengthdir_y(_distance_to_player,di), o_solid, false, false) == noone {
 	state_ = cherub.attack;
 	image_index = 0;
-	sprite_index = s_cherub_attack;
+	
 }

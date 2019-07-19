@@ -1,4 +1,6 @@
 /// @description Attack State
+sprite_index = s_cherub_attack;
+
 if image_index >= 2 and image_index <= 6  {
 	parriable = true;
 } else {
