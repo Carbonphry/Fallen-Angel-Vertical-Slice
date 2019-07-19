@@ -120,7 +120,17 @@ repeat(abs(walk_speed * (right  - left )))
             }
     }*/
 
-	with class_enemy_coll 
+	with o_enemy
+	{
+		if place_meeting(x - (other.right - other.left), y, other)
+            {
+                
+				other.can_move = false;
+				
+            }
+    }
+	
+	with o_solid
 	{
 		if place_meeting(x - (other.right - other.left), y, other)
             {
@@ -192,7 +202,7 @@ repeat(abs(walk_speed * (down  - up )))
 	
 	}*/
 	
-	with class_enemy_coll 
+	with o_enemy
 	{
 		if place_meeting(x , y- (other.down - other.up), other)
            {
@@ -204,6 +214,17 @@ repeat(abs(walk_speed * (down  - up )))
 	
 	}
 	
+	with o_solid
+	{
+		if place_meeting(x , y- (other.down - other.up), other)
+           {
+                
+					other.can_move = false;
+				
+                break;
+           }
+	
+	}
 	
 	if ((state_ == player.idle or state_ == player.move) and z <= 0) {
 		with o_solid_air 

@@ -54,7 +54,7 @@ show_volume = false;
 #macro DMG_HEAVY 2
 #macro DMG_THIRD_SWING 2
 #macro AIR_SWING_KNOCKFORWARD 0
-
+#macro  game_speed_fps 60  
 #macro PTS_ATTACK_1 1
 #macro PTS_ATTACK_2 1
 #macro PTS_ATTACK_3 2
