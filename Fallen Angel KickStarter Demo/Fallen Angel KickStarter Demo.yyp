@@ -2631,6 +2631,14 @@
             }
         },
         {
+            "Key": "3cc81b4f-5944-4d06-b5a5-476124261d2b",
+            "Value": {
+                "id": "1c20bace-d0f9-42c2-9f40-bf213cb41c50",
+                "resourcePath": "objects\\o_shard\\o_shard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3cd0a5e7-2b28-4a0f-b3f5-59902b9a46db",
             "Value": {
                 "id": "3bafda94-88c1-434b-ba9f-b40153b2dc8a",
