@@ -1151,6 +1151,14 @@
             }
         },
         {
+            "Key": "199f63c6-ecfe-41d9-9f2a-aa8ff4910ae7",
+            "Value": {
+                "id": "10c0cd33-9ffb-4c8c-9ac1-e6116d1f906e",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room1_ground2\\o_level_gabriel_ancientcity_room1_ground2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19ded516-47ab-4a3c-82b3-6935b989aac6",
             "Value": {
                 "id": "95739d61-3a95-46c7-a4b6-3904e3a456a8",
@@ -4634,7 +4642,7 @@
             "Key": "6ed1ee87-0acf-4658-8aff-9d8f639ba414",
             "Value": {
                 "id": "4d4c9d99-1b89-480c-b25c-d034dbdd66bb",
-                "resourcePath": "objects\\o_level_gabriel_ancientcity_room1_ground\\o_level_gabriel_ancientcity_room1_ground.yy",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room1_ground1\\o_level_gabriel_ancientcity_room1_ground1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -6299,6 +6307,14 @@
             "Value": {
                 "id": "92e9bf68-73c2-4f0b-baaa-7da673214bab",
                 "resourcePath": "sprites\\s_solid3\\s_solid3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9cf9239d-5792-4683-a61e-d13bf1436a3d",
+            "Value": {
+                "id": "672d23eb-9be5-4bc7-b0d7-0d8b59ada646",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room1_ground2\\s_level_gabriel_ancientcity_room1_ground2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8978,7 +8994,7 @@
             "Key": "dfb46fe5-8863-40b6-a0d3-04416d656c5a",
             "Value": {
                 "id": "0cf53a08-9744-4175-a607-795b8ce4d955",
-                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room1_ground\\s_level_gabriel_ancientcity_room1_ground.yy",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room1_ground1\\s_level_gabriel_ancientcity_room1_ground1.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,7 +2,7 @@
     "id": "6ed1ee87-0acf-4658-8aff-9d8f639ba414",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_level_gabriel_ancientcity_room1_ground",
+    "name": "o_level_gabriel_ancientcity_room1_ground1",
     "eventList": [
         
     ],
