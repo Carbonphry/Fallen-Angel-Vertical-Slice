@@ -1919,6 +1919,14 @@
             }
         },
         {
+            "Key": "2d07f930-8763-4bb4-ab23-7c1a75cd98ea",
+            "Value": {
+                "id": "2acd7a6e-f5c5-4ff1-8e83-d2f1b26ed587",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_structure1\\s_level_gabriel_ancientcity_room2_structure1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d7ecde8-383d-4835-8fb9-ae11ffd0f60a",
             "Value": {
                 "id": "86a40954-9713-4528-8a86-2db3c0e369fc",
@@ -5284,6 +5292,14 @@
                 "id": "ab8ce551-da55-40e5-8ed3-107472013b47",
                 "resourcePath": "sounds\\a_ambience_dungeon\\a_ambience_dungeon.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "803857d9-d867-46a5-b0fc-58f51a4a7efe",
+            "Value": {
+                "id": "831616c5-aef4-41fe-8a9b-4332b7d707ac",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room2_structure1\\o_level_gabriel_ancientcity_room2_structure1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
