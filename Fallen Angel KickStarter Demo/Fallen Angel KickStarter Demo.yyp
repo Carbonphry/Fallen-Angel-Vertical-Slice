@@ -2231,6 +2231,14 @@
             }
         },
         {
+            "Key": "33533135-a3ad-478e-b9e6-0582826c5bd5",
+            "Value": {
+                "id": "0dc99165-33ee-41a0-a3d6-1a34c27e7e54",
+                "resourcePath": "objects\\o_fx_power_charge_explosion\\o_fx_power_charge_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33d5082a-b016-4f5e-9e2e-b5c98b1763a7",
             "Value": {
                 "id": "fddbb8f1-839a-409a-96b5-ddacd5890400",

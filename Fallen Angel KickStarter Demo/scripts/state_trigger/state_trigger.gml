@@ -97,7 +97,7 @@ if triggerCount == 0 {
 			global.ammo_count--;
 	} 
 	
-	if power_stance and reticle_anim >=16 {
+	if power_stance and reticle_anim >16 {
 		shoot_trigger_power_critical();
 		var rdir = o_reticle.image_angle;
 		if rdir  >= 0 and rdir  <= 180 {
