@@ -15,7 +15,7 @@ enum caveman {
 	run,
 	
 }
-max_health_ = 3;
+max_health_ = 2;
 health_ = max_health_;
 
 starting_state_ = cherub.idle;

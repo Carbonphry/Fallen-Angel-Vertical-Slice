@@ -45,6 +45,8 @@ if hurtbox_entity_can_be_hit_by(other)
 		knockback_ammount = other.knockback_;
 		alarm_set(7,global.one_second*.25);
 	}
+	
+	alarm_set(8,global.one_second*1);
 
 }
 

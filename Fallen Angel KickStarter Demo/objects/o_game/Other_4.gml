@@ -63,9 +63,9 @@ switch (room) {
 	//////////////////////
 	
 	case r_intro_room1:
-	if !audio_is_playing(a_level_intro_room1_beach) {
+	/*if !audio_is_playing(a_level_intro_room1_beach) {
 		audio_play_sound(a_level_intro_room1_beach,2,true); 
-	}
+	}*/
 	audio_stop_sound(a_menu_loop);
 	audio_stop_sound(a_level_intro_music);
 	audio_stop_sound(a_level_intro_room2and3_waterfall);

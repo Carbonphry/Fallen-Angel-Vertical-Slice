@@ -69,6 +69,12 @@ if triggerCount == 0 {
 				case true:
 				if reticle_anim >=12 and reticle_anim >=16 { 
 					shoot_trigger_power_critical();
+					
+					var _smoke_muff = instance_create_depth(x,y,depth-100,o_smoke_puff);
+					_smoke_muff.image_speed = .3;
+					_smoke_muff.speed = .2;
+					_smoke_muff.direction = mouseDir;
+					
 					o_input.alarm[6] = global.one_second*.2;
 					var rdir = o_reticle.image_angle;
 					if rdir  >= 0 and rdir  <= 180 {
@@ -99,6 +105,8 @@ if triggerCount == 0 {
 		} else if rdir  > 180 and rdir  <= 360 {
 			knockback_direction = rdir  -180;
 		} 
+		
+		
 		knockback_ammount = 1;
 		triggerCount = 1;
 		reticle_anim = 0;

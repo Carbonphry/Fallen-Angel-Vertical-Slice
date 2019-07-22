@@ -70,7 +70,7 @@ if place_meeting(x,y,class_player) {
 	image_speed = 1.2;
 	hit = true;
 } else {
-	image_speed = 0.6;
+	image_speed = 0.9;
 }
 
 if animation_hit_frame(8)

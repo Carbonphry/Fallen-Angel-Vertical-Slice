@@ -1,33 +1,33 @@
 {
-    "id": "81da74b8-d0da-4b19-9b3f-f00622e01fd6",
+    "id": "c8d88f94-41b9-4372-88bf-f9bfc4c2a0e4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_solid_flor3",
+    "name": "o_smoke_particle",
     "eventList": [
         {
-            "id": "2d8434c0-4414-44d1-991e-e5ab8711e2d5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "81da74b8-d0da-4b19-9b3f-f00622e01fd6"
-        },
-        {
-            "id": "9c85a495-2aed-4ee3-ae72-1984ab02781f",
+            "id": "3db83fbc-ef68-46fa-8f4a-18c8fffcc397",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "81da74b8-d0da-4b19-9b3f-f00622e01fd6"
+            "m_owner": "c8d88f94-41b9-4372-88bf-f9bfc4c2a0e4"
+        },
+        {
+            "id": "4b2950a8-cd8d-4c7d-aeba-02f147996f28",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "c8d88f94-41b9-4372-88bf-f9bfc4c2a0e4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "3291cb3e-1dd3-4f23-928c-650a4672b0d9",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9aa5ca0c-1400-4af7-974d-4bbcd9c22583",
-    "visible": false
+    "spriteId": "bdb9347e-95e3-4357-8d0c-b93389bf3982",
+    "visible": true
 }

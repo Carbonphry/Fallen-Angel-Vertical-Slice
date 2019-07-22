@@ -5247,6 +5247,14 @@
             }
         },
         {
+            "Key": "7f32a11b-9740-46f2-961d-63ee0c2c4f29",
+            "Value": {
+                "id": "d2fde919-d252-46b9-819a-a9ac987dc901",
+                "resourcePath": "sprites\\s_hp_bar_3\\s_hp_bar_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f383438-16dc-4aed-a4f4-fad3f362cf49",
             "Value": {
                 "id": "3716ae74-bbeb-4f58-a269-ea01b4dd8f8a",
@@ -6228,6 +6236,14 @@
                 "id": "4b7295c8-de75-44b6-b4a2-ae78485db411",
                 "resourcePath": "scripts\\uls_get_light_range\\uls_get_light_range.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9a5ec64b-c679-429a-b54f-03387240220c",
+            "Value": {
+                "id": "bf11acf8-32b7-4fe8-83af-f5857a8d79e2",
+                "resourcePath": "objects\\o_smoke_puff\\o_smoke_puff.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7690,7 +7706,7 @@
             "Key": "bdb9347e-95e3-4357-8d0c-b93389bf3982",
             "Value": {
                 "id": "0a7eed5e-74cb-4eb8-8bea-5bea8494fcb8",
-                "resourcePath": "sprites\\s_smoke_puff_11\\s_smoke_puff_11.yy",
+                "resourcePath": "sprites\\s_smoke_particles\\s_smoke_particles.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8011,6 +8027,14 @@
             "Value": {
                 "id": "6556e3bf-6ff8-4bca-9a75-7bd9e2c59914",
                 "resourcePath": "objects\\o_tuturial_attack_combo\\o_tuturial_attack_combo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8d88f94-41b9-4372-88bf-f9bfc4c2a0e4",
+            "Value": {
+                "id": "57e5e498-d713-4f14-83b3-d74287354733",
+                "resourcePath": "objects\\o_smoke_particle\\o_smoke_particle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -9066,7 +9090,7 @@
             "Key": "e0dc7664-4fcd-4e0f-af85-667d4dbe40bc",
             "Value": {
                 "id": "afdfc1d0-1c20-46ff-8ab2-c8e273969824",
-                "resourcePath": "sprites\\s_smoke_puff_1\\s_smoke_puff_1.yy",
+                "resourcePath": "sprites\\s_smoke_puff\\s_smoke_puff.yy",
                 "resourceType": "GMSprite"
             }
         },

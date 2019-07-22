@@ -11,6 +11,19 @@ switch direction_facing_ {
 			image_angle = other.mouseDir;
 			image_speed = 2.5;
 		}
+		var _smoke_muff = instance_create_depth(x,y-18,depth-100,o_smoke_puff);
+		_smoke_muff.image_speed = .85;
+		_smoke_muff.speed = .5;
+		_smoke_muff.direction = mouseDir;
+					
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y-18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y-18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y-18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y-18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
 		break;
 		
 		case dir.down:
@@ -20,6 +33,19 @@ switch direction_facing_ {
 			image_angle = other.mouseDir;
 			image_speed = 2.5;
 		}
+		var _smoke_muff = instance_create_depth(x,y+18,depth-100,o_smoke_puff);
+		_smoke_muff.image_speed = .85;
+		_smoke_muff.speed = .5;
+		_smoke_muff.direction = mouseDir;
+					
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y+18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y+18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y+18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+irandom_range(-5,5),y+18,depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
 		break;
 		
 		case dir.left:
@@ -29,6 +55,19 @@ switch direction_facing_ {
 			image_angle = other.mouseDir;
 			image_speed = 2.5;
 		}
+		var _smoke_muff = instance_create_depth(x-15,y-18,depth-100,o_smoke_puff);
+		_smoke_muff.image_speed = .85;
+		_smoke_muff.speed = .5;
+		_smoke_muff.direction = mouseDir;
+					
+		var _smoke_particle = instance_create_depth(x-15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x-15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x-15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x-15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
 		break;
 		
 		case dir.right:
@@ -38,5 +77,18 @@ switch direction_facing_ {
 			image_angle = other.mouseDir;
 			image_speed = 2.5;
 		}
+		var _smoke_muff = instance_create_depth(x+15,y-18,depth-100,o_smoke_puff);
+		_smoke_muff.image_speed = .85;
+		_smoke_muff.speed = .5;
+		_smoke_muff.direction = mouseDir;
+					
+		var _smoke_particle = instance_create_depth(x+15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
+		var _smoke_particle = instance_create_depth(x+15,y-18+irandom_range(-5,5),depth-100,o_smoke_particle);
+		_smoke_particle.direction = mouseDir +irandom_range(-5,5);
 		break;
 }
