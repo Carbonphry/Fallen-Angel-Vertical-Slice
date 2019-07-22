@@ -8039,6 +8039,14 @@
             }
         },
         {
+            "Key": "c82fc099-f7c1-4a96-ae78-83de9624b835",
+            "Value": {
+                "id": "37704157-4d26-4d9f-af27-ce1528245a9a",
+                "resourcePath": "sprites\\s_projectile_reticle_power\\s_projectile_reticle_power.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c8c5f379-9d55-4b9c-9380-9f43b09e1f64",
             "Value": {
                 "id": "6556e3bf-6ff8-4bca-9a75-7bd9e2c59914",
