@@ -303,14 +303,6 @@
             }
         },
         {
-            "Key": "08310238-d429-4e73-8c6d-c41cb6896a96",
-            "Value": {
-                "id": "d11ff0dd-c6d7-47ae-ba26-a3814b11c759",
-                "resourcePath": "sprites\\s_caveman_retreat1\\s_caveman_retreat1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "086041fe-60e3-4f39-99f0-e4f3739e58e6",
             "Value": {
                 "id": "10de86a4-1176-4d66-882a-99c5f7bb56e3",
@@ -556,14 +548,6 @@
                 "id": "e1828110-bd7f-4604-81e1-b99db4c94ff2",
                 "resourcePath": "objects\\o_hud_stamina\\o_hud_stamina.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0d223ae2-cd21-4faa-9645-f81f84ef6b1e",
-            "Value": {
-                "id": "9860568d-c186-439f-9b57-c14b5ab46918",
-                "resourcePath": "sprites\\s_caveman_attack1\\s_caveman_attack1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
