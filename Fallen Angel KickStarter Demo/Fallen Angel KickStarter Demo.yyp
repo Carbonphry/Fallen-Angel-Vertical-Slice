@@ -2439,6 +2439,14 @@
             }
         },
         {
+            "Key": "36d24a46-dc55-4df1-995d-3368b7f4f2be",
+            "Value": {
+                "id": "157a9d13-c969-4757-9444-feb236256291",
+                "resourcePath": "sprites\\s_caveman_stunned\\s_caveman_stunned.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36e6cdde-d872-4019-bc11-e1418e81db6c",
             "Value": {
                 "id": "e99defb5-430d-4a0a-b83e-20204e0b1938",
@@ -3739,6 +3747,14 @@
             "Value": {
                 "id": "f9c61aba-498c-4b96-b3ab-6a49f97a3dca",
                 "resourcePath": "sprites\\s_level_protodung_puzzle_1\\s_level_protodung_puzzle_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "584bcae6-71e9-4820-8509-7b57f1d4c03a",
+            "Value": {
+                "id": "0bc1b2e4-a079-4e66-b909-10d02d52f582",
+                "resourcePath": "sprites\\s_caveman_lifted\\s_caveman_lifted.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9923,6 +9939,14 @@
             "Value": {
                 "id": "030a8bba-74a7-4907-8231-f4d48686bf10",
                 "resourcePath": "sprites\\s_player_power_burst_projectile\\s_player_power_burst_projectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f740a287-d298-4732-bf9e-64d67904db10",
+            "Value": {
+                "id": "2c652dfe-3f8a-4666-ab37-db0b53e331e1",
+                "resourcePath": "sprites\\s_caveman_getup\\s_caveman_getup.yy",
                 "resourceType": "GMSprite"
             }
         },
