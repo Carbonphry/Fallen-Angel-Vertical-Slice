@@ -6,6 +6,6 @@ z = noone;
 lift = false;
 toground = false; 
 stun = false;
-
+can_parry = false;
 alarm[0] = room_speed;
 

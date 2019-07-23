@@ -2,9 +2,10 @@ event_inherited();
 z__speed_ = -2;
 gravity_ = 0.2;
 image_speed = .75;
+range = 52
 
 //Particles
-part_system_=part_system_create();
+/*part_system_=part_system_create();
 
 part_emitter_=part_emitter_create(part_system_);
 

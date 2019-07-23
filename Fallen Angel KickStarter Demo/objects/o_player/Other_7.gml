@@ -113,13 +113,13 @@ if ledge_state == 3 {
 	z = 9;
 	state_ = starting_state_;
 	ledge_state = 1;
-	alarm_set(6, global.one_second*.5);
+	//alarm_set(6, global.one_second*.5);
 	o_input.up_ = true
 }
 
 if ledge_state == 4 {
 	state_ = starting_state_;
-	alarm_set(6,global.one_second*.5);
+//	alarm_set(6,1);
 	ledge_state = 1;
 	led_dir = noone;
 }

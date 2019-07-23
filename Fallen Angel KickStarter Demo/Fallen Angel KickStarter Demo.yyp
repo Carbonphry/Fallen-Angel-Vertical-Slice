@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "0e9d2b1c-f569-45b2-a0f2-e0da48211fe4",
+            "Value": {
+                "id": "bf310c20-738d-49e5-9d91-10374be34616",
+                "resourcePath": "objects\\o_solid_air_ledge\\o_solid_air_ledge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0edd35f9-0286-497a-b099-f2b7bf50965b",
             "Value": {
                 "id": "6f5cf29f-ca04-44de-bbaf-b1d0a8fb9611",
@@ -9212,6 +9220,14 @@
                 "id": "87ef2dfc-ed76-40b1-b15e-365660eca758",
                 "resourcePath": "views\\e3a67d54-cf7d-4344-b351-f16d6939187b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3ba2f7c-8d37-4e61-b52b-87930b735269",
+            "Value": {
+                "id": "eba182a4-70da-465c-b6e5-ebab4a1db4bb",
+                "resourcePath": "sprites\\sprite628\\sprite628.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

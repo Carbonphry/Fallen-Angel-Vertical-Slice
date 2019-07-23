@@ -127,25 +127,47 @@ if triggerCount == 0 {
 		direction_facing_ = 0;
 	}
 	
-	switch direction_facing_ {
+	if power_stance {
+		switch direction_facing_ {
 	
-			case dir.right:
-			draw_sprite_ext(s_projectile_reticle,reticle_anim,x-1,y-17,-1,1,mouseDir,c_white,1);
-			break;
+				case dir.right:
+				draw_sprite_ext(s_projectile_reticle_power,reticle_anim,x-1,y-17,-1,1,mouseDir,c_white,1);
+				break;
 	
-			case dir.left:
-			draw_sprite_ext(s_projectile_reticle,reticle_anim,x-2,y-21,-1,1,mouseDir,c_white,1);
-			break;
+				case dir.left:
+				draw_sprite_ext(s_projectile_reticle_power,reticle_anim,x-2,y-21,-1,1,mouseDir,c_white,1);
+				break;
 	
-			case dir.up:
-			draw_sprite_ext(s_projectile_reticle,reticle_anim,x+7,y-19,-1,1,mouseDir,c_white,1);
-			break;
+				case dir.up:
+				draw_sprite_ext(s_projectile_reticle_power,reticle_anim,x+7,y-19,-1,1,mouseDir,c_white,1);
+				break;
 	
-			case dir.down:
-			draw_sprite_ext(s_projectile_reticle,reticle_anim,x-5,y-19,-1,1,mouseDir,c_white,1);
-			break;
+				case dir.down:
+				draw_sprite_ext(s_projectile_reticle_power,reticle_anim,x-5,y-19,-1,1,mouseDir,c_white,1);
+				break;
+		}
+	
+	} else {
+	
+		switch direction_facing_ {
+	
+				case dir.right:
+				draw_sprite_ext(s_projectile_reticle,reticle_anim,x-1,y-17,-1,1,mouseDir,c_white,1);
+				break;
+	
+				case dir.left:
+				draw_sprite_ext(s_projectile_reticle,reticle_anim,x-2,y-21,-1,1,mouseDir,c_white,1);
+				break;
+	
+				case dir.up:
+				draw_sprite_ext(s_projectile_reticle,reticle_anim,x+7,y-19,-1,1,mouseDir,c_white,1);
+				break;
+	
+				case dir.down:
+				draw_sprite_ext(s_projectile_reticle,reticle_anim,x-5,y-19,-1,1,mouseDir,c_white,1);
+				break;
+		}
 	}
-	
 } 	
 	
 	
