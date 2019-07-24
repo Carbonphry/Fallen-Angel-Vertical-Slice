@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "08852b5e-1681-4c1e-a113-a55da3a177ba",
+            "Value": {
+                "id": "a26e4f1d-59c7-4f17-8e11-1e4633ab72eb",
+                "resourcePath": "sounds\\a_player_charged_projectile_power_explosion\\a_player_charged_projectile_power_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "088a7b9f-2ffa-4dc7-a0bd-5d810b4d33c3",
             "Value": {
                 "id": "893ea66d-c9c8-495e-9d68-1c23031fd658",
@@ -2535,6 +2543,14 @@
             }
         },
         {
+            "Key": "39cf6d9c-63f0-41d7-a4bf-02ef4ef1be77",
+            "Value": {
+                "id": "986b2d36-b1d0-4cee-a9ea-95c203306a3e",
+                "resourcePath": "sounds\\a_player_charged_projectile_power_fire\\a_player_charged_projectile_power_fire.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3a591f65-8a11-4a9f-9e4f-e27f6317f292",
             "Value": {
                 "id": "f8b1d082-1736-4680-ab89-9ad7e61ae85b",
@@ -2859,6 +2875,14 @@
             "Value": {
                 "id": "95e71778-a76d-46d8-b3a2-7375f8b986e8",
                 "resourcePath": "sounds\\a_player_lowstamina\\a_player_lowstamina.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "42fd696d-48ca-4918-848a-dae23713f718",
+            "Value": {
+                "id": "e166858d-72a1-43a9-9de2-c7da03a7dcb3",
+                "resourcePath": "sounds\\a_player_burstprojectile_precise\\a_player_burstprojectile_precise.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -10268,6 +10292,14 @@
                 "id": "26a4e4ab-3c48-47c0-9f9f-8d3284cc6cf1",
                 "resourcePath": "sprites\\s_player_run_up_stop\\s_player_run_up_stop.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff4c86e7-a787-48fa-949b-50746cab077f",
+            "Value": {
+                "id": "e27cb428-1368-4219-9de7-ae2657aa1f74",
+                "resourcePath": "sounds\\a_player_burstprojectile_precise_explosion\\a_player_burstprojectile_precise_explosion.yy",
+                "resourceType": "GMSound"
             }
         },
         {

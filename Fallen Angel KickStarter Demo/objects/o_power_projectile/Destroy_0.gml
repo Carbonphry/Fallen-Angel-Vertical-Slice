@@ -16,4 +16,5 @@
 }*/
 
 instance_create_depth(x,y,depth,o_fx_power_charge_explosion);
+audio_play(a_player_charged_projectile_power_explosion);
 add_screenshake(4, global.one_second*.3);
