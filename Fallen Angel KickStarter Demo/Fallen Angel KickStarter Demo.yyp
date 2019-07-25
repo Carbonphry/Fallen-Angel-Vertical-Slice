@@ -4247,6 +4247,14 @@
             }
         },
         {
+            "Key": "64607c87-0c09-4ea1-8c62-6dc2cfb31743",
+            "Value": {
+                "id": "ae1a135f-4a12-4aa9-9ed4-3efc0401b717",
+                "resourcePath": "sprites\\s_hud_pride_empty\\s_hud_pride_empty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "64868532-1cc2-4a1f-8549-97a65b919a33",
             "Value": {
                 "id": "26e6f572-5284-4913-8bbf-964a04ce2f13",

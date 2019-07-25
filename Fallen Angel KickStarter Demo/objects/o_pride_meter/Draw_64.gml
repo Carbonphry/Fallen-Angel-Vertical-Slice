@@ -32,6 +32,7 @@ switch state {
 	if o_input.action_five_ and ego_pts == 40 {
 		state = 1;
 		instance_create_layer(-200 ,-100,"UI", o_pride_meter_demonmode);
+		sprite_index = s_hud_pride_empty;
 		instance_destroy(o_tutorial_demonmode);
 	}
 	break;
