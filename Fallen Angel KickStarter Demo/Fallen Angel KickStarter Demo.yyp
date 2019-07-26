@@ -3351,6 +3351,14 @@
             }
         },
         {
+            "Key": "4de770a3-5451-4427-8da1-7d5635ac1967",
+            "Value": {
+                "id": "63b8f068-2f42-49b6-8152-b7cfce7eb588",
+                "resourcePath": "sprites\\s_level_intro_room7_crystal\\s_level_intro_room7_crystal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e722c37-0c66-4b34-bded-b4120b52cc92",
             "Value": {
                 "id": "54ebb5e7-6d74-43ce-be36-1b8b6da3b771",
@@ -3451,6 +3459,14 @@
             "Value": {
                 "id": "e3f393cd-6300-4c9d-acd5-1a5f4354cb7f",
                 "resourcePath": "objects\\o_player\\o_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "508ddbfe-d313-4f06-bc66-9babd2f69c69",
+            "Value": {
+                "id": "2718ae9a-9cb8-42b2-8370-847a43cac448",
+                "resourcePath": "objects\\o_level_intro_room7_crystal\\o_level_intro_room7_crystal.yy",
                 "resourceType": "GMObject"
             }
         },
