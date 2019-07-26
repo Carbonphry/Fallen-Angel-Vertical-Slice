@@ -37,7 +37,8 @@
         "5627b6a0-017b-4618-bde7-5387c27dd910",
         "5c8305f4-bfe7-4d8a-9b95-f03def3695db",
         "84389719-a008-454f-b629-2e7ed73471f4",
-        "036e6834-b0f4-4b8b-9de9-cc4081ea9e66"
+        "036e6834-b0f4-4b8b-9de9-cc4081ea9e66",
+        "28b07cfc-c8be-44c4-b731-080d1a4dab03"
     ],
     "filterType": "GMSprite",
     "folderName": "Tutorial Sprites",

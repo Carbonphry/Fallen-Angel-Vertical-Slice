@@ -1775,6 +1775,14 @@
             }
         },
         {
+            "Key": "28b07cfc-c8be-44c4-b731-080d1a4dab03",
+            "Value": {
+                "id": "fa4c7844-0cd7-426f-bd9e-375527dfc434",
+                "resourcePath": "sprites\\s_tutorial_dashparry\\s_tutorial_dashparry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28c3b870-04b4-41b1-8161-bf9ce1e735f3",
             "Value": {
                 "id": "84502876-0552-4531-8ca2-b0b244f502ae",
@@ -2579,6 +2587,14 @@
             "Value": {
                 "id": "9a7ed9f4-3e12-4773-a7da-39507dcd0a65",
                 "resourcePath": "objects\\o_bush\\o_bush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a92ecb2-d869-40c5-8030-d4b3701e0d4d",
+            "Value": {
+                "id": "e408bb16-b499-4c6d-9d72-6ed75f44a1cc",
+                "resourcePath": "objects\\o_tuturial_dashparry\\o_tuturial_dashparry.yy",
                 "resourceType": "GMObject"
             }
         },
