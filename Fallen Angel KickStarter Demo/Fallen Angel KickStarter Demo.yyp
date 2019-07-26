@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "0aa8c8cc-5299-48b0-83bd-0f98eaa570e9",
+            "Value": {
+                "id": "487a2bb1-3e18-43c6-b3e0-2fb48d29dfbc",
+                "resourcePath": "sounds\\a_abdiel_voice_A\\a_abdiel_voice_A.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0abdb52f-3e2a-49c9-bbd8-2a8043fb7cfe",
             "Value": {
                 "id": "e365e8c9-72ae-4f7e-8e46-b336ae1bc376",
@@ -1116,6 +1124,14 @@
                 "id": "5189a7a5-6913-473a-9544-b32581d233e5",
                 "resourcePath": "views\\18b7ad31-1920-4145-9bf1-68984ba2366a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "18bf632a-4877-4112-b740-4ae75801b688",
+            "Value": {
+                "id": "14401264-5c67-4685-9592-032cbcc238b6",
+                "resourcePath": "sounds\\a_abdiel_voice_attack2\\a_abdiel_voice_attack2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2847,6 +2863,14 @@
             }
         },
         {
+            "Key": "418fcfe7-5083-486f-b3d9-aefdb3fc367e",
+            "Value": {
+                "id": "415f117f-7caf-4869-aee4-5abad3a8eb9b",
+                "resourcePath": "sounds\\a_abdiel_voice_pain1\\a_abdiel_voice_pain1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "41c65ad0-8d43-41e9-b8c1-a3ba08a9dac8",
             "Value": {
                 "id": "bbbe794d-6450-4941-9512-2a096f6a39c3",
@@ -4103,6 +4127,14 @@
             }
         },
         {
+            "Key": "6143323d-57b2-4152-a9c3-44f82b32ceb8",
+            "Value": {
+                "id": "8b6c8644-bedc-47e3-93bb-328eb597621a",
+                "resourcePath": "sounds\\a_abdiel_voice_C\\a_abdiel_voice_C.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "614b991e-e9f3-4325-9691-0c969c9eeaa0",
             "Value": {
                 "id": "27b1a144-7ccb-486e-aa67-fa77279e369f",
@@ -4639,6 +4671,14 @@
             }
         },
         {
+            "Key": "6e19dae2-b89f-4430-a3db-8a24e0327312",
+            "Value": {
+                "id": "6f39adcd-a7ba-4386-ab54-f95855636281",
+                "resourcePath": "views\\6e19dae2-b89f-4430-a3db-8a24e0327312.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6e3731a8-a40b-4cf7-bafa-e69c832830ca",
             "Value": {
                 "id": "780ed274-68c7-43e2-99d4-32f87e259bc6",
@@ -4964,6 +5004,14 @@
                 "id": "36dca038-0eff-453d-a806-1daaffefd669",
                 "resourcePath": "objects\\o_level_garden_object_start\\o_level_garden_object_start.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "743dbd76-aacc-45b1-8aac-2809afb5fb32",
+            "Value": {
+                "id": "70aa3dcd-32c4-4d25-ad3e-9b411cb2774a",
+                "resourcePath": "sounds\\a_abdiel_voice_B\\a_abdiel_voice_B.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -7319,6 +7367,14 @@
             }
         },
         {
+            "Key": "b3c18f44-ada0-445d-8924-d85bab0389bc",
+            "Value": {
+                "id": "31eaaa74-419d-42d0-872b-b1f05b8c922f",
+                "resourcePath": "sounds\\a_abdiel_voice_death\\a_abdiel_voice_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b3d09eda-b90f-4aed-a9d3-fdc7b839aec0",
             "Value": {
                 "id": "99e63c2b-7cf2-417b-b889-69e5dfdf5cd8",
@@ -8092,6 +8148,14 @@
                 "id": "51acd328-c3ea-423a-9506-f0d90226a724",
                 "resourcePath": "objects\\obj_cube_small\\obj_cube_small.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c6898f78-eade-4186-ad01-c09de1b5c050",
+            "Value": {
+                "id": "76436bf9-dc77-41ae-922e-0972cc0bcf27",
+                "resourcePath": "sounds\\a_abdiel_voice_attack1\\a_abdiel_voice_attack1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -9583,6 +9647,14 @@
             }
         },
         {
+            "Key": "ebcde97e-b3bf-40f5-bef8-0f3f16b5bb87",
+            "Value": {
+                "id": "3357badb-6cb8-4ff0-a4f0-8dc258f219bc",
+                "resourcePath": "sounds\\a_abdiel_voice_pain2\\a_abdiel_voice_pain2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ebeb8dc4-ada9-45d7-a51f-8a3e1759514c",
             "Value": {
                 "id": "a6301cf7-7304-4844-ac4b-8f915f6c0a48",
@@ -10300,6 +10372,14 @@
                 "id": "dea7ce4a-63cd-4e3a-9af5-9f0dc7d70ca9",
                 "resourcePath": "sprites\\s_level_intro_room5_structure11\\s_level_intro_room5_structure11.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fd793bde-58b4-4d16-a356-c02ef3a00b1f",
+            "Value": {
+                "id": "ca254d01-b9ac-4909-ac47-04c7c4b94394",
+                "resourcePath": "sounds\\a_abdiel_voice_intro\\a_abdiel_voice_intro.yy",
+                "resourceType": "GMSound"
             }
         },
         {

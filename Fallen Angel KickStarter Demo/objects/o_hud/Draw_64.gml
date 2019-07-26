@@ -133,6 +133,9 @@ if text_dialog {
 	//create_dialog("The traitor returns.", 0.5, +340,+90,CHEST_ABDIEL);
 	if !instance_exists(o_text) {
 		create_dialog("Abdiel: The traitor returns.", 0.5, 0,0,CHEST_ABDIEL);
+			if !audio_is_playing(a_abdiel_voice_intro) {
+			audio_play(a_abdiel_voice_intro);
+			}
 		alarm[2] = global.one_second*2;
 	}
 	
@@ -171,16 +174,25 @@ if text_dialog {
 				case 1:
 				instance_destroy(o_text,false);
 				create_dialog("Abdiel: My faith provides strength. You will lose again, heretic.", 0.5, 0,0,CHEST_ABDIEL);
+				if !audio_is_playing(a_abdiel_voice_A) {
+				audio_play(a_abdiel_voice_A);
+				}
 				break;
 				
 				case 2:
 				instance_destroy(o_text,false);
 				create_dialog("Abdiel: Following an unwise heretic like you to hell...that's servitude.", 0.5, 0,0,CHEST_ABDIEL);
+				if !audio_is_playing(a_abdiel_voice_B) {
+				audio_play(a_abdiel_voice_B);
+				}
 				break;
 				
 				case 3:
 				instance_destroy(o_text,false);
 				create_dialog("Abdiel: Losing Paradise wasn't enough punishment for you?", 0.5, 0,0,CHEST_ABDIEL);
+				if !audio_is_playing(a_abdiel_voice_C) {
+				audio_play(a_abdiel_voice_C);
+				}
 				break;
 				
 			}
