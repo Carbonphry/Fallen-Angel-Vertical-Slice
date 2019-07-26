@@ -133,6 +133,9 @@ if text_dialog {
 	//create_dialog("The traitor returns.", 0.5, +340,+90,CHEST_ABDIEL);
 	if !instance_exists(o_text) {
 		create_dialog("Abdiel: The traitor returns.", 0.5, 0,0,CHEST_ABDIEL);
+			if !audio_is_playing(a_abdiel_va_intro) {
+			audio_play(a_abdiel_va_intro);
+			}
 		alarm[2] = global.one_second*2;
 	}
 	
