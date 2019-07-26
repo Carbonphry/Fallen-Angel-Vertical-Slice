@@ -14,6 +14,10 @@ if animation_hit_frame(5) {
 	_projectile.speed = 4;
 	_projectile.z = id.z;
 	instance_create_layer(x,y-30, "Instances", o_glow_burst_small);
+	var _abdiel_attack = choose(a_abdiel_voice_attack1, a_abdiel_voice_attack2);
+	if !audio_is_playing(_abdiel_attack) {
+	audio_play(_abdiel_attack);
+	}
 	
 }
 
