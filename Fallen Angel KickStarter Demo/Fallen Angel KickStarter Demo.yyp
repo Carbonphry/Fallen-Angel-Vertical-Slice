@@ -1783,6 +1783,14 @@
             }
         },
         {
+            "Key": "28b07cfc-c8be-44c4-b731-080d1a4dab03",
+            "Value": {
+                "id": "fa4c7844-0cd7-426f-bd9e-375527dfc434",
+                "resourcePath": "sprites\\s_tutorial_dashparry\\s_tutorial_dashparry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28c3b870-04b4-41b1-8161-bf9ce1e735f3",
             "Value": {
                 "id": "84502876-0552-4531-8ca2-b0b244f502ae",
@@ -2591,6 +2599,14 @@
             }
         },
         {
+            "Key": "3a92ecb2-d869-40c5-8030-d4b3701e0d4d",
+            "Value": {
+                "id": "e408bb16-b499-4c6d-9d72-6ed75f44a1cc",
+                "resourcePath": "objects\\o_tuturial_dashparry\\o_tuturial_dashparry.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3af78811-f52a-45d1-9e13-aa8fce5245a1",
             "Value": {
                 "id": "1a5a384b-ce1c-4af0-a80e-fc71357d41d8",
@@ -3359,6 +3375,14 @@
             }
         },
         {
+            "Key": "4de770a3-5451-4427-8da1-7d5635ac1967",
+            "Value": {
+                "id": "63b8f068-2f42-49b6-8152-b7cfce7eb588",
+                "resourcePath": "sprites\\s_level_intro_room7_crystal\\s_level_intro_room7_crystal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e722c37-0c66-4b34-bded-b4120b52cc92",
             "Value": {
                 "id": "54ebb5e7-6d74-43ce-be36-1b8b6da3b771",
@@ -3459,6 +3483,14 @@
             "Value": {
                 "id": "e3f393cd-6300-4c9d-acd5-1a5f4354cb7f",
                 "resourcePath": "objects\\o_player\\o_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "508ddbfe-d313-4f06-bc66-9babd2f69c69",
+            "Value": {
+                "id": "2718ae9a-9cb8-42b2-8370-847a43cac448",
+                "resourcePath": "objects\\o_level_intro_room7_crystal\\o_level_intro_room7_crystal.yy",
                 "resourceType": "GMObject"
             }
         },
