@@ -49,7 +49,7 @@ if animation_hit_frame(5)
 	var _knockback = 0;
 	var _life = 1;
 	var hit = create_hitbox_knockback(s_abdiel_hitbox, x, y-8, _attack_angle, _life, [class_player], _damage, _knockback);
-	//instance_create_layer(x,y, "Instances", o_knockback_hitbox);
+	//instance_create_layer(x,y, "Solids", o_knockback_hitbox);
 	hit.z = class_player.z;
 	uninterruptible = true;
 	image_speed = 0.8;

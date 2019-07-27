@@ -9,7 +9,7 @@ initialize_hurtbox_entity();
 
 //if o_solid.depth = LAYER1;
 
-//instance_create_layer(0, 0, "Instances", o_input);
+//instance_create_layer(0, 0, "Solids", o_input);
 
 
 image_speed = 0;

@@ -12,7 +12,7 @@ if animation_hit_frame(7)
 	audio_play(a_flameangel_attack);
 	var target = instance_nearest(x,y,class_player);
 	var _direction = point_direction(x, y-30, target.x, target.y) + random_range(-10,10);
-	var _projectile = instance_create_layer(x, y-30, "Instances", o_flameangel_projectile);
+	var _projectile = instance_create_layer(x, y-30, "Solids", o_flameangel_projectile);
 	_projectile.direction = _direction;
 	_projectile.image_angle = _direction;
 	_projectile.speed = 4;

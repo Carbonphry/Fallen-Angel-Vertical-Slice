@@ -7,13 +7,13 @@ if instance_exists(global.player_start_position)
 			o_player.persistent = false;
 			o_player.x = global.player_start_position.x;
 			o_player.y = global.player_start_position.y;
-			o_player.layer = layer_get_id("Instances");
+			o_player.layer = layer_get_id("Solids");
 			o_player.speed = 0;
 	} else
 	{
 		var _start_x = global.player_start_position.x
 		var _start_y = global.player_start_position.y
-		instance_create_layer(_start_x, _start_y, "Instances", o_player);
+		instance_create_layer(_start_x, _start_y, "Solids", o_player);
 	}
 	global.player_start_position = noone;
 }
@@ -38,8 +38,8 @@ switch (room) {
 	#region OLD LEVELS
 	case r_world:
 	if global.coop {
-		instance_create_layer(0,0,"Instances",o_input2);
-		instance_create_layer(o_player.x+8,o_player.y+8,"Instances",o_player2);
+		instance_create_layer(0,0,"Solids",o_input2);
+		instance_create_layer(o_player.x+8,o_player.y+8,"Solids",o_player2);
 	}
 	audio_play_sound(a_ambience_tutorial,2,true);
 	break;

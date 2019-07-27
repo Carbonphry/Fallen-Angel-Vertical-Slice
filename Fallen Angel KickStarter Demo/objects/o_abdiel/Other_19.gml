@@ -6,14 +6,14 @@ switch (warp) {
 	case false:
 	sprite_index = s_abdiel_warpout;
 	if animation_hit_frame(3) {
-		instance_create_layer(x,y-20, "Instances", o_glow_burst_large);
+		instance_create_layer(x,y-20, "Solids", o_glow_burst_large);
 	}
 	if animation_hit_frame(4) {
 		var _damage = 1;
 		var _knockback = 5;
 		var _life = 1;
 		create_hitbox_knockback(s_abdiel_warp_hitbox, x, y, 0, _life, [class_player], _damage, _knockback);
-		//instance_create_layer(x,y, "Instances", o_knockback_hitbox);
+		//instance_create_layer(x,y, "Solids", o_knockback_hitbox);
 		add_screenshake(4,20);
 		audio_play(a_abdiel_warpout);
 		var _abdiel_attack = choose(a_abdiel_voice_attack1, a_abdiel_voice_attack2);
@@ -26,14 +26,14 @@ switch (warp) {
 	case true:
 	sprite_index = s_abdiel_warpin;
 	if animation_hit_frame(1) {
-		instance_create_layer(x,y-20, "Instances", o_glow_burst_large);
+		instance_create_layer(x,y-20, "Solids", o_glow_burst_large);
 	}
 	if animation_hit_frame(2) {
 		var _damage = 1;
 		var _knockback = 5;
 		var _life = 1;
 		create_hitbox_knockback(s_abdiel_warp_hitbox, x, y, 0, _life, [class_player], _damage, _knockback);
-		//instance_create_layer(x,y, "Instances", o_knockback_hitbox);
+		//instance_create_layer(x,y, "Solids", o_knockback_hitbox);
 		add_screenshake(4,20);
 		audio_play(a_abdiel_warpin);
 	}

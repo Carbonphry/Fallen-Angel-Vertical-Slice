@@ -14,7 +14,7 @@ var _array = argument4;
 var _damage = argument5;
 var _knockback = argument6;
 
-var _hitbox = instance_create_layer(_x, _y, "Instances",  o_heavy_swing);
+var _hitbox = instance_create_layer(_x, _y, "Solids",  o_heavy_swing);
 
 _hitbox.image_angle = _angle;
 _hitbox.alarm[0] = _frames;

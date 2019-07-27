@@ -249,7 +249,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "Solids",
             "id": "1d33301e-87e0-424f-83c7-8f41d941e6f8",
             "depth": 600,
             "grid_x": 16,

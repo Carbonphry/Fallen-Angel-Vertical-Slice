@@ -8,12 +8,12 @@ if animation_hit_frame(5) {
 	audio_play(a_abdiel_projectile);
 	var target = instance_nearest(x,y,class_player);
 	var _direction = point_direction(x, y-32, target.x, target.y) + random_range(-5,5);
-	var _projectile = instance_create_layer(x, y-32, "Instances", o_abdiel_projectile);
+	var _projectile = instance_create_layer(x, y-32, "Solids", o_abdiel_projectile);
 	_projectile.direction = _direction;
 	_projectile.image_angle = _direction;
 	_projectile.speed = 4;
 	_projectile.z = id.z;
-	instance_create_layer(x,y-30, "Instances", o_glow_burst_small);
+	instance_create_layer(x,y-30, "Solids", o_glow_burst_small);
 	var _abdiel_attack = choose(a_abdiel_voice_attack1, a_abdiel_voice_attack2);
 	if !audio_is_playing(_abdiel_attack) {
 	audio_play(_abdiel_attack);
@@ -25,7 +25,7 @@ if animation_hit_frame(7) {
 	audio_play(a_abdiel_projectile);
 	var target = instance_nearest(x,y,class_player);
 	var _direction = point_direction(x, y-32, target.x, target.y) + random_range(-5,5);
-	var _projectile = instance_create_layer(x, y-32, "Instances", o_abdiel_projectile);
+	var _projectile = instance_create_layer(x, y-32, "Solids", o_abdiel_projectile);
 	_projectile.direction = _direction;
 	_projectile.image_angle = _direction;
 	_projectile.speed = 4;

@@ -5,7 +5,7 @@ scale_ = view_wport[0] / width_ ;
 
 screenshake_ = 0
 
-instance_create_layer(x,y, "Instances", o_parallax);
+instance_create_layer(x,y, "Solids", o_parallax);
 
 y_lock = false;
 x_lock = false;

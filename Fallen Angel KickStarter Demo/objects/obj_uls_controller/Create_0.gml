@@ -38,6 +38,6 @@
 
 	surf_aux_blur = -1;
 
-	//Creating Instances
+	//Creating Solids
 	instance_create_depth( x, y, light_depth, obj_uls_light_renderer);
 	instance_create_depth( x, y, shadow_depth, obj_uls_shadow_renderer);

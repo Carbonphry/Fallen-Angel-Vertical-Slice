@@ -36,7 +36,7 @@ if animation_hit_frame(12) {
 	//create_hitbox(s_tankangel_hitbox, x, y-8, 0, _life, [o_player], _damage, _knockback);
 	
 	create_hitbox_knockback(s_tankangel_hitbox, x, y-8, 0, _life, [class_player], _damage, _knockback);
-	//instance_create_layer(x,y, "Instances", o_knockback_hitbox);
+	//instance_create_layer(x,y, "Solids", o_knockback_hitbox);
 	add_screenshake(4,15);
 	image_speed = 1;
 }
