@@ -11,7 +11,7 @@
     "option_windows_description_info": "Fallen Angel pre-alpha prototype",
     "option_windows_disable_sandbox": false,
     "option_windows_display_cursor": true,
-    "option_windows_display_name": "Fallen Angel Early Build 099",
+    "option_windows_display_name": "Fallen Angel Early Build 1.01",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "Fallen Angel Early Build",
     "option_windows_icon": "${options_dir}\\windows\\icons\\icon.ico",
@@ -31,10 +31,10 @@
     "option_windows_texture_page": "2048x2048",
     "option_windows_use_splash": false,
     "option_windows_version": {
-        "build": 9,
+        "build": 1,
         "major": 0,
         "minor": 0,
-        "revision": 9
+        "revision": 0
     },
     "option_windows_vsync": false
 }

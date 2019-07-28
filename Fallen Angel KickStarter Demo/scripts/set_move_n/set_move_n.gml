@@ -20,7 +20,7 @@ if ( left and up ) or (left and down) or (right and up) or (right and down) {
 	walk_speed *=.99999999999999999999; //99999999999999999999999
 }
 
-repeat(abs(walk_speed * (right - left)))
+repeat(abs(knockback_ammount * (right - left)))
 {
     can_move = true;
     highest_z = 0;
@@ -90,7 +90,7 @@ repeat(abs(walk_speed * (right - left)))
 }
 
 
-repeat(abs(walk_speed * (down - up)))
+repeat(abs(knockback_ammount * (down - up)))
 {
     
     highest_z = 0;

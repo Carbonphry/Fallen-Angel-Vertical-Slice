@@ -1,7 +1,7 @@
 
 event_inherited();
 
-initialize_movement_entity(0.25, .5, class_enemy_coll);
+initialize_movement_entity(0.25, .2, class_enemy_coll);
 initialize_hurtbox_entity();
 
 enum cherub {

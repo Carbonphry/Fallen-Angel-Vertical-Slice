@@ -61,9 +61,6 @@ switch room {
 		with instance_create_layer(120,370,"Solids", o_enemy_portal) {
 			enemy_ = o_cherub;
 		}
-		with instance_create_layer(327,402,"Solids", o_enemy_portal) {
-			enemy_ = o_cherub;
-		}
 		with instance_create_layer(134,344,"Solids", o_enemy_portal) {
 			enemy_ = o_flameangel;
 		}
@@ -156,6 +153,38 @@ switch room {
 		
 		break;
 		
+	}
+	break;
+	
+	
+	case r_gabriel_ancientcity_room1:
+	switch spawnRG {
+		
+		case 1:
+		with instance_create_layer(1725,235,"Solids", o_enemy_portal) {
+			enemy_ = o_caveman;
+		}
+		with instance_create_layer(1870,315,"Solids", o_enemy_portal) {
+			enemy_ = o_caveman;
+		}
+		
+		with instance_create_layer(1870,235,"Solids", o_enemy_portal) {
+			enemy_ = o_caveman;
+		}
+		
+		with instance_create_layer(1725,315,"Solids", o_enemy_portal) {
+			enemy_ = o_caveman;
+		}
+		spawnRG++;
+		break;
+		
+		case 2:
+		with instance_create_layer(1830,280,"Solids", o_enemy_portal) {
+			enemy_ = o_NEW_boss;
+		}
+		spawnRG++;
+		break;
+	
 	}
 	break;
 

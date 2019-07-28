@@ -3,27 +3,29 @@
 //Execution
 if state_ == tankangel.stun { 
 	var targ = instance_nearest(x,y,class_player);
-	if point_distance(x,y,targ.x,targ.y) < 20 {
+	if targ.z == targ.z_ground { 
+		if point_distance(x,y,targ.x,targ.y) < 25 {
 	
-		if o_input.action_one_ {
-			stp+=0.25;
-		} else {
-			stp = 0;
-		}
-	
-		if stp > 12 {
-			targ.state_ = player.execute;
-			state_ = tankangel.executed;
-			if targ.x <= x {
-				targ.image_xscale = 1;
+			if o_input.action_one_ {
+				stp+=0.25;
 			} else {
-				targ.image_xscale = -1;
+				stp = 0;
 			}
-		}
 	
-		draw_sprite(s_hold_x,stp,x,y+20);
-	} else {
+			if stp > 12 {
+				targ.state_ = player.execute;
+				state_ = tankangel.executed;
+				if targ.x <= x {
+					targ.image_xscale = 1;
+				} else {
+					targ.image_xscale = -1;
+				}
+			}
+	
+			draw_sprite(s_hold_x,stp,x,y+20);
+		} else {
 		stp = 0;
+	}
 	}
 
 } else {

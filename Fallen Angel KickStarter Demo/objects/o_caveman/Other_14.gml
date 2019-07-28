@@ -8,7 +8,7 @@ if image_index >= 2 and image_index <= 6  {
 //move_movement_entity(true);
 apply_friction_to_movement_entity();
 
-if image_index < 5 {
+if image_index < 4 {
 	
 	if !instance_exists(class_player) then exit;
 	var tar = instance_nearest(x,y,class_player);

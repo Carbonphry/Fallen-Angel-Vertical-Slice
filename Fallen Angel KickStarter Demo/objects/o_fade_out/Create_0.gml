@@ -2,5 +2,5 @@
 // You can write your code in this editor
 image_xscale *= 100;
 image_yscale *= 100;
-fadeSpeed = .015;
-image_alpha = 1;
+fadeSpeed = .007;
+image_alpha = 1.1;

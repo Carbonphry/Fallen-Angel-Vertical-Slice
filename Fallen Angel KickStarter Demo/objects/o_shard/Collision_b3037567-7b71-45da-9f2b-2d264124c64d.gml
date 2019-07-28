@@ -3,4 +3,5 @@
 if global.ammo_count < 3 {
 	 global.ammo_count++;
 }
+audio_play(a_collect_item);
 instance_destroy(id,true);

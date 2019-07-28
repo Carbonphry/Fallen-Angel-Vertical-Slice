@@ -45,7 +45,7 @@ if state_ == player.land {
 } else {
 	
 	//scr_jump_input();
-	if o_input.action_two_ {
+/*	if o_input.action_two_ {
 	if o_input.alarm[8] <=0 {
 			o_input.alarm[8] = global.one_second*.15;
 	}
@@ -63,7 +63,7 @@ if o_input.alarm[8] == 1 {
 if z>z_ground  {
 	var jump = o_input.action_two_;
 }
-	
+*/	
 	
 }
 
@@ -252,14 +252,14 @@ repeat(abs(walk_speed * (down  - up )))
 }
 
 
-if jump and z == z_ground {
+/*if jump and z == z_ground {
     z_speed = jump_speed;
 	audio_play(a_player_jump);
 	add_screenshake(1.5,30);
 	instance_create_layer(x,y,"Effects", o_jumpcloud);
 	instance_create_layer(x,y,"Effects", o_black_wings);
 	alarm_set(7,global.one_second*.4);
-}
+}*/
 /*
 if global.auto_jump_ == true and z = z_ground {
     z_speed = 6;

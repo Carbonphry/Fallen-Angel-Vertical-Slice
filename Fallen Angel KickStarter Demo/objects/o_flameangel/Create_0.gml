@@ -1,6 +1,6 @@
 event_inherited()
 
-initialize_movement_entity(0.5, .5, class_enemy_coll);
+initialize_movement_entity(0.5, .2, class_enemy_coll);
 initialize_hurtbox_entity();
 
 enum flameangel
@@ -20,7 +20,7 @@ enum flameangel
 	executed
 	
 }
-max_health_ = 8;
+max_health_ = 6;
 health_ = max_health_;
 
 starting_state_ = flameangel.idle;

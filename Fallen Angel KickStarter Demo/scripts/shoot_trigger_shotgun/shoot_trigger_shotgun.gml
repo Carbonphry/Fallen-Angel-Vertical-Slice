@@ -5,7 +5,7 @@ var _knockback = 1;
 switch direction_facing_ {
 		
 		case dir.up:
-		var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		//var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir+20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir-20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir+10+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
@@ -18,7 +18,7 @@ switch direction_facing_ {
 		break;
 		
 		case dir.down:
-		var _hitbox = create_hitbox_trigger_projectile(x-lengthdir_x(12,mouseDir), y,mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		//var _hitbox = create_hitbox_trigger_projectile(x-lengthdir_x(12,mouseDir), y,mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x-lengthdir_x(12,mouseDir), y,mouseDir+20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x-lengthdir_x(12,mouseDir), y,mouseDir-20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x-lengthdir_x(12,mouseDir), y,mouseDir+10+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
@@ -31,7 +31,7 @@ switch direction_facing_ {
 		break;
 		
 		case dir.left:
-		var _hitbox = create_hitbox_trigger_projectile(x-10, y-lengthdir_y(19,mouseDir),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		//var _hitbox = create_hitbox_trigger_projectile(x-10, y-lengthdir_y(19,mouseDir),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x-10, y-lengthdir_y(19,mouseDir),mouseDir+20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x-10, y-lengthdir_y(19,mouseDir),mouseDir-20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x-10, y-lengthdir_y(19,mouseDir),mouseDir+10+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
@@ -44,11 +44,11 @@ switch direction_facing_ {
 		break;
 		
 		case dir.right:
-		var _hitbox = create_hitbox_trigger_projectile(x+12, y-16+lengthdir_y(1,mouseDir)/*+irandom_range(-5,5)*/,mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-	/*	var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(1,mouseDir)+20+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-		var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(1,mouseDir)-20+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-		var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(1,mouseDir)-10+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-		var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(1,mouseDir)+10+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		//var _hitbox = create_hitbox_trigger_projectile(x+12, y-16+lengthdir_y(1,mouseDir)/*+irandom_range(-5,5)*/,mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(30,mouseDir)+20+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(30,mouseDir)-20+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(30,mouseDir)+10+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		var _hitbox = create_hitbox_trigger_projectile(x+12, y-lengthdir_y(30,mouseDir)+10+irandom_range(-5,5),mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		/*var _hitbox = create_hitbox_trigger_projectile(x+12, y-15,mouseDir+20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x+12, y-15,mouseDir-20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x+12, y-15,mouseDir+10+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);

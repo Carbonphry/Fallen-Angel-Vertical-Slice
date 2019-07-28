@@ -12,7 +12,7 @@ if alarm[1] <= 0
 	apply_friction_to_movement_entity();
 } else 
 {
-	add_movement_maxspeed(direction_, 0.1, 2);
+	add_movement_maxspeed(direction_, 0.1, 1);
 }
 
 move_movement_entity(true);

@@ -1,4 +1,5 @@
-///@param Input
+///@param Inpu
+
 if state_ != player.evade {
 	visible = true;
 	evade_step = true;

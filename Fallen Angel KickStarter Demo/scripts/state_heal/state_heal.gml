@@ -1,6 +1,10 @@
 /// @description Heal
 // You can write your code in this editor
-image_speed = .6;
+if power_stance {
+	image_speed = 1.2;
+} else {
+	image_speed = .6;
+}
 if animation_hit_frame(5) {
 	add_screenshake(0.7,10);
 	set_vibration(.4,.4,.15);

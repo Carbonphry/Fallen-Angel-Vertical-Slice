@@ -5,10 +5,11 @@ event_inherited();
 if state_ == flameangel.stun { 
 	
 	var targ = instance_nearest(x,y,class_player);
+	if targ.z == targ.z_ground {
 	if point_distance(x,y,targ.x,targ.y) < 20 {
 	
 		if o_input.action_one_ {
-			stp+=0.25;
+			stp+=0.4;
 		} else {
 			stp = 0;
 		}
@@ -24,6 +25,10 @@ if state_ == flameangel.stun {
 		}
 	
 		draw_sprite(s_hold_x,stp,x,y+20);
+	} else {
+		stp = 0;
+	} 
+	
 	} else {
 		stp = 0;
 	}

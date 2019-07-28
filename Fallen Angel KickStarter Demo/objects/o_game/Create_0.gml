@@ -41,15 +41,20 @@ show_volume = false;
 //Balance
 #macro CHEST_LUCIFER s_player_idle
 #macro CHEST_ABDIEL s_abdiel_intro
-#macro COST_DASH 1
+
 #macro COST_TRIGGER 0
 #macro COST_PARRY 1
 #macro COST_SMASH 1
 #macro COST_RAM 1
+#macro COST_JUMP 1.5
+#macro COST_ATTACK 1
+
+#macro COST_DASH 1
 #macro DMG_SWING 1
-#macro DMG_SMASH 1
+#macro DMG_SMASH 2
+
 #macro DMG_PARRY 1
-#macro DMG_TRIGGER_PROJECTILE .5
+#macro DMG_TRIGGER_PROJECTILE 1
 #macro DMG_RAM 4
 #macro DMG_HEAVY 2
 #macro DMG_THIRD_SWING 2

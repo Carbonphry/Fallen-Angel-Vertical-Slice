@@ -3,25 +3,36 @@ left     = o_input.left_;
 right    = o_input.right_;
 up       = o_input.up_;
 down     = o_input.down_;
+var _bounce_ammount =.5;
 if state_ == player.land {
 	var jump = false;
 } else {
-	var jump = o_input.action_two_;
+	//var jump = o_input.action_two_;
 	//scr_jump_input();
-	/*if o_input.action_two_ {
+	if z==z_ground {
+	if o_input.action_two_ {
 	if o_input.alarm[8] <=0 {
 			o_input.alarm[8] = global.one_second*.15;
 	}
+	}
 } else {
-		o_input.alarm[8] = global.one_second*.15;
+		o_input.alarm[8] = -1;
 }
 	
-if o_input.alarm[8] == 1 { 
+if o_input.alarm[8] == 2 { 
 	o_input.alarm[8] = -1;
-	
+	if global.player_stamina > COST_JUMP {
+		global.player_stamina -= COST_JUMP;
+		jump = true;
+		o_input.alarm[9] = global.one_second*.15;
+	} else {
+		o_hud.alarm[3] = global.one_second*.25;
+		o_hud.show_stamina = true;
+		jump = false;
+	}
 } else { 
 	if z<=z_ground then var jump = false;
-}*/
+}
 	
 if z>z_ground  {
 	var jump = o_input.action_two_;
@@ -56,10 +67,10 @@ var grav_mult
 switch power_stance {
 
 	case true:
-	if z==z_ground {
-		walk_speed = player_spd*1.5;
-	} else {
+	if gliding {
 		walk_speed = player_spd*2;
+	} else {
+		walk_speed = player_spd*1.5;
 	}
 	break;
 	
@@ -122,7 +133,7 @@ repeat(abs(walk_speed * (right  - left )))
 
 	with o_enemy
 	{
-		if place_meeting(x - (other.right - other.left), y, other)
+		if place_meeting(x - (other.right - other.left), y-other.z, other)
             {
                 
 				other.can_move = false;
@@ -157,7 +168,7 @@ repeat(abs(walk_speed * (right  - left )))
     if can_move {
        x += (right*diag - left*diag);
 	} else {
-		x += -(right*diag - left*diag)*2;
+		x += -(right*diag - left*diag)*_bounce_ammount;
 	}
 }
 
@@ -204,7 +215,7 @@ repeat(abs(walk_speed * (down  - up )))
 	
 	with o_enemy
 	{
-		if place_meeting(x , y- (other.down - other.up), other)
+		if place_meeting(x , y- (other.down - other.up)-other.z, other)
            {
                 
 					other.can_move = false;
@@ -241,7 +252,7 @@ repeat(abs(walk_speed * (down  - up )))
     if can_move {
         y += (down*diag - up*diag);
 	} else {
-		 y += -(down*diag - up*diag)*2;
+		 y += -(down*diag - up*diag)*_bounce_ammount;
 	}
 }
 
@@ -254,6 +265,8 @@ if jump and z == z_ground {
 	instance_create_layer(x,y,"Effects", o_black_wings);
 	alarm_set(7,global.one_second*.4);
 }
+
+
 /*
 if global.auto_jump_ == true and z = z_ground {
     z_speed = 6;
@@ -263,7 +276,14 @@ if global.auto_jump_ == true and z = z_ground {
 	instance_create_layer(x,y,"Effects", o_black_wings);
 	alarm_set(7,global.one_second*.4);
 }*/
-
+if o_input.alarm[9] == 3 {
+	var _life = 2;
+	var _damage = 2;
+	var _knockback = 0;
+	var _hitbox = create_hitbox(s_player_uppercut_hitbox, x, y, 90, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
+	audio_play(a_player_attack_extradamage);
+	_hitbox.lift = true;
+}
     
 if alarm_get(7) >0 {
 	if jump {

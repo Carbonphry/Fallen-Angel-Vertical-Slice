@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-//part_type_clear(part_type_);
+part_type_clear(part_type_);

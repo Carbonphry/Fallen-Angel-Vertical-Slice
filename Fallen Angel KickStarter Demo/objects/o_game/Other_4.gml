@@ -79,7 +79,7 @@ switch (room) {
 		audio_play_sound(a_level_intro_room2and3_waterfall,5,true);
 	}
 	if !audio_is_playing(a_level_intro_music) {
-		audio_play_sound(a_level_intro_music,3,true); 
+		//audio_play_sound(a_level_intro_music,3,true); 
 	}
 	audio_stop_sound(a_level_intro_room1_beach);
 
@@ -128,7 +128,9 @@ switch (room) {
 	audio_stop_sound(a_music_abdiel); 
 	break;
 	
-	
+	case r_gabriel_ancientcity_room1:
+	audio_stop_sound(a_level_intro_room1_beach);
+	break;
 
 }
 

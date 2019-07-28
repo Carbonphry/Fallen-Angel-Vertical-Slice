@@ -295,3 +295,9 @@ global.ammo_count = 3;
 
 knockback_direction = noone;
 knockback_ammount = noone;
+
+sword_angle = noone;
+wep_xaxis = noone;
+wep_yaxis = noone;
+
+can_dash = true;

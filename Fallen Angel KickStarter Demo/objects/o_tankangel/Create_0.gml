@@ -1,7 +1,7 @@
 
 event_inherited();
 
-initialize_movement_entity(0.5, .5, class_enemy_coll);
+initialize_movement_entity(0.5, .2, class_enemy_coll);
 initialize_hurtbox_entity();
 
 enum tankangel {
@@ -19,7 +19,7 @@ enum tankangel {
 	stun,
 	executed
 }
-max_health_ = 15;
+max_health_ = 12;
 health_ = max_health_;
 
 starting_state_ = tankangel.idle;

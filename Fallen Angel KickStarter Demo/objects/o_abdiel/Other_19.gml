@@ -16,10 +16,10 @@ switch (warp) {
 		//instance_create_layer(x,y, "Solids", o_knockback_hitbox);
 		add_screenshake(4,20);
 		audio_play(a_abdiel_warpout);
-		var _abdiel_attack = choose(a_abdiel_voice_attack1, a_abdiel_voice_attack2);
+		/*var _abdiel_attack = choose(a_abdiel_voice_attack1, a_abdiel_voice_attack2);
 		if !audio_is_playing(_abdiel_attack) {
-		audio_play(_abdiel_attack);
-	}
+		audio_play(_abdiel_attack);*/
+	//}
 	}
 	break;
 	

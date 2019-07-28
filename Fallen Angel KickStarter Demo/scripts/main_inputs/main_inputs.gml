@@ -15,34 +15,41 @@ var	r_xaxis = gamepad_axis_value(0, gp_axisrh);
 var	r_yaxis = gamepad_axis_value(0, gp_axisrv);
 var	r_stick_direction = point_direction(0,0,r_xaxis,r_yaxis);
 
-if _attack_input >= .7 and alarm_get(11) <=0 and global.player_stamina > 0 {
-	image_index = 0;
-	switch ( power_stance ) {
+if _attack_input >= .7 and alarm_get(11) <=0 {
+	if global.player_stamina > COST_ATTACK {
+		global.player_stamina -= COST_ATTACK;
+		switch global.gamepad_active {
 		
-		case false:	
-		state_ = player.sword;
-		break;
+			case false:
+			sword_angle = point_direction(x, y, o_input.xdir_, o_input.ydir_);
+			break;
 		
-		case true:	
-		if z == z_ground {
-			state_ = player.sword;
-			/*var costHeavy = 0;
-			if global.player_stamina >= costHeavy {
-				global.player_stamina -= costHeavy
-				state_ = player.heavy_attack;
-				audio_play(a_player_attack_uppercut);
-			} else {
-				o_hud.alarm[3] = global.one_second*.5;
-				o_hud.show_stamina = true;
-			}*/
-		} else {
-			state_ = player.sword;
+			case true:
+			wep_xaxis = gamepad_axis_value(global.pad[0], gp_axislh);
+			wep_yaxis = gamepad_axis_value(global.pad[0], gp_axislv);
+			sword_angle = o_reticle.direction;//point_direction(0, 0, xaxis_, yaxis_);
+			break;
+			
 		}
-		break;
+		
+		image_index = 0;
+		switch ( power_stance ) {
+			//Both the same current build
+			case false:	
+			state_ = player.sword;
+			break;
+		
+			case true:	
+			state_ = player.sword;
+			break;
+		}
+	} else {
+			o_hud.alarm[3] = global.one_second*.25;
+			o_hud.show_stamina = true;
 	}
 }
 
-if _heal_input and o_hud.core_count > 0 and z == z_ground and global.player_health != global.player_max_health {
+if _heal_input and o_hud.core_count > 0 and z == z_ground and can_dash and global.player_health != global.player_max_health {
 	image_index = 0;
 	state_ = player.heal;
 	audio_play(a_player_small_heal);
@@ -73,7 +80,7 @@ if _trigger_input and global.ammo_count >=1 and z == z_ground {
 
 
 //Right Stick
-if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER and z == z_ground {
+if 	!(r_xaxis == 0 and r_yaxis == 0) and global.ammo_count >=1 and z == z_ground {
 	switch power_stance {
 	
 		case false:
@@ -91,9 +98,9 @@ if 	!(r_xaxis == 0 and r_yaxis == 0) and global.player_stamina >= COST_TRIGGER a
 			state_ = player.trigger;
 		}
 		break;
-	
 	}
 }
+
 
 if _evade_input  {
 	
@@ -131,9 +138,8 @@ if _evade_input  {
 	}
 } 
 
+
 if _glide_input and z>z_ground {
-	
-	
 	if o_input.alarm[7] ==-1 {
 		o_input.alarm[7] = global.one_second*.4;
 	}
@@ -144,16 +150,11 @@ if _glide_input and z>z_ground {
 	} 
 } else {
 	gliding = false;
-	
 }
-
-
 
 if gliding {
 	z_speed = -0.4;
 	z__speed_gravity = .2;
-	
-	
 	/*if power_stance {
 		player_spd = 6;	
 	} else {

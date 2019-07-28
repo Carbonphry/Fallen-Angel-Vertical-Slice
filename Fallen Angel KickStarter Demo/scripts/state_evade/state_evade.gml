@@ -37,7 +37,7 @@ if old_image_index != noone {
 
 var jump     = o_input.action_four_pressed_;
 var walk_speed, jump_speed;
-walk_speed = 8;
+walk_speed = 6;
 jump_speed = 3;
 var diag = .6;
 left = 0;
@@ -57,7 +57,7 @@ repeat(abs(walk_speed * (right - left)))
    
     with (obj_cube_parent)
     {
-        if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
+        if place_meeting(x - (other.right - other.left), y, other)
             {
                 if other.z >= height
                 {
@@ -79,7 +79,15 @@ repeat(abs(walk_speed * (right - left)))
 
 	with o_solid 
 	{
-		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
+		if place_meeting(x - (other.right - other.left), y, other)
+            {
+                other.can_move = false;
+            }
+    }
+	
+	with o_solid_tri 
+	{
+		if place_meeting(x - (other.right - other.left), y, other)
             {
                 other.can_move = false;
             }
@@ -87,7 +95,7 @@ repeat(abs(walk_speed * (right - left)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x - (other.right - other.left)*dcos(other.angX), y, other)
+		if place_meeting(x - (other.right - other.left), y, other)
            {
                 other.can_move = false;
                 break;
@@ -117,7 +125,7 @@ repeat(abs(walk_speed * (down - up)))
    
 	with (obj_cube_parent)
     {
-        if place_meeting(x, y - (other.down - other.up)*-dsin(other.angX), other)
+        if place_meeting(x, y - (other.down - other.up), other)
             {
                 if other.z >= height
                 {
@@ -139,7 +147,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_solid 
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
+		if place_meeting(x , y- (other.down - other.up), other)
            {
                 other.can_move = false;
                 break;
@@ -147,9 +155,9 @@ repeat(abs(walk_speed * (down - up)))
 	
 	}
 	
-	with o_solid 
+	with o_solid_tri 
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
+		if place_meeting(x , y- (other.down - other.up), other)
            {
                 other.can_move = false;
                 break;
@@ -159,7 +167,7 @@ repeat(abs(walk_speed * (down - up)))
 	
 	with o_stair_slow
 	{
-		if place_meeting(x , y- (other.down - other.up)*-dsin(other.angX), other)
+		if place_meeting(x , y- (other.down - other.up), other)
            {
                 other.can_move = false;
                 break;
@@ -229,6 +237,7 @@ if animation_hit_frame(0) {
 move_movement_entity(false);
 
 if animation_hit_frame(1) and !instance_exists(trace_1) {
+	can_dash = false;
 	with instance_create_depth(x,y,depth,trace_1) {
 		sprite_index =  other.sprite_[other.state_, other.direction_facing_];
 		image_index = 0;

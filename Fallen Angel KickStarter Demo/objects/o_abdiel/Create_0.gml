@@ -4,7 +4,7 @@ event_inherited();
 audio_stop_sound(a_music_dungeon);
 audio_play_sound(a_music_abdiel,1,true);
 
-initialize_movement_entity(0.25, .5, o_solid);
+initialize_movement_entity(0.25, .2, o_solid);
 initialize_hurtbox_entity();
 
 instance_activate_object(block_fight);

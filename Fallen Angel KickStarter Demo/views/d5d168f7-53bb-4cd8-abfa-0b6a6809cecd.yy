@@ -30,7 +30,8 @@
         "542f2ef8-597d-45a6-9db7-4b1dac06bb6b",
         "3d0b62fb-fd60-4b60-afe6-19710552e794",
         "9a5ec64b-c679-429a-b54f-03387240220c",
-        "c8d88f94-41b9-4372-88bf-f9bfc4c2a0e4"
+        "c8d88f94-41b9-4372-88bf-f9bfc4c2a0e4",
+        "3ad0100a-4332-4dd7-afbe-4ee65434da97"
     ],
     "filterType": "GMObject",
     "folderName": "Effect Objects",

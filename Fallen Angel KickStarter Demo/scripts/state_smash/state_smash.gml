@@ -39,7 +39,7 @@ if z == z_ground {
 				var _damage = 4;	
 			}
 			var _life = 1;
-			var _knockback = 8;
+			var _knockback = 2;
 			var _hitbox = create_hitbox(s_smash_hitbox, x, y, 0, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);	
 			_hitbox.lift = false;
 			dmgX = 0;

@@ -15,7 +15,9 @@ if z != 0 and !other.lift {
 var _hit_sound = choose(a_enemy_hit_1, a_enemy_hit_2);
 if hurtbox_entity_can_be_hit_by(other)
 {
-	invincible_ = true;
+	if other.sprite_index != s_player_burst_projectile {
+		invincible_ = true;
+	}
 	if pulseanim > 0 {
 		health_ -= other.damage_*2;
 	} else {

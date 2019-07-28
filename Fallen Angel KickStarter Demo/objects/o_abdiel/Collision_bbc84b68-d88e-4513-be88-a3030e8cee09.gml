@@ -6,7 +6,9 @@ if !( (other.z > z-enemyHeight) and (other.z >= z) and (other.z < z+enemyHeight)
 var _hit_sound = choose(a_enemy_hit_1, a_enemy_hit_2);
 if hurtbox_entity_can_be_hit_by(other)
 {
-	invincible_ = true;
+	if other.sprite_index != s_player_burst_projectile {
+		invincible_ = true;
+	}
 	alarm[0] = global.one_second * 0.2;
 	health_ -= other.damage_;
 	impact_effect_ = choose(s_impact_effect_1,s_impact_effect_2,s_impact_effect_3);

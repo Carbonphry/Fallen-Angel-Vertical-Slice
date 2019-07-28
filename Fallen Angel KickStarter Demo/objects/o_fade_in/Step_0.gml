@@ -26,6 +26,11 @@ if (image_alpha >= .9) {
 			room_ = r_intro_room2;
 			start_ = room1to2;
 			break;
+			
+			case r_intro_room7:
+			room_ = r_gabriel_ancientcity_room1;
+			start_ = GA_1_START;
+			break;
 		
 		}
 		

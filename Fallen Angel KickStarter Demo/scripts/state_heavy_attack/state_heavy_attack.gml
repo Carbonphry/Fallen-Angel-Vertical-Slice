@@ -387,7 +387,7 @@ if animation_hit_frame(6)
 	var _damage = 4;
 	var _knockback = 0;
 	var _hitbox = create_hitbox(s_player_uppercut_hitbox, x, y, _angle, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
-	audio_play(_attack_sound);
+	audio_play(a_player_attack_extradamage);
 	_hitbox.lift = true;
 	global.auto_jump_ = true;
 	

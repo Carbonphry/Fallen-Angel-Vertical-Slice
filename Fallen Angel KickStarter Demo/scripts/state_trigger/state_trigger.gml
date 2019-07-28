@@ -55,7 +55,7 @@ if triggerCount == 0 {
 		
 		
 		if (o_input.action_three_released_ or right_stick) and triggerCount == 0 and global.player_stamina > 0{
-			
+			set_vibration(.3,.3,.2);
 			switch power_stance {
 			
 				case false:
@@ -98,6 +98,7 @@ if triggerCount == 0 {
 	} 
 	
 	if power_stance and reticle_anim >16 {
+		set_vibration(.3,.3,.2);
 		shoot_trigger_power_critical();
 		var rdir = o_reticle.image_angle;
 		if rdir  >= 0 and rdir  <= 180 {
