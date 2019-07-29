@@ -4207,6 +4207,14 @@
             }
         },
         {
+            "Key": "6182a1ef-7168-4ff9-b8ba-d3f153c1ca63",
+            "Value": {
+                "id": "87807642-eae1-4614-8931-1ca67ef8e279",
+                "resourcePath": "sprites\\s_hud_background\\s_hud_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61e31308-b319-49f8-a269-a2e0a931ba79",
             "Value": {
                 "id": "a68e9dc8-7664-4488-912b-3358a4f43fe3",

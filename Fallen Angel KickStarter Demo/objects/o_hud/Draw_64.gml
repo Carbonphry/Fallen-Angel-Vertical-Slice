@@ -61,6 +61,7 @@ if global.player_health < 4 {
 	//gpu_set_blendmode(bm_normal);
 }
 //Hud
+draw_sprite(s_hud_background, 0, x_bar_, y_bar_);
 draw_sprite(s_hud_bar, 0, x_bar_, y_bar_);
 
 //draw_sprite(s_hud_stance_power,0, x_bar_-19, y_bar_-33);
