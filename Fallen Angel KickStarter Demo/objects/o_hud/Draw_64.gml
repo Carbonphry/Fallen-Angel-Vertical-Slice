@@ -61,7 +61,7 @@ if global.player_health < 4 {
 	//gpu_set_blendmode(bm_normal);
 }
 //Hud
-draw_sprite(s_hud_background, 0, x_bar_, y_bar_);
+
 draw_sprite(s_hud_bar, 0, x_bar_, y_bar_);
 
 //draw_sprite(s_hud_stance_power,0, x_bar_-19, y_bar_-33);
@@ -70,15 +70,15 @@ var _life_size = global.player_health/global.player_max_health;
 var _stamina_size = global.player_stamina/global.player_max_stamina;
 if global.player_health > 0
 {
-	draw_sprite_part(s_hud_bar_life, 0, 0, 0, 77*_life_size, 10, x_bar_+27, y_bar_-13);
+	draw_sprite_part(s_hud_bar_life, 0, 0, 0, 77*_life_size, 10, x_bar_+25, y_bar_-13);
 }
-draw_sprite_part(s_hud_bar_stamina, 0, 0, 0, 69*_stamina_size, 6,x_bar_+31, y_bar_);
+draw_sprite_part(s_hud_bar_stamina, 0, 0, 0, 69*_stamina_size, 6,x_bar_+29, y_bar_);
 
 if show_stamina {
 	low_stam_anim+=.2; 
-	if low_stam_anim > 2 then low_stam_anim = 0;
+	if low_stam_anim >= 3 then low_stam_anim = 0;
 	
-	draw_sprite(s_hud_lowstamina,low_stam_anim, x_bar_+4,y_bar_-1);
+	draw_sprite(s_hud_lowstamina,low_stam_anim, x_bar_+2,y_bar_-1);
 	if !audio_is_playing(a_player_lowstamina) {
 		audio_play(a_player_lowstamina);
 	}

@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(id,true);
+if sprite_index == s_door_open {
+	sprite_index = s_door_appear;
+	image_index = 19;
+}
+
+
 
 
 

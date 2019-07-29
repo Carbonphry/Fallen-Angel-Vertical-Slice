@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if !instance_exists(o_abdiel) then exit;
 var boss_room_x1 = 300;
 var boss_room_x2 = 670;
 var boss_room_y1 = 456;

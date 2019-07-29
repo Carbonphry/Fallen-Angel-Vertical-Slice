@@ -10,6 +10,6 @@ repeat 3 {
 audio_stop_sound(a_music_abdiel);
 instance_deactivate_object(block_fight);
 instance_deactivate_object(camera_boss);
-
-instance_create_depth(0,0,-99999,o_transition);
+instance_create_depth(459,528,depth,o_abdiel_door);
+//instance_create_depth(0,0,-99999,o_transition);
 //instance_create_depth(0,0,-99999,o_fade_in_ending);

@@ -48,15 +48,15 @@ show_volume = false;
 #macro COST_RAM 1
 #macro COST_JUMP 1.5
 #macro COST_ATTACK 1
-
+/*
 #macro COST_DASH 1
 #macro DMG_SWING 1
 #macro DMG_SMASH 2
-/*
+*/
 #macro COST_DASH .1
 #macro DMG_SWING 15
 #macro DMG_SMASH 25
-*/
+
 #macro DMG_PARRY 1
 #macro DMG_TRIGGER_PROJECTILE 1
 #macro DMG_RAM 4
