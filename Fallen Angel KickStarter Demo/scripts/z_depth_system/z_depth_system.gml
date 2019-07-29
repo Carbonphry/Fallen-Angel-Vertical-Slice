@@ -281,8 +281,16 @@ if o_input.alarm[9] == 3 {
 	var _damage = 2;
 	var _knockback = 0;
 	var _hitbox = create_hitbox(s_player_uppercut_hitbox, x, y, 90, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
-	audio_play(a_player_attack_extradamage);
 	_hitbox.lift = true;
+	with _hitbox {
+		if place_meeting(x,y,o_enemy) {
+			with other {
+				audio_play(a_player_attack_extradamage);
+				instance_create_depth(x,y,depth,o_fx_jump_attack); 
+				o_pride_meter.ego_add += PTS_ATTACK_3;	
+			}
+		}
+	}
 }
     
 if alarm_get(7) >0 {

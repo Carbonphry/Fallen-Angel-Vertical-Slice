@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(id,true);
-
-
-
+image_speed = .8;
+depth = -1600;

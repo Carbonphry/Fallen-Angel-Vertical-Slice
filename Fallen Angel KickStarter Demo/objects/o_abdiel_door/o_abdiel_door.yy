@@ -1,38 +1,38 @@
 {
-    "id": "3bbdd515-84e2-4338-8408-4c15b7126511",
+    "id": "bc0b04e4-c458-4948-b8b9-0b1112b9dab3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_garden_door",
+    "name": "o_abdiel_door",
     "eventList": [
         {
-            "id": "9d2da0e9-f36f-453e-af9d-e7b64d242831",
+            "id": "89f20d2a-6d28-432a-8add-a9e7dd878324",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3bbdd515-84e2-4338-8408-4c15b7126511"
+            "m_owner": "bc0b04e4-c458-4948-b8b9-0b1112b9dab3"
         },
         {
-            "id": "c1b877b0-89ba-4646-902e-3a8b6322771c",
+            "id": "eafa3366-53b3-489a-ba40-791e5d6da7e5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 7,
             "eventtype": 7,
-            "m_owner": "3bbdd515-84e2-4338-8408-4c15b7126511"
+            "m_owner": "bc0b04e4-c458-4948-b8b9-0b1112b9dab3"
         },
         {
-            "id": "5dfea616-588f-4bac-b1c9-bae9d00f344e",
+            "id": "cc13a40b-eabf-44e4-bccb-ef5be6084f10",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "3bbdd515-84e2-4338-8408-4c15b7126511"
+            "m_owner": "bc0b04e4-c458-4948-b8b9-0b1112b9dab3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ad97a187-f5b8-4ef0-b43c-6bfee23dc892",
+    "spriteId": "6f9b5bc1-c896-4583-b5fc-331fa5b2ea99",
     "visible": true
 }
