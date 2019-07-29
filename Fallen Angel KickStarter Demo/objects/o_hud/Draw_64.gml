@@ -69,9 +69,9 @@ var _life_size = global.player_health/global.player_max_health;
 var _stamina_size = global.player_stamina/global.player_max_stamina;
 if global.player_health > 0
 {
-	draw_sprite_part(s_hud_bar_life, 0, 0, 0, 133*_life_size, 8, x_bar_+25, y_bar_-11);
+	draw_sprite_part(s_hud_bar_life, 0, 0, 0, 133*_life_size, 8, x_bar_+27, y_bar_-12);
 }
-draw_sprite_part(s_hud_bar_stamina, 0, 0, 0, 112*_stamina_size, 6,x_bar_+27, y_bar_+1);
+draw_sprite_part(s_hud_bar_stamina, 0, 0, 0, 112*_stamina_size, 6,x_bar_+29, y_bar_+1);
 
 if show_stamina {
 	low_stam_anim+=.2; 

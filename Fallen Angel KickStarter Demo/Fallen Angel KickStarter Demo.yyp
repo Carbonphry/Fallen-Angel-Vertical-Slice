@@ -5415,14 +5415,6 @@
             }
         },
         {
-            "Key": "7f383438-16dc-4aed-a4f4-fad3f362cf49",
-            "Value": {
-                "id": "3716ae74-bbeb-4f58-a269-ea01b4dd8f8a",
-                "resourcePath": "sprites\\s_hud_lowstamina2\\s_hud_lowstamina2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7f71b8d5-0b74-43e3-ae3b-06b03156e651",
             "Value": {
                 "id": "98c335f1-37fe-4566-9435-e9826c3c36d4",
