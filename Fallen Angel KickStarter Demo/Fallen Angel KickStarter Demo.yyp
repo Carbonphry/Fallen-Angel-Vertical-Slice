@@ -7151,6 +7151,14 @@
             }
         },
         {
+            "Key": "ac9dd008-c1b1-4ffe-a630-1fbf8850c744",
+            "Value": {
+                "id": "c05db527-5106-4167-9c99-ec0b147c60af",
+                "resourcePath": "objects\\o_fx_jump_attack\\o_fx_jump_attack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "acadd678-3bd9-4c68-b84f-57d336c339fa",
             "Value": {
                 "id": "299d4cb5-7116-40d4-92b3-81ae5692c2c6",
@@ -7844,6 +7852,14 @@
                 "id": "96199e02-09af-4650-ad1b-2deccf03d739",
                 "resourcePath": "sprites\\s_player_failedhit_down\\s_player_failedhit_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc0b04e4-c458-4948-b8b9-0b1112b9dab3",
+            "Value": {
+                "id": "38b24b9c-78c7-428a-81db-e0396cf3e467",
+                "resourcePath": "objects\\o_abdiel_door\\o_abdiel_door.yy",
+                "resourceType": "GMObject"
             }
         },
         {
