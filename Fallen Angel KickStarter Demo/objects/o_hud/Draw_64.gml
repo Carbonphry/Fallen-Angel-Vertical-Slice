@@ -69,15 +69,15 @@ var _life_size = global.player_health/global.player_max_health;
 var _stamina_size = global.player_stamina/global.player_max_stamina;
 if global.player_health > 0
 {
-	draw_sprite_part(s_hud_bar_life, 0, 0, 0, 133*_life_size, 8, x_bar_+27, y_bar_-12);
+	draw_sprite_part(s_hud_bar_life, 0, 0, 0, 77*_life_size, 10, x_bar_+27, y_bar_-13);
 }
-draw_sprite_part(s_hud_bar_stamina, 0, 0, 0, 112*_stamina_size, 6,x_bar_+29, y_bar_+1);
+draw_sprite_part(s_hud_bar_stamina, 0, 0, 0, 69*_stamina_size, 6,x_bar_+31, y_bar_);
 
 if show_stamina {
 	low_stam_anim+=.2; 
 	if low_stam_anim > 2 then low_stam_anim = 0;
 	
-	draw_sprite(s_hud_lowstamina,low_stam_anim, x_bar_,y_bar_);
+	draw_sprite(s_hud_lowstamina,low_stam_anim, x_bar_+4,y_bar_-1);
 	if !audio_is_playing(a_player_lowstamina) {
 		audio_play(a_player_lowstamina);
 	}
@@ -117,10 +117,9 @@ draw_sprite(s_weapon_ui, global.ammo_count, x_bar_ - 10, y_bar_+186);
 
 //Text system
 if instance_exists(o_abdiel) and !instance_exists(o_text) {
-	var boss_life_size = o_abdiel.health_/o_abdiel.max_health_ ;
 	draw_text_color(x_bar_b+5/*x_bar_b+30*/,y_bar_b-14,"Holy Seraph Abdiel",c_white,c_yellow,c_white,c_yellow,1);
 	draw_sprite(s_boss_bar,0,x_bar_b,y_bar_b);
-	draw_sprite_ext(s_boss_bar_life, 0, x_bar_b, y_bar_b, boss_life_size, 1, 0, c_white, 1);
+	draw_sprite_ext(s_hp_boss, o_abdiel.health_, x_bar_b, y_bar_b, 1, 1, 0, c_white, 1);
 }
 
 if text_dialog {
