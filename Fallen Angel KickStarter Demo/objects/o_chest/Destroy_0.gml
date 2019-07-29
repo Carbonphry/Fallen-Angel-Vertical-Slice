@@ -24,5 +24,5 @@ repeat (_times) {
 }
 
 with instance_create_depth(x+irandom_range(-3,3),y+irandom_range(-3,3),depth-10,o_smoke_puff) {
-	image_speed = .4;
+	image_speed = .8;
 }
