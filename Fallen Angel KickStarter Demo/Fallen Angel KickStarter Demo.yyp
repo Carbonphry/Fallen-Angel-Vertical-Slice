@@ -3303,6 +3303,14 @@
             }
         },
         {
+            "Key": "4c1e4a20-1942-4a5d-be65-5b685be01d66",
+            "Value": {
+                "id": "301b9edf-9a31-48e5-bf31-6860de322ba0",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_walltech1\\s_level_gabriel_ancientcity_cave_walltech1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c323d20-fe72-49fb-bb76-a70f326c5e25",
             "Value": {
                 "id": "06d653d6-a14a-45f3-ba8c-a1109f1c4d9c",
@@ -6387,6 +6395,14 @@
             "Value": {
                 "id": "f18e6dcf-32d1-48c2-baa0-5abe81bfd790",
                 "resourcePath": "sprites\\s_small_heal_item_particle\\s_small_heal_item_particle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "993cee8c-3c0c-4c59-8c67-e948d24fc168",
+            "Value": {
+                "id": "5988cfc4-6dc7-42a2-a9b1-546b86d049e7",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_walltech2\\s_level_gabriel_ancientcity_cave_walltech2.yy",
                 "resourceType": "GMSprite"
             }
         },
