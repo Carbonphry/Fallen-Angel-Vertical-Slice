@@ -2287,6 +2287,14 @@
             }
         },
         {
+            "Key": "34206569-c195-4532-903f-3e2c1a87629a",
+            "Value": {
+                "id": "9d71ffb6-81e7-4640-83ea-e0aac87af027",
+                "resourcePath": "sounds\\a_chest_explode\\a_chest_explode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3449f2c8-cd2e-46db-9a8d-59b5cf7b82b6",
             "Value": {
                 "id": "52296764-1f69-4091-a4bc-a4b59220fc2d",

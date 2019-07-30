@@ -8,3 +8,7 @@ instance_destroy(id,true);
 	add_screenshake(10,15);
 	image_index = 0;
 }
+*/
+
+audio_play(a_chest_explode);
+	

@@ -12,7 +12,8 @@
         "fa4a536f-9f4f-43eb-a396-4e356b875f98",
         "b09aa349-641d-4ac3-a6d5-6d1fbce4e2bc",
         "dfdeb577-9655-48f8-8e73-7121a313f691",
-        "5c42f24b-439d-469f-a1f6-e598e649a17b"
+        "5c42f24b-439d-469f-a1f6-e598e649a17b",
+        "34206569-c195-4532-903f-3e2c1a87629a"
     ],
     "filterType": "GMSound",
     "folderName": "World",
