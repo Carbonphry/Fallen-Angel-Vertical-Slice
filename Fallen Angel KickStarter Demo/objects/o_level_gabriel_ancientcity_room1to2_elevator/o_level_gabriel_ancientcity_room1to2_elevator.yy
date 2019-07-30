@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_level_gabriel_ancientcity_room1to2_elevator",
     "eventList": [
-        
+        {
+            "id": "4cd49c78-7468-4ac4-b718-f0a03e79c0af",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "7509c2f4-aa93-45d8-876a-1ba8eef83126"
+        },
+        {
+            "id": "0978e000-7043-4d9f-a89a-d0ba1466a131",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "7509c2f4-aa93-45d8-876a-1ba8eef83126"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

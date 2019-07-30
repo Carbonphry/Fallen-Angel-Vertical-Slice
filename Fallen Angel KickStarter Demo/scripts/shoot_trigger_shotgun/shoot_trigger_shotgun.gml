@@ -6,6 +6,9 @@ switch direction_facing_ {
 		
 		case dir.up:
 		//var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+		var radious = 5;
+		var centerx = 25;
+		var centery = 30;
 		var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir+20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir-20+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 		var _hitbox = create_hitbox_trigger_projectile(x+lengthdir_x(9,mouseDir), y-24,mouseDir+10+irandom_range(-5,5), _life, [o_enemy, o_grass, o_bush], _damage, _knockback);
