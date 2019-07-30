@@ -64,5 +64,5 @@ if z == z_ground {
 	_hitbox.lift = false;
 	dmgX++; 
 	image_speed = 1.2;
-	instance_create_layer(o_player.x, o_player.y-o_player.z, "Effects", o_particle_smash);
+	//instance_create_layer(o_player.x, o_player.y-o_player.z, "Effects", o_particle_smash);
 }
