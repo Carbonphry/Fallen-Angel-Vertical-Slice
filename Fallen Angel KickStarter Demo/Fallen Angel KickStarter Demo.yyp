@@ -4711,6 +4711,14 @@
             }
         },
         {
+            "Key": "6b2cb84e-ca7d-41df-ac13-4178e335482c",
+            "Value": {
+                "id": "60ba1b67-7720-4513-917e-9de6432bd986",
+                "resourcePath": "sounds\\a_guardcube_release\\a_guardcube_release.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6bf649ea-ed41-4843-aa5b-59aa5f8b38a6",
             "Value": {
                 "id": "ae7df23b-8687-4b55-b250-442e7de2db10",

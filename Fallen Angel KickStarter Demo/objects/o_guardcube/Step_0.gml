@@ -3,6 +3,9 @@
 if !instance_exists(o_enemy) and !instance_exists(o_enemy_portal) {
 	state = 1;
 	sprite_index = s_guardcube_deactivated;
+	if !audio_is_playing(a_guardcube_release) {
+		audio_play(a_guardcube_release);
+	}
 } else {
 	if state != 2 {
 		state = 2;
