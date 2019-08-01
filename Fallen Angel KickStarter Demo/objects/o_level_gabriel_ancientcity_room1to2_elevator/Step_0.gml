@@ -2,6 +2,7 @@
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
+/*
 var spd = 1;
 
 switch  o_button_plat.state {
