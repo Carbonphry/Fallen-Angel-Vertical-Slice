@@ -1399,6 +1399,14 @@
             }
         },
         {
+            "Key": "1e20f7d5-df66-4f03-b1cc-ecd857f163bc",
+            "Value": {
+                "id": "4678ae9e-a05f-4b45-8320-e8ebab37091b",
+                "resourcePath": "sounds\\a_puzzle_correct\\a_puzzle_correct.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1e436465-5801-47b0-98b3-5b2833ddedc8",
             "Value": {
                 "id": "4dab1bec-a667-41f3-b3ed-31fcb33c91cb",
@@ -8236,6 +8244,14 @@
                 "id": "f1a13ea6-b6af-4486-83ad-47f3c3bd99f0",
                 "resourcePath": "sprites\\s_grass\\s_grass.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c18cfcd5-966a-4a63-9265-b005feb9d38f",
+            "Value": {
+                "id": "cdd39eb0-6ca6-42f4-bf1a-23cca5a096f3",
+                "resourcePath": "sounds\\a_player_reticle_charge\\a_player_reticle_charge.yy",
+                "resourceType": "GMSound"
             }
         },
         {
