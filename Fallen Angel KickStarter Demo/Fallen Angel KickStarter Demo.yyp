@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "011e9f7d-e2f5-4be2-9a7a-1f67b1dce485",
+            "Value": {
+                "id": "d2e1ace5-3234-46b9-8824-42980a26743a",
+                "resourcePath": "sprites\\s_nebuch_attack_die\\s_nebuch_attack_die.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "019faf3c-a23e-41bd-817e-13586dede922",
             "Value": {
                 "id": "c6eb810f-ffe6-4d72-b5c4-c19358b6f297",
@@ -3103,6 +3111,14 @@
             }
         },
         {
+            "Key": "45d5d9c4-73c1-4328-8f3a-70bcbbb1b2f1",
+            "Value": {
+                "id": "251ca742-145b-476e-973b-f4550289910d",
+                "resourcePath": "sprites\\s_nebuch_move\\s_nebuch_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45dbada8-a5e2-43e9-aea5-3d8c8c4cac54",
             "Value": {
                 "id": "b2ce1b9a-746e-4855-acee-e4d97a5b950d",
@@ -4163,6 +4179,14 @@
             "Value": {
                 "id": "fea48a20-4778-416e-888f-70394a75a0cb",
                 "resourcePath": "sprites\\s_black_wings_glide_down\\s_black_wings_glide_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f9426ae-a879-46e7-9315-6dfe733ef364",
+            "Value": {
+                "id": "593bb3fc-d02d-4b0d-9e6a-a3aebdfc48fb",
+                "resourcePath": "sprites\\s_nebuch_stunned\\s_nebuch_stunned.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5679,6 +5703,14 @@
             }
         },
         {
+            "Key": "83d1620d-d317-4a4f-9f68-48dd53905b4b",
+            "Value": {
+                "id": "9ccb2f62-9b5a-4a64-beb2-5cf4f69b7111",
+                "resourcePath": "sprites\\s_nebuch_attack_throw\\s_nebuch_attack_throw.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83e41a6a-46ac-4a80-a118-188fe798e270",
             "Value": {
                 "id": "3e58fd86-5aad-4d2b-b488-a8385e34a336",
@@ -6971,6 +7003,14 @@
             "Value": {
                 "id": "c3b4f6c0-ddd0-48fe-b372-4621ba3e1758",
                 "resourcePath": "sprites\\s_player_throw_right\\s_player_throw_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5a1eabc-ca06-4928-86e8-643d88b22222",
+            "Value": {
+                "id": "2e160e31-9f0f-4f30-a52e-7e05212483e7",
+                "resourcePath": "sprites\\s_nebuch_attack_bladeprojectile\\s_nebuch_attack_bladeprojectile.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8831,6 +8871,14 @@
             }
         },
         {
+            "Key": "d273f696-25d5-446e-8593-11f4b1f2cd30",
+            "Value": {
+                "id": "6129d182-3b3a-4dcb-9597-1de267ac80ad",
+                "resourcePath": "sprites\\s_nebuch_attack_dash\\s_nebuch_attack_dash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d27f4eee-d5c8-492e-bf78-54459ea4bd5f",
             "Value": {
                 "id": "2da86eb8-03a5-406b-89e8-b905baea2c20",
@@ -9567,6 +9615,14 @@
             }
         },
         {
+            "Key": "e38a57ec-a686-4780-899a-b43f4462923d",
+            "Value": {
+                "id": "30b36541-855b-40b0-abae-861eaf7c59d8",
+                "resourcePath": "sprites\\s_nebuch_attack_catchend\\s_nebuch_attack_catchend.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3936a3a-935e-4d86-b8df-caee1d3fa04b",
             "Value": {
                 "id": "1013e552-6f4d-4d02-8f26-21ff857d18aa",
@@ -9935,6 +9991,14 @@
             }
         },
         {
+            "Key": "ed9d1211-a438-4485-912e-d8a41254ceea",
+            "Value": {
+                "id": "9363b47b-8a12-4617-8895-6f3453589dc1",
+                "resourcePath": "sprites\\s_nebuch_attack_melee\\s_nebuch_attack_melee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee144e04-8d10-4824-9325-60ebf042310f",
             "Value": {
                 "id": "2270116c-b4e0-42cf-9ba1-40dac4337adf",
@@ -10228,6 +10292,14 @@
                 "id": "67ca0d98-09e4-4132-b54a-0ea581ae4c15",
                 "resourcePath": "objects\\o_level_intro_room2_bridge_1\\o_level_intro_room2_bridge_1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f3e78f9b-4b4f-496d-8297-f5c1a67636ea",
+            "Value": {
+                "id": "9a8af395-946f-4b09-8c1a-ccd113959953",
+                "resourcePath": "sprites\\s_nebuch_attack_catch\\s_nebuch_attack_catch.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
