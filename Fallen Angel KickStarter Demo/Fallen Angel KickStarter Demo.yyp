@@ -2263,6 +2263,14 @@
             }
         },
         {
+            "Key": "32b8347e-0e44-4db5-84e3-6174344e46be",
+            "Value": {
+                "id": "7b444645-616a-4df9-b9fd-df1685cb3a4a",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room1_pillars\\s_level_gabriel_mountainclimb_room1_pillars.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "330400e1-91af-4c9f-9b17-59d6e47e6f34",
             "Value": {
                 "id": "3c4a2b2c-c715-40e4-b0b1-500dc96c1c00",
@@ -6411,6 +6419,14 @@
             "Value": {
                 "id": "e1e1b03c-6371-4f28-be9a-9cdf566e6b70",
                 "resourcePath": "sprites\\s_player_jump_charge_up\\s_player_jump_charge_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "96ef0072-ccb1-4816-a7e0-7a4cc932bec3",
+            "Value": {
+                "id": "ded2f76f-e04c-4238-83f9-5caf054eb301",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room1_ground\\s_level_gabriel_mountainclimb_room1_ground.yy",
                 "resourceType": "GMSprite"
             }
         },

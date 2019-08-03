@@ -36,7 +36,9 @@
         "58c7fc9a-070e-471d-8d86-b28b79423725",
         "82e5f7ba-c6bf-44f5-8114-8586a0c05514",
         "4c1e4a20-1942-4a5d-be65-5b685be01d66",
-        "993cee8c-3c0c-4c59-8c67-e948d24fc168"
+        "993cee8c-3c0c-4c59-8c67-e948d24fc168",
+        "96ef0072-ccb1-4816-a7e0-7a4cc932bec3",
+        "32b8347e-0e44-4db5-84e3-6174344e46be"
     ],
     "filterType": "GMSprite",
     "folderName": "Gabriel Level",
