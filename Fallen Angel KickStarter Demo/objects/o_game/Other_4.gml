@@ -69,6 +69,9 @@ switch (room) {
 	if !audio_is_playing(a_level_intro_room1_intro) {
 		audio_play_sound(a_level_intro_room1_intro,1,false); 
 	}
+	if !audio_is_playing(a_awake) {
+		audio_play_sound(a_awake,1,false); 
+	}
 	audio_stop_sound(a_menu_loop);
 	audio_stop_sound(a_level_intro_music);
 	audio_stop_sound(a_level_intro_room2and3_waterfall);

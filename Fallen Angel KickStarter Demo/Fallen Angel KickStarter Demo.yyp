@@ -3671,6 +3671,14 @@
             }
         },
         {
+            "Key": "52f6c193-c288-48b0-8e61-62d3818184d2",
+            "Value": {
+                "id": "cf06bcfb-90fb-4cf6-85df-16c1e9ddc775",
+                "resourcePath": "sounds\\a_awake\\a_awake.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "52fca05b-82ce-4681-9d64-e8de3e9f6252",
             "Value": {
                 "id": "b52b0686-57fd-48dd-a377-79ea8ad6540d",
