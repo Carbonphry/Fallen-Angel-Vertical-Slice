@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "0c175b7c-87fd-4b1b-b0a9-c17ae2d29983",
+            "Value": {
+                "id": "02db6c9e-8e54-4438-b25e-9faece3ac9ff",
+                "resourcePath": "sprites\\s_abdiel_dyingend\\s_abdiel_dyingend.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c91a827-2a4b-4d1c-b4e7-eef5b23b9163",
             "Value": {
                 "id": "94c1db60-0c76-438f-969b-d7df1bae96bb",
@@ -6447,6 +6455,14 @@
             }
         },
         {
+            "Key": "963fcc45-94d3-4549-ae7e-d6e65afa1c94",
+            "Value": {
+                "id": "fc84d7ea-559f-42e1-bb43-fc90ffd47f8d",
+                "resourcePath": "sprites\\s_abdiel_dying_start\\s_abdiel_dying_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "966e7c4f-4361-4adc-a532-b53d54c7a054",
             "Value": {
                 "id": "36b2e3ad-16a3-4646-beed-58e3ef5db7c8",
@@ -8460,6 +8476,14 @@
                 "id": "50e8dde7-fd86-4c01-ae5b-21ced6676331",
                 "resourcePath": "views\\c575c620-8ec6-45bd-8eef-b3c618552406.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c5a3cdb5-7d12-4742-bce6-3e6005e800f6",
+            "Value": {
+                "id": "71d19751-7190-4b26-ac7e-c0339dbb831e",
+                "resourcePath": "sprites\\s_abdiel_dying_loop\\s_abdiel_dying_loop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
