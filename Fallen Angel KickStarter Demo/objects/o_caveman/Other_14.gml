@@ -62,7 +62,7 @@ if !stop {
 	y += lengthdir_y(2,_attack_angle);*/
 	//move_movement_entity(true);
 	//add_movement_maxspeed(_attack_angle, 0.1, 1);
-	enemy_dash(true,_attack_angle,2);
+	enemy_dash(true,_attack_angle,3);
 }
 
 if place_meeting(x,y,class_player) {

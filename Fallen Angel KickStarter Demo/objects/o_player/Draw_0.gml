@@ -10,7 +10,10 @@ if ramState == 0 {
 		draw_sprite_ext(s_ram_reticle,reticle_anim,x,y-15,1,1,o_reticle.image_angle,c_white,1);
 	} 
 }
-
+if !instance_exists(o_player_shadow) {
+	instance_create_depth(x,y,depth,o_player_shadow);
+}
+/*
 if !place_meeting(x,y,o_solid_air) and state_ != player.glide {
 	
 	switch (z) {
@@ -34,7 +37,7 @@ if !place_meeting(x,y,o_solid_air) and state_ != player.glide {
 	}
 	
 	draw_sprite_ext(s_large_shadow1, image_index, x, y - z_ground, shascale, shascale, image_angle, image_blend, image_alpha); 
-}
+}*/
 
 if state_ == player.trigger {
 	state_trigger();

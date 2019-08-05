@@ -3663,6 +3663,14 @@
             }
         },
         {
+            "Key": "51de04ea-8621-4bd7-a154-ab541f6f5ff8",
+            "Value": {
+                "id": "90fa339a-94cd-4dd3-ac80-c54150406bc0",
+                "resourcePath": "objects\\o_player_shadow\\o_player_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5202d943-3d37-4f0a-9795-9e14ae890a11",
             "Value": {
                 "id": "58118308-705c-49fe-914f-e10c7d848d6a",

@@ -5,10 +5,10 @@
     "name": "a_guardcube_release",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
-    "bitRate": 320,
+    "bitRate": 224,
     "kind": 0,
     "preload": false,
     "sampleRate": 44100,
-    "type": 1,
+    "type": 2,
     "volume": 1
 }

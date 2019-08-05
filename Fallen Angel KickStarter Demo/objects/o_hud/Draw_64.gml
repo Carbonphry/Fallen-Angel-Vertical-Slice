@@ -83,7 +83,7 @@ if show_stamina {
 		audio_play(a_player_lowstamina);
 	}
 }
-
+draw_sprite(s_weapon_ui, global.ammo_count, x_bar_ - 10, y_bar_+186);
 //Healing Items
 draw_sprite(s_hud_heal_box, 0, x_bar_ - 40, y_bar_+186);
 draw_sprite(s_hud_heal_box_counter, core_count, x_bar_ - 40, y_bar_+186);
@@ -98,6 +98,8 @@ draw_sprite(s_hud_heal_box_counter, core_count, x_bar_ - 40, y_bar_+186);
 		}*/
 	}
 }
+
+
 //Weapons
 
 /*var index_count;
@@ -111,7 +113,7 @@ if global.ammo_count >=3 {
 	index_count = 0;
 }*/
 
-draw_sprite(s_weapon_ui, global.ammo_count, x_bar_ - 10, y_bar_+186);
+
 
 //draw_sprite_ext(s_hud_bar_stamina, 0, x_bar_+27, y_bar_+4, _stamina_size, 1, 0, c_white, 1);
 

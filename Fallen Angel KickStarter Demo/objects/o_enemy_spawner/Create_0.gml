@@ -11,7 +11,7 @@ spawnR5 = 1;
 
 spawnR6 = 1;
 
-spawnR7 = 1;
+spawnR7 = 2;
 
 spawnRG = 1;
 
