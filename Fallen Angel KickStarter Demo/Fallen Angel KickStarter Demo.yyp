@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "092c43da-6bfb-4909-b3bf-c2d3ca4d1bf0",
+            "Value": {
+                "id": "bcf7fba4-21d2-47ac-94eb-4e8c6ab2b185",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure3\\s_level_gabriel_mountainclimb_room2_structure3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09422d36-37ee-415a-a5a1-d4e686bd9f1d",
             "Value": {
                 "id": "0be17cc5-ee07-4126-a470-db0855da0ff2",
@@ -1511,6 +1519,14 @@
             }
         },
         {
+            "Key": "1faeb204-405c-4048-898f-ed4c0b3fc8d6",
+            "Value": {
+                "id": "7ee7a820-3554-47f1-9107-be73a39fe2d0",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure5\\s_level_gabriel_mountainclimb_room2_structure5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1fafbe11-cdc1-4c6a-ad15-1e735dd40878",
             "Value": {
                 "id": "9066a873-b74d-4842-83fa-efc42ce7fef9",
@@ -1532,6 +1548,14 @@
                 "id": "0525a719-845f-44bc-ba91-b0abcea77677",
                 "resourcePath": "sounds\\a_menu_select\\a_menu_select.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "20320815-1956-4446-a718-865daa5e90a8",
+            "Value": {
+                "id": "6190efd8-64c7-43ec-8a76-2ff683af797b",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_ground1\\s_level_gabriel_mountainclimb_room2_ground1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1775,6 +1799,14 @@
             }
         },
         {
+            "Key": "25dd9fc4-eaa9-47b0-b024-9027f9057ea7",
+            "Value": {
+                "id": "372921fd-661b-48c8-b2b7-2d71714524bc",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_column2\\s_level_gabriel_mountainclimb_room2_column2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26231ff0-b792-4bfd-940c-4b58fa1a1496",
             "Value": {
                 "id": "6d2f6a4f-bff5-4211-9b96-82e0d5f487fd",
@@ -1828,6 +1860,14 @@
                 "id": "44a48b39-58d7-4551-b92a-f68af93e877a",
                 "resourcePath": "scripts\\uls_get_light_animation\\uls_get_light_animation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2884fc32-cd74-4197-b7b1-59a511dd0f02",
+            "Value": {
+                "id": "b6a76b3e-535b-4150-8005-c2b066756af0",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure7\\s_level_gabriel_mountainclimb_room2_structure7.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3255,6 +3295,14 @@
             }
         },
         {
+            "Key": "49c7fd4f-e52c-4fa1-88a0-e10c7c654c03",
+            "Value": {
+                "id": "12b9776b-404a-4386-a843-49242277e4bf",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_column1\\s_level_gabriel_mountainclimb_room2_column1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a38b598-7bbf-4b10-ba33-f7c5b4ad0bf3",
             "Value": {
                 "id": "5e61b06e-2ad9-4862-bfb2-cdb9ea0309c2",
@@ -4079,6 +4127,14 @@
             }
         },
         {
+            "Key": "5b1876fe-4ab8-4c8d-b288-230098a55e3a",
+            "Value": {
+                "id": "5e7b6966-1158-4c8e-9d3b-2072b4fe2095",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure8\\s_level_gabriel_mountainclimb_room2_structure8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b2a69cb-6493-44ac-896d-87ecf86bae46",
             "Value": {
                 "id": "668b01ed-5fa7-4ad2-a69d-f003e6ba4305",
@@ -4559,6 +4615,14 @@
             }
         },
         {
+            "Key": "655e14f1-323f-47b2-9402-d50abba6096a",
+            "Value": {
+                "id": "51c0cf58-cf77-4cb3-86ea-7f7410b2c900",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure4\\s_level_gabriel_mountainclimb_room2_structure4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "659e4ac1-4133-46f1-8842-fe4f7b8f2a68",
             "Value": {
                 "id": "640877dc-ee2e-4376-9353-bac10d28a534",
@@ -4820,6 +4884,14 @@
                 "id": "60ba1b67-7720-4513-917e-9de6432bd986",
                 "resourcePath": "sounds\\a_guardcube_release\\a_guardcube_release.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6b89705a-f65d-473b-b325-ff26ddcfa5dd",
+            "Value": {
+                "id": "14b2573d-a076-4969-bebd-585254507bdf",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure2\\s_level_gabriel_mountainclimb_room2_structure2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5967,6 +6039,14 @@
             }
         },
         {
+            "Key": "8962570b-f285-46f8-8172-467a8242b5ef",
+            "Value": {
+                "id": "257091d6-5378-4e5f-adff-7e53cc2c2132",
+                "resourcePath": "sprites\\s_solid6_tri\\s_solid6_tri.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8992b073-5d9c-4905-bdb8-4b3a20095a42",
             "Value": {
                 "id": "dd6a8dd4-3ffa-42cb-81ab-3766724f208b",
@@ -7039,6 +7119,14 @@
             }
         },
         {
+            "Key": "a4947139-2734-455d-a890-09a7884b9604",
+            "Value": {
+                "id": "ca8b372d-8d80-4f6a-930d-0a0782b876bd",
+                "resourcePath": "objects\\o_solid_lesser1\\o_solid_lesser1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a4ae53c1-0823-4dbb-9427-5684b02d13c0",
             "Value": {
                 "id": "216f6cca-25a6-4ac3-894a-71d8e3be1df1",
@@ -7975,6 +8063,14 @@
             }
         },
         {
+            "Key": "b9273cfa-0a46-42c5-bcaf-f4080bb8282a",
+            "Value": {
+                "id": "dbfa1316-912b-4c1e-92f5-c48971d54dca",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_column3\\s_level_gabriel_mountainclimb_room2_column3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9662efb-3de8-433d-9d31-05a1f668a5d4",
             "Value": {
                 "id": "1edd3051-28a8-4f46-b56a-868712f312a8",
@@ -8259,6 +8355,14 @@
             "Value": {
                 "id": "e47c1392-0232-4e71-8e54-06cf62cf248a",
                 "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_door\\s_level_gabriel_ancientcity_cave_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bfbe81b2-d8c2-47e2-89a3-c27817e2a5b4",
+            "Value": {
+                "id": "1b81d5e3-5e71-4035-8403-32c06224d3fc",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure6\\s_level_gabriel_mountainclimb_room2_structure6.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9095,6 +9199,14 @@
             }
         },
         {
+            "Key": "d49e809e-e5e7-4027-bdfb-ea326c0322bf",
+            "Value": {
+                "id": "98e004f1-f19d-4f6e-a472-ccf6fa57a00d",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure1\\s_level_gabriel_mountainclimb_room2_structure1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4cc96c2-6f5c-40dd-b1d8-6c0c9e84994b",
             "Value": {
                 "id": "799cc896-bcfe-422d-83a5-e686537a44a6",
@@ -9396,6 +9508,14 @@
                 "id": "7933eef4-d2cd-41ca-ba7e-d8b164a64524",
                 "resourcePath": "objects\\o_level_tut_7\\o_level_tut_7.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "db8fbe14-e77e-41c3-915e-13283fb7b5c1",
+            "Value": {
+                "id": "580c4477-6333-4a95-8ce3-48f552b36861",
+                "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure9\\s_level_gabriel_mountainclimb_room2_structure9.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
