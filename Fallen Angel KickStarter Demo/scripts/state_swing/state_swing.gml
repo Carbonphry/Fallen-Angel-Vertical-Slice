@@ -86,7 +86,7 @@ switch state_ {
 	case player.sword2:
 	var _attack_sound = choose(a_player_attack_1, a_player_attack_2, a_player_attack_3);
 	if power_stance {
-		image_speed = 1.3;
+		image_speed = 1.4;
 	} else {
 	image_speed = 1;
 	}
@@ -95,7 +95,7 @@ switch state_ {
 	case player.sword3:
 	var _attack_sound = a_player_attack_extradamage;
 	if power_stance {
-		image_speed = 1.3;
+		image_speed = 1.4;
 	} else {
 	image_speed = 1;
 	}

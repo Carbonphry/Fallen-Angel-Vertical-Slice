@@ -337,6 +337,8 @@ if !place_meeting(x, y, obj_cube_parent)
 	}
 	if animation_hit_frame(4) {
 		create_hitbox(s_chargeattack_hitbox, x, y-9, 0, 3, [o_enemy, o_grass, o_bush, o_shrine], 4, 2);
+		global.player_stamina -= COST_DASH;
+		global.player_stamina = max(0, global.player_stamina);
 	}
 	break;
 }
