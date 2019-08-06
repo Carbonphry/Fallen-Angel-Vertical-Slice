@@ -151,6 +151,16 @@ repeat(abs(walk_speed * (right  - left )))
             }
     }
 	
+	/*with o_solid_lesser
+	{
+		if place_meeting(x - (other.right - other.left), y, other)
+            {
+                
+				other.can_move = false;
+				
+            }
+    }
+	*/
 	if ((state_ == player.idle or state_ == player.move) and z <= 0) {
 		with o_solid_air 
 		{
@@ -236,6 +246,18 @@ repeat(abs(walk_speed * (down  - up )))
            }
 	
 	}
+	
+	/*with o_solid_lesser
+	{
+		if place_meeting(x , y- (other.down - other.up), other)
+           {
+                
+					other.can_move = false;
+				
+                break;
+           }
+	
+	}*/
 	
 	if ((state_ == player.idle or state_ == player.move) and z <= 0) {
 		with o_solid_air 

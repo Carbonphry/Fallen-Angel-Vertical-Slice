@@ -1,7 +1,7 @@
 /// @description Heal
 // You can write your code in this editor
 if power_stance {
-	image_speed = 1.2;
+	image_speed = 1;
 } else {
 	image_speed = .6;
 }

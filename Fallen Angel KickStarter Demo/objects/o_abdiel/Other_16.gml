@@ -1,6 +1,6 @@
 /// @description Die State
 image_speed = .8;
-sprite_index = s_abdiel_death;
+if sprite_index != s_abdiel_death then exit;
 add_screenshake(4,20);
 if (die_sound = false)
 {

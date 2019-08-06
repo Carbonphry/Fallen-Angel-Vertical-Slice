@@ -21,15 +21,16 @@ switch state {
 		ego_pts =40;
 		//state = 1;
 		sprite_index = s_hud_pride_max;
-		instance_create_layer(-200,-100,"UI", o_tutorial_demonmode);
-		
+		if !instance_exists(o_tutorial_demonmode) {
+			instance_create_layer(-200,-100,"UI", o_tutorial_demonmode);
+		}
 		//instance_create_layer(-200 ,-100,"UI", o_pride_meter_demonmode);
 	} else {
 		image_index = ego_pts;
 		sprite_index = s_hud_pride;
 	}
 	
-	if o_input.action_five_ and ego_pts == 40 {
+	if o_input.action_five_ and ego_pts == 40 and !instance_exists(o_pride_meter_demonmode) {
 		state = 1;
 		instance_create_layer(-200 ,-100,"UI", o_pride_meter_demonmode);
 		sprite_index = s_hud_pride_empty;

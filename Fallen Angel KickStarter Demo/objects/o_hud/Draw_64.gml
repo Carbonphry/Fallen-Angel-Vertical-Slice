@@ -90,9 +90,10 @@ draw_sprite(s_hud_heal_box_counter, core_count, x_bar_ - 40, y_bar_+186);
 
 
 	if core_count > 0 {
+		
+		if  core_anim >= 8 then core_anim = 0;
 		draw_sprite(s_small_heal_item, core_anim,x_bar_ - 24 , y_bar_ + 209);
-		 core_anim += .15;
-		if  core_anim > 7 then core_anim = 0;
+		core_anim += .15;
 		/*if core_count > 1 {
 			draw_text(x_bar_+44, y_bar_+209,string(core_count))
 		}*/

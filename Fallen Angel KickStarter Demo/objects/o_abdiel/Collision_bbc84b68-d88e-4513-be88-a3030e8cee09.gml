@@ -74,6 +74,7 @@ if hurtbox_entity_can_be_hit_by(other)
 	if health_ <= 1 and state_ != enemy.hit and state_ != abdiel.die {
 		image_index = 0;
 		state_ = abdiel.die;
+		sprite_index = s_abdiel_dying_start;
 	}
 
 	
