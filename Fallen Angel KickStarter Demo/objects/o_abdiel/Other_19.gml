@@ -58,7 +58,7 @@ if sprite_index == s_abdiel_warpout and animation_hit_frame(image_number-1) {
 	do {
 		x = irandom_range(boss_room_x1, boss_room_x2);
 		y = irandom_range( boss_room_y1, boss_room_y2);
-	} until !((x >= 445 and x >= 565) and (y >= 482 and y >= 586))
+	} until !((x >= 445 and x <= 565) and (y >= 482 and y <= 586))
 	}
 	warp = true;
 }

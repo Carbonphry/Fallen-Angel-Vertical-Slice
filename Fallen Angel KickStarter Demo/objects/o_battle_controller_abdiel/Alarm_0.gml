@@ -11,7 +11,7 @@ var yp = irandom_range( boss_room_y1, boss_room_y2);
 	do {
 		var xp = irandom_range(boss_room_x1, boss_room_x2);
 		var yp = irandom_range( boss_room_y1, boss_room_y2);
-	} until !((xp >= 445 and xp >= 565) and (yp >= 482 and yp >= 586))
+	} until !((xp >= 445 and xp <= 565) and (yp >= 482 and yp <= 586))
 }
 
 
