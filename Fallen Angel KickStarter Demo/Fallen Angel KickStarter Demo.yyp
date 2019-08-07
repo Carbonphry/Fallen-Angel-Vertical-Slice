@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "067364a5-13a5-48a0-8cf2-d767e5d8f347",
+            "Value": {
+                "id": "52b26ed8-4a4f-4f24-9548-3bc64dd69f4b",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure2\\o_level_grabriel_mountainclimb2_structure2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06a66919-20e8-41ef-8024-c8d2775da1d1",
             "Value": {
                 "id": "70644f3b-43a5-435d-bc30-94af57f1952e",
@@ -620,6 +628,14 @@
                 "id": "ffec6a1a-6ce1-401c-aca3-e796e9c13845",
                 "resourcePath": "sounds\\a_cherub_attack\\a_cherub_attack.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "0d54ad6d-800d-4fc0-85c1-445b123b8f28",
+            "Value": {
+                "id": "27f2579a-11b9-406c-af88-7c46087d20a3",
+                "resourcePath": "objects\\o_level_hubworld_decor_smallcouch_2\\o_level_hubworld_decor_smallcouch_2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1151,6 +1167,14 @@
             }
         },
         {
+            "Key": "18855baa-ec0c-44c3-8c21-568cefaa1106",
+            "Value": {
+                "id": "d0d0b329-faed-4148-9db6-79a176cef6cb",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure3\\o_level_grabriel_mountainclimb2_structure3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18a98292-22c5-4db9-aaa2-941b6241208a",
             "Value": {
                 "id": "6adeddca-ce4a-43c4-ab94-78c5b16b40fc",
@@ -1447,6 +1471,14 @@
             }
         },
         {
+            "Key": "1e2d3a55-8bee-42e1-9fd1-bf54bcd6e20f",
+            "Value": {
+                "id": "401ad5fe-7f28-4c3f-b03a-4b0e0cbcd087",
+                "resourcePath": "objects\\o_level_hubworld_decor_lightlamp\\o_level_hubworld_decor_lightlamp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e436465-5801-47b0-98b3-5b2833ddedc8",
             "Value": {
                 "id": "4dab1bec-a667-41f3-b3ed-31fcb33c91cb",
@@ -1467,6 +1499,14 @@
             "Value": {
                 "id": "2469514d-cb57-48da-adc0-5de367e23b44",
                 "resourcePath": "objects\\o_level_intro_room2_bridge_2\\o_level_intro_room2_bridge_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1eb361f2-98f0-4aa0-b6a5-ba436f79caff",
+            "Value": {
+                "id": "3ca09e01-caf2-484e-bf1b-f636ee4218f8",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_walltech1\\o_level_grabriel_ancientcity_cave_walltech1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1519,6 +1559,14 @@
             }
         },
         {
+            "Key": "1f7561e3-a489-4477-b14b-fb7bac1efaaa",
+            "Value": {
+                "id": "8c26937b-644c-4965-aee6-277524164722",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb_cliff\\o_level_grabriel_mountainclimb_cliff.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1faeb204-405c-4048-898f-ed4c0b3fc8d6",
             "Value": {
                 "id": "7ee7a820-3554-47f1-9107-be73a39fe2d0",
@@ -1548,6 +1596,14 @@
                 "id": "0525a719-845f-44bc-ba91-b0abcea77677",
                 "resourcePath": "sounds\\a_menu_select\\a_menu_select.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2007fd38-1d7c-4e8b-b91f-93cd89f4bf43",
+            "Value": {
+                "id": "4a687a2b-1aa2-44ee-8e89-5d98a27a6a92",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_pillar2\\o_level_grabriel_ancientcity_cave_pillar2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1596,6 +1652,14 @@
                 "id": "997f7735-d949-48c1-8e37-3c4945527513",
                 "resourcePath": "scripts\\flameangel_attack\\flameangel_attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "20e8a1f2-fbb8-4de7-b95e-9a7c70dccb44",
+            "Value": {
+                "id": "50e1fed8-4d60-485d-8fa4-44fdd3f3af12",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure1\\o_level_grabriel_mountainclimb2_structure1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2055,6 +2119,14 @@
             }
         },
         {
+            "Key": "2d4a1518-aed2-4ef2-ac1c-f9000e9f061c",
+            "Value": {
+                "id": "2dcaa5b0-1e72-4c1b-8195-bfdec5403e79",
+                "resourcePath": "objects\\o_level_gabriel_greentree3\\o_level_gabriel_greentree3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d7ecde8-383d-4835-8fb9-ae11ffd0f60a",
             "Value": {
                 "id": "86a40954-9713-4528-8a86-2db3c0e369fc",
@@ -2260,6 +2332,14 @@
                 "id": "607d4490-c1dd-4f0f-9212-799098e18c88",
                 "resourcePath": "views\\31d02494-781f-4e55-a4c0-761aaab432a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "31ff1a05-81d4-4390-b326-cf74093cb609",
+            "Value": {
+                "id": "a24c7361-8e36-4885-98ca-a7c5094c98d9",
+                "resourcePath": "objects\\o_level_hubworld_decor_bigcouch_1\\o_level_hubworld_decor_bigcouch_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2807,6 +2887,14 @@
             }
         },
         {
+            "Key": "3c28dfc4-0289-424d-80f9-e00c6945c40e",
+            "Value": {
+                "id": "fbb034c9-b997-4704-97b7-d665dc880d63",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure8\\o_level_grabriel_mountainclimb2_structure8.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c2daebd-96d5-47d8-84f7-9e70be4dae80",
             "Value": {
                 "id": "409ec0b6-00dd-4e05-a695-d117e830d7a6",
@@ -3087,6 +3175,14 @@
             }
         },
         {
+            "Key": "4376d752-c313-40c9-9140-9d08cd31b9ec",
+            "Value": {
+                "id": "07b3005f-1151-4ae4-aebc-677878a4cff9",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure5\\o_level_grabriel_mountainclimb2_structure5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "439981b6-9841-4739-87a2-365e58b69b3b",
             "Value": {
                 "id": "0417ab4e-08de-427a-8c78-a23676650b65",
@@ -3123,6 +3219,14 @@
             "Value": {
                 "id": "bf966911-7377-49fd-9ffe-e87a93e7ae79",
                 "resourcePath": "objects\\o_level_tut_warper1\\o_level_tut_warper1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "445c56a3-6fdc-4d36-b414-a53326a1b055",
+            "Value": {
+                "id": "ec4e9418-d273-4071-b5b5-1f1bd0f93f5a",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure7\\o_level_grabriel_mountainclimb2_structure7.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3215,6 +3319,14 @@
             }
         },
         {
+            "Key": "46123dd9-f229-4e0d-b590-b8673ab5c5e4",
+            "Value": {
+                "id": "bd662f08-f32c-456d-9bdf-d1017bd2d195",
+                "resourcePath": "sprites\\s_level_hubworld_decor_lightlamp\\s_level_hubworld_decor_lightlamp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4705a387-6969-4ffe-b95e-267aa2cb8965",
             "Value": {
                 "id": "b7b164e3-a7a2-40f4-aaf1-e24cbb72f2ab",
@@ -3228,6 +3340,14 @@
                 "id": "83394e7b-ef05-44de-b133-1192b3b510f6",
                 "resourcePath": "sprites\\s_player_chargeattack_attack\\s_player_chargeattack_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4733430f-4a43-4c29-aaf8-6cdeadeb471f",
+            "Value": {
+                "id": "0e27c12a-1369-455f-9b0b-a3dda56cd41a",
+                "resourcePath": "objects\\o_level_hubworld_decor_bookshelf\\o_level_hubworld_decor_bookshelf.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3252,6 +3372,14 @@
                 "id": "a16bf3cf-3149-4adb-8c52-8e500d29039d",
                 "resourcePath": "sprites\\s_medium_shadow1\\s_medium_shadow1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4829e245-756f-46d3-a971-188fddf01517",
+            "Value": {
+                "id": "4c14babc-1571-4b2b-b6c2-e33b729275d4",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_column3\\o_level_grabriel_mountainclimb2_column3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3695,6 +3823,14 @@
             }
         },
         {
+            "Key": "5164267c-a0a0-434a-90c8-94757c950b47",
+            "Value": {
+                "id": "6e816111-9a23-4648-b467-dd032fbb8d09",
+                "resourcePath": "objects\\o_level_hubworld_decor_smallcouch_1\\o_level_hubworld_decor_smallcouch_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "516e4546-5961-4bfa-bc08-77f5b1277168",
             "Value": {
                 "id": "94cff02f-e4db-4be9-9d1c-1902516fb86c",
@@ -3756,6 +3892,14 @@
                 "id": "860ab77e-5a6b-4714-ae53-b2cf08985409",
                 "resourcePath": "sprites\\s_tutorial_heal\\s_tutorial_heal.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "529c31d6-5181-4728-996a-e97eda1a879a",
+            "Value": {
+                "id": "63c68838-2044-409b-89fa-ba8fc6864f8a",
+                "resourcePath": "objects\\o_level_hubworld_decor_table_2\\o_level_hubworld_decor_table_2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4151,6 +4295,14 @@
             }
         },
         {
+            "Key": "5b76737c-2790-4821-a767-3c8086760c31",
+            "Value": {
+                "id": "5c2665fa-a988-4503-a30d-a27e55a7f6c4",
+                "resourcePath": "sprites\\s_level_hubworld_decor_frontdesk\\s_level_hubworld_decor_frontdesk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b7ca66d-b5f8-4dac-bc03-d5244f729a05",
             "Value": {
                 "id": "fe6c144d-f3e2-4f1c-be45-99b58baa8669",
@@ -4236,6 +4388,14 @@
                 "id": "a5858437-2a04-45e4-b147-ba9c9f36cb3e",
                 "resourcePath": "views\\5cf633b3-d9e6-4d93-b749-7ef517cefedf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5d3f2ed6-d179-4a3e-93ea-29b6add5b216",
+            "Value": {
+                "id": "ef8bb463-00ed-4f42-acfe-79b6ca98bd2a",
+                "resourcePath": "sprites\\s_level_hubworld_door_\\s_level_hubworld_door_.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4831,6 +4991,14 @@
             }
         },
         {
+            "Key": "699fe9f4-c266-43d8-9caa-b7cb5a558c72",
+            "Value": {
+                "id": "b4a61b5a-b83d-40f1-802a-716ddd3d9a19",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure4\\o_level_grabriel_mountainclimb2_structure4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "69bfa1c0-0d6a-4a0f-a8b7-d73403903c12",
             "Value": {
                 "id": "bf5f28ee-90b3-45ee-a8b9-39cbb7c93bd5",
@@ -4932,6 +5100,14 @@
                 "id": "48d850c1-fed7-4041-86be-7161b8d7687b",
                 "resourcePath": "sounds\\a_teleport_fail\\a_teleport_fail.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6d218a0b-f406-44a7-bf6c-6ac53e34b909",
+            "Value": {
+                "id": "fc003b17-2971-4d07-97dd-1b155141f003",
+                "resourcePath": "sprites\\s_level_hubworld_decor_bigcouch_1\\s_level_hubworld_decor_bigcouch_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5599,6 +5775,14 @@
             }
         },
         {
+            "Key": "7c9df378-a252-467b-be0e-61d9ebb9c53a",
+            "Value": {
+                "id": "2497ac3d-7bb9-4d03-bd78-18bb519df5ef",
+                "resourcePath": "sprites\\s_level_hubworld_ground\\s_level_hubworld_ground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7ce514de-f03f-4ec9-b5fa-beb4f0af8d23",
             "Value": {
                 "id": "f09ac4bf-36cd-4863-b483-df8e6d1f0101",
@@ -5927,6 +6111,14 @@
             }
         },
         {
+            "Key": "8634e547-312b-426d-9957-d39b59ecd478",
+            "Value": {
+                "id": "f1124cd9-68a2-48f2-9f40-4c93f51eaab5",
+                "resourcePath": "sprites\\s_level_hubworld_decor_table_1\\s_level_hubworld_decor_table_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86b63629-424f-4041-82e6-b0c9cf36a536",
             "Value": {
                 "id": "b2bab1e1-aaed-4b78-a3a6-c17d8f1a0e79",
@@ -6119,6 +6311,14 @@
             }
         },
         {
+            "Key": "8b5260a5-569b-4edb-a120-4ddc3d0c5129",
+            "Value": {
+                "id": "e384c942-b630-4366-9732-f89c3eb9212a",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave\\o_level_grabriel_ancientcity_cave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8bb9c44a-e3e9-4a76-aaba-d2affa80751e",
             "Value": {
                 "id": "62ed55e2-9201-42a4-afa4-d864cf03c82a",
@@ -6252,6 +6452,14 @@
                 "id": "bb41ea4c-3d46-491b-811a-b64e4e9380a3",
                 "resourcePath": "sprites\\s_player_ledge_up_move_left\\s_player_ledge_up_move_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e6f591f-2281-4fc5-911c-b2ad36e328a0",
+            "Value": {
+                "id": "9137999a-605b-4c7e-a4da-4a5adb48d817",
+                "resourcePath": "objects\\o_level_gabriel_greentree2\\o_level_gabriel_greentree2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6447,6 +6655,22 @@
             }
         },
         {
+            "Key": "92f92353-1255-42b6-9d91-24bfbe4d0120",
+            "Value": {
+                "id": "136872eb-9666-4c0a-9175-dc9f3ce3cf03",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_walltech2\\o_level_grabriel_ancientcity_cave_walltech2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9320429c-86c2-4753-8153-59bbca608de0",
+            "Value": {
+                "id": "c5c2f87e-7b61-4c72-9d15-42dda88cfcd2",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_ground\\o_level_grabriel_mountainclimb2_ground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9345fbfa-89f8-47d6-b4bc-e65651cd764c",
             "Value": {
                 "id": "19622ced-42db-47fd-ba1c-faad13defeec",
@@ -6628,6 +6852,14 @@
                 "id": "ed212a3d-5abd-48c0-8f4b-a6ad8cbfe92d",
                 "resourcePath": "sprites\\s_tp_projectile\\s_tp_projectile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "983149e8-8458-4971-9f27-9ef0706f2056",
+            "Value": {
+                "id": "7eb8b329-da7f-402c-bded-e1f49e6b2f75",
+                "resourcePath": "objects\\o_level_hubworld_decor_frontdesk\\o_level_hubworld_decor_frontdesk.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6836,6 +7068,14 @@
                 "id": "732485a7-1b29-4881-8efe-98e2341abe0c",
                 "resourcePath": "objects\\obj_cube_2\\obj_cube_2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9d342c97-b3df-40c2-ac43-bcbb0eb9bae9",
+            "Value": {
+                "id": "e0d07545-4db8-4eaa-983d-c2841f804798",
+                "resourcePath": "sprites\\s_level_hubworld_decor_smallcouch_2\\s_level_hubworld_decor_smallcouch_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -7127,6 +7367,14 @@
             }
         },
         {
+            "Key": "a44d7770-64c5-4dc2-b6c1-c6e3b9e8c904",
+            "Value": {
+                "id": "b05df288-3df7-4f8e-8a34-c66439e18cbe",
+                "resourcePath": "objects\\o_level_gabriel_greentree1\\o_level_gabriel_greentree1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a4647e30-1123-4e52-b506-38d78d8552fd",
             "Value": {
                 "id": "64081813-3ffb-4c2f-8ae8-a58ce6501fff",
@@ -7247,6 +7495,14 @@
             }
         },
         {
+            "Key": "a644458d-6d10-458f-8405-4559d60a5a38",
+            "Value": {
+                "id": "d6b66c2a-6a04-4051-b9df-d64ce122a3e4",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_door_side\\o_level_grabriel_ancientcity_cave_door_side.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a671683b-6a25-489e-b438-5ae380a9459f",
             "Value": {
                 "id": "adbdbc54-2da2-46fb-aa0e-a38f6c7011f1",
@@ -7335,6 +7591,14 @@
             }
         },
         {
+            "Key": "a7a2e5a2-cbcd-4c53-b7cf-f1b181fe2488",
+            "Value": {
+                "id": "fc91d953-ef9a-49d2-a92b-d17bc6d28c89",
+                "resourcePath": "sprites\\s_level_hubworld_decor_plantvase\\s_level_hubworld_decor_plantvase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a7b8ef8d-4c3d-4808-a718-33a2c1220b42",
             "Value": {
                 "id": "b55eecb0-f58c-47ff-a8b7-bb6996eb81fc",
@@ -7395,6 +7659,14 @@
             "Value": {
                 "id": "094886cb-b091-4df9-8bd3-e15ba4a9e111",
                 "resourcePath": "sprites\\s_hud_stance\\s_hud_stance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9ab93b4-653d-4594-abd3-32face807337",
+            "Value": {
+                "id": "95374506-cefa-4af6-8e34-0d0cfac1790e",
+                "resourcePath": "sprites\\s_level_hubworld_decor_bookshelf\\s_level_hubworld_decor_bookshelf.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7628,6 +7900,14 @@
                 "id": "d599ea84-7521-48da-923f-9014a39a1d4f",
                 "resourcePath": "sprites\\s_level_gabriel_pinktree_4\\s_level_gabriel_pinktree_4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0378d67-43f6-4edc-b680-a70fa26e0d74",
+            "Value": {
+                "id": "1d1489fa-8be7-4a7b-91b6-2d0f86cc1e7a",
+                "resourcePath": "views\\b0378d67-43f6-4edc-b680-a70fa26e0d74.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -8367,6 +8647,14 @@
             }
         },
         {
+            "Key": "bf59d13b-2531-4584-9956-6af68f5533bd",
+            "Value": {
+                "id": "c6c27fef-0d46-4edb-bfee-b38cf9fcde83",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_pillar4\\o_level_grabriel_ancientcity_cave_pillar4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bfb0f7b5-fa46-4184-85c6-ef7ab521e320",
             "Value": {
                 "id": "e47c1392-0232-4e71-8e54-06cf62cf248a",
@@ -8599,6 +8887,14 @@
             }
         },
         {
+            "Key": "c576f3f0-26c3-4ecd-813a-1a7923499cf0",
+            "Value": {
+                "id": "504f1043-aeab-4c63-b589-1bc9710d5b93",
+                "resourcePath": "sprites\\s_level_hubworld_decor_bigcouch_2\\s_level_hubworld_decor_bigcouch_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c5a3cdb5-7d12-4742-bce6-3e6005e800f6",
             "Value": {
                 "id": "71d19751-7190-4b26-ac7e-c0339dbb831e",
@@ -8676,6 +8972,14 @@
                 "id": "37704157-4d26-4d9f-af27-ce1528245a9a",
                 "resourcePath": "sprites\\s_projectile_reticle_power\\s_projectile_reticle_power.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c8938517-3ec4-4e37-8442-68c3843bf731",
+            "Value": {
+                "id": "1409ca96-099a-4bd4-92e8-64b86a9bd672",
+                "resourcePath": "objects\\o_level_hubworld_decor_plant1\\o_level_hubworld_decor_plant1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -8831,6 +9135,14 @@
             }
         },
         {
+            "Key": "cb839c1a-e489-4257-83c1-212c1880df01",
+            "Value": {
+                "id": "f81f217b-fa4e-4d99-a01a-73d0f754e472",
+                "resourcePath": "objects\\o_level_hubworld_decor_bigcouch_2\\o_level_hubworld_decor_bigcouch_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cbadf566-07c9-4e7b-8911-23b545d52220",
             "Value": {
                 "id": "d1fa41c3-3122-47f2-9094-b9a594626732",
@@ -8884,6 +9196,14 @@
                 "id": "2ba877e5-a156-41f4-a705-71359f8614bc",
                 "resourcePath": "sounds\\a_abdiel_warpout\\a_abdiel_warpout.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "cda762d0-807a-4a06-8569-8ab915ead9e0",
+            "Value": {
+                "id": "e63d432e-09df-4677-8fc7-8e289a8989b5",
+                "resourcePath": "sprites\\s_level_hubworld_decor_smallcouch_1\\s_level_hubworld_decor_smallcouch_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9076,6 +9396,14 @@
                 "id": "79851b6b-22fe-46c6-bfd9-b7d2c34c6ed1",
                 "resourcePath": "sprites\\s_level_garden_object_wall_5\\s_level_garden_object_wall_5.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1b8a215-b0b2-4177-af6c-c337530c20fb",
+            "Value": {
+                "id": "20425e10-558b-4a3f-945d-2f2a15813034",
+                "resourcePath": "objects\\o_level_hubworld_decor_table_1\\o_level_hubworld_decor_table_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -9383,6 +9711,14 @@
             }
         },
         {
+            "Key": "d84cf6f3-5431-4bb5-bf50-df3b8aa57734",
+            "Value": {
+                "id": "5a495666-c480-46e2-af20-12cb15135df0",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb_pillars\\o_level_grabriel_mountainclimb_pillars.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d85e11f3-61fe-4f53-b0d2-3bcf778c2e61",
             "Value": {
                 "id": "956bd6d5-e96d-452f-9a2d-c0fa5479c658",
@@ -9471,6 +9807,14 @@
             }
         },
         {
+            "Key": "da6b94f5-7f62-426d-9a11-317bb0eeb942",
+            "Value": {
+                "id": "cce4efff-bed5-4bf6-be1f-9901fe4f75e2",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_door\\o_level_grabriel_ancientcity_cave_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "da6f4abd-1e31-42db-8e1f-045b385f44a3",
             "Value": {
                 "id": "03476c3a-0000-402c-8dd8-c04506f87bbd",
@@ -9484,6 +9828,14 @@
                 "id": "2fdc1d6f-5741-498d-825f-7fba06a06444",
                 "resourcePath": "sprites\\s_projectile_reticle\\s_projectile_reticle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dab83b8b-5642-4ad5-bc65-6052dfe1336c",
+            "Value": {
+                "id": "70a4b369-b536-4b93-af40-adc42b91f4ad",
+                "resourcePath": "objects\\o_level_hubworld_door\\o_level_hubworld_door.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -9551,6 +9903,14 @@
             }
         },
         {
+            "Key": "dbc054bd-234c-4460-b148-ec55cb264d47",
+            "Value": {
+                "id": "cf2e44a1-a1ee-4e87-b88d-28caf95bde44",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_pillar1\\o_level_grabriel_ancientcity_cave_pillar1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dbe33158-96a0-4998-bca5-8b5be6959024",
             "Value": {
                 "id": "f7e34c8a-c33d-40c9-a303-0f4533d23655",
@@ -9587,6 +9947,14 @@
             "Value": {
                 "id": "3f141e19-0519-4830-b27c-f66fc81b5a98",
                 "resourcePath": "objects\\o_level_garden_object_wall_3\\o_level_garden_object_wall_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dcc56c86-b8ac-4823-bf24-b2fe0e570066",
+            "Value": {
+                "id": "0bc4bce8-a48c-406d-92bd-54f751cd2646",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure9\\o_level_grabriel_mountainclimb2_structure9.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -9727,6 +10095,14 @@
             }
         },
         {
+            "Key": "dff58228-1960-47ba-bd65-e1fa4d10ac1d",
+            "Value": {
+                "id": "7a516ae3-d369-4afc-b066-4e75d8a7c246",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_column1\\o_level_grabriel_mountainclimb2_column1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dfff34a1-6568-4a58-bedd-65c84e30714e",
             "Value": {
                 "id": "ac54f1fc-172e-4f81-bcc4-5f5b73412dcc",
@@ -9843,6 +10219,14 @@
             "Value": {
                 "id": "56dcbb89-b1ea-4471-85a1-5c006eec7f87",
                 "resourcePath": "sprites\\s_red_sparks_effect\\s_red_sparks_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2804da4-3be8-47ff-bba5-a603f184d758",
+            "Value": {
+                "id": "013e4e32-1a7d-4f1b-a0d7-1c25fd367d5c",
+                "resourcePath": "sprites\\s_level_hubworld_decor_table_2\\s_level_hubworld_decor_table_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -10031,6 +10415,14 @@
             }
         },
         {
+            "Key": "e7e7d6e4-91d7-4353-a62d-5fd28f0dbe71",
+            "Value": {
+                "id": "f01e46c6-bbd9-464c-b34c-ce5cb3cc3d16",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_column2\\o_level_grabriel_mountainclimb2_column2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e7f4da6b-2d4a-4640-91f6-43b9022e89fc",
             "Value": {
                 "id": "2e39184c-df0d-4409-aacc-d86a91d30119",
@@ -10124,6 +10516,14 @@
                 "id": "c17d4c95-20d6-4751-9f1a-3683457c7ee2",
                 "resourcePath": "sounds\\a_flameangel_explode\\a_flameangel_explode.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e9f2d0ed-7e48-4d4d-b6d2-98f626c65fd5",
+            "Value": {
+                "id": "b4db4d44-44b5-4444-ad35-5a740dbbb86d",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_pillar3\\o_level_grabriel_ancientcity_cave_pillar3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -10260,6 +10660,14 @@
                 "id": "f5e83461-beda-4613-a8c5-c2ffe87e96bb",
                 "resourcePath": "objects\\o_tuturial_useability\\o_tuturial_useability.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee8eed07-16fb-43db-af82-def43767c024",
+            "Value": {
+                "id": "78c56357-41f0-464b-88b2-5034bcf3fc3b",
+                "resourcePath": "views\\ee8eed07-16fb-43db-af82-def43767c024.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -10439,6 +10847,14 @@
             }
         },
         {
+            "Key": "f24b3e1e-a3d6-474d-a9d5-6e14e554f1d8",
+            "Value": {
+                "id": "1ef42e70-7a7b-4e2c-9a4a-6c977d6e9fa2",
+                "resourcePath": "objects\\o_level_hubworld_ground\\o_level_hubworld_ground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f2ad9253-7f8e-42b1-88a1-cad25603b88b",
             "Value": {
                 "id": "62eaaf5e-c505-4111-874f-93b1372cbaac",
@@ -10532,6 +10948,14 @@
                 "id": "b5c53da6-1f2f-4123-90b5-e90f421f0e84",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4421dc8-9346-4d5f-92d9-02dfd12c6ba2",
+            "Value": {
+                "id": "6d57503c-730a-490a-805f-d4a31dab1ff8",
+                "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure6\\o_level_grabriel_mountainclimb2_structure6.yy",
+                "resourceType": "GMObject"
             }
         },
         {
