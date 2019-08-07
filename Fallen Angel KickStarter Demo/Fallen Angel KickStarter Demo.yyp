@@ -4215,6 +4215,14 @@
             }
         },
         {
+            "Key": "5c86e64e-909c-4f26-9186-980ea5cb4f52",
+            "Value": {
+                "id": "483e42e4-0a91-4534-bc5d-f026394bb22b",
+                "resourcePath": "sprites\\s_level_gabriel_pathtotree_room1_godtree\\s_level_gabriel_pathtotree_room1_godtree.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cc3f293-9836-438f-b924-ff9a4785529b",
             "Value": {
                 "id": "255262af-93b4-4adc-93be-b0d31defb69b",
@@ -10731,6 +10739,14 @@
             "Value": {
                 "id": "a1ed1131-1532-4819-b98e-5263845170bc",
                 "resourcePath": "sprites\\s_player_attack_uppercut_down\\s_player_attack_uppercut_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f94525b5-f95c-49a3-b336-108ada89bcc6",
+            "Value": {
+                "id": "e05faa84-75bb-4c2a-84f9-fc92012219f8",
+                "resourcePath": "sprites\\s_level_gabriel_pathtotree_room1_ground1\\s_level_gabriel_pathtotree_room1_ground1.yy",
                 "resourceType": "GMSprite"
             }
         },
