@@ -1,5 +1,10 @@
 /// @description Lifted
 // You can write your code in this editor
+if animation_hit_frame(0) {
+var ef = create_animation_effect(s_red_sparks_effect,x,y-10,0.8,true);
+	ef.depth = depth-1;
+}
+
 sprite_index = s_tankangel_lifted;
 image_speed = .6;
 if z == z_ground

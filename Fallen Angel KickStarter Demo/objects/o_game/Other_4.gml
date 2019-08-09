@@ -82,7 +82,7 @@ switch (room) {
 		audio_play_sound(a_level_intro_room2and3_waterfall,5,true);
 	}
 	if !audio_is_playing(a_level_intro_music) {
-		//audio_play_sound(a_level_intro_music,3,true); 
+		audio_play_sound(a_level_intro_music,3,true); 
 	}
 	audio_stop_sound(a_level_intro_room1_beach);
 
@@ -105,7 +105,7 @@ switch (room) {
 	case r_intro_room4:
 	
 	audio_stop_sound(a_level_intro_room5_towerinterior);
-	audio_stop_sound(a_level_intro_room2and3_waterfall);
+	audio_stop_sound(a_level_intro_room2and3_waterfall)
 	if !audio_is_playing(a_ambience_tutorial) {
 		audio_play_sound(a_ambience_tutorial, 2, true);
 	}
@@ -115,6 +115,7 @@ switch (room) {
 	global.room4block = false;
 	audio_stop_sound(a_level_intro_room4_tower);
 	audio_stop_sound(a_level_intro_room6_towerexterior);
+	audio_stop_sound(a_level_intro_music);
 	if !audio_is_playing(a_level_intro_room5_towerinterior) {
 		audio_play_sound(a_level_intro_room5_towerinterior,2,true); 
 	}
@@ -122,16 +123,22 @@ switch (room) {
 	
 	case r_intro_room6:
 	global.room5block = false;
-	
+		if !audio_is_playing(a_level_intro_music) {
+		audio_play_sound(a_level_intro_room6,3,true); 
+	}
 	audio_stop_sound(a_level_intro_room6_towerexterior);
+		audio_stop_sound(a_level_intro_room1_beach);
 	if !audio_is_playing(a_level_intro_room6_towerexterior) {
 		audio_play_sound(a_level_intro_room6_towerexterior,2,true);
 	}
 	break;
 	
 	case r_intro_room7:
-	audio_stop_sound(a_level_intro_music); 
-	audio_stop_sound(a_music_abdiel); 
+	audio_stop_sound(a_level_intro_room6); 
+	audio_stop_sound(a_level_intro_room1_beach);
+	if !audio_is_playing(a_music_abdiel) {
+		audio_play_sound(a_music_abdiel,2,true); 
+	}
 	break;
 	
 	case r_gabriel_ancientcity_room1:

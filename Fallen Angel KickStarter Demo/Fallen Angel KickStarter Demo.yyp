@@ -2671,6 +2671,14 @@
             }
         },
         {
+            "Key": "36d6d919-47c0-4eff-bd6c-2a3c3b2d37a4",
+            "Value": {
+                "id": "dab5d4d7-4a69-4817-a5f1-c5d55a6ed1bf",
+                "resourcePath": "sprites\\s_nebuch_introfall\\s_nebuch_introfall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36e6cdde-d872-4019-bc11-e1418e81db6c",
             "Value": {
                 "id": "e99defb5-430d-4a0a-b83e-20204e0b1938",
@@ -3747,6 +3755,14 @@
             "Value": {
                 "id": "a50f68a5-be07-4845-8f24-d79687406409",
                 "resourcePath": "sprites\\s_button_continue_selected\\s_button_continue_selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fe4f37d-1968-4ebd-b45e-5e5952713243",
+            "Value": {
+                "id": "e0d8d0d1-4a28-4956-9a4e-9cd37df60d23",
+                "resourcePath": "sprites\\s_nebuch_introroar\\s_nebuch_introroar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -6727,6 +6743,14 @@
             }
         },
         {
+            "Key": "94356298-49ef-4e74-85fb-be6c1da5047d",
+            "Value": {
+                "id": "759fd444-6f86-49f1-92ce-74ba0c9e50e4",
+                "resourcePath": "sounds\\a_level_intro_room6\\a_level_intro_room6.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9439c390-7389-44bd-8d48-6271b1a2de85",
             "Value": {
                 "id": "57d80dec-0cbe-40f3-85da-f12e75519dff",
@@ -7876,6 +7900,14 @@
                 "id": "a1d47593-fb56-437d-ac32-28f19f2ce441",
                 "resourcePath": "objects\\o_heart_pickup\\o_heart_pickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af7e7b00-ff84-4578-9bfe-6a610067a870",
+            "Value": {
+                "id": "e03b1b21-3110-46e8-9c0a-e5a1fb869191",
+                "resourcePath": "sprites\\s_nebuch_introland\\s_nebuch_introland.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -11370,7 +11402,7 @@
             "Key": "fed184e7-ba0f-4f6a-95fb-a38a622171ae",
             "Value": {
                 "id": "fd0dbd08-dcb8-408a-9e6e-687cfd00b4a1",
-                "resourcePath": "objects\\o_NEW_boss\\o_NEW_boss.yy",
+                "resourcePath": "objects\\o_nebuch\\o_nebuch.yy",
                 "resourceType": "GMObject"
             }
         },
