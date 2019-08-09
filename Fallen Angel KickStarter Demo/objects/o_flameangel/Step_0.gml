@@ -12,7 +12,7 @@ event_inherited();
 //Origin Ofsett compensation
 depth += 9;
 
-if z != 0 and health_ > 0 {
+if z != 0 and health_ > 0 and state_ != flameangel.fell {
 	state_ = flameangel.lifted;
 	sprite_index = s_flameangel_lifted;
 	image_speed = 1;

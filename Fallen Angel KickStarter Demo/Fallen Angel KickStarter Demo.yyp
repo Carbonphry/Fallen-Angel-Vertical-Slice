@@ -1407,14 +1407,6 @@
             }
         },
         {
-            "Key": "1cadcdb4-8784-4e65-b078-a9930f2a9ef8",
-            "Value": {
-                "id": "91c148d4-640c-4ca2-8d9a-dc31029d6c21",
-                "resourcePath": "sprites\\s_tankangel_attack1\\s_tankangel_attack1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1d2f0457-cc74-427f-9c5a-637aa6271ac4",
             "Value": {
                 "id": "86c9dd20-c3d9-4da2-bd7e-5a9fb344a284",

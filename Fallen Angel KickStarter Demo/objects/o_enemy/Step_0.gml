@@ -7,7 +7,7 @@ if state_ != noone {
 
 
 
-//z_depth_system_enemy();
+
 z_depth_system_enemy();
 //move_movement_entity(true);
 //move_entity_en(true);
