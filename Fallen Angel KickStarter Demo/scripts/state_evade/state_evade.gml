@@ -51,7 +51,7 @@ if ( left and up ) or (left and down) or (right and up) or (right and down) {
 
 repeat(abs(walk_speed * (right - left)))
 {
-    can_move = true;
+   // can_move = true;
     highest_z = 0;
     
    
@@ -93,6 +93,14 @@ repeat(abs(walk_speed * (right - left)))
             }
     }
 	
+	with o_solid_air
+	{
+		if place_meeting(x - (other.right - other.left), y, other)
+            {
+                other.can_move = false;
+            }
+    }
+	
 	with o_stair_slow
 	{
 		if place_meeting(x - (other.right - other.left), y, other)
@@ -119,7 +127,7 @@ repeat(abs(walk_speed * (right - left)))
 
 repeat(abs(walk_speed * (down - up)))
 {
-    can_move = true;
+    //can_move = true;
     highest_z = 0;
     
    
@@ -165,6 +173,16 @@ repeat(abs(walk_speed * (down - up)))
 	
 	}
 	
+	with o_solid_air
+	{
+		if place_meeting(x , y- (other.down - other.up), other)
+           {
+                other.can_move = false;
+                break;
+           }
+	
+	}
+	
 	with o_stair_slow
 	{
 		if place_meeting(x , y- (other.down - other.up), other)
@@ -179,8 +197,11 @@ repeat(abs(walk_speed * (down - up)))
         y += (down - up)*-dsin(angX);
 }
 
+if !can_move {
+	state_ = starting_state_;
+}
 
-if jump
+/*if jump
 and z = z_ground
     z_speed = jump_speed;
     
@@ -197,7 +218,7 @@ if z <= z_ground
 
 
 if !place_meeting(x, y, obj_cube_parent)
-    z_ground = 0;
+    z_ground = 0;*/
 	
 #endregion
 //set_movement(roll_direction_, roll__speed_);
@@ -278,7 +299,7 @@ if animation_hit_frame(1) and !instance_exists(trace_1) {
 
 if animation_hit_frame(image_number - 1) and sprite_index != sprite_[player.dash_parry, direction_facing_]
 {
-		state_ = player.move;
+		state_ = starting_state_;
 		evading_ = false;
 		iframe = false;
 		parry = true;

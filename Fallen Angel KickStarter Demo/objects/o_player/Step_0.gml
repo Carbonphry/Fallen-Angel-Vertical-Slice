@@ -1,4 +1,12 @@
 ///@description Resets
+var air = instance_nearest(x,y,o_solid_air);
+/*if place_meeting(x,y,o_solid_air) and place_meeting(air.x,air.y,id) {
+	if ((state_ == player.idle or state_ == player.move or state_ == player.smash or state_ == player.ram) and z <= 0 ) {
+		state_ = player.falling;
+		alarm_set(8,global.one_second*.5);
+	}
+}*/
+
 if o_input.alarm[6] {
 	set_move_n(knockback_direction,knockback_ammount);
 }

@@ -64,7 +64,7 @@ if sprite_index == s_abdiel_warpout and animation_hit_frame(image_number-1) {
 }
 
 if sprite_index == s_abdiel_warpin and animation_hit_frame(image_number-1) {
-	alarm[3] = global.one_second*25;
+	alarm[3] = global.one_second*17;
 	state_ = abdiel.projectile;
 	warp = false;
 }
