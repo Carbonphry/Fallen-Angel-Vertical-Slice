@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "102d0c02-f651-46f3-b01d-f81bbd3d5920",
+            "Value": {
+                "id": "10a330a4-0edb-48be-a5c1-66a414fbfd80",
+                "resourcePath": "sprites\\s_level_gabriel_bossroom_sky\\s_level_gabriel_bossroom_sky.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "103f3971-6edc-4644-9841-9d18c8568e6c",
             "Value": {
                 "id": "2739ecd9-f662-47fc-8060-d0faf332afcf",
@@ -10516,6 +10524,14 @@
                 "id": "2c996a54-e9fa-456a-a23f-4e484ada5abd",
                 "resourcePath": "sounds\\a_warper_activate\\a_warper_activate.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e9ad7878-fb3e-40ca-84f2-58635299f6d6",
+            "Value": {
+                "id": "fc66d363-c76c-4812-9235-0a56b6552e07",
+                "resourcePath": "sprites\\s_level_gabriel_bossroom_ground\\s_level_gabriel_bossroom_ground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
