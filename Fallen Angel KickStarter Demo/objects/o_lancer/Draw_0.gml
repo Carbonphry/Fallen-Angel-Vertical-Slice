@@ -10,13 +10,16 @@ if state_ == lancer.stun {
 	
 		if o_input.action_one_ {
 			stp+=0.32;
+			o_player.cannot_move = true;
 		} else {
 			stp = 0;
+			o_player.cannot_move = false;
 		}
 	
 		if stp > 12 {
 			targ.state_ = player.execute;
 			state_ = lancer.executed;
+			o_player.cannot_move = false;
 			if targ.x <= x {
 				targ.image_xscale = 1;
 			} else {

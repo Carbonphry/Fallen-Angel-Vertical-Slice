@@ -1,8 +1,16 @@
 #region
+
+if !cannot_move {
 left     = o_input.left_;
 right    = o_input.right_;
 up       = o_input.up_;
 down     = o_input.down_;
+} else {
+	left     = 0;
+right    = 0;
+up       = 0;
+down     = 0;
+}
 var _bounce_ammount =.5;
 if state_ == player.land {
 	var jump = false;

@@ -301,3 +301,4 @@ wep_xaxis = noone;
 wep_yaxis = noone;
 
 can_dash = true;
+cannot_move = false;

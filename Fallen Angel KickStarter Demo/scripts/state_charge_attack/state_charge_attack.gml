@@ -6,11 +6,17 @@ switch charge_state {
 
 	case 1:
 	#region
-left     = o_input.left_;
-right    = o_input.right_;
-up       = o_input.up_;
-down     = o_input.down_;
-
+	if !cannot_move {
+		left     = o_input.left_;
+		right    = o_input.right_;
+		up       = o_input.up_;
+		down     = o_input.down_;
+	} else {
+		left     = 0;
+		right    = 0;
+		up       = 0;
+		down     = 0;
+	}
 if left!=0 or right!=0 or up!=0 or down!=0 {
 	image_speed = 0.6;
 	if power_stance {
