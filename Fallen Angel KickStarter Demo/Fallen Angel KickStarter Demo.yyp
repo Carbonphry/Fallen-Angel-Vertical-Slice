@@ -314,7 +314,7 @@
             "Key": "0818bf9a-8081-43d6-a790-20a462551aef",
             "Value": {
                 "id": "71c00b7f-802f-422b-a0bd-338fc3d2774d",
-                "resourcePath": "sprites\\s_level_intro_room7_tower\\s_level_intro_room7_tower.yy",
+                "resourcePath": "sprites\\s_level_intro_room7_tower_top_tophalf\\s_level_intro_room7_tower_top_tophalf.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1227,6 +1227,14 @@
             "Value": {
                 "id": "b8a99b80-c862-416a-8691-fb616afe5a2f",
                 "resourcePath": "objects\\o_level_garden_tree_2\\o_level_garden_tree_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "192503c8-c33d-4403-8d24-8ed91c6c1721",
+            "Value": {
+                "id": "07c5fed8-0db7-44cc-9d6b-cd00f94fcef2",
+                "resourcePath": "objects\\o_level_intro_room7_structure21\\o_level_intro_room7_structure21.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2775,6 +2783,14 @@
             }
         },
         {
+            "Key": "39aa74c5-add4-4ec9-a4c4-4f8e8e7f50dc",
+            "Value": {
+                "id": "d356eb45-318a-4e23-a5cb-bf803a235569",
+                "resourcePath": "objects\\o_level_intro_room7_structure2\\o_level_intro_room7_structure2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "39cf6d9c-63f0-41d7-a4bf-02ef4ef1be77",
             "Value": {
                 "id": "986b2d36-b1d0-4cee-a9ea-95c203306a3e",
@@ -4011,6 +4027,14 @@
             "Value": {
                 "id": "c3e7c945-38e6-4464-8bff-e887483d0049",
                 "resourcePath": "sprites\\s_level_intro_room6_ground1\\s_level_intro_room6_ground1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "54e81e5c-493c-4bbd-bd19-aa1c746feb22",
+            "Value": {
+                "id": "a832a081-37ac-438c-b341-1f9034f5b8d2",
+                "resourcePath": "sprites\\s_level_intro_room7_tower_top_bottomhalf\\s_level_intro_room7_tower_top_bottomhalf.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9387,6 +9411,14 @@
             "Value": {
                 "id": "ca744b5a-6697-4d7f-87fe-7583f430fbb2",
                 "resourcePath": "sprites\\s_energyshield_generator\\s_energyshield_generator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d15d5fe8-8af7-42f1-b596-33b070877c5a",
+            "Value": {
+                "id": "c7e6ab0c-3aab-4b17-9efc-6ca0127e787d",
+                "resourcePath": "sprites\\s_level_intro_room7_tower_sides\\s_level_intro_room7_tower_sides.yy",
                 "resourceType": "GMSprite"
             }
         },
