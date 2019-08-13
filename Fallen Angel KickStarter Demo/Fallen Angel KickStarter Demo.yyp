@@ -2039,6 +2039,14 @@
             }
         },
         {
+            "Key": "2b667e27-2512-4e48-8875-e1ad919b1abd",
+            "Value": {
+                "id": "0606d7d0-81bf-45ba-a130-b802a6651896",
+                "resourcePath": "sprites\\s_level_title_astralcitadel\\s_level_title_astralcitadel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b76ca10-210a-4e3a-890e-7cff16c23411",
             "Value": {
                 "id": "1303c2e6-9b7f-46f4-83c2-cc51969d085e",
@@ -2839,6 +2847,14 @@
             }
         },
         {
+            "Key": "3afd18c1-225e-42f7-86dd-4bfb953d6afe",
+            "Value": {
+                "id": "8657a287-631d-4244-8f75-1ded978ff07d",
+                "resourcePath": "views\\3afd18c1-225e-42f7-86dd-4bfb953d6afe.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3b14914f-5650-4b4e-a174-dc0364b04b36",
             "Value": {
                 "id": "4f51ec5c-84c3-48b2-96d1-1f4f06703308",
@@ -3151,6 +3167,14 @@
             }
         },
         {
+            "Key": "426b873a-b4d2-4d2c-8f4a-b9677f8cf617",
+            "Value": {
+                "id": "7dbcc256-702a-4e15-8975-b52f38be21f1",
+                "resourcePath": "sprites\\s_level_title_lowerheavenruins\\s_level_title_lowerheavenruins.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42767e81-2006-4b3d-a54b-9e0bf1200569",
             "Value": {
                 "id": "31538cdc-4339-46d5-b3e7-24b9f05ee23f",
@@ -3436,6 +3460,14 @@
                 "id": "f42fb83a-7967-42a5-a08c-7555da5e9c3e",
                 "resourcePath": "objects\\o_level_intro_room3_2_ground\\o_level_intro_room3_2_ground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "494a1eba-555e-4a78-8be0-db36f873dbfd",
+            "Value": {
+                "id": "434be0a6-40b6-4712-8eaa-ee92cfc0e2a7",
+                "resourcePath": "sprites\\s_level_title_kingdomcomehotel\\s_level_title_kingdomcomehotel.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5335,6 +5367,14 @@
             }
         },
         {
+            "Key": "712dadd2-a69f-4eab-9f8b-85aeb7e984b0",
+            "Value": {
+                "id": "404188c9-5c32-4abe-ae13-a03634579831",
+                "resourcePath": "sprites\\s_level_title_gardenofman\\s_level_title_gardenofman.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71336060-daf3-41ae-91d7-790983e892b3",
             "Value": {
                 "id": "790338a4-05c2-48f1-a29c-741cd5fab1e3",
@@ -5395,6 +5435,14 @@
             "Value": {
                 "id": "316052e7-76d6-432b-addc-9815c2fed76a",
                 "resourcePath": "sprites\\s_level_intro_bloodtree_2\\s_level_intro_bloodtree_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71b64fc8-3651-4dfa-a429-fabb781d5176",
+            "Value": {
+                "id": "53dd3131-9e54-48b2-9178-7f3cf3879cac",
+                "resourcePath": "sprites\\s_level_title_purgatory\\s_level_title_purgatory.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8759,14 +8807,6 @@
             }
         },
         {
-            "Key": "c0280f73-054d-4fff-b5fc-8d7f10175d1a",
-            "Value": {
-                "id": "b0cd5c77-a26b-4baa-813c-73bd33590b3f",
-                "resourcePath": "sprites\\s_dirtwall_tileset\\s_dirtwall_tileset.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c05b0a7e-7fb4-49d7-9304-b939fd0de2d9",
             "Value": {
                 "id": "97004e9f-3735-4bad-923e-f82aab2ffb3d",
@@ -10063,14 +10103,6 @@
             }
         },
         {
-            "Key": "dd8b8da7-3c28-405e-9ab6-d362bd56cd33",
-            "Value": {
-                "id": "67c0bf7f-3522-405d-b097-774d5f49d34a",
-                "resourcePath": "sprites\\s_dirtpath_tileset\\s_dirtpath_tileset.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ddd0af0d-5f94-40e1-bea8-f0b28c1437d1",
             "Value": {
                 "id": "93082b0d-45e2-404b-92e6-31e0fb9c094b",
@@ -10347,14 +10379,6 @@
             "Value": {
                 "id": "38a79f66-036b-43ef-8281-2b641c4c7998",
                 "resourcePath": "sprites\\s_tutorial_glide_gpad\\s_tutorial_glide_gpad.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e48ce62d-e76a-4ec9-94d3-dd44e081d8d4",
-            "Value": {
-                "id": "1b85f8c1-2801-4ee0-888e-2af72a9039af",
-                "resourcePath": "sprites\\s_grass_background\\s_grass_background.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -10931,6 +10955,14 @@
             "Value": {
                 "id": "62eaaf5e-c505-4111-874f-93b1372cbaac",
                 "resourcePath": "sprites\\s_player_power_ram_charge_up\\s_player_power_ram_charge_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f2b2e52b-76f4-419c-bfa0-8a144f2d9cb2",
+            "Value": {
+                "id": "a0e17828-20ed-4972-8621-ddb8b3fcc006",
+                "resourcePath": "sprites\\s_level_title_citadelroof\\s_level_title_citadelroof.yy",
                 "resourceType": "GMSprite"
             }
         },

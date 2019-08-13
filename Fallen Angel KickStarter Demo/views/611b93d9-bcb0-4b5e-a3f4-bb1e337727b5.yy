@@ -4,9 +4,6 @@
     "mvc": "1.1",
     "name": "611b93d9-bcb0-4b5e-a3f4-bb1e337727b5",
     "children": [
-        "c0280f73-054d-4fff-b5fc-8d7f10175d1a",
-        "e48ce62d-e76a-4ec9-94d3-dd44e081d8d4",
-        "dd8b8da7-3c28-405e-9ab6-d362bd56cd33",
         "a2177fc6-12d5-45d2-aa31-b51ea19b5ba5",
         "8d9428d4-3b64-430c-b6f3-0d47773a60c9",
         "02686397-626a-46be-bf63-34ecd62fd950",
@@ -20,7 +17,8 @@
         "34a68e9b-a3b3-4502-b7e7-297147962d62",
         "0a2cdd1d-6003-4075-8b8a-21af8f313b7d",
         "6f9b5bc1-c896-4583-b5fc-331fa5b2ea99",
-        "ad97a187-f5b8-4ef0-b43c-6bfee23dc892"
+        "ad97a187-f5b8-4ef0-b43c-6bfee23dc892",
+        "3afd18c1-225e-42f7-86dd-4bfb953d6afe"
     ],
     "filterType": "GMSprite",
     "folderName": "World Sprites",
