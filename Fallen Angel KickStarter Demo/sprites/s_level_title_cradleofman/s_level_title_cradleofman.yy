@@ -2,7 +2,7 @@
     "id": "712dadd2-a69f-4eab-9f8b-85aeb7e984b0",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_level_title_gardenofman",
+    "name": "s_level_title_cradleofman",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "9ebb24ce-d4e8-4e6b-afa8-7c0dc9c6f966",
+            "id": "fdc45413-6525-43cd-a80b-473449ae81bc",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "712dadd2-a69f-4eab-9f8b-85aeb7e984b0",
             "compositeImage": {
-                "id": "9af490b2-0d69-408b-b671-bba0620c09de",
+                "id": "4760ec69-3a94-4308-8285-9851bc3c4353",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "9ebb24ce-d4e8-4e6b-afa8-7c0dc9c6f966",
+                "FrameId": "fdc45413-6525-43cd-a80b-473449ae81bc",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "a48fb449-188e-409d-9e0f-13fae834ba95",
+                    "id": "33ec34e9-b853-45fb-b3f7-f35159363685",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "9ebb24ce-d4e8-4e6b-afa8-7c0dc9c6f966",
-                    "LayerId": "865f3a6e-3b6d-4bc1-ba5a-19388c97dc5f"
+                    "FrameId": "fdc45413-6525-43cd-a80b-473449ae81bc",
+                    "LayerId": "53930bfd-75d1-4e2c-b45b-eb77b02fe674"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 270,
     "layers": [
         {
-            "id": "865f3a6e-3b6d-4bc1-ba5a-19388c97dc5f",
+            "id": "53930bfd-75d1-4e2c-b45b-eb77b02fe674",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "712dadd2-a69f-4eab-9f8b-85aeb7e984b0",
