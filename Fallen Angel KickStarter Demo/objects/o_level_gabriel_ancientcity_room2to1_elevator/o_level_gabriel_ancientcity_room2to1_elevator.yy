@@ -1,38 +1,38 @@
 {
-    "id": "7509c2f4-aa93-45d8-876a-1ba8eef83126",
+    "id": "6fc31751-6285-48bc-9fac-22bd78734adf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_level_gabriel_ancientcity_room1to2_elevator",
+    "name": "o_level_gabriel_ancientcity_room2to1_elevator",
     "eventList": [
         {
-            "id": "0978e000-7043-4d9f-a89a-d0ba1466a131",
+            "id": "77317094-6205-45a7-8cb9-0d8db6c52f8b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "7509c2f4-aa93-45d8-876a-1ba8eef83126"
+            "m_owner": "6fc31751-6285-48bc-9fac-22bd78734adf"
         },
         {
-            "id": "a4504f3a-6fb2-4bcc-8e7b-3037b82f74eb",
+            "id": "1bd40b2f-8c45-49a0-8f9f-720ce924f591",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "7509c2f4-aa93-45d8-876a-1ba8eef83126"
+            "m_owner": "6fc31751-6285-48bc-9fac-22bd78734adf"
         },
         {
-            "id": "27d9bc44-cdce-411c-a516-b8330a3472a9",
+            "id": "740d67a8-6ba1-4ba6-8f6b-4333d3f4ecc1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "7509c2f4-aa93-45d8-876a-1ba8eef83126"
+            "m_owner": "6fc31751-6285-48bc-9fac-22bd78734adf"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

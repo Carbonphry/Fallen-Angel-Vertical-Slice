@@ -142,6 +142,14 @@ switch (room) {
 	case r_gabriel_ancientcity_room1:
 	audio_stop_sound(a_level_intro_room1_beach);
 	break;
+	
+	case r_gabriel_ancientcity_room2:
+	if global.elevator_restart {
+		o_level_gabriel_ancientcity_room2to1_elevator.y = 592;
+		o_level_gabriel_ancientcity_room2to1_elevator.boo = true;
+		global.elevator_restart = false;
+	}
+	break;
 
 }
 

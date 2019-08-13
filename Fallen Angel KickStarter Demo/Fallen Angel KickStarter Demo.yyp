@@ -58,7 +58,7 @@
             "Key": "011e9f7d-e2f5-4be2-9a7a-1f67b1dce485",
             "Value": {
                 "id": "d2e1ace5-3234-46b9-8824-42980a26743a",
-                "resourcePath": "sprites\\s_nebuch_attack_die\\s_nebuch_attack_die.yy",
+                "resourcePath": "sprites\\s_nebuch_die\\s_nebuch_die.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5255,6 +5255,14 @@
             }
         },
         {
+            "Key": "6fc31751-6285-48bc-9fac-22bd78734adf",
+            "Value": {
+                "id": "158678f7-35e2-43c3-8ae1-7b5c98d3ad77",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room2to1_elevator\\o_level_gabriel_ancientcity_room2to1_elevator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7051077c-853d-4640-ad5f-965305613d12",
             "Value": {
                 "id": "411df996-d978-47d0-ae49-2515a82ec583",
@@ -5796,6 +5804,14 @@
                 "id": "2497ac3d-7bb9-4d03-bd78-18bb519df5ef",
                 "resourcePath": "sprites\\s_level_hubworld_ground\\s_level_hubworld_ground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ce48542-6312-4f01-8545-b34812b8181f",
+            "Value": {
+                "id": "3173ee3d-9adf-473e-a3cf-2d11fa77c3e5",
+                "resourcePath": "objects\\o_nebuch\\o_nebuch.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -11410,7 +11426,7 @@
             "Key": "fed184e7-ba0f-4f6a-95fb-a38a622171ae",
             "Value": {
                 "id": "fd0dbd08-dcb8-408a-9e6e-687cfd00b4a1",
-                "resourcePath": "objects\\o_nebuch\\o_nebuch.yy",
+                "resourcePath": "objects\\o_nebuch_puppet\\o_nebuch_puppet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -11489,6 +11505,8 @@
         "14666cb3-80a8-451d-9350-971ac36b537f",
         "4e722c37-0c66-4b34-bded-b4120b52cc92",
         "6662d796-0b9a-4081-b3f4-fde9d0c4e980",
+        "1a98fdda-bf4d-4fd3-8ba0-f81f2c6263a8",
+        "64919ec0-1672-460c-80a1-6e808758d631",
         "845ddaf9-76d8-44f9-bb1e-3272e8240432",
         "aa5c04a4-646a-47d2-88f7-ba3f86d16bbb",
         "ec426d4f-b4eb-46ce-bc6e-1029e198d4a2",
@@ -11564,8 +11582,6 @@
         "74f828a1-bf48-4c17-89d0-f8c660d69926",
         "ef9e4f7a-3837-4695-9fdf-51377727b523",
         "dc967206-5e45-45f0-a8ce-ee5a5f86d6a7",
-        "1a98fdda-bf4d-4fd3-8ba0-f81f2c6263a8",
-        "64919ec0-1672-460c-80a1-6e808758d631",
         "3685fbfb-a7e9-4a70-b65c-dd8e1b43b603",
         "d3638d4f-f3fb-46f2-bae4-7df0cdb1efef",
         "3bbf80fb-7be0-4ba2-a130-5959c20bbedd",

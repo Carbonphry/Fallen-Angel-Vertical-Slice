@@ -7,8 +7,6 @@ if (image_alpha >= 1.3) {
 		//instance_id = 
 		switch room {
 		
-			
-			
 			case r_intro_room1:
 			room_ = r_intro_room2;
 			start_ = room1to2;
@@ -81,10 +79,17 @@ if (image_alpha >= 1.3) {
 			break;
 			
 			
-			/*case r_gabriel_ancientcity_room1:
+			case r_gabriel_ancientcity_room1:
 			room_ = r_gabriel_ancientcity_room2;
-			start_ = GA_1_START;
-			break;*/
+			start_ = GA_2_START;
+			global.garden_elevator = false;
+			break;
+			
+			case r_gabriel_ancientcity_room2:
+			room_ = r_gabriel_ancientcity_room1;
+			start_ = GA_1_ELEVATOR;
+			global.garden_elevator = true;
+			break;
 			
 			/*case r_gabriel_ancientcity_room2:
 			if distance_to_object(ga_back2) < 50 {
@@ -96,8 +101,6 @@ if (image_alpha >= 1.3) {
 			}
 			break;
 			*/
-			
-			
 		}
 		
 		image_xscale *= 2.5;

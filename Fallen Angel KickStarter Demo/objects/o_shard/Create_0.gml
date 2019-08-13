@@ -1,6 +1,6 @@
 event_inherited();
 z__speed_ = -2;
-gravity_ = 0.2;
+gravity_ = 0.35;
 image_speed = .75;
 range = 52
 

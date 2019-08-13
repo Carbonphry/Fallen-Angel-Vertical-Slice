@@ -5,7 +5,7 @@ if !can_pickup_ then exit;
 
 var target = instance_nearest(x,y,class_player);
 if distance_to_object(target) < range {
-	move_towards_point(target.x,target.y,2.5);
+	move_towards_point(target.x,target.y,3.5);
 	//part_emitter_region(part_system_, part_emitter_, x-3, x+3, y-6,y-2,
 	//ps_shape_diamond, ps_distr_gaussian);
 	image_angle+=6;

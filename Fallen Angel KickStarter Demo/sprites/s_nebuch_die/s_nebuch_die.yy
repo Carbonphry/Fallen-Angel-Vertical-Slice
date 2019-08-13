@@ -2,7 +2,7 @@
     "id": "011e9f7d-e2f5-4be2-9a7a-1f67b1dce485",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_nebuch_attack_die",
+    "name": "s_nebuch_die",
     "For3D": false,
     "HTile": false,
     "VTile": false,

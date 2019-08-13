@@ -27,7 +27,8 @@ global.room4block = true;
 global.room5block = true;
 global.intro_anim = false;
 global.freeze = false;
-
+global.garden_elevator = false;
+global.elevator_restart = false;
 vol = 1;
 show_volume = false;
 
@@ -57,6 +58,8 @@ show_volume = false;
 #macro DMG_SWING 15
 #macro DMG_SMASH 25
 */
+
+
 #macro DMG_PARRY 1
 #macro DMG_TRIGGER_PROJECTILE 1
 #macro DMG_RAM 4

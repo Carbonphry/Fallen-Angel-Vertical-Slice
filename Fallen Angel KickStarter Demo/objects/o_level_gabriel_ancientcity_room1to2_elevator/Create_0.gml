@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = 999;
+boo = false;
+if global.garden_elevator then  y = 5;
