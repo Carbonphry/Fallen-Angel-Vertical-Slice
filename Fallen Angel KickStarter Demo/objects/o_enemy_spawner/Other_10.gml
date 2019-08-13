@@ -180,7 +180,7 @@ switch room {
 		
 		case 2:
 		with instance_create_layer(1830,280,"Solids", o_enemy_portal) {
-			enemy_ = o_NEW_boss;
+			enemy_ = o_nebuch;
 		}
 		spawnRG++;
 		break;
