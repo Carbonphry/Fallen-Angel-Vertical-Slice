@@ -20,7 +20,8 @@
         "fced5e34-8054-4f64-8105-ddfef2128c79",
         "58d75c7c-ae6f-408d-a60f-00c0df57b382",
         "a2eccf61-77a6-4307-a74d-b58f59014f84",
-        "b2038192-a9fe-427c-ad14-b0cc9dc7199e"
+        "b2038192-a9fe-427c-ad14-b0cc9dc7199e",
+        "faeffc9f-0c18-4024-951a-6cef241a5b95"
     ],
     "filterType": "GMObject",
     "folderName": "Tutorial Level",
