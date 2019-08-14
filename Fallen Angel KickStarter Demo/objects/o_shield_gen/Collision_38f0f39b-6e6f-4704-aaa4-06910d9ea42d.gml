@@ -6,4 +6,5 @@ if state == 1 {
 	state = 2;
 	add_screenshake(10,15);
 	image_index = 0;
+	audio_play(a_generator_explode);
 }
