@@ -1,6 +1,4 @@
-if (sprite_index = s_abdiel_death) {
-	instance_destroy(id,true);
-}
+
 
 if sprite_index == s_abdiel_knockback {
 	stun_knockback_direction = noone;
@@ -18,4 +16,8 @@ if sprite_index == s_abdiel_dying_loop {
 
 if sprite_index == s_abdiel_dyingend {
 	sprite_index = s_abdiel_death;
+}
+
+if sprite_index == s_abdiel_death {
+	instance_destroy(id,true);
 }

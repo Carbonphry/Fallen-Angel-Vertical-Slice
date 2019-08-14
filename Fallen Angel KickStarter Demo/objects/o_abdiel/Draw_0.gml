@@ -10,7 +10,8 @@ draw_sprite(s_large_shadow1, 0, x, y);
 if (state_ == abdiel.die /*or state_ = abdiel.intro*/) {
 //	DissolveAmount -= 0.0007;//1 + ((0 - 1) * 0.5) + sin((((current_time * 0.005) + 8 * 0) / 8) * (pi*2)) * ((0 - 1) * 0.5); 
 	//antiDiss = 1-DissolveAmount; 
-	DissolveShader(sprite_index,image_index,x,y,.5);
+	//DissolveShader(sprite_index,image_index,x,y,.5);
+	draw_sprite_ext(sprite_index,image_index,x,y-z,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 } else {
 	draw_sprite_ext(sprite_index,image_index,x,y-z,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 	

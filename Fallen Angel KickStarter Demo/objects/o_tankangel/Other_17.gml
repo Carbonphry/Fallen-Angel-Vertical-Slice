@@ -95,7 +95,7 @@ if animation_hit_frame(16) and !dead {
 	audio_play_sound(a_tankangel_attack, 5, false);
 	onAir = false;
 	var _damage = 2;
-	var _knockback = 4;
+	var _knockback = 16;
 	var _life = 1;
 	z = 0;
 	create_hitbox_knockback(s_tankangel_hitbox, x, y-8, 0, _life, [class_player], _damage, _knockback);
