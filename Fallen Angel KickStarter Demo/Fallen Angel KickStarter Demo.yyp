@@ -1943,6 +1943,14 @@
             }
         },
         {
+            "Key": "288ddfb9-ab8b-4821-8785-de61b271e0eb",
+            "Value": {
+                "id": "dcf8e691-cbe5-48b4-a3c6-7806275e2425",
+                "resourcePath": "objects\\o_level_titles\\o_level_titles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28934878-63e5-40a8-8dc9-f29923b43eb7",
             "Value": {
                 "id": "9f8af456-13d2-41e7-ab80-509ca46c4efe",
