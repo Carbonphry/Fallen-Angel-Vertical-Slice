@@ -137,6 +137,7 @@ switch (room) {
 	case r_intro_room7:
 	audio_stop_sound(a_level_intro_room6); 
 	audio_stop_sound(a_level_intro_room1_beach);
+	audio_stop_sound(a_music_abdiel);
 	break;
 	
 	case r_gabriel_ancientcity_room1:

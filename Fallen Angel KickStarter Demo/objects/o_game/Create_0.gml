@@ -61,7 +61,7 @@ show_volume = false;
 
 
 #macro DMG_PARRY 1
-#macro DMG_TRIGGER_PROJECTILE 1
+#macro DMG_TRIGGER_PROJECTILE 0.5
 #macro DMG_RAM 4
 #macro DMG_HEAVY 2
 #macro DMG_THIRD_SWING 2
