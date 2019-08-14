@@ -1,3 +1,20 @@
+if room == r_intro_room1 {
+	sprite_index = s_level_title_purgatory;
+	}
+
+	
+if room == r_intro_room6 {
+	sprite_index = s_level_title_astralcitadel;
+	}
+	
+if room == r_intro_room7 {
+	sprite_index = s_level_title_citadelroof;
+	}
+if room == r_gabriel_ancientcity_room1 {
+	sprite_index = s_level_title_cradleofman;
+	}
+
+
 depth = -9999;
 image_alpha = 0;
 fade_ = false;
@@ -17,6 +34,5 @@ title_ = sprite_index;
 
 vx_ = camera_get_view_x(view_camera[0]);
 vy_ = camera_get_view_y(view_camera[0]);
-
 
 
