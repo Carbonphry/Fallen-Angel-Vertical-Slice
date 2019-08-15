@@ -19,7 +19,7 @@ if animation_hit_frame(8) {
 	var _attack_direction = round(point_direction(x, y,  target.x, target.y)/90);
 	
 	//set_movement(_attack_angle, 6);
-	enemy_dash(true,_attack_angle,6);
+	enemy_dash(true,_attack_angle,20);
 	if _attack_direction > 3 then _attack_direction = 0;
 	
 	if _attack_direction == 0 then image_xscale = 1;

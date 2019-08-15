@@ -5,9 +5,6 @@ if state_ != noone {
 	 event_user(state_);
 }
 
-
-
-
 z_depth_system_enemy();
 //move_movement_entity(true);
 //move_entity_en(true);

@@ -10,6 +10,7 @@ if sprite_index == s_lancerangel_getup {
 
 if sprite_index == s_lancerangel_stun {
 	state_ = starting_state_;
+	o_player.cannot_move = false;
 }
 
 if sprite_index == s_lancerangel_parry {

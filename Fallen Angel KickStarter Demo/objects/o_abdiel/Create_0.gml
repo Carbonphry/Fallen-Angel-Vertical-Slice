@@ -23,7 +23,7 @@ enum abdiel {
 	wander,
 	stun 
 }
-max_health_ = 5;
+max_health_ = 20;
 health_ = max_health_;
 
 starting_state_ = abdiel.intro;
@@ -66,3 +66,4 @@ DissolveSettings(sDissolve2,0,col1,col2,0.4);
 
 stun_knockback_direction = noone;
 
+death_line = true;

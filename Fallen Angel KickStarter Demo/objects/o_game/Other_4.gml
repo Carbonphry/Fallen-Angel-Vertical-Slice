@@ -94,7 +94,7 @@ switch (room) {
 	break;
 	
 	case r_intro_room3_2:
-	
+	audio_stop_sound(a_level_intro_music);
 	audio_stop_sound(a_level_intro_room4_tower);
 	audio_stop_sound(a_level_intro_room2and3_waterfall);
 	if !audio_is_playing(a_level_intro_room4_tower) {
@@ -105,7 +105,8 @@ switch (room) {
 	case r_intro_room4:
 	
 	audio_stop_sound(a_level_intro_room5_towerinterior);
-	audio_stop_sound(a_level_intro_room2and3_waterfall)
+	audio_stop_sound(a_level_intro_room2and3_waterfall);
+	audio_stop_sound(a_level_intro_music);
 	if !audio_is_playing(a_ambience_tutorial) {
 		audio_play_sound(a_ambience_tutorial, 2, true);
 	}

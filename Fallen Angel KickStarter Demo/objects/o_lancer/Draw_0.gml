@@ -60,9 +60,7 @@ if alarm_get(8) > 0 and health_ > 0 {
 	draw_sprite_ext(s_hp_bar_8, 0, x-13,y-sprite_height/2-z, 1, 1, 0, c_white, 1);
 	if health_ > 0 {
 		draw_sprite(s_8_hp,health_,x-13,y-sprite_height/2-z);
-	} else {
-		draw_sprite(s_8_hp,0,x-13,y-sprite_height/2-z);
-	}
+	} 
 }
 ///Run shader
 /*

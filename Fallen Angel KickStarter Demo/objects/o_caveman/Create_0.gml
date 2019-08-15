@@ -13,6 +13,9 @@ enum caveman {
 	wait,
 	die,
 	run,
+	get_up,
+	lifted,
+	stun = 11
 	
 }
 max_health_ = 3;

@@ -64,8 +64,9 @@ if animation_hit_frame(5)
 
 if !stop {
 	//set_move_n(_attack_angle, 3);
-	x += lengthdir_x(2,_attack_angle);
-	y += lengthdir_y(2,_attack_angle);
+	//x += lengthdir_x(2,_attack_angle);
+	//y += lengthdir_y(2,_attack_angle);
+	enemy_dash(true,_attack_angle,2);
 }
 
 if place_meeting(x,y,class_player) {

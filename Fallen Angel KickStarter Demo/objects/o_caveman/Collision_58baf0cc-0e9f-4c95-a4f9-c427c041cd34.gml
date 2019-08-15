@@ -2,6 +2,11 @@ if health_ <= 0 exit;
 var enemyHeight = 8;
 if  !(other.z >= z) and (other.z < z+enemyHeight)  then exit;
 
+if z != 0 and !other.lift {
+	levitate = true;
+	alarm_set(10,global.one_second*.5);
+	o_reticle.stop = true;
+}
 
 var _hit_sound = choose(a_enemy_hit_1, a_enemy_hit_2);
 if hurtbox_entity_can_be_hit_by(other)
@@ -54,3 +59,13 @@ if hurtbox_entity_can_be_hit_by(other)
 
 }
 
+if other.lift and state_ != caveman.die and z == 0 {
+	jump = true;
+	create_animation_effect(s_projectile_hit, x, y-8, 1, true);
+	//instance_create_layer(x-irandom_range(20, -20), y-z-irandom_range(25, 0), "Effects", o_blood_burst);
+	//instance_create_layer(x-irandom_range(20, -20), y-z-irandom_range(25, 0), "Effects", o_blood_burst);
+	bleed_ = false;
+	add_screenshake(4,12);
+	alarm_set(11,3);
+	global.freeze = 1;
+}

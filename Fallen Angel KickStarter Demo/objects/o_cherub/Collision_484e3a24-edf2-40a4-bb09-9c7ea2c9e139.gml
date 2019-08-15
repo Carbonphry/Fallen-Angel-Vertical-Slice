@@ -1,7 +1,7 @@
 if health_ <= 0 exit;
-var enemyHeight = 16;
-if !( (other.z > z-enemyHeight) and (other.z >= z) and (other.z < z+enemyHeight) ) then exit;
-
+var enemyHeight = 8;
+//if !( (other.z > z-enemyHeight) and (other.z >= z) and (other.z < z+enemyHeight) ) then exit;
+if  !(other.z >= z) and (other.z < z+enemyHeight)  then exit;
 
 var _hit_sound = choose(a_enemy_hit_1, a_enemy_hit_2);
 if hurtbox_entity_can_be_hit_by(other)

@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
-
-
 
 impact_ = true;
 if sprite_index == s_player_burst_projectile or sprite_index == s_player_power_burst_projectile {
@@ -16,7 +13,7 @@ if other.alarm[6] > global.one_second*.1 then exit;
 global.freeze = 1;
 o_pride_meter.ego_add += PTS_PARRY;
 with other {
-	health_ -= 1;
+	health_ -= other.damage_;
 	if health_ > 0  {
 		//state_ = lancer.stun;
 		state_ = lancer.hit;

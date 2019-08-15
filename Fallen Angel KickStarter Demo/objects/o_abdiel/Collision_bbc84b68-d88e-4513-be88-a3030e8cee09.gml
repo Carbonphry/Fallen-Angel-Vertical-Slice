@@ -11,6 +11,12 @@ if hurtbox_entity_can_be_hit_by(other)
 	}
 	alarm[0] = global.one_second * 0.2;
 	health_ -= other.damage_;
+	knockback_direction = point_direction(other.x, other.y, x, y);
+	knockback_ammount = other.knockback_;
+	alarm_set(7,global.one_second*.25);
+	if health_ == max_health_/2 {
+		audio_play(a_abdiel_voice_pain1);
+	}
 	impact_effect_ = choose(s_impact_effect_1,s_impact_effect_2,s_impact_effect_3);
 	x_ = (x+ random_range(-20,20));
 	y_ = (y+ random_range(-20,20));

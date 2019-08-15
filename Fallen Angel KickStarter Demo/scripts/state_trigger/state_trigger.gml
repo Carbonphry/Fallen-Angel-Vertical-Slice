@@ -94,7 +94,7 @@ if triggerCount == 0 {
 			triggerCount = 1;
 			reticle_anim = 0;
 			burst_arm_anim = 0;
-			//global.ammo_count--;
+			global.ammo_count--;
 	} 
 	
 	if power_stance and reticle_anim >=16 {
@@ -112,7 +112,7 @@ if triggerCount == 0 {
 		triggerCount = 1;
 		reticle_anim = 0;
 		burst_arm_anim = 0;
-		//global.ammo_count--;
+		global.ammo_count--;
 		o_input.alarm[6] = global.one_second*.2;
 	}
 	

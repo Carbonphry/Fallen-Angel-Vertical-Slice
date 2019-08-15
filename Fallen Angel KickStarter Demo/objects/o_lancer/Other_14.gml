@@ -17,10 +17,9 @@ if animation_hit_frame(8) or animation_hit_frame(16)
 	var _attack_angle = point_direction(x, y, target.x, target.y);
 	var _attack_direction = round(point_direction(x, y,  target.x, target.y)/90);
 	
-	set_move_n(_attack_angle, 8);
+
+	enemy_dash(true,_attack_angle,8);
 	//set_movement(_attack_angle, 4);
-
-
 	if _attack_direction > 3
 	{
 		_attack_direction = 0;

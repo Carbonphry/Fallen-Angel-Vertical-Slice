@@ -15,6 +15,7 @@ if sprite_index == s_tankangel_getup {
 
 if sprite_index == s_tankangel_stun {
 	state_ = starting_state_;
+	o_player.cannot_move = false;
 }
 
 if sprite_index == s_tankangel_executed {

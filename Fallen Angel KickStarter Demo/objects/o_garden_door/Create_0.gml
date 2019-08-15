@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 with GA_1_START {
-	if distance_to_object(o_player) > 25 {
+	if distance_to_object(other) > 200 {
 		with other {
 			instance_destroy();
 		}

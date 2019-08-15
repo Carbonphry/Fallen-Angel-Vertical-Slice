@@ -41,14 +41,14 @@ if animation_hit_frame(5)
 	//set_movement(_attack_angle, 3);
 	//add_movement_maxspeed(_attack_angle, 2, 7);
 	var target = instance_nearest(x,y,class_player);
-	var _attack_angle = point_direction(x, y, target.x, target.y);
+	//var _attack_angle = point_direction(x, y, target.x, target.y);
 	var _attack_direction = round(point_direction(x, y,  target.x, target.y)/90);
 	
 	//DMG Obj
 	var _damage = 1;
 	var _knockback = 0;
 	var _life = 1;
-	var hit = create_hitbox_knockback(s_abdiel_hitbox, x, y-8, _attack_angle, _life, [class_player], _damage, _knockback);
+	var hit = create_hitbox_knockback(s_abdiel_hitbox, x, y-8, 0, _life, [class_player], _damage, _knockback);
 	//instance_create_layer(x,y, "Solids", o_knockback_hitbox);
 	hit.z = class_player.z;
 	uninterruptible = true;

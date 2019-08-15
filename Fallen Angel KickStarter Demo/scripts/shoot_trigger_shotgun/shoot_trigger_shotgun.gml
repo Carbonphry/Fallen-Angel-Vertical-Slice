@@ -48,10 +48,9 @@ switch direction_facing_ {
 	break;
 }
 
-var _hitbox = create_hitbox_trigger_projectile(projectileX, projectileY, mouseDir+20,_life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-var _hitbox = create_hitbox_trigger_projectile(projectileX, projectileY, mouseDir-20,_life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-var _hitbox = create_hitbox_trigger_projectile(projectileX, projectileY, mouseDir+10,_life, [o_enemy, o_grass, o_bush], _damage, _knockback);
-var _hitbox = create_hitbox_trigger_projectile(projectileX, projectileY, mouseDir-10,_life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+var _hitbox = create_hitbox_trigger_projectile(projectileX, projectileY, mouseDir,_life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+var _hitbox = create_hitbox_trigger_projectile(projectileX, projectileY, mouseDir+15,_life, [o_enemy, o_grass, o_bush], _damage, _knockback);
+var _hitbox = create_hitbox_trigger_projectile(projectileX, projectileY, mouseDir-15,_life, [o_enemy, o_grass, o_bush], _damage, _knockback);
 /*
 /*
 switch direction_facing_ {

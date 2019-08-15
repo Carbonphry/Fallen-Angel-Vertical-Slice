@@ -18,6 +18,7 @@ if other.lift {
 var _hit_sound = choose(a_enemy_hit_1, a_enemy_hit_2);
 if hurtbox_entity_can_be_hit_by(other)
 {
+	o_player.cannot_move = false;
 	if other.sprite_index != s_player_burst_projectile {
 		invincible_ = true;
 	}

@@ -33,6 +33,7 @@ if state_ == tankangel.stun {
 
 } else {
 		stp = 0;
+		
 }
 
 if onAir {

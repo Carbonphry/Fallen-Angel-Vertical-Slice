@@ -2,8 +2,6 @@
 // You can write your code in this editor
 
 //Wave back and forth between 1 and 0 for the demo
-
-
 draw_sprite(s_large_shadow1, 0, x, y);
 //draw_self();
 //draw_sprite_ext(sprite_index,image_index,x,y-z,image_xscale,image_yscale,image_angle,image_blend,image_alpha);

@@ -12,12 +12,6 @@ switch (bounce) {
 	bounce = false;
 	break;
 }
-var offset = sprite_height-sprite_yoffset;
-depth = -y// - offset;
-
-if state_ != noone {
-	 event_user(state_);
-}/*
 
 event_inherited();
 

@@ -5,8 +5,15 @@ switch (warp) {
 
 	case false:
 	sprite_index = s_abdiel_warpout;
+	if animation_hit_frame(1) {
+		var voice_line = choose(a_abdiel_voice_attack1,a_abdiel_voice_attack1,a_abdiel_voice_attack2); 
+		if !audio_is_playing(voice_line) and chance(.5) {
+			audio_play(voice_line);
+		}
+	}
 	if animation_hit_frame(3) {
 		instance_create_layer(x,y-20, "Solids", o_glow_burst_large);
+		
 	}
 	if animation_hit_frame(4) {
 		var _damage = 1;

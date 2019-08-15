@@ -6655,6 +6655,14 @@
             }
         },
         {
+            "Key": "8fc776c8-00c4-407a-868e-2a43a7829c82",
+            "Value": {
+                "id": "ac200310-b93f-4e1f-bea3-e2c5c8383cac",
+                "resourcePath": "objects\\o_guardcube_chest\\o_guardcube_chest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8fe1f616-db7b-4a9a-ac68-b6a6a1968497",
             "Value": {
                 "id": "d58f20b5-c766-40c5-8d5e-c028ff133acb",

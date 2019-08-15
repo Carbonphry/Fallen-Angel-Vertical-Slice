@@ -16,7 +16,7 @@ if alarm[1] <= 0
 } 
 else
 {
-	add_movement_maxspeed(direction_, 0.001, 0.001);
+	//add_movement_maxspeed(direction_, 0.001, 0.001);
 	mp_potential_step_object(target.x, target.y, .6, class_enemy_coll);
 }
 
