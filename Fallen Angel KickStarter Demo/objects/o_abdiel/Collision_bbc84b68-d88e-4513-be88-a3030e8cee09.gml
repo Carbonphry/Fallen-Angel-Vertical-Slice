@@ -74,10 +74,7 @@ if hurtbox_entity_can_be_hit_by(other)
 		}
 	}
 	
-	if health_ <= 0 {
-		DissolveAmount = 0.01;
-	}
-	if health_ <= 1 and state_ != enemy.hit and state_ != abdiel.die {
+	if health_ <= 0 and state_ != enemy.hit and state_ != abdiel.die {
 		state_ = abdiel.die;
 		sprite_index = s_abdiel_dying_start;
 		image_index = 0;

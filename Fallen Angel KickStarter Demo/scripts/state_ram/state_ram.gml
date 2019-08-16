@@ -41,7 +41,7 @@ switch ramState {
 	sprite_[player.ram, dir.down] = s_player_power_ram_dash_down;
 		if !audio_is_playing(a_player_ram_dash) {
 				audio_play(a_player_ram_dash);
-				}
+		}
 	
 	if animation_hit_frame(0) {
 	
@@ -88,7 +88,7 @@ if ( left and up ) or (left and down) or (right and up) or (right and down) {
 
 repeat(abs(walk_speed * (right - left)))
 {
-    can_move = true;
+    
     highest_z = 0;
     
    

@@ -68,3 +68,6 @@ show_stamina = false;
 
 
 weapon_sprite = s_weapon_blade_active;
+
+ui_alpha_ammo = 0;
+ui_alpha_cores = 0;

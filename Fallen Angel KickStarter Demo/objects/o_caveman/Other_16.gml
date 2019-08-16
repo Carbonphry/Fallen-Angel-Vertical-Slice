@@ -1,5 +1,5 @@
 /// @description Die State
-image_speed = .6;
+image_speed = .75;
 sprite_index = s_caveman_die;
 _speed_ = 0;
 if (die_sound = false)

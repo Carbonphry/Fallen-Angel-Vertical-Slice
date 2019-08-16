@@ -83,16 +83,32 @@ if show_stamina {
 		audio_play(a_player_lowstamina);
 	}
 }
-draw_sprite(s_weapon_ui, global.ammo_count, x_bar_ - 10, y_bar_+186);
-//Healing Items
-draw_sprite(s_hud_heal_box, 0, x_bar_ - 40, y_bar_+186);
-draw_sprite(s_hud_heal_box_counter, core_count, x_bar_ - 40, y_bar_+186);
+var _fade_spd = 0.1;
 
+if global.ammo_count > 0 and ui_alpha_ammo<1 {
+	ui_alpha_ammo += _fade_spd;	
+} else if global.ammo_count <= 0 and ui_alpha_ammo>0 {
+	ui_alpha_ammo -= _fade_spd;	
+}
+
+draw_sprite_ext(s_weapon_ui, global.ammo_count, x_bar_ - 10, y_bar_+186,1,1,1,c_white,ui_alpha_ammo);
+//Healing Items
+
+if core_count > 0 and ui_alpha_cores<1 {
+	ui_alpha_cores += _fade_spd;	
+} else if core_count <= 0 and ui_alpha_cores>0 {
+	ui_alpha_cores -= _fade_spd;	
+}
+
+if core_count  > 0 { 
+	draw_sprite_ext(s_hud_heal_box, 0, x_bar_ - 40, y_bar_+186,1,1,1,c_white,ui_alpha_cores);
+	draw_sprite_ext(s_hud_heal_box_counter, core_count, x_bar_ - 40, y_bar_+186,1,1,1,c_white,ui_alpha_cores);
+}
 
 	if core_count > 0 {
 		
 		if  core_anim >= 8 then core_anim = 0;
-		draw_sprite(s_small_heal_item, core_anim,x_bar_ - 24 , y_bar_ + 209);
+		draw_sprite_ext(s_small_heal_item, core_anim,x_bar_ - 24 , y_bar_ + 209,1,1,1,c_white,ui_alpha_cores);
 		core_anim += .15;
 		/*if core_count > 1 {
 			draw_text(x_bar_+44, y_bar_+209,string(core_count))

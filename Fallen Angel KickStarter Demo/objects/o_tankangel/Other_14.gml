@@ -1,5 +1,5 @@
 /// @description Attack State
-if image_index >= 6 and image_index <= 10 {
+if image_index >= 4 and image_index <= 7 {
 	parriable = true;
 } else {
 	parriable = false;

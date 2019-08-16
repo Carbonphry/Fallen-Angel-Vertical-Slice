@@ -146,6 +146,7 @@ switch (room) {
 	break;
 	
 	case r_gabriel_ancientcity_room2:
+	global.room_gabriel1_block = false;
 	if global.elevator_restart {
 		o_level_gabriel_ancientcity_room2to1_elevator.y = 592;
 		o_level_gabriel_ancientcity_room2to1_elevator.boo = true;

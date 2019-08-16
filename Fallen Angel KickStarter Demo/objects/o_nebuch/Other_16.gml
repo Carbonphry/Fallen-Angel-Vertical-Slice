@@ -1,5 +1,5 @@
 /// @description Die State
-image_speed = .6;
+image_speed = 1.2;
 sprite_index = s_nebuch_die;
 _speed_ = 0;
 if (die_sound = false)

@@ -25,10 +25,12 @@ global.vibration = true;
 global.auto_jump_ = false;
 global.room4block = true;
 global.room5block = true;
+global.room_gabriel1_block = true;
 global.intro_anim = false;
 global.freeze = false;
 global.garden_elevator = false;
 global.elevator_restart = false;
+global.ammo_count = 3;
 vol = 1;
 show_volume = false;
 

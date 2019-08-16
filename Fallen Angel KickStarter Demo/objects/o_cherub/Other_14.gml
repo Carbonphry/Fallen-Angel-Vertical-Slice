@@ -89,8 +89,14 @@ if animation_hit_frame(9)
 
 if image_index >= 10 and hit {
 	image_speed = 0.8;
-	x += lengthdir_x(2,_attack_angle-180);
-	y += lengthdir_y(2,_attack_angle-180);
+	/*x += lengthdir_x(2,_attack_angle-180);
+	y += lengthdir_y(2,_attack_angle-180);*/
+	if _attack_angle >= 0 and _attack_angle <= 180 {
+		var _new_angle = _attack_angle + 180;
+	} else if _attack_angle > 180 and _attack_angle <= 360 {
+			var _new_angle = _attack_angle -180;
+	} 
+	enemy_dash(true,_new_angle,2);
 }
 
 if animation_hit_frame(image_number-1)

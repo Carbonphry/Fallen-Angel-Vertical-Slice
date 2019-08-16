@@ -1,5 +1,5 @@
 /// @description Die State
-image_speed = .8;
+image_speed = .9;
 sprite_index = s_tankangel_die;
 _speed_ = 0;
 if (die_sound = false)

@@ -87,8 +87,8 @@ if x_lock {
 
 }
 
-x = lerp(x, _target_x, 0.1);
-y = lerp(y , _target_y-8- target_.z, 0.1);
+x = lerp(x, _target_x, 0.05);
+y = lerp(y , _target_y-8- target_.z, 0.05);
 x = round_n(x, 1/scale_);
 y = round_n(y, 1/scale_);
 

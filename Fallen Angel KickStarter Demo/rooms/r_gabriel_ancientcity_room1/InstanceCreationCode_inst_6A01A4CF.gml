@@ -1,0 +1,1 @@
+if !global.room_gabriel1_block then instance_destroy();

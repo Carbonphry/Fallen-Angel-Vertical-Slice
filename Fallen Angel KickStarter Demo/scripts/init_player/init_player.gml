@@ -291,8 +291,6 @@ evade_step = true;
 
 charge = 0;
 
-global.ammo_count = 3;
-
 knockback_direction = noone;
 knockback_ammount = noone;
 

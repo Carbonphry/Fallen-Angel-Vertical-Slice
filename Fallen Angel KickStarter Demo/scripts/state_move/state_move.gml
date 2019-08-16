@@ -111,12 +111,15 @@ if _x_input == 0 and _y_input == 0 {
 		}
 				if (abs(image_index - 0) <= 0.2 || abs(image_index - 4) <= 0.2)
 		{ 
-			if (footsteps_playing_ = false and footsteps_can_play_ = true) 
+			if (footsteps_playing_ = false and footsteps_can_play_ = true and z==z_ground) 
 			{
 				audio_play_sound(_footsteps, 10, false);
 				footsteps_playing_ = true;
 				footsteps_can_play_ = false;
 				alarm[2] = 10;
+			}
+			if z!=z_ground {
+				audio_stop_sound(_footsteps);
 			}
 		}
 		else 
