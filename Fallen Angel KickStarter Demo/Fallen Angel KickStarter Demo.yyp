@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "022daf8a-41aa-4143-8994-a9d013a3a4a1",
+            "Value": {
+                "id": "11c5ac18-48ed-40b4-b921-940f091b8578",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall12\\s_level_gabriel_ancientcity_cave_wall12.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0230ea19-9b31-4a8d-a786-dbef7eabf9dc",
             "Value": {
                 "id": "f2517942-c5f1-46ea-bb50-174e7e6af8d3",
@@ -1887,6 +1895,14 @@
             }
         },
         {
+            "Key": "2636c103-56d5-462c-b4e7-ae8bc7ad867c",
+            "Value": {
+                "id": "ce74d928-7c90-43c6-9365-28475c728308",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall11\\s_level_gabriel_ancientcity_cave_wall11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2643fe31-9f7d-4152-bceb-1060bb7e707d",
             "Value": {
                 "id": "d0e68b2c-c561-42fe-9df9-bb26fa16cea5",
@@ -3067,6 +3083,14 @@
             "Value": {
                 "id": "ae6ba6f0-690d-4d69-a238-1824a10e681d",
                 "resourcePath": "sprites\\s_player_power_chargeattack_start\\s_player_power_chargeattack_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f76d1be-be56-4d82-98fc-db78e2999b3f",
+            "Value": {
+                "id": "6b9ba2c9-8031-4e81-8de3-a13cdb06b603",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall4\\s_level_gabriel_ancientcity_cave_wall4.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4268,6 +4292,14 @@
                 "id": "a0c4c94d-a540-45c5-888a-b47601300bef",
                 "resourcePath": "objects\\o_level_tut_portal1\\o_level_tut_portal1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "58f60c6a-40ed-4503-8442-a3a818cedf01",
+            "Value": {
+                "id": "43ef1b6b-1992-4234-871e-fc837f4febc0",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall6\\s_level_gabriel_ancientcity_cave_wall6.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5511,6 +5543,14 @@
             }
         },
         {
+            "Key": "7254b518-4325-49db-ba07-68e9ad29e71d",
+            "Value": {
+                "id": "7d269e11-54df-4f92-a7d9-90bf70977c23",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall18\\s_level_gabriel_ancientcity_cave_wall18.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "726e2552-31cd-48a7-be70-93030ee1e957",
             "Value": {
                 "id": "4c687365-ade1-4444-b02b-8cc33d57bba9",
@@ -5572,6 +5612,14 @@
                 "id": "510cbd88-521a-439f-bb9e-ea6258ff029d",
                 "resourcePath": "objects\\o_level_intro_room3_2_structure2\\o_level_intro_room3_2_structure2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "732e4522-fd24-4a7e-ba57-4e65adc5b63f",
+            "Value": {
+                "id": "0ed7f1a2-3494-461f-bfd9-e144b1792a4c",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall19\\s_level_gabriel_ancientcity_cave_wall19.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5871,6 +5919,14 @@
             }
         },
         {
+            "Key": "7c4a423b-c5be-4331-9f3a-f8af861cd606",
+            "Value": {
+                "id": "6befb54e-e2c8-4119-9660-eace8ef9d380",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall13\\s_level_gabriel_ancientcity_cave_wall13.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7c67dd22-42a8-40cb-b56e-710116bf7bbf",
             "Value": {
                 "id": "2d67e90c-32cc-4b1c-9c0e-6deb32256bfa",
@@ -6023,6 +6079,14 @@
             }
         },
         {
+            "Key": "802c956e-e157-4d3d-8444-f66e77c196ef",
+            "Value": {
+                "id": "6c1ae8bc-9ebd-4335-906f-9ac89eb070d4",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall2\\s_level_gabriel_ancientcity_cave_wall2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "803857d9-d867-46a5-b0fc-58f51a4a7efe",
             "Value": {
                 "id": "831616c5-aef4-41fe-8a9b-4332b7d707ac",
@@ -6139,6 +6203,14 @@
             "Value": {
                 "id": "f709ea45-db38-468f-95c2-aee18c45ad3a",
                 "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_pillar4\\s_level_gabriel_ancientcity_cave_pillar4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82f7fe25-5fd0-421c-9a5b-a25a7d7c4399",
+            "Value": {
+                "id": "fd0b8269-ab5f-4048-806f-7df22e2c1148",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall3\\s_level_gabriel_ancientcity_cave_wall3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -6436,6 +6508,14 @@
                 "id": "e384c942-b630-4366-9732-f89c3eb9212a",
                 "resourcePath": "objects\\o_level_grabriel_ancientcity_cave\\o_level_grabriel_ancientcity_cave.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8bb703ba-a304-4489-9f38-1df4ba5af0f5",
+            "Value": {
+                "id": "6ca498de-1cc0-404b-9fcb-bc95b942c839",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall17\\s_level_gabriel_ancientcity_cave_wall17.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6740,6 +6820,14 @@
                 "id": "ed519c49-3825-460f-9ccb-5a61e2da954c",
                 "resourcePath": "views\\921bf54a-55e4-474c-bcc3-8a10f86a420d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9236d977-68a1-4a66-ae81-9d5bf1b82974",
+            "Value": {
+                "id": "3747be84-db7a-49ef-a54f-3d115e006315",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall5\\s_level_gabriel_ancientcity_cave_wall5.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8087,6 +8175,14 @@
             }
         },
         {
+            "Key": "b0d53ac3-054e-4dfb-a52d-314af67cf92a",
+            "Value": {
+                "id": "6f5ff2ab-caec-471f-81dd-b6f8e17263be",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall10\\s_level_gabriel_ancientcity_cave_wall10.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b10b39ca-7873-44cf-af84-f584537bae5a",
             "Value": {
                 "id": "c16a305b-3d3c-4b8d-9abe-d1146bc2802e",
@@ -9143,6 +9239,14 @@
             }
         },
         {
+            "Key": "c8e1ec5b-589f-4e5d-9a04-4c9feb4cd587",
+            "Value": {
+                "id": "2939aafb-6ce7-4848-9dd5-16482cecafad",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall15\\s_level_gabriel_ancientcity_cave_wall15.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c91d44f2-6c0b-4c09-a400-9270a56b88a3",
             "Value": {
                 "id": "e5ae5d7d-45f8-4166-aa9c-354c687935b3",
@@ -9268,6 +9372,14 @@
                 "id": "864b248d-98b2-44cc-8ba5-b1122a0f7758",
                 "resourcePath": "objects\\o_swing_fx_critical\\o_swing_fx_critical.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb61dd52-255c-4093-855a-ed055f9d6042",
+            "Value": {
+                "id": "5991a864-c7b8-4572-9848-6aa664935d61",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall16\\s_level_gabriel_ancientcity_cave_wall16.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9668,6 +9780,14 @@
                 "id": "88d4b319-874e-43dc-b32d-6d6da7d8d883",
                 "resourcePath": "scripts\\uls_set_shadow_color\\uls_set_shadow_color.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d3f69de1-2a68-4c73-a6f8-6d425b2ae34c",
+            "Value": {
+                "id": "8fc68a0c-d4de-4333-843b-ed19929b1326",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall8\\s_level_gabriel_ancientcity_cave_wall8.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -10687,6 +10807,14 @@
             }
         },
         {
+            "Key": "eb295c40-ce9c-4390-a0e3-d2f57befa2b6",
+            "Value": {
+                "id": "3be774d4-cd1e-4d5a-a2d1-b34e141989af",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall1\\s_level_gabriel_ancientcity_cave_wall1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eb308d5d-ba83-4490-a2bf-d1f5ad831104",
             "Value": {
                 "id": "83bc4646-1a96-406f-8efe-56080f937526",
@@ -10748,6 +10876,14 @@
                 "id": "fd22dd14-e574-46f1-86cd-76cee1dc8b88",
                 "resourcePath": "scripts\\is_target\\is_target.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ec5ac011-885f-4f67-b7be-212e75b90ca7",
+            "Value": {
+                "id": "f4336eb5-2fa2-4cc9-acba-7e4b32ebad47",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall7\\s_level_gabriel_ancientcity_cave_wall7.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -11351,6 +11487,14 @@
             }
         },
         {
+            "Key": "f9e40b31-a8e6-4cf4-8180-e263687b86de",
+            "Value": {
+                "id": "ac6ac64a-495d-4e44-93f5-06c141dcc7fa",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall14\\s_level_gabriel_ancientcity_cave_wall14.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f9e4e0cc-ac56-44b8-a54f-559c98d53640",
             "Value": {
                 "id": "d0eaa0b3-b962-4d51-abc1-2f0328c199fa",
@@ -11467,6 +11611,14 @@
             "Value": {
                 "id": "4013a3f5-d104-4d0d-9a12-4fdc18cc6083",
                 "resourcePath": "sprites\\s_missileangel_projectile\\s_missileangel_projectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fce788cf-ce13-499d-8ae7-002b9be516eb",
+            "Value": {
+                "id": "85bd1eea-9a62-49bb-a983-c6540d1068cb",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_cave_wall9\\s_level_gabriel_ancientcity_cave_wall9.yy",
                 "resourceType": "GMSprite"
             }
         },
