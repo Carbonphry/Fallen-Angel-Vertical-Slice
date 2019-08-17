@@ -17,7 +17,8 @@
         "90eb487d-fce4-4514-ae24-a348b531f382",
         "3f8d7436-b3d9-4b8b-8afa-97de60159c25",
         "ca8f5bd5-48a8-4779-8dbb-7a7381a64cc9",
-        "d4658702-b91c-47d6-83a2-829db90c9030"
+        "d4658702-b91c-47d6-83a2-829db90c9030",
+        "eb5c1d22-e496-4f9e-8dce-05afdff08b81"
     ],
     "filterType": "GMSound",
     "folderName": "Enemies",

@@ -2847,6 +2847,14 @@
             }
         },
         {
+            "Key": "3987c6aa-ec74-4801-995a-3163025ebfd8",
+            "Value": {
+                "id": "b89b8c04-d4fc-44cb-b705-a056a97576f1",
+                "resourcePath": "sounds\\a_nebuch_scream2\\a_nebuch_scream2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "39aa74c5-add4-4ec9-a4c4-4f8e8e7f50dc",
             "Value": {
                 "id": "d356eb45-318a-4e23-a5cb-bf803a235569",
@@ -3259,6 +3267,14 @@
             "Value": {
                 "id": "95e71778-a76d-46d8-b3a2-7375f8b986e8",
                 "resourcePath": "sounds\\a_player_lowstamina\\a_player_lowstamina.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "42f6795b-4c08-4fc5-942f-576f9067218e",
+            "Value": {
+                "id": "b64cae90-997c-4fff-bbdb-e3116838619c",
+                "resourcePath": "sounds\\a_nebuch_dashattack_swing\\a_nebuch_dashattack_swing.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -4387,6 +4403,14 @@
             "Value": {
                 "id": "8b58ab70-4232-47a5-844e-e08a8ebd0683",
                 "resourcePath": "sounds\\a_level_intro_music\\a_level_intro_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "598d2f07-d1de-4c69-bbff-8ee956ce6f5e",
+            "Value": {
+                "id": "7f209775-e1f9-428d-917d-3e21daa4e7c7",
+                "resourcePath": "sounds\\a_nebuch_death\\a_nebuch_death.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -5751,6 +5775,14 @@
             }
         },
         {
+            "Key": "74c461f7-d8bb-4660-b149-d60f98fd90c1",
+            "Value": {
+                "id": "832f40e2-1169-46da-b6f4-7b37f477c56d",
+                "resourcePath": "sounds\\a_nebuch_scream3\\a_nebuch_scream3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "74d1116e-356f-4f86-80cd-f31a9185d28f",
             "Value": {
                 "id": "26d3a093-bf30-4b81-9b1f-67aad45a00d4",
@@ -6343,6 +6375,14 @@
             }
         },
         {
+            "Key": "8461d035-a98a-4a3a-9ec1-93e4df74a13d",
+            "Value": {
+                "id": "2182bfda-20f0-4fa9-bcc3-53ead29fb5e7",
+                "resourcePath": "sounds\\a_nebuch_scream1\\a_nebuch_scream1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "84fed24a-c8d7-4606-a6e7-99c38df1c8f7",
             "Value": {
                 "id": "ef9fbb79-d57c-498d-82fa-fc846b2901f5",
@@ -6596,6 +6636,14 @@
                 "id": "62ed55e2-9201-42a4-afa4-d864cf03c82a",
                 "resourcePath": "sprites\\s_missileangel_attack_effect\\s_missileangel_attack_effect.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8c3540ce-8ab6-49c3-80d1-20bf7835dce5",
+            "Value": {
+                "id": "c5f73773-c271-426b-8b53-1da02133057b",
+                "resourcePath": "sounds\\a_nebuch_dashattack_charge\\a_nebuch_dashattack_charge.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -7068,6 +7116,14 @@
                 "id": "5d85b6f2-2d50-4daa-a0f6-3f3ee56bc074",
                 "resourcePath": "sprites\\s_tutorial_primalrush_gpad\\s_tutorial_primalrush_gpad.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95f69080-e969-4edf-b3b5-26807864af0d",
+            "Value": {
+                "id": "723ff06f-b011-409e-9fee-fcaca369535e",
+                "resourcePath": "sounds\\a_nebuch_throw\\a_nebuch_throw.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -10983,6 +11039,14 @@
             }
         },
         {
+            "Key": "eb5c1d22-e496-4f9e-8dce-05afdff08b81",
+            "Value": {
+                "id": "047af7f6-3951-4932-b9bd-6f0a64d94609",
+                "resourcePath": "views\\eb5c1d22-e496-4f9e-8dce-05afdff08b81.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "eb9ec4e8-1118-4d06-811a-5a96fdf70143",
             "Value": {
                 "id": "5aff2561-84b9-4dc4-90bf-313edc22b64b",
@@ -11156,6 +11220,14 @@
                 "id": "d2a7a425-39aa-4b9a-bc3c-2411ce2e7d9f",
                 "resourcePath": "views\\efa58540-90b9-402b-9ef3-21e378f76ccd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "efccd8da-3832-4d30-9531-f450b70c1536",
+            "Value": {
+                "id": "e999f3bf-25d4-4135-aada-c85c4fd6110a",
+                "resourcePath": "sounds\\a_nebuch_throw_weaponloop\\a_nebuch_throw_weaponloop.yy",
+                "resourceType": "GMSound"
             }
         },
         {
