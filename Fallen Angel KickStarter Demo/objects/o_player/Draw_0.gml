@@ -7,7 +7,9 @@ if state_ != player.evade {
 if ramState == 0 {
 	if reticle_anim < 12 {
 		reticle_anim += .4;
-		draw_sprite_ext(s_ram_reticle,reticle_anim,x,y-15,1,1,o_reticle.image_angle,c_white,1);
+		if instance_exists(o_reticle) {
+			draw_sprite_ext(s_ram_reticle,reticle_anim,x,y-15,1,1,o_reticle.image_angle,c_white,1);
+		}
 	} 
 }
 if !instance_exists(o_player_shadow) {

@@ -1,10 +1,10 @@
 /// @description Attack State
-if image_index >= 4 and image_index <= 7 {
+if image_index >= 6 and image_index <= 9 {
 	parriable = true;
 } else {
 	parriable = false;
 }
-/*move_movement_entity(true);*/
+move_movement_entity(true);
 apply_friction_to_movement_entity();
 
 if animation_hit_frame(1) {
@@ -18,8 +18,8 @@ if animation_hit_frame(8) {
 	var _attack_angle = point_direction(x, y, target.x, target.y);
 	var _attack_direction = round(point_direction(x, y,  target.x, target.y)/90);
 	
-	//set_movement(_attack_angle, 6);
-	enemy_dash(true,_attack_angle,20);
+	set_movement(_attack_angle, 3);
+	//enemy_dash(true,_attack_angle,20);
 	if _attack_direction > 3 then _attack_direction = 0;
 	
 	if _attack_direction == 0 then image_xscale = 1;

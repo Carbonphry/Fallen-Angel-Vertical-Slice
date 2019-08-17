@@ -10511,14 +10511,6 @@
             }
         },
         {
-            "Key": "e3936a3a-935e-4d86-b8df-caee1d3fa04b",
-            "Value": {
-                "id": "1013e552-6f4d-4d02-8f26-21ff857d18aa",
-                "resourcePath": "scripts\\z_depth_system_en\\z_depth_system_en.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "e3957ea6-cd35-4a96-a65d-7eab19512afa",
             "Value": {
                 "id": "305587c5-a10b-414d-aba5-2ae605f04995",
@@ -11815,9 +11807,9 @@
         "1b49ea81-6b66-4bff-9d37-c63b88845803",
         "c6c83907-2a43-49a8-ba4d-6b18d5d59832",
         "fbf7f2b7-dc43-455c-84d6-8c81d818bf16",
-        "e3936a3a-935e-4d86-b8df-caee1d3fa04b",
         "86b63629-424f-4041-82e6-b0c9cf36a536",
         "3857a236-85b4-466d-aff8-504908a9819a",
+        "334e484d-f438-44b0-88b0-b9ec7abe798f",
         "36e6cdde-d872-4019-bc11-e1418e81db6c",
         "674d42f7-d5d5-46b8-b874-7bf800d8ab42",
         "b2225eb3-3cad-4f75-95a9-0e1d8cc5b966",
@@ -11866,8 +11858,7 @@
         "3253a2eb-3d94-48c0-af54-8608080c5323",
         "e4e0a6e7-c851-453f-9c43-cc88f667248d",
         "3e45b6cc-b808-4af2-992a-d46f6ee94fdf",
-        "4af71d72-bbe3-414e-aeea-0b3d5b5a01bd",
-        "334e484d-f438-44b0-88b0-b9ec7abe798f"
+        "4af71d72-bbe3-414e-aeea-0b3d5b5a01bd"
     ],
     "tutorial": ""
 }

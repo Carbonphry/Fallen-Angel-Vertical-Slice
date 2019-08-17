@@ -67,10 +67,10 @@ if !stop {
 
 if place_meeting(x,y,class_player) {
 	stop = true;
-	image_speed = 1.2;
+	image_speed = 1;
 	hit = true;
 } else {
-	image_speed = 0.9;
+	image_speed = 0.7;
 }
 
 if animation_hit_frame(8)
@@ -86,11 +86,12 @@ if animation_hit_frame(8)
 
 if image_index >= 10 and hit {
 	image_speed = 0.8;
+	var _new_angle = 1;
 	if _attack_angle >= 0 and _attack_angle <= 180 {
 		var _new_angle = _attack_angle + 180;
 	} else if _attack_angle > 180 and _attack_angle <= 360 {
 			var _new_angle = _attack_angle -180;
-	} 
+	}
 	enemy_dash(true,_new_angle,2);
 	/*x += lengthdir_x(2,_attack_angle-180);
 	y += lengthdir_y(2,_attack_angle-180);*/

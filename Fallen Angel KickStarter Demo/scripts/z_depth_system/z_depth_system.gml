@@ -138,7 +138,7 @@ repeat(abs(walk_speed * (right  - left )))
 				
             }
     }*/
-
+	if (z==z_ground) or (z>z_ground and z-10 > z_ground) { 
 	with o_enemy
 	{
 		if place_meeting(x - (other.right - other.left), y-other.z, other)
@@ -148,7 +148,7 @@ repeat(abs(walk_speed * (right  - left )))
 				
             }
     }
-	
+	}
 	with o_solid
 	{
 		if place_meeting(x - (other.right - other.left), y, other)
@@ -230,7 +230,7 @@ repeat(abs(walk_speed * (down  - up )))
            }
 	
 	}*/
-	
+	if (z==z_ground) or (z>z_ground and z-10 > z_ground) { 
 	with o_enemy
 	{
 		if place_meeting(x , y- (other.down - other.up)-other.z, other)
@@ -242,7 +242,7 @@ repeat(abs(walk_speed * (down  - up )))
            }
 	
 	}
-	
+	}
 	with o_solid
 	{
 		if place_meeting(x , y- (other.down - other.up), other)

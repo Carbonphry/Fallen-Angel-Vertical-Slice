@@ -38,7 +38,7 @@ if o_input.action_four_released_ {
 	}
 }*/
 
-if global.auto_jump_ = true and state_ != player.falling and state_ != player.ledge
+if global.auto_jump_ = true and state_ != player.falling and state_ != player.ledge and state_ != player.evade
 {
 	z_depth_system();
 }

@@ -23,7 +23,7 @@ if alarm[1] <= 0
 
 move_movement_entity(true);
 
-//move_movement_entity(true);
+
 
 if _speed_ == 0
 {

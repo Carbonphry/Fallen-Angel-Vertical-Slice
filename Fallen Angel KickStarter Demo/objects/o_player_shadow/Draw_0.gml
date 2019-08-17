@@ -2,9 +2,10 @@
 // You can write your code in this editor
 depth =-y;
 x = target.x;
-y = target.y;
-if !place_meeting(x,y,o_solid_air) and target.state_ != player.glide {
-	
+y = target.y- target.z_ground;
+var _air_solid = instance_nearest(x,y,o_solid_air);
+
+if place_empty(x,y,_air_solid)	{
 	switch (target.z) {
 	
 		case 0:
@@ -25,5 +26,5 @@ if !place_meeting(x,y,o_solid_air) and target.state_ != player.glide {
 		break;
 	}
 	
-	draw_sprite_ext(s_large_shadow1, image_index, x, y - target.z_ground, shascale, shascale, image_angle, image_blend, image_alpha); 
+	draw_sprite_ext(s_large_shadow1, image_index, x, y, shascale, shascale, image_angle, image_blend, image_alpha); 
 }

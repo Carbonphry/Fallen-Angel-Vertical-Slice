@@ -10,15 +10,48 @@ var _angle = argument0;
 var walk_speed;
 walk_speed = argument1;
 jump_speed = 3;
-left = 0;
-up = 0;
-down = 1;
-right = 1;
+if knockback_direction == 0 {
+		left     = 0;
+		right    = 1;
+		up       = 0;
+		down     = 0;	
+	} else if knockback_direction > 0 and knockback_direction < 90  {
+		left     = 0;
+		right    = 1;
+		up       = 1;
+		down     = 0;	
+	} else if knockback_direction == 90 {
+		left     = 0;
+		right    = 0;
+		up       = 1;
+		down     = 0;	
+	} else if knockback_direction > 90 and knockback_direction < 180  {
+		left     = 1;
+		right    = 0;
+		up       = 1;
+		down     = 0;	
+	} else if knockback_direction == 180 {
+		left     = 1;
+		right    = 0;
+		up       = 0;
+		down     = 0;	
+	} else if knockback_direction > 180 and knockback_direction < 270  {
+		left     = 1;
+		right    = 0;
+		up       = 0;
+		down     = 1;	
+	} else if knockback_direction == 270 {
+		left     = 0;
+		right    = 0;
+		up       = 0;
+		down     = 1;	
+	} else if knockback_direction > 270 and knockback_direction < 360  {
+		left     = 0;
+		right    = 1;
+		up       = 0;
+		down     = 1;	
+	}
 
-
-if ( left and up ) or (left and down) or (right and up) or (right and down) {
-	walk_speed *=.99999999999999999999; //99999999999999999999999
-}
 
 repeat(abs(knockback_ammount * (right - left)))
 {
@@ -86,13 +119,13 @@ repeat(abs(knockback_ammount * (right - left)))
 	*/
     
     if can_move == true
-        x += (right - left)*dcos(_angle);
+        x += (right - left);
 }
 
 
 repeat(abs(knockback_ammount * (down - up)))
 {
-    
+    can_move = true;
     highest_z = 0;
     
    
@@ -150,7 +183,7 @@ repeat(abs(knockback_ammount * (down - up)))
 	}
 	
     if can_move == true
-        y += (down - up)*-dsin(_angle);
+        y += (down - up);
 }
 
 /*repeat(abs(walk_speed * (right - left)))

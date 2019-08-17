@@ -1,5 +1,18 @@
 /// @description Evade State
-image_speed = 2;
+/*if image_index == image_number - 1 {
+	image_speed = 0;
+} else {
+	image_speed = 2;
+}*/
+if dash_end {
+	image_speed = 0;
+} else {
+	image_speed = 2;
+}
+/*var left;
+var _right;
+var _up;
+var down;*/
 
 if evade_step {
 	angX = o_reticle.image_angle;
@@ -18,6 +31,47 @@ if evade_step {
 		image_xscale = -1;
 	}
 	evade_step = false;
+	if angX == 0 {
+		left     = 0;
+		right    = 1;
+		up       = 0;
+		down     = 0;	
+	} else if angX > 0 and angX < 90  {
+		left     = 0;
+		right    = 1;
+		up       = 1;
+		down     = 0;	
+	} else if angX == 90 {
+		left     = 0;
+		right    = 0;
+		up       = 1;
+		down     = 0;	
+	} else if angX > 90 and angX < 180  {
+		left     = 1;
+		right    = 0;
+		up       = 1;
+		down     = 0;	
+	} else if angX == 180 {
+		left     = 1;
+		right    = 0;
+		up       = 0;
+		down     = 0;	
+	} else if angX > 180 and angX < 270  {
+		left     = 1;
+		right    = 0;
+		up       = 0;
+		down     = 1;	
+	} else if angX == 270 {
+		left     = 0;
+		right    = 0;
+		up       = 0;
+		down     = 1;	
+	} else if angX > 270 and angX < 360  {
+		left     = 0;
+		right    = 1;
+		up       = 0;
+		down     = 1;	
+	}
 }
 
 
@@ -40,10 +94,7 @@ var walk_speed, jump_speed;
 walk_speed = 6;
 jump_speed = 3;
 var diag = .6;
-left = 0;
-up = 0;
-down = 1;
-right = 1;
+
 
 if ( left and up ) or (left and down) or (right and up) or (right and down) {
 	diag = .41;//walk_speed *=.99999999999999999999; //99999999999999999999999
@@ -51,7 +102,7 @@ if ( left and up ) or (left and down) or (right and up) or (right and down) {
 
 repeat(abs(walk_speed * (right - left)))
 {
-   // can_move = true;
+    can_move = true;
     highest_z = 0;
     
    
@@ -121,13 +172,13 @@ repeat(abs(walk_speed * (right - left)))
 	*/
     
     if can_move == true
-        x += (right - left)*dcos(angX);
+        x += (right - left);//*dcos(angX);
 }
 
 
 repeat(abs(walk_speed * (down - up)))
 {
-    //can_move = true;
+    can_move = true;
     highest_z = 0;
     
    
@@ -194,8 +245,9 @@ repeat(abs(walk_speed * (down - up)))
 	}
 	
     if can_move == true
-        y += (down - up)*-dsin(angX);
+        y += (down - up);//*-dsin(angX);
 }
+
 
 if !can_move {
 	state_ = starting_state_;
@@ -227,25 +279,25 @@ if !place_meeting(x, y, obj_cube_parent)
 //instance_create_depth(o_player.x, o_player.y-o_player.z, o_player.depth, o_particle_dash);
 
 
-if animation_hit_frame(0) {
+/*if animation_hit_frame(0) {
 	//visible = false;
 	left     = o_input.left_;
-	right    = o_input.right_;
-	up       = o_input.up_;
+	right    = o_input._right_;
+	up       = o_input._up_;
 	down     = o_input.down_;	
-	if (left and right and up and down) == 0 {
+	if (left and right and _up and down) == 0 {
 		switch direction_facing_ {
 
 			case dir.left:
 			left = 1;
 			break;
 
-			case dir.right:
+			case dir._right:
 			right = 1;
 			break;
 
-			case dir.up:
-			up = 1;
+			case dir._up:
+			_up = 1;
 			break;
 
 			case dir.down:
@@ -253,7 +305,7 @@ if animation_hit_frame(0) {
 			break;
 		}
 	}
-}
+}*/
 
 move_movement_entity(false);
 
@@ -297,14 +349,18 @@ if animation_hit_frame(1) and !instance_exists(trace_1) {
 } 
 
 
-if animation_hit_frame(image_number - 1) and sprite_index != sprite_[player.dash_parry, direction_facing_]
-{
-		state_ = starting_state_;
-		evading_ = false;
-		iframe = false;
-		parry = true;
-		//collision_object_ = o_solid_l2
-		visible = true;
+if animation_hit_frame(image_number - 1)  and sprite_index != sprite_[player.dash_parry, direction_facing_] {
+	dash_end = true;		
+}
+
+if !place_meeting(x,y,o_enemy) and dash_end == true {
+	state_ = starting_state_;
+	evading_ = false;
+	iframe = false;
+	parry = true;
+	dash_end = false;
+	//collision_object_ = o_solid_l2
+	visible = true;
 }
 
 //Attack Dash Skill

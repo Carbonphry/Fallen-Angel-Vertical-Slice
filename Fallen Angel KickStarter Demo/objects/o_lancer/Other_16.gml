@@ -1,5 +1,5 @@
 /// @description Die State
-image_speed = .8;
+image_speed = 1;
 sprite_index = s_lancerangel_die;
 _speed_ = 0;
 if (die_sound = false)

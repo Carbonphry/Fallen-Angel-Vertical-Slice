@@ -27,7 +27,7 @@ else
 
 if _speed_ == 0
 {
-	alarm[1] = random_range(1, 3) * global.one_second;
+	alarm[1] = random_range(1, 2) * global.one_second;
 	state_ = tankangel.idle;
 }
 
