@@ -1335,6 +1335,14 @@
             }
         },
         {
+            "Key": "1ac6c0da-9335-48ec-a240-cafd09d03b96",
+            "Value": {
+                "id": "afa10e06-9c9d-4045-a41c-746af8cc7f9c",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall131111\\o_level_grabriel_ancientcity_cave_wall131111.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ae04d3e-2bff-4684-b90c-bd3235f0675b",
             "Value": {
                 "id": "1c52abb4-8e50-44ce-9e72-4e034843da60",
@@ -1863,6 +1871,14 @@
             }
         },
         {
+            "Key": "258f2e98-5157-497a-b680-c8a66a69b909",
+            "Value": {
+                "id": "9a5d3d72-6927-436b-82c1-cc07fbaf32a0",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall3\\o_level_grabriel_ancientcity_cave_wall3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "25b3b44d-ba54-4d5e-9f8a-17a8e7b6fa26",
             "Value": {
                 "id": "eb763962-d54c-415e-aff7-0c6ab9cecf12",
@@ -2083,6 +2099,14 @@
             "Value": {
                 "id": "717c0be5-dce5-44b7-aa63-424d68dcb45a",
                 "resourcePath": "objects\\o_solid_tri_air\\o_solid_tri_air.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2bda9123-83fc-4c37-92b6-8207c438b05d",
+            "Value": {
+                "id": "67abab16-9d91-4a67-b4b6-f1e2f669ea65",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall4\\o_level_grabriel_ancientcity_cave_wall4.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2615,6 +2639,14 @@
             }
         },
         {
+            "Key": "3578c296-c09b-42f6-8ad6-ba222ccdc8c5",
+            "Value": {
+                "id": "b63c3341-51d3-4080-a158-b2c13cb46212",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall7\\o_level_grabriel_ancientcity_cave_wall7.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "35a2f481-5273-4d23-95ad-91d90e584e07",
             "Value": {
                 "id": "d464e2d9-201e-4b17-a038-e772c81bcc1e",
@@ -3003,6 +3035,14 @@
             "Value": {
                 "id": "1c20bace-d0f9-42c2-9f40-bf213cb41c50",
                 "resourcePath": "objects\\o_shard\\o_shard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3ccb1ff1-fe27-40a2-a6e1-c5fc0d6e3220",
+            "Value": {
+                "id": "14652f43-3d3f-4307-a36b-37f9ae3ad34f",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall8\\o_level_grabriel_ancientcity_cave_wall8.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3807,6 +3847,14 @@
             }
         },
         {
+            "Key": "4f0f73a0-5cd3-4c47-8f7d-d14a7e3829e9",
+            "Value": {
+                "id": "a63c237d-fd89-4dfc-adc3-de717aaf7101",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall13111111\\o_level_grabriel_ancientcity_cave_wall13111111.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f1bec8c-6192-4ab4-9783-8bc378d3e19e",
             "Value": {
                 "id": "214c407d-1137-4fa8-b3e4-0651f6a4f067",
@@ -3916,6 +3964,14 @@
                 "id": "f399edfd-3569-4091-8ea7-71b66a9d4248",
                 "resourcePath": "sprites\\s_abdiel_spawn\\s_abdiel_spawn.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "513f4938-297f-4cb3-802e-c1fe79ed3146",
+            "Value": {
+                "id": "20c6038b-fc10-4f7d-9883-940b79362dbc",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall10\\o_level_grabriel_ancientcity_cave_wall10.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4307,6 +4363,14 @@
             "Value": {
                 "id": "bdc09fdb-e4fe-4dd7-b88a-1f4d8534f3b1",
                 "resourcePath": "rooms\\r_base\\r_base.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "590db134-f824-42e7-b8eb-daa474c2b018",
+            "Value": {
+                "id": "3d4ab9a8-c0cf-40a2-8c8a-2ccd2315efed",
+                "resourcePath": "rooms\\r_gabriel_ancientcity_cave\\r_gabriel_ancientcity_cave.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4908,6 +4972,14 @@
                 "id": "51c0cf58-cf77-4cb3-86ea-7f7410b2c900",
                 "resourcePath": "sprites\\s_level_gabriel_mountainclimb_room2_structure4\\s_level_gabriel_mountainclimb_room2_structure4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "655ef9f4-fdf1-4e53-8081-33e35c275da3",
+            "Value": {
+                "id": "39a2f853-8b31-4818-9568-5df3c0efe8be",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall13111\\o_level_grabriel_ancientcity_cave_wall13111.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7071,6 +7143,14 @@
             }
         },
         {
+            "Key": "97619cef-6f4d-46e1-b645-d691dfdbdfb1",
+            "Value": {
+                "id": "79b36685-2385-4b49-97ff-96f46a1592ae",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall12\\o_level_grabriel_ancientcity_cave_wall12.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97c278f7-efb9-4dd2-b1ef-85530dda808d",
             "Value": {
                 "id": "aa343101-1b6e-4f33-b240-59e4f67f046c",
@@ -7399,6 +7479,14 @@
             }
         },
         {
+            "Key": "9f89a3fb-e117-4422-9bfa-561633208daa",
+            "Value": {
+                "id": "9a449922-ea45-487e-bcea-b3c70f0beaa1",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall9\\o_level_grabriel_ancientcity_cave_wall9.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ff1ee34-d1c5-4eba-970b-49902268e017",
             "Value": {
                 "id": "2c714d70-dbf8-4106-909a-732d1c6ca5da",
@@ -7599,6 +7687,14 @@
             }
         },
         {
+            "Key": "a4130d10-7c4f-4bb4-8d4f-0be55b3c7397",
+            "Value": {
+                "id": "1a122127-75eb-44d9-804e-eccbef5b57a7",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall6\\o_level_grabriel_ancientcity_cave_wall6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a44d7770-64c5-4dc2-b6c1-c6e3b9e8c904",
             "Value": {
                 "id": "b05df288-3df7-4f8e-8a34-c66439e18cbe",
@@ -7740,6 +7836,14 @@
                 "id": "adbdbc54-2da2-46fb-aa0e-a38f6c7011f1",
                 "resourcePath": "scripts\\move_movement_entity\\move_movement_entity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a678bc2d-a3ab-451d-9657-dd1ecfd6f64b",
+            "Value": {
+                "id": "fe193ab1-0154-4a17-be41-62630e74a953",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall5\\o_level_grabriel_ancientcity_cave_wall5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7967,6 +8071,14 @@
             }
         },
         {
+            "Key": "ab6e5143-706e-4b33-9fd6-b42417b88a4d",
+            "Value": {
+                "id": "a1fb2162-5e00-4284-9d62-0dae557ad2c5",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall2\\o_level_grabriel_ancientcity_cave_wall2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aba168f8-6d4d-4a18-ae79-01be878481b4",
             "Value": {
                 "id": "ee1c66d8-80be-4ef4-bac1-011561e87c0a",
@@ -8124,6 +8236,14 @@
                 "id": "86cbe80f-429e-4304-a1c5-eaef6d44ef70",
                 "resourcePath": "views\\afb40616-852a-41a5-b83b-30dbd84fde72.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "afe62d96-ffbc-4f5b-b432-be1d6d56cb75",
+            "Value": {
+                "id": "4d5b57fb-4122-4028-9478-4e57f255d41f",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall1311111\\o_level_grabriel_ancientcity_cave_wall1311111.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -9247,6 +9367,14 @@
             }
         },
         {
+            "Key": "c8e3337c-5659-4358-9cf2-7521c72bd19c",
+            "Value": {
+                "id": "4cabbcef-bd3d-45e0-bcd1-f8a60d081855",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall131\\o_level_grabriel_ancientcity_cave_wall131.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c91d44f2-6c0b-4c09-a400-9270a56b88a3",
             "Value": {
                 "id": "e5ae5d7d-45f8-4166-aa9c-354c687935b3",
@@ -9431,6 +9559,14 @@
             }
         },
         {
+            "Key": "cbface25-2888-41fe-a55a-2a60bc2ad618",
+            "Value": {
+                "id": "9bccb881-fe57-471c-a089-2ddc7a1fc569",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall1\\o_level_grabriel_ancientcity_cave_wall1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "ea2287dc-3308-4958-95db-13a176d83aba",
@@ -9475,6 +9611,14 @@
             "Value": {
                 "id": "8ba64dcb-a506-45b9-8285-c5569846fd7e",
                 "resourcePath": "objects\\ledge_coll\\ledge_coll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ce19ea7c-bd82-4f0b-b88f-2ff38e263220",
+            "Value": {
+                "id": "19547c16-b5fe-4433-bfce-ca5b78bbf2aa",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall13\\o_level_grabriel_ancientcity_cave_wall13.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -10023,6 +10167,14 @@
             }
         },
         {
+            "Key": "d91bf7c2-0e52-465c-a052-97334d4c457b",
+            "Value": {
+                "id": "4643d367-341a-457f-b9f9-abfe746bf064",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall11\\o_level_grabriel_ancientcity_cave_wall11.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d93022cf-bf80-43a0-a69f-257d055e5b2f",
             "Value": {
                 "id": "62f44628-4ba0-437e-af20-304b83edad67",
@@ -10244,6 +10396,14 @@
                 "id": "d447ca05-027b-446f-abc3-8d6db18d0f92",
                 "resourcePath": "sounds\\a_player_parrythrow\\a_player_parrythrow.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "dcf4afd0-8045-4d10-bdc6-5fc8aaa5d87c",
+            "Value": {
+                "id": "80d026a7-883b-4f1d-8887-c53ce2fca255",
+                "resourcePath": "objects\\o_level_grabriel_ancientcity_cave_wall1311\\o_level_grabriel_ancientcity_cave_wall1311.yy",
+                "resourceType": "GMObject"
             }
         },
         {

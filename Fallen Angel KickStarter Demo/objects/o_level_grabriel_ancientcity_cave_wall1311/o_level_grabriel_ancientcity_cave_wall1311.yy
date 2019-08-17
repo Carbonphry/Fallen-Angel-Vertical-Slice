@@ -1,23 +1,23 @@
 {
-    "id": "3291cb3e-1dd3-4f23-928c-650a4672b0d9",
+    "id": "dcf4afd0-8045-4d10-bdc6-5fc8aaa5d87c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_solid",
+    "name": "o_level_grabriel_ancientcity_cave_wall1311",
     "eventList": [
         {
-            "id": "513f836f-0613-40fc-9b5e-e65b864e7580",
+            "id": "0a0718d8-3dc2-43a2-b9c9-c4dea5f9a553",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3291cb3e-1dd3-4f23-928c-650a4672b0d9"
+            "m_owner": "dcf4afd0-8045-4d10-bdc6-5fc8aaa5d87c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dc4a572f-0c1a-4494-b3ac-2774c074bc23",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9aa5ca0c-1400-4af7-974d-4bbcd9c22583",
-    "visible": false
+    "spriteId": "c8e1ec5b-589f-4e5d-9a04-4c9feb4cd587",
+    "visible": true
 }
