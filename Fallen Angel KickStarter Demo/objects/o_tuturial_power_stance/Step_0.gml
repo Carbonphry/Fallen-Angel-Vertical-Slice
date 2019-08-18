@@ -16,7 +16,7 @@ switch (global.gamepad_active) {
 	break;
 	
 	case false:
-	sprite_index = s_tutorial_power_stance;
+	//sprite_index = s_tutorial_power_stance;
 	break;
 
 }

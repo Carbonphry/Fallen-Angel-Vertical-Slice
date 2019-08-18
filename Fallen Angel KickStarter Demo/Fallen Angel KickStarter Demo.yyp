@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "02a67699-5c39-4082-b124-7ffaa62c65d7",
+            "Value": {
+                "id": "28c92d76-9faa-41b4-b749-5ee689b3324c",
+                "resourcePath": "sounds\\a_level_intro_room6_start\\a_level_intro_room6_start.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "02b77c24-d954-4fa1-a9e6-27a863a98968",
             "Value": {
                 "id": "ef6113f1-4e1c-4596-9b94-2210f5c4080c",
