@@ -8,3 +8,4 @@ alarm[1] = 1;
 image_speed = 0.6;
 can_parry = true;
 audio_play(a_player_charged_projectile_power_fire);
+audio_stop_sound(a_player_reticle_charge);
