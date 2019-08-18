@@ -13,10 +13,10 @@ if other.alarm[6] > global.one_second*.1 then exit;
 global.freeze = 1;
 o_pride_meter.ego_add += PTS_PARRY;
 with other {
-	health_ -= other.damage_;
+	//health_ -= other.damage_;
 	if health_ > 0  {
 		//state_ = lancer.stun;
-		state_ = lancer.hit;
+		state_ = lancer.stun;
 	} else {
 		state_ = lancer.die;
 	}
