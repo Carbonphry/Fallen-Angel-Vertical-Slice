@@ -43,10 +43,10 @@ if onAir {
 	var sh_x = lerp(originX, targetX,t);
 	var sh_y  = lerp(originY, targetY,t);
 	var distanceRemaining = point_distance(x,y,targetX,targetY);
-	draw_sprite(s_large_shadow1,0,sh_x, sh_y);
+	draw_sprite(s_large_shadow1,0,sh_x, sh_y+7);
 	draw_self();
 } else {
-	draw_sprite(s_large_shadow1, 0, x, y);
+	draw_sprite(s_large_shadow1, 0, x, y+7);
 	draw_sprite_ext(sprite_index,image_index,x,y-z,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 }
 

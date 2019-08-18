@@ -84,18 +84,26 @@ if 	!(r_xaxis == 0 and r_yaxis == 0) and global.ammo_count >=1 and z == z_ground
 	switch power_stance {
 	
 		case false:
-		global.player_stamina -= COST_PARRY;
+		/*global.player_stamina -= COST_PARRY;
 		audio_play(a_player_parrythrow);
 		rStick = r_stick_direction; 
-		state_ = player.parry;
+		state_ = player.parry;*/
+		if o_input.alarm[2] <= 0 {
+			rStick = r_stick_direction;
+			right_stick = true;
+			//global.player_stamina -= COST_TRIGGER;
+			state_ = player.trigger;
+			o_input.alarm[2] = global.one_second*.5;
+		}
 		break;
 		
 		case true:
 		if o_input.alarm[2] <= 0 {
 			rStick = r_stick_direction;
 			right_stick = true;
-			global.player_stamina -= COST_TRIGGER;
+			//global.player_stamina -= COST_TRIGGER;
 			state_ = player.trigger;
+			o_input.alarm[2] = global.one_second*.5;
 		}
 		break;
 	}

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_speed = .6;
+image_speed = .9;
 enemy_ = noone;
 spawn = true;
 randomize();

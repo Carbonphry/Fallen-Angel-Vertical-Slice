@@ -3,9 +3,9 @@
 depth =-y;
 x = target.x;
 y = target.y- target.z_ground;
-var _air_solid = instance_nearest(x,y,o_solid_air);
+//var _air_solid = instance_nearest(x,y,o_solid_air);
 
-if place_empty(x,y,_air_solid)	{
+if !place_meeting(x,y,o_solid_air)	{
 	switch (target.z) {
 	
 		case 0:

@@ -119,7 +119,11 @@ if triggerCount == 0 {
 	if reticle_anim < 20 {
 		reticle_anim += .25;
 	} 
-	
+	if reticle_anim == 7 {
+		if !audio_is_playing(a_player_reticle_charge) {
+			audio_play(a_player_reticle_charge);
+		}
+	}
 	
 	
 	direction_facing_ = round(mouseDir/90);
@@ -179,6 +183,8 @@ if triggerCount == 0 {
 	if triggerCount == global.one_second*.25 {
 		triggerCount = 0;
 		state_ = starting_state_;
+		rStick = noone;
+		right_stick = false;
 	}
 	
 	switch power_stance {

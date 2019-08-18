@@ -5,7 +5,7 @@ switch (warp) {
 
 	case false:
 	sprite_index = s_abdiel_warpout;
-	if animation_hit_frame(1) {
+	if animation_hit_frame(1) and !audio_is_playing(a_abdiel_voice_A) and !audio_is_playing(a_abdiel_voice_B) and !audio_is_playing(a_abdiel_voice_C) {
 		var voice_line = choose(a_abdiel_voice_attack1,a_abdiel_voice_attack1,a_abdiel_voice_attack2); 
 		if !audio_is_playing(voice_line) and chance(.5) {
 			audio_play(voice_line);

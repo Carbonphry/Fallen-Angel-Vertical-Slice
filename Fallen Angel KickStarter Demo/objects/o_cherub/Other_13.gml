@@ -22,11 +22,11 @@ else
 
 //move_movement_entity(true);
 
-if _speed_ == 0
+/*if _speed_ == 0
 {
 	alarm[1] = random_range(1, 3) * global.one_second;
 	state_ = cherub.idle;
-}
+}*/
 
 if (global.player_health>0)
 {

@@ -8,3 +8,4 @@ last_sprite = sprite_index;
 
 var offset = sprite_height-sprite_yoffset;
 depth = -y - offset;
+play_sound = true;

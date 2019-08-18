@@ -126,7 +126,7 @@ switch (room) {
 		if !audio_is_playing(a_level_intro_music) and !audio_is_playing(a_level_intro_room6) {
 		audio_play_sound(a_level_intro_room6,3,true); 
 	}
-	audio_stop_sound(a_level_intro_room6_towerexterior);
+	audio_stop_sound(a_level_intro_room5_towerinterior);
 	audio_stop_sound(a_level_intro_room1_beach);
 	if !audio_is_playing(a_level_intro_room6_towerexterior) {
 		audio_play_sound(a_level_intro_room6_towerexterior,2,true);
@@ -141,6 +141,7 @@ switch (room) {
 	
 	case r_gabriel_ancientcity_room1:
 	audio_stop_sound(a_level_intro_room1_beach);
+	audio_stop_sound(a_level_intro_room6_towerexterior);
 	break;
 	
 	case r_gabriel_ancientcity_room2:

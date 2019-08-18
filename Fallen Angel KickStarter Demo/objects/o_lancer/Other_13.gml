@@ -4,14 +4,15 @@ sprite_index = s_lancerangel_move;
 var target = instance_nearest(x,y,class_player);
 direction_ = point_direction(x, y, target.x, target.y);
 var _x_speed = lengthdir_x(_speed_, direction_);
-if _x_speed != 0
+if _x_speed != 0 and alarm[3] <= 0
 {
 		image_xscale = sign(_x_speed);
+		alarm[3] = global.one_second*.15;
 }
 
 if alarm[1] <= 0
 {
-		apply_friction_to_movement_entity();
+		//apply_friction_to_movement_entity();
 } 
 else
 {
@@ -21,11 +22,11 @@ else
 
 //move_movement_entity(true);
 
-if _speed_ == 0
+/*if _speed_ == 0
 {
 	alarm[1] = random_range(1, 3) * global.one_second;
 	state_ = lancer.idle;
-}
+}*/
 if ( global.player_health>0 ) and distance_to_object(target) < 25
 {
 	if not instance_exists(o_player) exit;

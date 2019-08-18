@@ -49,10 +49,10 @@ show_volume = false;
 #macro COST_PARRY 1
 #macro COST_SMASH 1
 #macro COST_RAM 1
-#macro COST_JUMP 1.5
+#macro COST_JUMP 2.5
 #macro COST_ATTACK 1
 
-#macro COST_DASH 1
+#macro COST_DASH 1.5
 #macro DMG_SWING 1
 #macro DMG_SMASH 2
 /*
