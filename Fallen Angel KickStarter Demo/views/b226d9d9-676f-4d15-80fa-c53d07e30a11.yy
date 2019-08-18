@@ -10,6 +10,7 @@
         "5aecd3f2-e4b7-4689-95ac-04831d5b2405",
         "175998a4-ddf0-43f9-adf2-5db4dd60582c",
         "5980ef4a-1ce9-41ba-a727-2b6301c133c2",
+        "02a67699-5c39-4082-b124-7ffaa62c65d7",
         "94356298-49ef-4e74-85fb-be6c1da5047d"
     ],
     "filterType": "GMSound",
