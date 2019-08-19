@@ -11,7 +11,7 @@ if alarm[1] <= 0
 	state_ = cherub.idle;
 } else 
 {
-	add_movement_maxspeed(direction_, 0.15, 1.2);
+	add_movement_maxspeed(direction_, 0.2, 1);
 }
 
 

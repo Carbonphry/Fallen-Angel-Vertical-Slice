@@ -98,6 +98,31 @@ switch room {
 		break;
 	break;
 	
+	case r_intro_room6:
+	if spawnR6 == 1 {
+		with instance_create_layer(830,1040,"Solids", o_enemy_portal) {
+			enemy_ = o_tankangel;
+		}
+		with instance_create_layer(770,1024,"Solids", o_enemy_portal) {
+			enemy_ = o_cherub;
+		}
+		
+		with instance_create_layer(354,1000,"Solids", o_enemy_portal) {
+			enemy_ = o_cherub;
+		}
+		
+		with instance_create_layer(386,1070,"Solids", o_enemy_portal) {
+			enemy_ = o_cherub;
+		}
+		
+		with instance_create_layer(480,1024,"Solids", o_enemy_portal) {
+			enemy_ = o_flameangel;
+		}
+		spawnR6++;
+		break;
+	}
+	break;
+	
 	case r_intro_room7:
 	
 	switch spawnR7 {
@@ -139,7 +164,7 @@ switch room {
 		with instance_create_layer(300,635,"Solids", o_enemy_portal) {
 			enemy_ = o_tankangel;
 		}
-		with instance_create_layer(708,436,"Solids", o_enemy_portal) {
+		with instance_create_layer(650,426,"Solids", o_enemy_portal) {
 			enemy_ = o_tankangel;
 		}
 		with instance_create_layer(708,635,"Solids", o_enemy_portal) {

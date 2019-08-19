@@ -1,4 +1,21 @@
 /// @description Shadow on Jump
+//draw_text(x,y,string(state_));
+
+/*switch state_ {
+
+	case tankangel.idle:
+	draw_text(x,y,"idle");
+	break;
+	
+	case tankangel.wander:
+	draw_text(x,y,"wander");
+	break;
+	
+	case tankangel.aggro:
+	draw_text(x,y,"aggro");
+	break;
+
+}*/
 
 //Execution
 if state_ == tankangel.stun { 

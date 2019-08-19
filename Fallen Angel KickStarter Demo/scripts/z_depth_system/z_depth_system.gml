@@ -185,9 +185,9 @@ repeat(abs(walk_speed * (right  - left )))
     
     if can_move {
        x += (right*diag - left*diag);
-	} else {
+	}/* else {
 		x += -(right*diag - left*diag)*_bounce_ammount;
-	}
+	}*/
 }
 
 
@@ -281,9 +281,9 @@ repeat(abs(walk_speed * (down  - up )))
 	
     if can_move {
         y += (down*diag - up*diag);
-	} else {
+	}/* else {
 		 y += -(down*diag - up*diag)*_bounce_ammount;
-	}
+	}*/
 }
 
 

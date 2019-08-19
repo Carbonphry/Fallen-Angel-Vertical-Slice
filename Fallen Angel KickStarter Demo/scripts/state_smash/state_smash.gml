@@ -32,11 +32,9 @@ if z == z_ground {
 	
 		if animation_hit_frame(1.5) {
 			if dmgX <= 15 {
-				var _damage = 2;
-			} else if dmgX <= 30 {
-				var _damage = 3;
+				var _damage = 1;
 			} else {
-				var _damage = 4;	
+				var _damage = 2;
 			}
 			var _life = 1;
 			var _knockback = 2;
@@ -56,12 +54,15 @@ if z == z_ground {
 	}
 } else {
 	z_depth_system();
-	var _life = 1;
-	var _damage = 1;
-	var _knockback = 0;
-	var _hitbox = create_hitbox(s_smash_hitbox, x, y-10, 0, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
-	_hitbox.toground = true; 
-	_hitbox.lift = false;
+	if o_input.alarm[3] <= 0 {
+		var _life = global.one_second*.2;
+		var _damage = 1;
+		var _knockback = 0;
+		var _hitbox = create_hitbox(s_smash_hitbox, x, y-10-z, 0, _life, [o_enemy, o_grass, o_bush, o_shrine], _damage, _knockback);
+		_hitbox.toground = true; 
+		_hitbox.lift = false;
+		o_input.alarm[3] = global.one_second*.2;
+	}
 	dmgX++; 
 	image_speed = 1.2;
 	//instance_create_layer(o_player.x, o_player.y-o_player.z, "Effects", o_particle_smash);

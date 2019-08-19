@@ -118,8 +118,11 @@ repeat(abs(knockback_ammount * (right - left)))
     }
 	*/
     
-    if can_move == true
+    if can_move == true {
         x += (right - left);
+	} else {
+		x += -(right- left)*1;
+	}
 }
 
 
@@ -182,8 +185,11 @@ repeat(abs(knockback_ammount * (down - up)))
 	
 	}
 	
-    if can_move == true
+    if can_move == true {
         y += (down - up);
+	} else {
+		y += -(down- up)*1;
+	}
 }
 
 /*repeat(abs(walk_speed * (right - left)))

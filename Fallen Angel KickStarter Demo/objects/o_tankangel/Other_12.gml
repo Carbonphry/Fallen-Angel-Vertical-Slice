@@ -7,7 +7,13 @@ if _x_speed != 0
 		image_xscale = sign(_x_speed);
 }
 var target = instance_nearest(x,y,class_player);
-if place_meeting(x,y,o_solid) and distance_to_object(target) < 120 {
+if place_meeting(x+2,y,o_solid) and distance_to_object(target) < 240 {
+	state_ = tankangel.jump;
+} else if place_meeting(x-2,y,o_solid) and distance_to_object(target) < 240 {
+	state_ = tankangel.jump;
+} else if place_meeting(x,y+2,o_solid) and distance_to_object(target) < 240 {
+	state_ = tankangel.jump;
+} else if place_meeting(x,y-2,o_solid) and distance_to_object(target) < 240 {
 	state_ = tankangel.jump;
 }
 
@@ -15,7 +21,7 @@ if place_meeting(x,y,o_solid) and distance_to_object(target) < 120 {
 
 if alarm[1] <= 0
 {
-	apply_friction_to_movement_entity();
+	//apply_friction_to_movement_entity();
 } else 
 {
 	add_movement_maxspeed(direction_, 0.05, .5);

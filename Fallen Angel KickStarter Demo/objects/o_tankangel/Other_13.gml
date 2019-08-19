@@ -36,6 +36,8 @@ if (global.player_health>0)
 	tankangel_attack();
 } else
 {
+	randomize();
+	direction_ = irandom(360);
 	state_ = tankangel.wander;
 }
 

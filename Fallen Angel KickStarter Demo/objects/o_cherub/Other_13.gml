@@ -12,7 +12,7 @@ if _x_speed != 0
 
 if alarm[1] <= 0
 {
-		apply_friction_to_movement_entity();
+		//apply_friction_to_movement_entity();
 } 
 else
 {

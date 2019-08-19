@@ -12,7 +12,8 @@ if alarm[1] <= 0
 {
 	alarm[1] = random_range(2, 4) *game_get_speed(game_speed_fps);
 	state_ = tankangel.wander;
-	direction_ = random(360);
+	randomize();
+	direction_ = irandom(360);
 }
 var jump_range = 40;
 var target = instance_nearest(x,y,class_player);
