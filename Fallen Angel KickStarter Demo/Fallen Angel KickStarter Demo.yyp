@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0021a093-3833-4fc8-ae8c-ebbb2736b272",
+            "Value": {
+                "id": "f00d2588-fe8e-48fc-8bdb-23d27a9a1fc3",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_finaldoor_unlock\\s_level_gabriel_ancientcity_room2_finaldoor_unlock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00b289d5-7606-4a84-9de6-713fd1799d14",
             "Value": {
                 "id": "2114a8b5-4332-4061-b95f-bdafed01cf43",
@@ -5079,6 +5087,14 @@
             }
         },
         {
+            "Key": "66c4bd69-c3f4-46e6-8719-addcdffbb46b",
+            "Value": {
+                "id": "44a3c836-4be0-4bd9-8a5a-660fe877cc6b",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_finaldoor2\\s_level_gabriel_ancientcity_room2_finaldoor2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66da1e38-f01d-4d00-9c4d-177d2db9bcb2",
             "Value": {
                 "id": "d3d7f633-72dd-42bb-b0d8-5b28a0c46f6c",
@@ -5220,6 +5236,14 @@
                 "id": "b4a61b5a-b83d-40f1-802a-716ddd3d9a19",
                 "resourcePath": "objects\\o_level_grabriel_mountainclimb2_structure4\\o_level_grabriel_mountainclimb2_structure4.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69b04d8d-cfab-4d21-8ed0-5ca03906f438",
+            "Value": {
+                "id": "4aabfd3c-8864-4db9-acec-687ec3afed69",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_finaldoor3\\s_level_gabriel_ancientcity_room2_finaldoor3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8287,6 +8311,14 @@
             }
         },
         {
+            "Key": "af6b18da-d8fc-4fc5-9cd1-96640a71d18f",
+            "Value": {
+                "id": "be7b247e-2841-4455-8942-82487db815fb",
+                "resourcePath": "sprites\\s_level_key\\s_level_key.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af7d4232-c312-495f-9188-fe5937c13cd4",
             "Value": {
                 "id": "a1d47593-fb56-437d-ac32-28f19f2ce441",
@@ -10967,6 +10999,14 @@
             }
         },
         {
+            "Key": "e8a6a8ad-c321-4ce5-b2a0-4aff58d03dad",
+            "Value": {
+                "id": "c6b96608-6527-403c-b5ab-80be75c23a44",
+                "resourcePath": "sprites\\s_level_gabriel_ancientcity_room2_finaldoor\\s_level_gabriel_ancientcity_room2_finaldoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e8e400ab-deaf-417b-b666-570dd2f5a87d",
             "Value": {
                 "id": "61faf8ce-da12-4364-afcd-6ddad26fb1d4",
@@ -11316,6 +11356,14 @@
                 "id": "1c3c9b6f-e017-461f-897b-160f3d05e4d2",
                 "resourcePath": "sprites\\s_level_tut_warper_activated\\s_level_tut_warper_activated.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1795288-ecde-4b6f-a019-464a2f2c36c7",
+            "Value": {
+                "id": "e36e267e-036d-4b4a-b0df-00785692b9c2",
+                "resourcePath": "objects\\o_level_gabriel_ancientcity_room2_finaldoor\\o_level_gabriel_ancientcity_room2_finaldoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
