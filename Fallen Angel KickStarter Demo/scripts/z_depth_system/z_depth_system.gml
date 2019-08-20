@@ -99,7 +99,7 @@ var diag = .6;
 if ( left and up ) or (left and down) or (right and up) or (right and down) {
 	diag = .41;//walk_speed = 3.8; ///999999999999999945; //99999999999999999999999
 } 
-
+if !ledge_zone {
 
 repeat(abs(walk_speed * (right  - left )))
 {
@@ -150,6 +150,16 @@ repeat(abs(walk_speed * (right  - left )))
     }
 	}
 	with o_solid
+	{
+		if place_meeting(x - (other.right - other.left), y, other)
+            {
+                
+				other.can_move = false;
+				
+            }
+    }
+	
+	with o_solid_air_ledge
 	{
 		if place_meeting(x - (other.right - other.left), y, other)
             {
@@ -255,6 +265,17 @@ repeat(abs(walk_speed * (down  - up )))
 	
 	}
 	
+	with o_solid_air_ledge
+	{
+		if place_meeting(x , y- (other.down - other.up), other)
+           {
+                
+					other.can_move = false;
+				
+                break;
+           }
+	
+	}
 	/*with o_solid_lesser
 	{
 		if place_meeting(x , y- (other.down - other.up), other)
@@ -285,7 +306,7 @@ repeat(abs(walk_speed * (down  - up )))
 		 y += -(down*diag - up*diag)*_bounce_ammount;
 	}*/
 }
-
+}
 
 if jump and z == z_ground {
     z_speed = jump_speed;

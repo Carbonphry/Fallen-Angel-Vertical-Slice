@@ -479,7 +479,7 @@ if animation_hit_frame(3)
 	jump_slash = true;
 }*/
 
-if animation_hit_frame(4)
+if animation_hit_frame(3.5)
 {
 	alarm[1] = 8;
 	combo_ = true;	

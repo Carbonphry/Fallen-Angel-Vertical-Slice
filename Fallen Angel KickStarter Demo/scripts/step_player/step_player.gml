@@ -100,6 +100,13 @@ break;
 
 }
 
+if !place_meeting(x,y-z,o_solid_air_ledge) {
+	ledge_zone =  false;
+} else {
+	ledge_zone =  true;
+}
+	
+
 if place_meeting(x,y-z,ledge_up) and direction_facing_before_jump == dir.up and alarm_get(6)<=0 and state_ != player.ledge {
 		var led_ = instance_nearest(x,y-z,ledge_up);
 		if /*led_.fake_z != fake_z and*/ led_.depth_ > y { 

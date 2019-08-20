@@ -74,7 +74,6 @@ if evade_step {
 	}
 }
 
-
 evading_ = true;
 
 if image_index >= 3 {
@@ -89,15 +88,16 @@ if old_image_index != noone {
 
 #region New mov
 
-var jump     = o_input.action_four_pressed_;
-var walk_speed, jump_speed;
+//var jump     = o_input.action_four_pressed_;
+var jump_speed, walk_speed;
 walk_speed = 6;
 jump_speed = 3;
-var diag = .6;
+//var diag = .6;
+
 
 
 if ( left and up ) or (left and down) or (right and up) or (right and down) {
-	diag = .41;//walk_speed *=.99999999999999999999; //99999999999999999999999
+	walk_speed = 5;//walk_speed *=.99999999999999999999; //99999999999999999999999
 }
 
 repeat(abs(walk_speed * (right - left)))

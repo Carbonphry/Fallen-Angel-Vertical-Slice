@@ -302,3 +302,4 @@ can_dash = true;
 cannot_move = false;
 
 dash_end = false;
+ledge_zone = false;

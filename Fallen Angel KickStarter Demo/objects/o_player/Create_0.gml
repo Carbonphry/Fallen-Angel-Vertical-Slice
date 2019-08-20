@@ -40,7 +40,8 @@ enum player
 	ram = 31,
 	charge_attack = 32,
 	execute  = 33,
-	dash_parry = 34,
+	dash_parry = 34
+	
 	
 }
 
