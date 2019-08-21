@@ -1455,6 +1455,14 @@
             }
         },
         {
+            "Key": "1d09aa13-3550-483f-a35a-2d6513397fbf",
+            "Value": {
+                "id": "fbe95bf2-36c5-4218-bf08-6c9cafb613fe",
+                "resourcePath": "objects\\o_level_intro_room6_door\\o_level_intro_room6_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d2f0457-cc74-427f-9c5a-637aa6271ac4",
             "Value": {
                 "id": "86c9dd20-c3d9-4da2-bd7e-5a9fb344a284",
@@ -2588,6 +2596,14 @@
                 "id": "c6d4a18e-d302-4a1f-83be-12cca5457548",
                 "resourcePath": "rooms\\r_gabriel_ancientcity_room2\\r_gabriel_ancientcity_room2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "348b0cd5-fd32-411f-b8e4-561fea7f70cf",
+            "Value": {
+                "id": "6205f63c-b8e3-4edb-99a4-e463fbea9368",
+                "resourcePath": "sprites\\s_level_intro_room6_door\\s_level_intro_room6_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5855,6 +5871,14 @@
             }
         },
         {
+            "Key": "75248539-4435-49e9-96c8-d13e17a2f4a3",
+            "Value": {
+                "id": "d262c3b1-89a3-4a40-9e28-f90b220ad8f0",
+                "resourcePath": "sprites\\s_level_intro_room5_door_open\\s_level_intro_room5_door_open.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7531906d-555a-4871-b02a-71f1277852e7",
             "Value": {
                 "id": "4d22a229-a4a6-415e-89b1-7a5b09e2ea0c",
@@ -8300,6 +8324,14 @@
                 "id": "51e82d8c-1039-434f-9dd6-1d6e7eca42a4",
                 "resourcePath": "sounds\\a_player_small_heal\\a_player_small_heal.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "af40e07a-e56d-4f1a-9bd2-a8288f07fae9",
+            "Value": {
+                "id": "c73790b1-9649-4dbf-b9bd-969e96a38920",
+                "resourcePath": "sprites\\s_level_intro_room6_door_open\\s_level_intro_room6_door_open.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -11859,6 +11891,14 @@
             "Value": {
                 "id": "f5a0559c-d78c-41fa-b1e0-dca5c733a631",
                 "resourcePath": "sprites\\s_button_new_game\\s_button_new_game.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb879ab0-f9f4-4c34-9f81-6703e714c4f1",
+            "Value": {
+                "id": "4903f393-7218-4b6c-9376-953075fc1709",
+                "resourcePath": "sprites\\s_level_intro_room5_door\\s_level_intro_room5_door.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -1,1 +1,0 @@
-if !global.room5block then instance_destroy();

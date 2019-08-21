@@ -1,8 +1,8 @@
 {
-    "id": "6f31edd5-c538-4556-be91-596b5a4bbad5",
+    "id": "1d09aa13-3550-483f-a35a-2d6513397fbf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_level_intro_room5_structure_door",
+    "name": "o_level_intro_room6_door",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fb879ab0-f9f4-4c34-9f81-6703e714c4f1",
+    "spriteId": "348b0cd5-fd32-411f-b8e4-561fea7f70cf",
     "visible": true
 }
